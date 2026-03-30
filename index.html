@@ -3,111 +3,388 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Trust centre | Medensa</title>
-  <meta name="description" content="Privacy, support, and product-boundary pages for the Medensa iPhone app.">
+  <title>Medensa | GLP-1 tracking with clarity</title>
+  <meta name="description" content="Medensa is an iPhone app for tracking GLP-1 doses, weight, symptoms, reminders, schedule changes, and history in one clear place.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header class="site-header">
+<body class="marketing-page">
+  <header class="site-header marketing-header">
     <div class="shell">
       <div class="topbar">
-        <div class="brand">
-          <div class="brand-mark">Medensa</div>
-          <div class="brand-sub">GLP-1 companion for iPhone</div>
-        </div>
+        <a class="brand brand-link" href="index.html" aria-label="Medensa home">
+          <div class="brand-lockup">
+            <div class="brand-mark brand-mark-pill">M</div>
+            <div>
+              <div class="brand-name">Medensa</div>
+              <div class="brand-sub">GLP-1 companion for iPhone</div>
+            </div>
+          </div>
+        </a>
         <nav class="topnav" aria-label="Primary">
-          <a href="index.html">Trust</a>
-          <a href="privacy.html">Privacy</a>
-          <a href="support.html">Support</a>
-          <a href="terms.html">Terms</a>
-          <a href="data-rights.html">Data rights</a>
-          <a href="medical-safety.html">Medical safety</a>
-          <a href="methodology.html">Methodology</a>
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#premium">Premium</a>
+          <a href="#faq">FAQ</a>
+          <a href="overview.html">Trust &amp; policy</a>
         </nav>
       </div>
+
+      <section class="hero">
+        <div class="hero-grid marketing-hero-grid no-image-hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">GLP-1 tracking for everyday routines</div>
+            <h1>Track doses, weight, symptoms, and schedule changes in one calmer place</h1>
+            <p>Medensa helps you keep a clear record of weekly or daily GLP-1 routines on iPhone. Log what happened, review patterns over time, and stay organised without turning your week into a spreadsheet.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#features">Explore features</a>
+              <a class="button button-secondary" href="overview.html">Read trust &amp; policy pages</a>
+            </div>
+            <div class="badge-row marketing-badges">
+              <div class="badge">No in-app account</div>
+              <div class="badge">iPhone only</div>
+              <div class="badge">Reminders</div>
+              <div class="badge">Optional Apple Health</div>
+              <div class="badge">Premium export</div>
+            </div>
+            <div class="hero-note">Estimated medication level views are informational only and must not be used for dosing decisions.</div>
+          </div>
+
+          <div class="hero-visual mock-visual-wrap" aria-hidden="true">
+            <div class="mock-showcase">
+              <div class="ui-phone hero-phone-main">
+                <div class="ui-status-row">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="ui-screen">
+                  <div class="ui-kicker">Today</div>
+                  <div class="ui-title">Next dose on Monday</div>
+                  <div class="ui-pill-row">
+                    <span class="ui-pill strong">7.5 mg</span>
+                    <span class="ui-pill">Tirzepatide</span>
+                  </div>
+                  <div class="ui-chart-card">
+                    <div class="ui-chart-head">
+                      <span>Weight trend</span>
+                      <span>12 weeks</span>
+                    </div>
+                    <div class="ui-line-chart">
+                      <span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                  </div>
+                  <div class="ui-split-cards">
+                    <div class="ui-mini-card">
+                      <div class="ui-mini-label">Symptoms</div>
+                      <div class="ui-mini-value">2 logged</div>
+                    </div>
+                    <div class="ui-mini-card">
+                      <div class="ui-mini-label">History</div>
+                      <div class="ui-mini-value">48 entries</div>
+                    </div>
+                  </div>
+                  <div class="ui-list-card">
+                    <div class="ui-list-row"><span></span><strong>Dose logged</strong><em>08:00</em></div>
+                    <div class="ui-list-row"><span></span><strong>Weight updated</strong><em>08:03</em></div>
+                    <div class="ui-list-row"><span></span><strong>Reminder moved</strong><em>08:06</em></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ui-phone hero-phone-side side-top">
+                <div class="ui-status-row compact">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="ui-screen compact-screen">
+                  <div class="ui-kicker">Calendar</div>
+                  <div class="ui-title small">Week ahead</div>
+                  <div class="ui-calendar-grid">
+                    <span></span><span></span><span class="active"></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="ui-note-card">Routine adjusted for travel</div>
+                </div>
+              </div>
+
+              <div class="ui-phone hero-phone-side side-bottom">
+                <div class="ui-status-row compact">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="ui-screen compact-screen">
+                  <div class="ui-kicker">History</div>
+                  <div class="ui-title small">Review the week</div>
+                  <div class="ui-body-map">
+                    <span></span><span class="highlight"></span><span></span><span></span>
+                  </div>
+                  <div class="ui-pill-row stacked">
+                    <span class="ui-pill">Notes saved</span>
+                    <span class="ui-pill">Export ready</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </header>
 
-  <main class="page-wrap">
-    <div class="shell">
-      <article class="card page-card">
-        <div class="page-head">
-          <div class="kicker">Trust centre</div>
-          <h1 class="page-title">Privacy, support, and product boundaries</h1>
-          <div class="page-meta">Applies to the Medensa iPhone app and these public trust pages.</div>
+  <main>
+    <section class="section-strip">
+      <div class="shell">
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-title">One organised history</div>
+            <p>Doses, weight, symptoms, reminders, notes, and routine changes stay together instead of ending up across several apps and messages.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Useful review</div>
+            <p>Medensa is built around practical review: clear charts, cleaner history, and enough context to understand the week at a glance.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Trust built in</div>
+            <p>No in-app account is required to get started, and the public site includes privacy, support, data-rights, safety, and methodology pages.</p>
+          </div>
         </div>
-        <section>
-          <p>Medensa is a personal tracking app for GLP-1 routines and related records. It helps users log doses, weight, symptoms, notes, progress photos, reminders, and supply orders in one place.</p>
-          <p>Medensa does not diagnose, prescribe, recommend treatment, or tell users what dose to take.</p>
-          <div class="chip-links" aria-label="Quick links">
-            <a class="chip-link" href="privacy.html">Privacy policy</a>
-            <a class="chip-link" href="support.html">Support</a>
-            <a class="chip-link" href="terms.html">Terms of use</a>
-            <a class="chip-link" href="data-rights.html">Data rights</a>
-            <a class="chip-link" href="medical-safety.html">Medical safety</a>
-            <a class="chip-link" href="methodology.html">Methodology</a>
+      </div>
+    </section>
+
+    <section id="features" class="page-wrap marketing-wrap">
+      <div class="shell">
+        <div class="section-head section-head-center">
+          <div class="kicker">Features</div>
+          <h2>Built for logging, review, planning, and keeping a clearer record</h2>
+          <p>Medensa focuses on the parts of GLP-1 tracking that people revisit most often: what happened, what changed, and what is coming next.</p>
+        </div>
+
+        <div class="feature-grid cohesive-feature-grid">
+          <article class="feature-card feature-card-large">
+            <div>
+              <div class="feature-label">Review</div>
+              <h3>Weight trends, weekly averages, dose timelines, and symptom views that are easier to interpret</h3>
+              <p>Instead of a thin logbook, Medensa gives you a clearer review surface for your routine. The aim is to make pattern review faster and more useful for your own records and conversations with a clinician.</p>
+              <ul>
+                <li>Weight trend and weekly average views</li>
+                <li>Dose timeline and summary cards</li>
+                <li>Symptom overlays and goal progress</li>
+                <li>Estimated medication level view with Premium</li>
+              </ul>
+            </div>
+            <div class="illustration-card">
+              <div class="mini-dashboard">
+                <div class="mini-header"></div>
+                <div class="mini-bars"><span></span><span></span><span></span><span></span><span></span></div>
+                <div class="mini-tiles"><span></span><span></span><span></span></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-label">Logging</div>
+            <h3>Dose, weight, symptom, notes, appetite, GI, photo, and supply logs</h3>
+            <p>Logging is designed to stay quick. Medensa supports the day-to-day record keeping that tends to matter later when you want to review what changed.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-label">Planning</div>
+            <h3>Reminders, calendar review, and schedule changes when routine plans shift</h3>
+            <p>The product includes reminder and planning tools so routine changes remain visible instead of becoming guesswork later in the week.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-label">History</div>
+            <h3>Filtered history, entry editing, and a cleaner long-view of your routine</h3>
+            <p>History is treated as a core part of the product, with review and correction tools that make older records easier to work with.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-label">Apple Health</div>
+            <h3>Optional Apple Health import for weight history and height</h3>
+            <p>When you enable Apple Health integration, Medensa reads weight history and height to support setup and tracking. In the current setup, nothing is written back.</p>
+          </article>
+
+          <article class="feature-card">
+            <div class="feature-label">Trust</div>
+            <h3>A public site that matches the app instead of marketing around it</h3>
+            <p>The landing page, privacy page, support page, terms, data-rights page, medical-safety page, and methodology page are written as one coherent trust layer.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section-strip alt-strip">
+      <div class="shell">
+        <div class="section-head section-head-center narrow-shell">
+          <div class="kicker">How it works</div>
+          <h2>Set the routine, log the week, review what changed</h2>
+          <p>Medensa is structured as a clear flow rather than a cluttered dashboard.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <div class="step-number">01</div>
+            <h3>Set your routine</h3>
+            <p>Choose medication, schedule, reminders, units, and the goals you want to keep in view.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-number">02</div>
+            <h3>Log what matters</h3>
+            <p>Record doses, weight, symptoms, notes, appetite or GI observations, photos, and supply details as your week unfolds.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-number">03</div>
+            <h3>Review clearly</h3>
+            <p>Use trends, summaries, history, and calendar review to understand what changed and what is coming next.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="premium" class="page-wrap marketing-wrap compact-top">
+      <div class="shell">
+        <div class="section-head section-head-center">
+          <div class="kicker">Free and Premium</div>
+          <h2>Core tracking stays useful in free mode. Premium adds deeper review.</h2>
+          <p>The free plan covers the basics that make the app worth using. Premium adds the clearer review surfaces and export tools that sit on top.</p>
+        </div>
+
+        <div class="table-wrap comparison-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Capability</th>
+                <th>Free</th>
+                <th>Premium</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Medication setup and routine configuration</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Dose, weight, symptom, and notes logging</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Core dashboard, reminders, history, and basic charts</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Estimated medication level view</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Expanded review surfaces and calendar review</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>History export as CSV, JSON, or PDF</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Dose-history CSV import</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="small" style="margin-top:12px;">Apple Health import includes a 14-day free access window from first connect, then requires Premium.</p>
+      </div>
+    </section>
+
+    <section id="faq" class="section-strip faq-strip">
+      <div class="shell narrow-shell">
+        <div class="section-head section-head-center">
+          <div class="kicker">FAQ</div>
+          <h2>Frequently asked questions</h2>
+          <p>These answers are written for end users and kept aligned with the app’s current scope.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>What is Medensa?</summary>
+            <p>Medensa is an iPhone app for tracking GLP-1 routines in one place. It helps you log doses, weight, symptoms, reminders, notes, and schedule changes, then review that history more clearly over time.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which routines does Medensa support?</summary>
+            <p>Medensa is built for both weekly and daily routines, including injection and oral setups where they apply to your treatment plan.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What can I log in the app?</summary>
+            <p>You can log doses, weight, symptoms, notes, appetite or food-noise observations, GI notes, progress photos, and supply or order history.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Do I need an account?</summary>
+            <p>No. Medensa does not require an in-app account to get started.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does Medensa connect to Apple Health?</summary>
+            <p>Yes. Apple Health integration is optional. When enabled, Medensa reads weight history and height from Apple Health. In the current setup, nothing is written back. Apple Health import includes a 14-day free access window from first connect, then requires Premium.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can I export my history?</summary>
+            <p>Yes. You can import a dose-history CSV, and with Premium you can export your history as CSV, JSON, or PDF for your own records.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What does Premium include?</summary>
+            <p>Premium adds estimated medication level views, expanded review surfaces, calendar review, Apple Health import after the included access window, and export-ready records.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is Medensa medical advice?</summary>
+            <p>No. Medensa is for tracking, organisation, and review. It does not diagnose, prescribe, or tell you how to change treatment. Always check with your clinician before making medical decisions.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which platforms are supported?</summary>
+            <p>Medensa is currently designed for iPhone.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Where can I read the privacy and support information?</summary>
+            <p>The public site includes linked pages for privacy, support, terms, data rights, medical safety, and methodology so the app and the website tell the same story.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-wrap marketing-wrap compact-top compact-bottom">
+      <div class="shell">
+        <div class="cta-band">
+          <div>
+            <div class="kicker">Trust and support</div>
+            <h2>A sales page backed by real trust pages</h2>
+            <p>The landing page explains the product. The trust pages explain privacy, support, subscriptions, data rights, medical boundaries, and methodology in the same voice.</p>
           </div>
-        </section>
-
-        <section>
-          <h2>What Medensa does</h2>
-          <ul>
-            <li>No in-app account is required for core tracking.</li>
-            <li>Core records stay on the device unless the user exports or shares them.</li>
-            <li>Apple Health is optional and limited to read-only import of body weight history and height.</li>
-            <li>Premium is offered through monthly and annual auto-renewing App Store subscriptions.</li>
-            <li>Restore purchases and delete-local-data controls are available in Settings.</li>
-          </ul>
-        </section>
-
-        <section>
-          <h2>What these pages cover</h2>
-          <div class="grid-two">
-            <div class="info-box">
-              <h3>Privacy policy</h3>
-              <p>What data Medensa handles, what stays on the device, and how optional Apple Health access works.</p>
-            </div>
-            <div class="info-box">
-              <h3>Support</h3>
-              <p>Technical help, billing support, privacy questions, and the medical boundary for support responses.</p>
-            </div>
-            <div class="info-box">
-              <h3>Terms of use</h3>
-              <p>Subscriptions, acceptable use, ownership, liability boundaries, and governing law.</p>
-            </div>
-            <div class="info-box">
-              <h3>Data rights</h3>
-              <p>How to delete local records, manage Apple Health permissions, and request action on support correspondence.</p>
-            </div>
-            <div class="info-box">
-              <h3>Medical safety</h3>
-              <p>The explicit boundary between personal tracking and medical advice.</p>
-            </div>
-            <div class="info-box">
-              <h3>Methodology</h3>
-              <p>How trend views and the estimated medication level are framed in the app.</p>
-            </div>
+          <div class="cta-actions stacked-actions">
+            <a class="button button-primary" href="overview.html">Open trust &amp; policy pages</a>
+            <a class="button button-secondary" href="privacy.html">Read privacy</a>
           </div>
-        </section>
-
-        <section>
-          <h2>Contact</h2>
-          <p>Email: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a>.</p>
-          <p>Medensa is published by Steven Good in the United Kingdom.</p>
-        </section>
-      </article>
-    </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer marketing-footer">
     <div class="shell">
       <div class="card footer-card">
-        <p class="small"><strong>Medensa</strong> · Published by Steven Good in the United Kingdom</p>
-        <p class="small">Contact: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a></p>
-        <p class="small"><a href="index.html">Trust centre</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms</a> · <a href="data-rights.html">Data rights</a> · <a href="medical-safety.html">Medical safety</a> · <a href="methodology.html">Methodology</a></p>
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">Medensa</div>
+            <p class="small">An iPhone app for GLP-1 tracking, review, and routine clarity.</p>
+            <p class="small">Estimated medication level views are informational only and must not be used for dosing decisions.</p>
+          </div>
+          <div>
+            <p class="small footer-links"><a href="overview.html">Trust &amp; policy</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms</a></p>
+            <p class="small footer-links"><a href="data-rights.html">Data Rights</a> · <a href="medical-safety.html">Medical Safety</a> · <a href="methodology.html">Methodology</a></p>
+            <p class="small">Contact: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
