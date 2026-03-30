@@ -3,120 +3,379 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Doserra | GLP-1 Companion Policy Centre</title>
-  <meta name="description" content="Policy and compliance documents for Doserra, a GLP-1 Companion app.">
+  <title>Doserra | A clearer GLP-1 companion</title>
+  <meta name="description" content="Doserra is a GLP-1 companion for tracking doses, weight, symptoms, reminders, schedule changes, notes, and progress in one clear place.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header class="site-header">
+<body class="marketing-page">
+  <header class="site-header marketing-header">
     <div class="shell">
       <div class="topbar">
-        <div class="brand">
-          <div class="brand-mark">Doserra</div>
-          <div class="brand-sub">GLP-1 Companion · policy and compliance centre</div>
-        </div>
-        
-    <nav class="topnav" aria-label="Primary">
-      <a href="index.html">Overview</a>
-      <a href="privacy.html">Privacy</a>
-      <a href="support.html">Support</a>
-      <a href="terms.html">Terms</a>
-      <a href="data-rights.html">Data Rights</a>
-      <a href="medical-safety.html">Medical Safety</a>
-      <a href="methodology.html">Methodology</a>
-    </nav>
-    
+        <a class="brand brand-link" href="index.html" aria-label="Doserra home">
+          <div class="brand-lockup">
+            <div class="brand-mark brand-mark-pill">D</div>
+            <div>
+              <div class="brand-name">Doserra</div>
+              <div class="brand-sub">GLP-1 Companion</div>
+            </div>
+          </div>
+        </a>
+        <nav class="topnav" aria-label="Primary">
+          <a href="#features">Features</a>
+          <a href="#how-it-works">How it works</a>
+          <a href="#plus">Plus</a>
+          <a href="#faq">FAQ</a>
+          <a href="overview.html">Trust & policy</a>
+        </nav>
       </div>
+
+      <section class="hero">
+        <div class="hero-grid marketing-hero-grid no-image-hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow">Calm tracking for real routines</div>
+            <h1>A clearer way to track your GLP-1 routine</h1>
+            <p>Doserra brings doses, weight, symptoms, reminders, injection history, notes, and schedule changes into one organised place. It is designed to make routine review fast, visual, and easy to trust.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#features">Explore features</a>
+              <a class="button button-secondary" href="overview.html">Read trust & policy pages</a>
+            </div>
+            <div class="badge-row marketing-badges">
+              <div class="badge">Fast logging</div>
+              <div class="badge">Clear charts</div>
+              <div class="badge">Free essentials</div>
+              <div class="badge">Plus depth</div>
+              <div class="badge">iPhone-first</div>
+            </div>
+            <div class="hero-note">Estimated medication level views are for personal tracking only. Not medical advice.</div>
+          </div>
+
+          <div class="hero-visual mock-visual-wrap" aria-hidden="true">
+            <div class="mock-showcase">
+              <div class="ui-phone hero-phone-main">
+                <div class="ui-status-row">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="ui-screen">
+                  <div class="ui-kicker">Today</div>
+                  <div class="ui-title">Next dose on Monday</div>
+                  <div class="ui-pill-row">
+                    <span class="ui-pill strong">7.5 mg</span>
+                    <span class="ui-pill">Tirzepatide</span>
+                  </div>
+                  <div class="ui-chart-card">
+                    <div class="ui-chart-head">
+                      <span>Weight trend</span>
+                      <span>12 weeks</span>
+                    </div>
+                    <div class="ui-line-chart">
+                      <span></span><span></span><span></span><span></span><span></span><span></span>
+                    </div>
+                  </div>
+                  <div class="ui-split-cards">
+                    <div class="ui-mini-card">
+                      <div class="ui-mini-label">Symptoms</div>
+                      <div class="ui-mini-value">2 logged</div>
+                    </div>
+                    <div class="ui-mini-card">
+                      <div class="ui-mini-label">History</div>
+                      <div class="ui-mini-value">48 entries</div>
+                    </div>
+                  </div>
+                  <div class="ui-list-card">
+                    <div class="ui-list-row"><span></span><strong>Dose logged</strong><em>08:00</em></div>
+                    <div class="ui-list-row"><span></span><strong>Weight updated</strong><em>08:03</em></div>
+                    <div class="ui-list-row"><span></span><strong>Reminder moved</strong><em>08:06</em></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ui-phone hero-phone-side side-top">
+                <div class="ui-status-row compact">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="ui-screen compact-screen">
+                  <div class="ui-kicker">Calendar</div>
+                  <div class="ui-title small">Week ahead</div>
+                  <div class="ui-calendar-grid">
+                    <span></span><span></span><span class="active"></span><span></span>
+                    <span></span><span></span><span></span><span></span>
+                  </div>
+                  <div class="ui-note-card">Travel week adjusted</div>
+                </div>
+              </div>
+
+              <div class="ui-phone hero-phone-side side-bottom">
+                <div class="ui-status-row compact">
+                  <span></span><span></span><span></span>
+                </div>
+                <div class="ui-screen compact-screen">
+                  <div class="ui-kicker">Injection history</div>
+                  <div class="ui-title small">Rotation overview</div>
+                  <div class="ui-body-map">
+                    <span></span><span class="highlight"></span><span></span><span></span>
+                  </div>
+                  <div class="ui-pill-row stacked">
+                    <span class="ui-pill">Recent sites</span>
+                    <span class="ui-pill">Notes saved</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </header>
 
-  <main class="page-wrap">
-    <div class="shell">
-      <article class="card page-card">
-        <div class="page-head">
-          <div class="kicker">Policy Centre</div>
-          <h1 class="page-title">Policy and Compliance Centre</h1>
-          <div class="page-meta">Last updated: 2026-03-30</div>
+  <main>
+    <section class="section-strip">
+      <div class="shell">
+        <div class="stats-row">
+          <div class="stat-card">
+            <div class="stat-title">One timeline</div>
+            <p>Doses, weight, symptoms, reminders, notes, and routine changes stay in one place instead of across several apps.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Useful review</div>
+            <p>Charts and summaries are built to answer practical questions about the week rather than fill the screen with noise.</p>
+          </div>
+          <div class="stat-card">
+            <div class="stat-title">Clear boundaries</div>
+            <p>The product is designed for tracking and review, with published privacy, safety, methodology, and support pages underneath it.</p>
+          </div>
         </div>
-        
-<section>
-  <p>This policy centre provides information about Doserra, including how the service handles personal data, subscriptions, user rights, medical-safety boundaries, and product methodology.</p>
-  <div class="badge-row">
-    <div class="badge">Privacy</div>
-    <div class="badge">Support</div>
-    <div class="badge">Subscriptions</div>
-    <div class="badge">Medical Safety</div>
-    <div class="badge">User Rights</div>
-  </div>
-</section>
-<section>
-  <h2>Service identity</h2>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th>Field</th><th>Value</th></tr></thead>
-      <tbody>
-        <tr><td>Product title</td><td>Doserra</td></tr>
-        <tr><td>Product subtitle</td><td>GLP-1 Companion</td></tr>
-        <tr><td>Operator</td><td>Steven Good</td></tr>
-        <tr><td>Support email</td><td><a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a></td></tr>
-      </tbody>
-    </table>
-  </div>
-</section>
+      </div>
+    </section>
 
-<section>
-  <h2>Included pages</h2>
-  <div class="cta-grid">
-    <a class="link-card" href="privacy.html">
-      <h3>Privacy Policy</h3>
-      <p>Explains data collection, health-data handling, sharing, retention, security, and applicable rights.</p>
-    </a>
-    <a class="link-card" href="support.html">
-      <h3>Support</h3>
-      <p>Provides support routes, subscription help, escalation details, and non-emergency guidance.</p>
-    </a>
-    <a class="link-card" href="terms.html">
-      <h3>Terms of Use</h3>
-      <p>Sets out service terms, subscriptions, acceptable use, liability boundaries, and governing law.</p>
-    </a>
-    <a class="link-card" href="data-rights.html">
-      <h3>User Privacy Choices and Data Rights</h3>
-      <p>Sets out access, correction, export, deletion, consent withdrawal, and appeal routes.</p>
-    </a>
-    <a class="link-card" href="medical-safety.html">
-      <h3>Medical Disclaimer and Safety</h3>
-      <p>Draws a bright line between tracking and medical advice, dosing guidance, diagnosis, and emergency use.</p>
-    </a>
-    <a class="link-card" href="methodology.html">
-      <h3>Methodology and Limitations</h3>
-      <p>Explains how charts, estimates, and trend visuals work, and what they must not be used for.</p>
-    </a>
-  </div>
-</section>
+    <section id="features" class="page-wrap marketing-wrap">
+      <div class="shell">
+        <div class="section-head section-head-center">
+          <div class="kicker">Features</div>
+          <h2>Built around the routine you actually live with</h2>
+          <p>Each part of Doserra focuses on a different job: logging, reviewing, planning, and keeping a cleaner history over time.</p>
+        </div>
 
+        <div class="feature-grid cohesive-feature-grid">
+          <article class="feature-card feature-card-large">
+            <div>
+              <div class="feature-label">Review</div>
+              <h3>Weight trends, dose history, symptom overlays, and progress views that are easy to read</h3>
+              <p>Doserra is designed to make pattern review clearer. Instead of a thin logbook, you get charts, summaries, and timeline views that support routine review and clinician conversations.</p>
+              <ul>
+                <li>Weight trend and weekly average views</li>
+                <li>Dose timeline and summary cards</li>
+                <li>Symptom overlays and goal progress</li>
+                <li>Estimated medication level view in Plus</li>
+              </ul>
+            </div>
+            <div class="illustration-card">
+              <div class="mini-dashboard">
+                <div class="mini-header"></div>
+                <div class="mini-bars"><span></span><span></span><span></span><span></span><span></span></div>
+                <div class="mini-tiles"><span></span><span></span><span></span></div>
+              </div>
+            </div>
+          </article>
 
+          <article class="feature-card">
+            <div class="feature-label">Logging</div>
+            <h3>Fast entry for doses, weight, symptoms, notes, nutrition, photos, and supply history</h3>
+            <p>The product is built so the next action is obvious. Logging is quick, edits are straightforward, and older records stay easy to reach later.</p>
+          </article>
 
+          <article class="feature-card">
+            <div class="feature-label">Planning</div>
+            <h3>Calendar views, reminders, travel changes, and routine rescheduling without confusion</h3>
+            <p>Planning tools are there for the weeks when real life shifts. The aim is to keep schedule changes visible and understandable.</p>
+          </article>
 
+          <article class="feature-card">
+            <div class="feature-label">Injection support</div>
+            <h3>Body-map history, recent-site review, and device notes in one organised place</h3>
+            <p>Doserra helps you keep a personal record of where injections happened previously, without crossing into medical instruction.</p>
+          </article>
 
+          <article class="feature-card">
+            <div class="feature-label">History</div>
+            <h3>Filtered history, record editing, exports, and a cleaner long-view of your routine</h3>
+            <p>History is treated as a core part of the product. You can go back, review, correct, and organise older records without friction.</p>
+          </article>
 
-        
-        
+          <article class="feature-card">
+            <div class="feature-label">Trust</div>
+            <h3>Local-first product thinking with clear privacy, safety, and methodology pages</h3>
+            <p>The public website is structured so the sales page, support pages, privacy pages, and medical-boundary pages all point in the same direction.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section id="how-it-works" class="section-strip alt-strip">
+      <div class="shell">
+        <div class="section-head section-head-center narrow-shell">
+          <div class="kicker">How it works</div>
+          <h2>Track quickly, review clearly, plan ahead</h2>
+          <p>Doserra is organised as a simple flow rather than a busy dashboard.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step-card">
+            <div class="step-number">01</div>
+            <h3>Set your routine</h3>
+            <p>Choose medication, schedule, reminders, units, and the goals you want to keep in view.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-number">02</div>
+            <h3>Log what matters</h3>
+            <p>Record doses, weight, symptoms, notes, nutrition, photos, and supply details as your week unfolds.</p>
+          </article>
+          <article class="step-card">
+            <div class="step-number">03</div>
+            <h3>Review the week</h3>
+            <p>Use trends, summaries, and history views to understand what changed and what is coming next.</p>
+          </article>
+        </div>
+      </div>
+    </section>
 
+    <section id="plus" class="page-wrap marketing-wrap compact-top">
+      <div class="shell">
+        <div class="section-head section-head-center">
+          <div class="kicker">Free and Plus</div>
+          <h2>Core tracking stays useful in free mode. Plus adds depth.</h2>
+          <p>The product structure is designed so free access remains credible on its own, while Plus adds richer review, planning, and convenience.</p>
+        </div>
 
-      </article>
-    </div>
+        <div class="table-wrap comparison-wrap">
+          <table class="comparison-table">
+            <thead>
+              <tr>
+                <th>Capability</th>
+                <th>Free</th>
+                <th>Plus</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dose, weight, and symptom logging</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Basic reminders, dashboard, calendar, and charts</td>
+                <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Estimated medication level view</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Advanced summaries and widgets</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Export and import tools</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Injection-site analytics and photo timeline</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Advanced calendar and regimen planning</td>
+                <td>n/a</td>
+                <td>Included</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section-strip faq-strip">
+      <div class="shell narrow-shell">
+        <div class="section-head section-head-center">
+          <div class="kicker">FAQ</div>
+          <h2>Frequently asked questions</h2>
+          <p>These answers are written to support the product story without drifting outside the app’s published medical boundaries.</p>
+        </div>
+
+        <div class="faq-list">
+          <details class="faq-item" open>
+            <summary>What is Doserra?</summary>
+            <p>Doserra is a GLP-1 companion app for tracking doses, weight, symptoms, reminders, injection history, notes, and routine changes in one place. It is designed for personal organisation and review.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Which routines does Doserra support?</summary>
+            <p>Doserra is designed around major GLP-1 and related weight-management routines, including weekly injections, daily routines, and oral tracking where relevant to the user’s setup.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What can I log in the app?</summary>
+            <p>You can log doses, weight, symptoms, notes, nutrition, appetite or food-noise observations, GI notes, progress photos, and supply or order history.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Can Doserra remind me about upcoming doses?</summary>
+            <p>Yes. Reminder and schedule tools are built into the product so you can keep track of upcoming doses, missed entries, and changes to your routine.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Does Doserra help with injection-site organisation?</summary>
+            <p>Yes. The app includes body-map and site-history tools so you can review your own prior records and keep injections organised over time.</p>
+          </details>
+          <details class="faq-item">
+            <summary>What does Plus add?</summary>
+            <p>Plus adds deeper review tools rather than basic access, including estimated medication level views, advanced summaries, widgets, exports, and richer planning tools.</p>
+          </details>
+          <details class="faq-item">
+            <summary>Is Doserra medical advice?</summary>
+            <p>No. Doserra is for tracking, organisation, and review. It does not diagnose, prescribe, or tell you how to change treatment. Always check with your clinician before making medical decisions.</p>
+          </details>
+          <details class="faq-item">
+            <summary>How do the website and policy pages fit together?</summary>
+            <p>The public site is structured as a sales page at the front with linked privacy, support, terms, data-rights, medical-safety, and methodology pages underneath it. Those pages explain how the product is presented and supported.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-wrap marketing-wrap compact-top compact-bottom">
+      <div class="shell">
+        <div class="cta-band">
+          <div>
+            <div class="kicker">Trust and support</div>
+            <h2>One public site, one product story</h2>
+            <p>The landing page explains the product. The trust pages explain privacy, support, subscriptions, data rights, medical boundaries, and methodology in the same voice.</p>
+          </div>
+          <div class="cta-actions stacked-actions">
+            <a class="button button-primary" href="overview.html">Open trust & policy pages</a>
+            <a class="button button-secondary" href="privacy.html">Read privacy</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
-  <footer class="footer">
+  <footer class="footer marketing-footer">
     <div class="shell">
       <div class="card footer-card">
-        <p class="small"><strong>Doserra</strong> is operated by <strong>Steven Good</strong> · 64 Osprey Drive, St Albans, United Kingdom, AL4 0LU</p>
-        <p class="small">Support: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a> · Privacy: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a></p>
-        <p class="small"><a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms of Use</a> · <a href="data-rights.html">Data Rights</a> · <a href="medical-safety.html">Medical Safety</a> · <a href="methodology.html">Methodology</a></p>
+        <div class="footer-grid">
+          <div>
+            <div class="footer-brand">Doserra</div>
+            <p class="small">A GLP-1 companion focused on tracking, review, and routine clarity.</p>
+            <p class="small">Estimated medication level views are for personal tracking only. Not medical advice.</p>
+          </div>
+          <div>
+            <p class="small footer-links"><a href="overview.html">Trust & policy</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms</a></p>
+            <p class="small footer-links"><a href="data-rights.html">Data Rights</a> · <a href="medical-safety.html">Medical Safety</a> · <a href="methodology.html">Methodology</a></p>
+            <p class="small">Contact: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
