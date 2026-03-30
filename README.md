@@ -44,3 +44,4 @@ Examples once Pages is live:
 - The website address is public if you publish this version.
 - If you later add cloud sync, named analytics, account sign-in, or third-party diagnostics, update `privacy.html` before enabling those features.
 - Keep the App Store description and in-app settings consistent with the medical boundary language used in these pages.
+
