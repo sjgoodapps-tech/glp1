@@ -1,11 +1,18 @@
-# Doserra GitHub Pages Site
+# Medensa website pack
 
-This folder is ready to publish as a GitHub Pages site.
+This folder contains the public GitHub Pages site for the current Medensa app.
 
-Deployment notes:
-- `index.html` is the public sales page.
-- `overview.html` is the trust and policy hub.
-- `privacy.html`, `support.html`, `terms.html`, `data-rights.html`, `medical-safety.html`, and `methodology.html` remain linked from both the landing page and the trust hub.
-- The landing page uses CSS-built interface mockups only. No competitor screenshots or third-party app imagery are included.
+## Files
+- `index.html` — sales page aligned to the current app scope
+- `overview.html` — trust centre
+- `privacy.html` — privacy policy
+- `support.html` — support page
+- `terms.html` — terms of use
+- `data-rights.html` — privacy choices and data rights
+- `medical-safety.html` — medical disclaimer and safety boundary
+- `methodology.html` — methodology and limitations
+- `styles.css` — shared styles
 
-Publish by uploading the contents of this folder to the GitHub Pages root for the site.
+## Notes
+- The site intentionally does not use the old screenshot contact sheet because that asset contained third-party branding.
+- Copy is aligned to the current app behaviour, especially around Apple Health, Premium, and the non-medical positioning.
