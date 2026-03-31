@@ -433,6 +433,11 @@ img {
   height: auto;
 }
 
+.screen-panel img {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
 .screen-panel {
   border-radius: 28px;
   overflow: hidden;
@@ -474,6 +479,31 @@ img {
   margin: 0 0 8px;
   font-size: 1.42rem;
   line-height: 1.08;
+}
+
+
+.real-screen-gallery {
+  align-items: stretch;
+}
+
+.screen-shot-shell {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 22px 18px 0;
+  min-height: 430px;
+  background: linear-gradient(180deg, #edf5f2 0%, #f9fbfa 100%);
+}
+
+.phone-shot {
+  width: min(78%, 280px);
+  border-radius: 34px;
+  border: 10px solid #ffffff;
+  box-shadow: 0 22px 44px rgba(12, 44, 50, 0.16);
+}
+
+.screen-card .screen-copy {
+  height: 100%;
 }
 
 .table-wrap {
@@ -635,6 +665,14 @@ section + section {
 
   .screen-panel-hero {
     transform: none;
+  }
+
+  .screen-shot-shell {
+    min-height: auto;
+  }
+
+  .phone-shot {
+    width: min(72%, 280px);
   }
 
   .cta-band {
