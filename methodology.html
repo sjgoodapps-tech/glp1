@@ -3,36 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Methodology | Medensa</title>
-  <meta name="description" content="Methodology and limitations for charts, reminders, and estimated medication level in Medensa.">
+  <title>Methodology and Limitations | Medensa</title>
+  <meta name="description" content="Methodology and limitations for user-facing charts and estimates.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="shell">
       <div class="topbar">
-        <a class="brand brand-link" href="index.html" aria-label="Medensa home">
-          <div class="brand-lockup">
-            <div class="brand-mark brand-mark-pill">M</div>
-            <div>
-              <div class="brand-name">Medensa</div>
-              <div class="brand-sub">Trust, privacy, and support</div>
-            </div>
-          </div>
-        </a>
-        <nav class="topnav" aria-label="Primary">
-          <a href="index.html">Home</a>
-          <a href="overview.html">Trust &amp; policy</a>
-          <a href="privacy.html">Privacy</a>
-          <a href="support.html">Support</a>
-          <a href="terms.html">Terms</a>
-          <a href="data-rights.html">Data Rights</a>
-          <a href="medical-safety.html">Medical Safety</a>
-          <a href="methodology.html">Methodology</a>
-        </nav>
+        <div class="brand">
+          <div class="brand-mark"><span class="placeholder">Steven Good</span></div>
+          <div class="brand-sub">Medensa policy and compliance centre</div>
+        </div>
+        
+    <nav class="topnav" aria-label="Primary">
+      <a href="index.html">Overview</a>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+      <a href="terms.html">Terms</a>
+      <a href="data-rights.html">Data Rights</a>
+      <a href="medical-safety.html">Medical Safety</a>
+      <a href="methodology.html">Methodology</a>
+    </nav>
+    
       </div>
     </div>
   </header>
@@ -42,43 +38,97 @@
       <article class="card page-card">
         <div class="page-head">
           <div class="kicker">Methodology</div>
-          <h1 class="page-title">Methodology and limitations</h1>
-          <div class="page-meta">Last updated: 2026-03-30</div>
+          <h1 class="page-title">Methodology and Limitations</h1>
+          <div class="page-meta">Last updated: 2026-04-01</div>
         </div>
+        
+<div class="warning">
+  <p><strong>Important.</strong> This page is included because charts and estimates in health-related apps can be misunderstood. Any estimate shown by the service is non-clinical, informational, and subject to important limitations.</p>
+</div>
 
-        <div class="warning">
-          <p><strong>Important.</strong> Estimated medication level for personal tracking only. Not medical advice.</p>
-        </div>
+<section>
+  <h2>1. Purpose of this page</h2>
+  <p>This page explains, at a high level, how user-facing trend charts, summaries, reminder logic, and any optional estimates are generated within Medensa. It also sets out what those outputs are not designed to do.</p>
+</section>
 
-        <section><h2>1. Purpose of this page</h2><p>This page explains, at a high level, how Medensa builds reminders, charts, summaries, and estimated medication level views from the information available in the app.</p></section>
-        <section><h2>2. Inputs Medensa can use</h2><ul><li>medication and routine details selected by the user;</li><li>dose amount, date, and time entered by the user;</li><li>weight, symptom, and other routine history kept in the app;</li><li>optional Apple Health weight history and height, if Apple Health has been connected;</li><li>generalized assumptions used for estimated views.</li></ul></section>
-        <section><h2>3. Outputs Medensa can show</h2><p>Depending on the feature and plan, Medensa may show reminders, timelines, weight views, history summaries, calendar review, widgets, and estimated medication level.</p></section>
-        <section><h2>4. How the estimated medication level is built</h2><p>The estimated medication level view is based on the dose history recorded in the app plus simplified timing and decay assumptions. It is designed to provide a stable personal-tracking view of your own records rather than a direct measurement.</p></section>
-        <section><h2>5. Important limitations</h2><ul><li>An estimated medication level is not a blood test, lab result, or direct reading.</li><li>It does not capture every factor that may affect absorption, metabolism, or day-to-day experience.</li><li>Missed or incomplete records can change the output.</li><li>Reminder timing and summaries also depend on device settings, permissions, and the information available in the app.</li></ul></section>
-        <section><h2>6. How to understand charts and summaries</h2><p>Charts and summaries may help you notice changes in your own records over time, but they should be treated as personal tracking views only.</p></section>
-        <section><h2>7. Medical decisions</h2><p>Always check with your clinician before making medical decisions.</p></section>
-        <section><h2>8. Updates</h2><p>If Medensa materially changes how it generates reminders, charts, or estimates, this page may be updated to reflect the revised approach.</p></section>
-        <section><h2>9. Contact</h2><p>Questions about this page can be sent to <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a>.</p></section>
+<section>
+  <h2>2. Inputs used by the service</h2>
+  <p>Depending on the features enabled, visualisations and summaries may be based on:</p>
+  <ul>
+    <li>medication name selected by the user;</li>
+    <li>dose amount entered by the user;</li>
+    <li>date and time records entered by the user;</li>
+    <li>historical logs maintained by the user;</li>
+    <li>generalised assumptions used to generate user-facing informational views.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>3. Estimated medication level methodology</h2>
+  <p>The estimated medication-level chart is a personal tracking estimate derived from the dose timing the user logs, the selected medicine context, and a simplified decay model. It is intended to help users review timing patterns in their own records.</p>
+  <ul>
+    <li>It is based on logged dose events plus simplified half-life and time-to-peak assumptions.</li>
+    <li>It is not a serum assay, blood test, or direct measurement of medication in the body.</li>
+    <li>It does not account for all individual factors that can affect absorption, metabolism, tolerance, or response.</li>
+    <li>It does not replace approved product information or clinician instructions.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>4. Outputs that may be shown</h2>
+  <p>Depending on product configuration, the service may display timelines, weekly summaries, adherence views, reminder histories, streaks, trend charts, weight views, symptom summaries, or informational estimates based on prior entries.</p>
+</section>
+
+<section>
+  <h2>5. Key limitations</h2>
+  <ul>
+    <li>Any estimate is not a direct measurement of medication in the body.</li>
+    <li>Any estimate is not a serum concentration reading, blood test, or laboratory result.</li>
+    <li>Any estimate does not account for all individual factors that may influence absorption, tolerance, metabolism, or response.</li>
+    <li>The service does not validate or verify the medical accuracy of user-entered data.</li>
+    <li>The service may not reflect clinician-specific instructions, missed doses, partial doses, or off-label treatment plans unless accurately entered and supported by product logic.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>6. What the outputs must not be used for</h2>
+  <p>You must not use charts, visualisations, summaries, reminders, or estimates generated by the service to make medication, treatment, or diagnosis decisions. They must not be used as a substitute for clinical advice or approved product information.</p>
+</section>
+
+<section>
+  <h2>7. Visible safety framing</h2>
+  <p>Medensa pairs the estimated medication-level feature with explicit in-app safety wording, including:</p>
+  <ul>
+    <li><code>Estimated medication level for personal tracking only. Not medical advice.</code></li>
+    <li><code>Always check with your clinician before making medical decisions.</code></li>
+  </ul>
+</section>
+
+<section>
+  <h2>8. Versioning and change control</h2>
+  <p>Where the service materially changes the way it generates user-facing visualisations or estimates, we may update this page to reflect the revised approach. Material changes may affect how prior outputs are displayed or interpreted.</p>
+</section>
+
+<section>
+  <h2>9. Product and legal review</h2>
+  <p>If the service introduces features that move beyond tracking, journaling, reminders, exports, and informational summaries, additional validation, legal review, or regulatory analysis may be required before such features are offered in particular jurisdictions.</p>
+</section>
+
+<section>
+  <h2>10. Questions</h2>
+  <p>Questions about this page may be directed to <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a> or <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a>, as appropriate.</p>
+</section>
+
       </article>
     </div>
   </main>
 
-  <footer class="footer marketing-footer">
+  <footer class="footer">
     <div class="shell">
       <div class="card footer-card">
-        <div class="footer-grid">
-          <div>
-            <div class="footer-brand">Medensa</div>
-            <p class="small">GLP-1 tracking for iPhone with a local-first, consumer-facing approach.</p>
-            <p class="small">Estimated medication level for personal tracking only. Not medical advice.</p>
-            <p class="small">Always check with your clinician before making medical decisions.</p>
-          </div>
-          <div>
-            <p class="small footer-links"><a href="overview.html">Trust &amp; policy</a> · <a href="privacy.html">Privacy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms</a></p>
-            <p class="small footer-links"><a href="data-rights.html">Data Rights</a> · <a href="medical-safety.html">Medical Safety</a> · <a href="methodology.html">Methodology</a></p>
-            <p class="small">Contact: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a></p>
-          </div>
-        </div>
+        <p class="small"><strong><span class="placeholder">Steven Good</span></strong> · <span class="placeholder">64 Osprey Drive, St Albans, United Kingdom, AL4 0LU</span></p>
+        <p class="small">Support: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a> · Privacy: <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a></p>
+        <p class="small"><a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms of Use</a> · <a href="data-rights.html">Data Rights</a> · <a href="medical-safety.html">Medical Safety</a> · <a href="methodology.html">Methodology</a></p>
       </div>
     </div>
   </footer>
