@@ -87,6 +87,25 @@ img {
   text-decoration: none;
 }
 
+div.brand {
+  display: grid;
+  grid-template-columns: 36px auto;
+  column-gap: 12px;
+  row-gap: 2px;
+  align-items: center;
+}
+
+div.brand::before {
+  content: "";
+  grid-column: 1;
+  grid-row: 1 / span 2;
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  background: url("assets/glpzy-mark-64.png") center / cover no-repeat;
+  box-shadow: 0 10px 22px rgba(31, 120, 111, 0.24);
+}
+
 .brand-lockup {
   display: flex;
   align-items: center;
@@ -99,10 +118,13 @@ img {
   border-radius: 14px;
   display: grid;
   place-items: center;
-  font-weight: 800;
-  color: #eff8f6;
-  background: linear-gradient(135deg, var(--accent-2), #8ad5c8);
+  font-size: 0;
+  color: transparent;
+  background:
+    linear-gradient(135deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.02)),
+    url("assets/glpzy-mark-64.png") center / cover no-repeat;
   box-shadow: 0 14px 28px rgba(31, 120, 111, 0.34);
+  overflow: hidden;
 }
 
 .brand-name {
@@ -113,8 +135,17 @@ img {
 }
 
 .brand-sub {
+  grid-column: 2;
   color: rgba(239, 248, 246, 0.78);
   font-size: 0.95rem;
+}
+
+div.brand .brand-mark {
+  grid-column: 2;
+  color: #f8fdfb;
+  font-weight: 800;
+  font-size: 1.02rem;
+  letter-spacing: -0.02em;
 }
 
 .topnav {
