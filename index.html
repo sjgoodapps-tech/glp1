@@ -3,8 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GLPzy | GLP-1 tracking for iPhone</title>
-  <meta name="description" content="GLPzy is an iPhone app for tracking GLP-1 doses, weight, symptoms, reminders, and routine history with a calm, local-first approach.">
+  <title>GLPzy | GLP-1 tracker for iPhone doses and weight</title>
+  <meta name="description" content="GLPzy is a calm GLP-1 tracker for iPhone to log doses, weight, symptoms, reminders, Apple Health context, and personal review in one place.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="__SITE_URL__/">
+  <meta property="og:title" content="GLPzy | GLP-1 tracker for iPhone doses and weight">
+  <meta property="og:description" content="GLPzy is a calm GLP-1 tracker for iPhone to log doses, weight, symptoms, reminders, Apple Health context, and personal review in one place.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="__SITE_URL__/">
+  <meta property="og:image" content="__SITE_URL__/assets/hero-collage.png">
+  <!-- Google Search Console verification meta tag goes here -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,6 +20,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <script defer src="site-config.js"></script>
+  <script defer src="site-cta.js"></script>
 </head>
 <body class="marketing-page">
   <header class="site-header marketing-header">
@@ -39,12 +49,18 @@
         <div class="hero-grid marketing-hero-grid">
           <div class="hero-copy">
             <div class="eyebrow">A calmer GLP-1 control centre</div>
-            <h1>Track doses, weight, symptoms, reminders, and routine changes in one clear place</h1>
-            <p>GLPzy helps you keep a reliable personal record on iPhone without turning your week into a spreadsheet. Log what happened, review your history, and keep the next step visible.</p>
+            <h1>GLPzy is a calm GLP-1 tracker for iPhone to log doses, weight, symptoms, reminders, and Apple Health context</h1>
+            <p>GLPzy is designed for people using GLP-1 medicines who want to track doses, weight, symptoms, reminders, routine changes, and optional Apple Health context on iPhone without turning personal tracking into a chore.</p>
             <div class="hero-actions">
               <a class="button button-primary" href="#features">See what the app does</a>
               <a class="button button-secondary" href="overview.html">Read trust &amp; policy pages</a>
             </div>
+            <div class="hero-actions hero-actions-secondary site-cta-actions" data-site-cta>
+              <a class="button button-primary" data-app-store-link href="__APP_STORE_URL__">View on the App Store</a>
+              <a class="button button-secondary" data-testflight-link href="__TESTFLIGHT_URL__">Join TestFlight</a>
+              <a class="button button-secondary" data-waitlist-link href="mailto:sjgoodapps@gmail.com?subject=GLPzy%20waitlist">Join the waitlist</a>
+            </div>
+            <div class="site-cta-note" data-cta-note></div>
             <div class="badge-row marketing-badges">
               <div class="badge">No in-app account</div>
               <div class="badge">Local-first</div>
@@ -95,7 +111,7 @@
         <div class="section-head section-head-center">
           <div class="kicker">Features</div>
           <h2>Built around tracking first, with deeper review when you want it</h2>
-          <p>GLPzy is designed for people who want a calmer way to keep track of GLP-1 routines on iPhone and review their own records over time.</p>
+          <p>GLPzy is designed for people who want a calmer way to track GLP-1 doses, weight, symptoms, reminders, and Apple Health context on iPhone and review their own records over time.</p>
         </div>
 
         <div class="feature-grid cohesive-feature-grid">
@@ -103,11 +119,11 @@
             <div>
               <div class="feature-label">Core tracking</div>
               <h3>Log doses, weight, symptoms, notes, and reminder changes without clutter</h3>
-              <p>The free experience covers the essentials: medication setup, dose logging, weight logging, symptom logging, core history review, richer charts, and estimated medication level.</p>
+              <p>The free experience covers the essentials: medication setup, dose logging, weight logging, symptom logging, core history review, richer charts, and the Estimated Medication overlay.</p>
               <ul>
                 <li>Dose, weight, and symptom logging</li>
                 <li>Basic reminders and core history review</li>
-                <li>Richer charts and estimated medication level</li>
+                <li>Richer charts and the Estimated Medication overlay</li>
                 <li>Delete local data from inside the app</li>
               </ul>
             </div>
@@ -124,14 +140,14 @@
 
           <article class="feature-card">
             <div class="feature-label">Apple Health</div>
-            <h3>Optional read-only Apple Health connection for weight history and height</h3>
-            <p>If you choose to connect Apple Health through the current app flow, GLPzy reads weight history and height to support setup and tracking. The customer-facing Apple Health flow is import-only.</p>
+            <h3>Optional read-only Apple Health connection for weight import and broader context</h3>
+            <p>If you choose to connect Apple Health through the current app flow, GLPzy imports weight history and height to support setup and tracking, then reads body composition, sleep, movement, and workout summaries in read-only mode for Insights and Settings.</p>
           </article>
 
           <article class="feature-card">
             <div class="feature-label">Planning</div>
             <h3>Calendar review, treatment changes, and reorder reminders in Premium</h3>
-            <p>Premium adds deeper planning and review layers for people who want more than the day-to-day basics.</p>
+              <p>Premium adds deeper planning and review layers for people who want more than the day-to-day basics, including a dose-coloured projected medication level chart with solid history, dashed projection, and an optional separate-scale weight overlay.</p>
           </article>
 
           <article class="feature-card">
@@ -231,12 +247,30 @@
       </div>
     </section>
 
+    <section class="section-strip alt-strip">
+  <div class="shell narrow-shell">
+    <div class="section-head section-head-center">
+      <div class="kicker">Browse by search intent</div>
+      <h2>Choose the page that matches the way people actually search</h2>
+      <p>These pages explain GLPzy in plain language for supported medicine and GLP-1 tracking searches on iPhone.</p>
+    </div>
+    <div class="meta-links">
+      <a href="mounjaro-tracker-iphone.html">Mounjaro tracker for iPhone</a>
+      <a href="wegovy-tracker-iphone.html">Wegovy tracker for iPhone</a>
+      <a href="zepbound-tracker-iphone.html">Zepbound tracker for iPhone</a>
+      <a href="tirzepatide-tracker-iphone.html">Tirzepatide tracker for iPhone</a>
+      <a href="semaglutide-tracker-iphone.html">Semaglutide tracker for iPhone</a>
+      <a href="glp1-weight-dose-symptom-tracker.html">GLP-1 weight, dose, and symptom tracker</a>
+    </div>
+  </div>
+</section>
+
     <section id="premium" class="page-wrap marketing-wrap compact-top">
       <div class="shell">
         <div class="section-head section-head-center">
           <div class="kicker">Free and Premium</div>
           <h2>Core tracking stays useful for free. Premium adds depth.</h2>
-          <p>GLPzy is positioned so the free tier remains genuinely usable, with richer charts and estimated medication level included from the start while Premium adds advanced summaries, calendar history, exports, widgets, photos, and planning tools.</p>
+          <p>GLPzy is positioned so the free tier remains genuinely usable, with richer charts and the Estimated Medication overlay included from the start while Premium adds a dose-coloured projected medication level chart, optional separate-scale weight overlay, advanced summaries, calendar history, exports, widgets, photos, and planning tools.</p>
         </div>
 
         <div class="table-wrap comparison-wrap">
@@ -265,7 +299,7 @@
                 <td>Included</td>
               </tr>
               <tr>
-                <td>Optional Apple Health weight-history and height import</td>
+                <td>Optional Apple Health weight-history and height import plus read-only body composition, sleep, movement, and workout context</td>
                 <td>Included</td>
                 <td>Included</td>
               </tr>
@@ -275,8 +309,13 @@
                 <td>Included</td>
               </tr>
               <tr>
-                <td>Estimated medication level</td>
+                <td>Estimated medication level overlay</td>
                 <td>Included</td>
+                <td>Included</td>
+              </tr>
+              <tr>
+                <td>Projected medication level chart section</td>
+                <td>Not included</td>
                 <td>Included</td>
               </tr>
               <tr>
@@ -345,15 +384,15 @@
           </details>
           <details class="faq-item">
             <summary>Does GLPzy work with Apple Health?</summary>
-            <p>Yes, optionally. In the current customer-facing flow, GLPzy reads weight history and height from Apple Health and treats the connection as import-only.</p>
+            <p>Yes, optionally. In the current customer-facing flow, GLPzy imports weight history and height from Apple Health, then reads body composition, sleep, movement, and workout summaries in read-only mode for Insights and Settings.</p>
           </details>
           <details class="faq-item">
             <summary>What stays free?</summary>
-            <p>Medication setup, dose logging, weight logging, symptom logging, richer charts, estimated medication level, basic reminders, and core history remain in the free tier.</p>
+            <p>Medication setup, dose logging, weight logging, symptom logging, richer charts, the Estimated Medication overlay, basic reminders, and core history remain in the free tier.</p>
           </details>
           <details class="faq-item">
             <summary>What does Premium add?</summary>
-            <p>Premium adds advanced summaries, calendar history, widgets, progress photos, full-history export, reorder reminders, treatment changes, and deeper planning.</p>
+            <p>Premium adds a dose-coloured projected medication level chart, optional separate-scale weight overlay, advanced summaries, calendar history, widgets, progress photos, full-history export, reorder reminders, treatment changes, and deeper planning.</p>
           </details>
           <details class="faq-item">
             <summary>Is GLPzy medical advice?</summary>

@@ -3,15 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Methodology and Limitations | GLPzy</title>
-  <meta name="description" content="Methodology and limitations for user-facing charts and estimates.">
+  <title>GLPzy methodology for reminders and chart estimates</title>
+  <meta name="description" content="Read the GLPzy methodology for estimated medication level, reminders, chart logic, and the assumptions behind personal tracking views.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="__SITE_URL__/methodology.html">
+  <meta property="og:title" content="GLPzy methodology for reminders and chart estimates">
+  <meta property="og:description" content="Read the GLPzy methodology for estimated medication level, reminders, chart logic, and the assumptions behind personal tracking views.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="__SITE_URL__/methodology.html">
+  <meta property="og:image" content="__SITE_URL__/assets/hero-collage.png">
+  <!-- Google Search Console verification meta tag goes here -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+  <script defer src="site-config.js"></script>
+  <script defer src="site-cta.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -72,12 +82,20 @@
 </section>
 
 <section>
-  <h2>3. Estimated medication level methodology</h2>
-  <p>The estimated medication-level chart is a personal tracking estimate derived from the dose timing the user logs, the selected medicine context, and a simplified decay model. It is intended to help users review timing patterns in their own records.</p>
+  <h2>3. Estimated and projected medication level methodology</h2>
+  <p>The estimated medication-level chart is a personal-tracking estimate derived from the dose timing the user logs, the selected medicine context, and a parameterised absorption-and-elimination model. It is intended to help users review timing patterns in their own records, not to provide clinical measurement.</p>
+  <p><code>estimated level(t) = Σ doseMg × ka / (ka − ke) × (e^(−ke×t) − e^(−ka×t))</code></p>
+  <p><code>ke = ln(2) / half-life</code> and <code>ka</code> is solved numerically so the model reaches the assumed time-to-peak for the selected medication context.</p>
   <ul>
-    <li>It is based on logged dose events plus simplified half-life and time-to-peak assumptions.</li>
+    <li>Historical views are built from logged taken-dose events plus medication-specific half-life and time-to-peak assumptions.</li>
+    <li>Projected views reuse the same model parameters, then extend the future timeline with synthetic doses based on the scenario selected in the app.</li>
+    <li>The chart uses a solid line for historical output and a dashed line for projection so the boundary at today stays explicit.</li>
+    <li>The projected chart colour-codes history and projection by dose level so dose-step changes remain visible during review.</li>
+    <li>If the optional weight overlay is enabled, it is drawn on a separate visual scale so weight review does not alter the medication-level calculation.</li>
+    <li>Projected views may assume that the current dose continues, that no future doses are added, or that a user-selected next dose date and amount become the new repeating anchor.</li>
+    <li>If a schedule appears overdue, GLPzy requires the user to choose how the projection should restart rather than silently guessing.</li>
     <li>It is not a serum assay, blood test, or direct measurement of medication in the body.</li>
-    <li>It does not account for all individual factors that can affect absorption, metabolism, tolerance, or response.</li>
+    <li>It does not account for all individual factors that can affect absorption, metabolism, tolerance, formulation handling, or response.</li>
     <li>It does not replace approved product information or clinician instructions.</li>
   </ul>
 </section>
@@ -105,9 +123,10 @@
 
 <section>
   <h2>7. Visible safety framing</h2>
-  <p>GLPzy pairs the estimated medication-level feature with explicit in-app safety wording, including:</p>
+  <p>GLPzy pairs the estimated and projected medication-level features with explicit in-app safety wording, including:</p>
   <ul>
     <li><code>Estimated medication level for personal tracking only. Not medical advice.</code></li>
+    <li><code>Projected values follow the selected scenario only and may differ from real-world timing or response.</code></li>
     <li><code>Always check with your clinician before making medical decisions.</code></li>
   </ul>
 </section>
@@ -139,6 +158,6 @@
         <p class="small"><a href="privacy.html">Privacy Policy</a> · <a href="support.html">Support</a> · <a href="terms.html">Terms of Use</a> · <a href="data-rights.html">Data Rights</a> · <a href="medical-safety.html">Medical Safety</a> · <a href="methodology.html">Methodology</a></p>
       </div>
     </div>
-  </footer>
+</footer>
 </body>
 </html>
