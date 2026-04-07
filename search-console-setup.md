@@ -1,7 +1,7 @@
 # Search Console setup
 
 1. Replace placeholders:
-   - `__SITE_URL__` with the full live site URL, for example `https://www.glpzy.app`
+   - `https://www.glpzy.app` with the full live site URL, for example `https://www.glpzy.app`
    - `__APP_STORE_URL__` with the live App Store URL when available
    - `__TESTFLIGHT_URL__` with the live TestFlight invite URL when available
 2. Check `site-config.js`, all HTML canonical and Open Graph tags, `robots.txt`, and `sitemap.xml` after replacement.
@@ -12,7 +12,7 @@
 5. Verify ownership using your preferred method.
 6. If you use HTML tag verification, paste the provided `google-site-verification` meta tag in the `<head>` where this comment appears:
    - `<!-- Google Search Console verification meta tag goes here -->`
-7. Submit `__SITE_URL__/sitemap.xml` in Search Console.
+7. Submit `https://www.glpzy.app/sitemap.xml` in Search Console.
 8. Request indexing for:
    - the homepage
    - `mounjaro-tracker-iphone.html`
