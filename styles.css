@@ -88,64 +88,53 @@ img {
 }
 
 div.brand {
-  display: grid;
-  grid-template-columns: 36px auto;
-  column-gap: 12px;
-  row-gap: 2px;
-  align-items: center;
+  display: block;
 }
 
 div.brand::before {
-  content: "";
-  grid-column: 1;
-  grid-row: 1 / span 2;
-  width: 36px;
-  height: 36px;
-  border-radius: 12px;
-  background: url("assets/glpzy-mark-64.png") center / cover no-repeat;
-  box-shadow: 0 10px 22px rgba(31, 120, 111, 0.24);
+  content: none;
 }
 
 .brand-lockup {
-  display: flex;
+  display: inline-flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+  padding: 8px 16px 8px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.96);
+  border: 1px solid rgba(7, 26, 31, 0.05);
+  box-shadow: 0 10px 20px rgba(8, 26, 31, 0.08);
 }
 
 .brand-mark-pill {
-  width: 44px;
-  height: 44px;
-  border-radius: 14px;
-  display: grid;
-  place-items: center;
-  font-size: 0;
-  color: transparent;
-  background:
-    linear-gradient(135deg, rgba(255, 255, 255, 0.10), rgba(255, 255, 255, 0.02)),
-    url("assets/glpzy-mark-64.png") center / cover no-repeat;
-  box-shadow: 0 14px 28px rgba(31, 120, 111, 0.34);
-  overflow: hidden;
+  display: block;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border-radius: 12px;
+  background: url("assets/glpzy-web-mark-128.png") center / contain no-repeat;
 }
 
 .brand-name {
-  color: #f8fdfb;
-  font-weight: 800;
-  font-size: 1.08rem;
-  letter-spacing: -0.02em;
+  display: block;
+  font-family: "Arial Rounded Bold", "Arial Bold", Arial, sans-serif;
+  font-size: 1.03rem;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  white-space: nowrap;
+  background: linear-gradient(90deg, #1c6d5a 0 63%, #b8c23b 63% 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.18);
 }
 
 .brand-sub {
-  grid-column: 2;
-  color: rgba(239, 248, 246, 0.78);
-  font-size: 0.95rem;
+  display: none;
 }
 
 div.brand .brand-mark {
-  grid-column: 2;
-  color: #f8fdfb;
-  font-weight: 800;
-  font-size: 1.02rem;
-  letter-spacing: -0.02em;
+  display: none;
 }
 
 .topnav {
@@ -663,8 +652,26 @@ tbody tr:last-child td {
 }
 
 .footer-brand {
-  color: var(--accent);
+  background: linear-gradient(90deg, #1c6d5a 0 63%, #b8c441 63% 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 10px;
+}
+
+.screen-shot-shell,
+.screen-panel-hero {
+  position: relative;
+}
+
+.screen-shot-shell::before,
+.screen-panel-hero::before {
+  content: none;
+}
+
+.screen-shot-shell::after,
+.screen-panel-hero::after {
+  content: none;
 }
 
 .footer-card p {

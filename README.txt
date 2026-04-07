@@ -7,4 +7,4 @@ Deployment checklist
 5. Test `robots.txt` is reachable and correct.
 6. Confirm there are no broken internal links.
 7. Confirm App Store and TestFlight buttons hide when URLs are blank or placeholders, and show when real URLs are present.
-8. Confirm the waitlist email CTA always opens correctly.
+8. Confirm the App Store and TestFlight CTA state matches the configured links.

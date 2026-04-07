@@ -4,11 +4,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GLPzy methodology for reminders and chart estimates</title>
-  <meta name="description" content="Read the GLPzy methodology for estimated medication level, reminders, chart logic, and the assumptions behind personal tracking views.">
+  <meta name="description" content="Read the GLPzy methodology for the Estimated Exposure Trend, reminders, chart logic, and the assumptions behind personal tracking views.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="__SITE_URL__/methodology.html">
   <meta property="og:title" content="GLPzy methodology for reminders and chart estimates">
-  <meta property="og:description" content="Read the GLPzy methodology for estimated medication level, reminders, chart logic, and the assumptions behind personal tracking views.">
+  <meta property="og:description" content="Read the GLPzy methodology for the Estimated Exposure Trend, reminders, chart logic, and the assumptions behind personal tracking views.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="__SITE_URL__/methodology.html">
   <meta property="og:image" content="__SITE_URL__/assets/hero-collage.png">
@@ -82,8 +82,8 @@
 </section>
 
 <section>
-  <h2>3. Estimated and projected medication level methodology</h2>
-  <p>The estimated medication-level chart is a personal-tracking estimate derived from the dose timing the user logs, the selected medicine context, and a parameterised absorption-and-elimination model. It is intended to help users review timing patterns in their own records, not to provide clinical measurement.</p>
+  <h2>3. Estimated Exposure Trend methodology</h2>
+  <p>Estimated Exposure Trend is a relative personal-tracking estimate derived from the dose timing the user logs, the selected medicine context, and a parameterised absorption-and-elimination model. It is intended to help users review timing patterns in their own records, not to provide clinical measurement.</p>
   <p><code>estimated level(t) = Σ doseMg × ka / (ka − ke) × (e^(−ke×t) − e^(−ka×t))</code></p>
   <p><code>ke = ln(2) / half-life</code> and <code>ka</code> is solved numerically so the model reaches the assumed time-to-peak for the selected medication context.</p>
   <ul>
@@ -91,7 +91,11 @@
     <li>Projected views reuse the same model parameters, then extend the future timeline with synthetic doses based on the scenario selected in the app.</li>
     <li>The chart uses a solid line for historical output and a dashed line for projection so the boundary at today stays explicit.</li>
     <li>The projected chart colour-codes history and projection by dose level so dose-step changes remain visible during review.</li>
-    <li>If the optional weight overlay is enabled, it is drawn on a separate visual scale so weight review does not alter the medication-level calculation.</li>
+    <li>If the optional weight overlay is enabled, it is drawn on a separate visual scale so weight review does not alter the Estimated Exposure Trend calculation.</li>
+    <li>It is not a measured blood concentration.</li>
+    <li>It is based on a simplified model.</li>
+    <li>Oral and injectable semaglutide are not compared on a raw mg basis.</li>
+    <li>Do not use this for dosing decisions.</li>
     <li>Projected views may assume that the current dose continues, that no future doses are added, or that a user-selected next dose date and amount become the new repeating anchor.</li>
     <li>If a schedule appears overdue, GLPzy requires the user to choose how the projection should restart rather than silently guessing.</li>
     <li>It is not a serum assay, blood test, or direct measurement of medication in the body.</li>
@@ -102,7 +106,7 @@
 
 <section>
   <h2>4. Outputs that may be shown</h2>
-  <p>Depending on product configuration, the service may display timelines, weekly summaries, adherence views, reminder histories, streaks, trend charts, weight views, symptom summaries, or informational estimates based on prior entries.</p>
+  <p>Depending on product configuration, the service may display timelines, weekly summaries, schedule coverage views, reminder histories, streaks, trend charts, weight views, symptom summaries, or informational estimates based on prior entries.</p>
 </section>
 
 <section>
@@ -123,9 +127,13 @@
 
 <section>
   <h2>7. Visible safety framing</h2>
-  <p>GLPzy pairs the estimated and projected medication-level features with explicit in-app safety wording, including:</p>
+  <p>GLPzy pairs the historical and projected Estimated Exposure Trend features with explicit in-app safety wording, including:</p>
   <ul>
-    <li><code>Estimated medication level for personal tracking only. Not medical advice.</code></li>
+    <li><code>Estimated Exposure Trend is a relative personal-tracking estimate.</code></li>
+    <li><code>It is not a measured blood concentration.</code></li>
+    <li><code>It is based on a simplified model.</code></li>
+    <li><code>Oral and injectable semaglutide are not compared on a raw mg basis.</code></li>
+    <li><code>Do not use this for dosing decisions.</code></li>
     <li><code>Projected values follow the selected scenario only and may differ from real-world timing or response.</code></li>
     <li><code>Always check with your clinician before making medical decisions.</code></li>
   </ul>
