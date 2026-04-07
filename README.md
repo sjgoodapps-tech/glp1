@@ -1,6 +1,6 @@
 # GLPzy website pack
 
-This folder contains the public GitHub Pages site for the current Medensa app.
+This folder contains the public GitHub Pages site for the current GLPzy app.
 
 ## Files
 - `index.html` — sales page aligned to the current app scope
