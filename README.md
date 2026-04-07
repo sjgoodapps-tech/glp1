@@ -1,4 +1,4 @@
-# Medensa website pack
+# GLPzy website pack
 
 This folder contains the public GitHub Pages site for the current Medensa app.
 
