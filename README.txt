@@ -6,5 +6,5 @@ Deployment checklist
 4. Submit `sitemap.xml` in Search Console.
 5. Test `robots.txt` is reachable and correct.
 6. Confirm there are no broken internal links.
-7. Confirm App Store and TestFlight buttons hide when URLs are blank or placeholders, and show when real URLs are present.
-8. Confirm the App Store and TestFlight CTA state matches the configured links.
+7. Confirm the public CTA state still reads `Coming Soon.` where release links are intentionally withheld.
+8. If live App Store links are introduced later, recheck that the CTA state matches the configured links.

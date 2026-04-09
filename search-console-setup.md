@@ -3,7 +3,6 @@
 1. Replace placeholders:
    - `https://www.glpzy.app` with the full live site URL, for example `https://www.glpzy.app`
    - `__APP_STORE_URL__` with the live App Store URL when available
-   - `__TESTFLIGHT_URL__` with the live TestFlight invite URL when available
 2. Check `site-config.js`, all HTML canonical and Open Graph tags, `robots.txt`, and `sitemap.xml` after replacement.
 3. Deploy the full contents of `output/site_bundle_updated` to the site root.
 4. In Google Search Console:
@@ -21,4 +20,4 @@
    - `tirzepatide-tracker-iphone.html`
    - `semaglutide-tracker-iphone.html`
    - `glp1-weight-dose-symptom-tracker.html`
-9. Recheck that App Store and TestFlight buttons hide correctly when their placeholders are blank or still contain placeholder values.
+9. Recheck that the public CTA still reads `Coming Soon.` until a live App Store URL is intentionally introduced.
