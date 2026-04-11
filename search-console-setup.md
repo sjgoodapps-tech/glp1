@@ -1,9 +1,9 @@
 # Search Console setup
 
-1. Replace placeholders:
-   - `https://www.glpzy.app` with the full live site URL, for example `https://www.glpzy.app`
-   - `__APP_STORE_URL__` with the live App Store URL when available
-2. Check `site-config.js`, all HTML canonical and Open Graph tags, `robots.txt`, and `sitemap.xml` after replacement.
+1. Confirm the live URLs are set correctly:
+   - Site URL: `https://www.glpzy.app`
+   - App Store URL: `https://apps.apple.com/gb/app/glpzy-glp-1-tracker/id6761775005`
+2. Check `site-config.js`, all HTML canonical and Open Graph tags, `robots.txt`, and `sitemap.xml`.
 3. Deploy the full contents of `output/site_bundle_updated` to the site root.
 4. In Google Search Console:
    - choose a **Domain property** if you control the custom domain DNS
@@ -20,4 +20,4 @@
    - `tirzepatide-tracker-iphone.html`
    - `semaglutide-tracker-iphone.html`
    - `glp1-weight-dose-symptom-tracker.html`
-9. Recheck that the public CTA still reads `Coming Soon.` until a live App Store URL is intentionally introduced.
+9. Recheck that the public App Store badge opens the live App Store product page on all public pages.
