@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>GLPzy methodology for reminders and chart estimates</title>
-  <meta name="description" content="Read the GLPzy methodology for the Estimated Exposure Trend, reminders, chart logic, and the assumptions behind personal tracking views.">
+  <title>GLPzy methodology, BMI references, and chart estimates</title>
+  <meta name="description" content="Read the GLPzy methodology for BMI, Estimated Exposure Trend, reminders, chart logic, and the assumptions behind personal tracking views.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://www.glpzy.app/methodology.html">
-  <meta property="og:title" content="GLPzy methodology for reminders and chart estimates">
-  <meta property="og:description" content="Read the GLPzy methodology for the Estimated Exposure Trend, reminders, chart logic, and the assumptions behind personal tracking views.">
+  <meta property="og:title" content="GLPzy methodology, BMI references, and chart estimates">
+  <meta property="og:description" content="Read the GLPzy methodology for BMI, Estimated Exposure Trend, reminders, chart logic, and the assumptions behind personal tracking views.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://www.glpzy.app/methodology.html">
   <meta property="og:image" content="https://www.glpzy.app/assets/hero-collage.png">
@@ -57,7 +57,7 @@
         <div class="page-head">
           <div class="kicker">Methodology</div>
           <h1 class="page-title">Methodology and Limitations</h1>
-          <div class="page-meta">Last updated: 2026-04-01</div>
+          <div class="page-meta">Last updated: 2026-04-11</div>
         </div>
         
 <div class="warning">
@@ -98,6 +98,7 @@
     <li>Do not use this for dosing decisions.</li>
     <li>Projected views may assume that the current dose continues, that no future doses are added, or that a user-selected next dose date and amount become the new repeating anchor.</li>
     <li>If a schedule appears overdue, GLPzy requires the user to choose how the projection should restart rather than silently guessing.</li>
+    <li>For custom or compounded treatments, estimated-level review is available only when the user has entered a positive half-life for personal tracking. If no half-life is present, the estimate is suppressed.</li>
     <li>It is not a serum assay, blood test, or direct measurement of medication in the body.</li>
     <li>It does not account for all individual factors that can affect absorption, metabolism, tolerance, formulation handling, or response.</li>
     <li>It does not replace approved product information or clinician instructions.</li>
@@ -140,17 +141,39 @@
 </section>
 
 <section>
-  <h2>8. Versioning and change control</h2>
+  <h2>8. References and bibliography</h2>
+  <ul>
+    <li><a href="https://www.cdc.gov/bmi/about/index.html">CDC: About Body Mass Index (BMI)</a> — BMI definition, formula, and screening framing used in GLPzy.</li>
+    <li><a href="https://www.cdc.gov/bmi/adult-calculator/bmi-categories.html">CDC: Adult BMI Categories</a> — adult BMI category ranges and screening interpretation context.</li>
+    <li><a href="https://www.cdc.gov/bmi/faq/index.html">CDC: BMI Frequently Asked Questions</a> — hand-calculation formula and adult-versus-child interpretation context.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/218316s002lbl.pdf">FDA: Wegovy prescribing information</a> — semaglutide injection product information and pharmacokinetic assumptions referenced by the estimate.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/217806s002lbl.pdf">FDA: Zepbound prescribing information</a> — tirzepatide weekly product information and pharmacokinetic assumptions referenced by the estimate.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/215866s041lbl.pdf">FDA: Mounjaro prescribing information</a> — U.S. tirzepatide product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/209637s025lbl.pdf">FDA: Ozempic prescribing information</a> — U.S. semaglutide injection product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2024/213051s020s021lbl.pdf">FDA: Rybelsus prescribing information</a> — U.S. semaglutide tablet product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/206321s025lbl.pdf">FDA: Saxenda prescribing information</a> — liraglutide daily product information and pharmacokinetic assumptions referenced by the estimate.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022341s046lbl.pdf">FDA: Victoza prescribing information</a> — U.S. liraglutide product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.accessdata.fda.gov/drugsatfda_docs/label/2022/125469s051lbl.pdf">FDA: Trulicity prescribing information</a> — U.S. dulaglutide product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.medicines.org.uk/emc/product/13799/smpc">emc: Wegovy Summary of Product Characteristics (SmPC)</a> — UK semaglutide product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.medicines.org.uk/emc/product/15481/smpc">emc: Mounjaro Summary of Product Characteristics (SmPC)</a> — UK tirzepatide product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.medicines.org.uk/emc/product/9749/smpc">emc: Ozempic Summary of Product Characteristics (SmPC)</a> — UK semaglutide injection product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.medicines.org.uk/emc/product/101230/smpc">emc: Rybelsus Summary of Product Characteristics (SmPC)</a> — UK semaglutide tablet product information referenced by the in-app leaflet links.</li>
+    <li><a href="https://www.medicines.org.uk/emc/product/2313/smpc">emc: Saxenda Summary of Product Characteristics (SmPC)</a> — UK liraglutide product information referenced by the in-app leaflet links.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>9. Versioning and change control</h2>
   <p>Where the service materially changes the way it generates user-facing visualisations or estimates, we may update this page to reflect the revised approach. Material changes may affect how prior outputs are displayed or interpreted.</p>
 </section>
 
 <section>
-  <h2>9. Product and legal review</h2>
+  <h2>10. Product and legal review</h2>
   <p>If the service introduces features that move beyond tracking, journaling, reminders, exports, and informational summaries, additional validation, legal review, or regulatory analysis may be required before such features are offered in particular jurisdictions.</p>
 </section>
 
 <section>
-  <h2>10. Questions</h2>
+  <h2>11. Questions</h2>
   <p>Questions about this page may be directed to <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a> or <a href="mailto:sjgoodapps@gmail.com">sjgoodapps@gmail.com</a>, as appropriate.</p>
 </section>
 
