@@ -33,6 +33,7 @@
     }
     anchor.href = config.appStoreUrl;
     anchor.setAttribute('aria-label', 'Download GLPzy on the App Store');
+    anchor.classList.remove('button', 'button-primary', 'button-secondary');
     anchor.classList.add('app-store-badge');
     if (extraClass) {
       anchor.classList.add(extraClass);
@@ -78,6 +79,57 @@
     });
   }
 
+  function ensureBottomBand() {
+    if (!isLiveUrl(config.appStoreUrl)) {
+      return;
+    }
+    var hasManualDownloadBand = Array.prototype.some.call(
+      document.querySelectorAll('.cta-band h2'),
+      function (heading) {
+        return heading.textContent && heading.textContent.indexOf('Download GLPzy for iPhone and iPad.') !== -1;
+      }
+    );
+    document.querySelectorAll('footer.footer').forEach(function (footer) {
+      if (hasManualDownloadBand || document.querySelector('.auto-download-band')) {
+        return;
+      }
+
+      var section = document.createElement('section');
+      section.className = 'page-wrap compact-top compact-bottom auto-download-band';
+
+      var shell = document.createElement('div');
+      shell.className = 'shell';
+
+      var band = document.createElement('div');
+      band.className = 'cta-band cta-band-compact';
+      band.setAttribute('data-site-cta', '');
+
+      var copy = document.createElement('div');
+      copy.innerHTML = '<div class="kicker">Get GLPzy</div><h2>Download GLPzy for iPhone and iPad.</h2><p></p>';
+
+      var actions = document.createElement('div');
+      var actionRow = document.createElement('div');
+      actionRow.className = 'site-cta-actions';
+      var link = document.createElement('a');
+      link.className = 'button button-primary';
+      link.setAttribute('data-app-store-link', '');
+      link.href = config.appStoreUrl;
+      link.textContent = 'View on the App Store';
+      actionRow.appendChild(link);
+      var note = document.createElement('div');
+      note.className = 'site-cta-note';
+      note.setAttribute('data-cta-note', '');
+      actions.appendChild(actionRow);
+      actions.appendChild(note);
+
+      band.appendChild(copy);
+      band.appendChild(actions);
+      shell.appendChild(band);
+      section.appendChild(shell);
+      footer.parentNode.insertBefore(section, footer);
+    });
+  }
+
   function bind(container) {
     var appStore = container.querySelector('[data-app-store-link]');
     var testFlight = container.querySelector('[data-testflight-link]');
@@ -108,6 +160,7 @@
   }
 
   ensureHeaderBadge();
+  ensureBottomBand();
   ensureFooterBadge();
   document.querySelectorAll('[data-site-cta]').forEach(bind);
 }());
