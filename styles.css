@@ -41,6 +41,13 @@ body {
     linear-gradient(180deg, #f3f6f4 0%, #fbfcfb 100%);
 }
 
+#features,
+#screens,
+#premium,
+#faq {
+  scroll-margin-top: 116px;
+}
+
 a {
   color: var(--accent);
   text-decoration: none;
@@ -196,6 +203,59 @@ div.brand .brand-mark {
 
 body.marketing-page .hero {
   padding: 24px 0 44px;
+}
+
+body:not(.marketing-page) .site-header {
+  padding-top: 112px;
+}
+
+body:not(.marketing-page) .hero {
+  padding: 30px 0 44px;
+}
+
+body:not(.marketing-page) .hero-grid,
+body:not(.marketing-page) .marketing-hero-grid {
+  display: grid;
+  grid-template-columns: minmax(360px, 1fr) minmax(280px, 0.82fr);
+  gap: 32px;
+  align-items: center;
+}
+
+body:not(.marketing-page) .hero-copy {
+  max-width: 760px;
+}
+
+body:not(.marketing-page) .hero-copy h1 {
+  margin: 0 0 14px;
+  font-size: clamp(2.35rem, 3.8vw, 3.35rem);
+  line-height: 0.98;
+  letter-spacing: -0.04em;
+  max-width: 15ch;
+}
+
+body:not(.marketing-page) .hero-copy p {
+  margin: 0 0 20px;
+  color: rgba(239, 248, 246, 0.86);
+  font-size: 1rem;
+  max-width: 60ch;
+}
+
+body:not(.marketing-page) .screen-panel-hero {
+  max-width: 430px;
+  margin-inline: auto;
+  transform: translateY(4px);
+  box-shadow: 0 28px 64px rgba(6, 22, 28, 0.18);
+}
+
+body:not(.marketing-page) .screen-panel-hero img {
+  width: min(100%, 330px);
+  margin: 22px auto 24px;
+  aspect-ratio: auto;
+  object-fit: contain;
+  border-radius: 34px;
+  border: 10px solid #ffffff;
+  background: #ffffff;
+  box-shadow: 0 22px 44px rgba(12, 44, 50, 0.14);
 }
 
 body.marketing-page .hero-grid,
@@ -813,6 +873,20 @@ section + section {
 }
 
 @media (max-width: 980px) {
+  body:not(.marketing-page) .hero-grid,
+  body:not(.marketing-page) .marketing-hero-grid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  body:not(.marketing-page) .hero-copy {
+    max-width: none;
+  }
+
+  body:not(.marketing-page) .hero {
+    padding: 22px 0 38px;
+  }
+
   .topbar {
     flex-wrap: wrap;
     border-radius: 24px;
@@ -919,6 +993,10 @@ section + section {
     padding-top: 122px;
   }
 
+  body:not(.marketing-page) .site-header {
+    padding-top: 132px;
+  }
+
   .header-store-cta {
     display: none;
   }
@@ -927,12 +1005,23 @@ section + section {
     padding: 8px 0 24px;
   }
 
+  body:not(.marketing-page) .hero {
+    padding: 12px 0 28px;
+  }
+
   .page-wrap {
     padding: 34px 0 48px;
   }
 
   .section-strip {
     padding: 28px 0;
+  }
+
+  #features,
+  #screens,
+  #premium,
+  #faq {
+    scroll-margin-top: 134px;
   }
 
   .section-head {
@@ -999,10 +1088,22 @@ section + section {
     margin-bottom: 8px;
   }
 
+  body:not(.marketing-page) .hero-copy h1 {
+    font-size: clamp(2rem, 7.6vw, 2.55rem);
+    max-width: none;
+    margin-bottom: 10px;
+  }
+
   body.marketing-page .hero-copy p {
     font-size: 0.9rem;
     max-width: none;
     margin-bottom: 12px;
+  }
+
+  body:not(.marketing-page) .hero-copy p {
+    font-size: 0.94rem;
+    max-width: none;
+    margin-bottom: 16px;
   }
 
   .marketing-badges .badge {
@@ -1046,6 +1147,18 @@ section + section {
   body.marketing-page .screen-panel-hero {
     max-width: 100%;
     transform: rotate(-0.8deg) translateY(4px);
+  }
+
+  body:not(.marketing-page) .screen-panel-hero {
+    max-width: 360px;
+    transform: none;
+  }
+
+  body:not(.marketing-page) .screen-panel-hero img {
+    width: min(100%, 280px);
+    margin: 18px auto 20px;
+    border-width: 8px;
+    border-radius: 28px;
   }
 
   .screen-copy {
@@ -1184,6 +1297,10 @@ section + section {
     padding-top: 116px;
   }
 
+  body:not(.marketing-page) .site-header {
+    padding-top: 126px;
+  }
+
   .topbar {
     width: min(calc(100% - 12px), var(--header-bar-width));
     padding: 8px 8px 7px;
@@ -1195,6 +1312,10 @@ section + section {
 
   body.marketing-page .hero-copy h1 {
     font-size: clamp(1.68rem, 7.8vw, 2.05rem);
+  }
+
+  body:not(.marketing-page) .hero-copy h1 {
+    font-size: clamp(1.7rem, 8.2vw, 2.1rem);
   }
 
   .brand-mark-pill {
