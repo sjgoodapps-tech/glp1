@@ -93,7 +93,35 @@
 
   function ensureMobileBadge(){
     if(!isLiveUrl(config.appStoreUrl) || document.querySelector('.mobile-store-cta')) return;
-    document.body.appendChild(buildBadge(config.appStoreUrl, 'mobile-store-cta', headerBadgeSrc));
+    bindMobileBadgeVisibility(document.body.appendChild(buildBadge(config.appStoreUrl, 'mobile-store-cta', headerBadgeSrc)));
+  }
+
+  function bindMobileBadgeVisibility(anchor){
+    var footer = document.querySelector('.footer-card');
+    if(!anchor || !footer) return;
+
+    function setSuppressed(value){
+      document.body.classList.toggle('mobile-cta-suppressed', value);
+    }
+
+    function update(){
+      var rect = footer.getBoundingClientRect();
+      setSuppressed(rect.top < window.innerHeight && rect.bottom > 0);
+    }
+
+    if('IntersectionObserver' in window){
+      var observer = new IntersectionObserver(function(entries){
+        setSuppressed(entries.some(function(entry){
+          return entry.isIntersecting;
+        }));
+      }, { threshold: 0.08 });
+
+      observer.observe(footer);
+    }
+
+    window.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
   }
 
   function bind(container){

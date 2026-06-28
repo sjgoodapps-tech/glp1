@@ -700,6 +700,45 @@ body.marketing-page .screen-panel-hero > * {
   box-shadow: var(--shadow);
 }
 
+.mobile-comparison-cards {
+  display: none;
+}
+
+.comparison-card {
+  padding: 18px;
+  border-radius: 20px;
+  border: 1px solid rgba(184, 199, 193, 0.6);
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.comparison-card h3 {
+  margin: 0 0 12px;
+  font-size: 1.18rem;
+  line-height: 1.16;
+}
+
+.comparison-card-row {
+  display: grid;
+  gap: 6px;
+  padding-top: 12px;
+  margin-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.comparison-card-label {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 850;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+.comparison-card-row p {
+  margin: 0;
+  color: var(--muted);
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -962,36 +1001,46 @@ section + section {
   }
 
   .topbar {
-    top: 10px;
+    top: 8px;
     width: min(calc(100% - 16px), var(--header-bar-width));
-    padding: 8px 10px 7px;
-    border-radius: 18px;
-    gap: 8px;
-    align-items: flex-start;
+    min-height: 58px;
+    padding: 7px 10px;
+    border-radius: 999px;
+    gap: 10px;
+    align-items: center;
   }
 
   body.marketing-page .site-header {
-    padding-top: 122px;
+    padding-top: 82px;
   }
 
   body:not(.marketing-page) .site-header {
-    padding-top: 132px;
+    padding-top: 90px;
   }
 
   .header-store-cta {
     display: none;
   }
 
+  .topnav {
+    display: none;
+  }
+
+  .language-toggle {
+    padding: 0.5rem 0.74rem;
+    font-size: 0.91rem;
+  }
+
   .mobile-store-cta {
     position: fixed;
-    left: 14px;
-    right: 14px;
-    bottom: 14px;
+    left: clamp(36px, 12vw, 76px);
+    right: clamp(36px, 12vw, 76px);
+    bottom: max(10px, env(safe-area-inset-bottom));
     z-index: 950;
     display: flex;
     justify-content: center;
     width: auto;
-    padding: 8px 12px;
+    padding: 6px 10px;
     border-radius: 999px;
     background: rgba(13, 29, 34, 0.9);
     box-shadow: 0 18px 42px rgba(7, 20, 25, 0.26);
@@ -1000,10 +1049,11 @@ section + section {
   }
 
   .mobile-store-cta img {
-    width: 152px;
+    width: 132px;
   }
 
-  body:has([data-language-panel]:not([hidden])) .mobile-store-cta {
+  body:has([data-language-panel]:not([hidden])) .mobile-store-cta,
+  body.mobile-cta-suppressed .mobile-store-cta {
     display: none;
   }
 
@@ -1027,7 +1077,7 @@ section + section {
   #screens,
   #premium,
   #faq {
-    scroll-margin-top: 134px;
+    scroll-margin-top: 88px;
   }
 
   .section-head {
@@ -1053,6 +1103,20 @@ section + section {
     border-radius: 20px;
   }
 
+  .feature-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .feature-card,
+  .feature-card * {
+    min-width: 0;
+  }
+
+  .feature-card-large {
+    grid-column: auto;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .button {
     width: 100%;
     min-height: 44px;
@@ -1068,20 +1132,6 @@ section + section {
   .brand-lockup {
     width: 126px;
     max-width: 100%;
-  }
-
-  .topnav {
-    gap: 8px;
-    margin-top: 0;
-    padding-inline: 1px;
-  }
-
-  .topnav a {
-    font-size: 0.84rem;
-  }
-
-  .topnav .nav-quiet {
-    display: none;
   }
 
   body.marketing-page .hero-copy h1 {
@@ -1207,6 +1257,15 @@ section + section {
     padding: 12px 14px;
   }
 
+  .desktop-comparison {
+    display: none;
+  }
+
+  .mobile-comparison-cards {
+    display: grid;
+    gap: 14px;
+  }
+
   .footer-card {
     padding: 18px;
   }
@@ -1296,20 +1355,16 @@ section + section {
 
 @media (max-width: 420px) {
   body.marketing-page .site-header {
-    padding-top: 116px;
+    padding-top: 76px;
   }
 
   body:not(.marketing-page) .site-header {
-    padding-top: 126px;
+    padding-top: 84px;
   }
 
   .topbar {
-    width: min(calc(100% - 12px), var(--header-bar-width));
-    padding: 8px 8px 7px;
-  }
-
-  .topnav a {
-    font-size: 0.81rem;
+    width: min(calc(100% - 16px), var(--header-bar-width));
+    padding: 6px 8px;
   }
 
   body.marketing-page .hero-copy h1 {
@@ -1340,7 +1395,7 @@ section + section {
 
 @media (max-width: 720px) {
   body {
-    padding-bottom: 86px;
+    padding-bottom: 98px;
   }
 
   .language-picker {
@@ -1349,11 +1404,11 @@ section + section {
 
   .language-panel {
     position: fixed;
-    top: 112px;
+    top: 76px;
     left: 12px;
     right: 12px;
     width: auto;
-    max-height: calc(100vh - 132px);
+    max-height: calc(100vh - 96px);
     z-index: 1101;
   }
 }
