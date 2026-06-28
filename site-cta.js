@@ -91,6 +91,11 @@
     });
   }
 
+  function ensureMobileBadge(){
+    if(!isLiveUrl(config.appStoreUrl) || document.querySelector('.mobile-store-cta')) return;
+    document.body.appendChild(buildBadge(config.appStoreUrl, 'mobile-store-cta', headerBadgeSrc));
+  }
+
   function bind(container){
     var appStoreAnchor = container.querySelector('[data-app-store-link]');
     var testFlightAnchor = container.querySelector('[data-testflight-link]');
@@ -122,6 +127,7 @@
     hydrateAllBadges();
     ensureHeaderBadge();
     ensureFooterBadge();
+    ensureMobileBadge();
     document.querySelectorAll('[data-site-cta]').forEach(bind);
   }
 
