@@ -66,13 +66,33 @@
 
   var locale = localeFromPath(window.location.pathname);
   var storefront = storefronts[locale];
+  var appStoreBaseUrl = "https://apps.apple.com/" + storefront.country + "/app/glpzy-glp-1-tracker/id6761775005";
+
+  function campaignUrl(token){
+    if(!token) return appStoreBaseUrl;
+
+    return appStoreBaseUrl + "?ct=" + encodeURIComponent(token);
+  }
 
   window.GLPZY_SITE_CONFIG = {
     siteUrl: "https://www.glpzy.app",
-    appStoreUrl: "https://apps.apple.com/" + storefront.country + "/app/glpzy-glp-1-tracker/id6761775005",
+    appStoreUrl: appStoreBaseUrl,
+    appStoreCampaigns: {
+      siteDefault: campaignUrl("founding_site_default"),
+      homepageTopBanner: campaignUrl("founding_home_top_banner"),
+      homepageHero: campaignUrl("founding_home_hero"),
+      mobileSticky: campaignUrl("founding_mobile_sticky"),
+      freeLifetime: campaignUrl("founding_free_lifetime")
+    },
     appStoreCountry: storefront.country,
     appStoreCurrency: storefront.currency,
     locale: locale,
+    foundingOffer: {
+      expiresAt: "2026-09-01T00:00:00",
+      bannerDismissStorageKey: "glpzy-founding-offer-dismissed-until",
+      bannerDismissSessionKey: "glpzy-founding-offer-dismissed-session",
+      stickyDismissSessionKey: "glpzy-founding-offer-sticky-dismissed-session"
+    },
     testFlightUrl: ""
   };
 })();
