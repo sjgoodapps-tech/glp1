@@ -101,6 +101,10 @@ img {
   overflow: visible;
 }
 
+body.marketing-page .marketing-header > .shell {
+  width: min(calc(100% - 56px), 1360px);
+}
+
 .topbar {
   display: flex;
   justify-content: space-between;
@@ -324,23 +328,24 @@ body:not(.marketing-page) .screen-panel-hero img {
 body.marketing-page .hero-grid,
 body.marketing-page .marketing-hero-grid {
   display: grid;
-  grid-template-columns: minmax(380px, 0.78fr) minmax(560px, 1.08fr);
+  grid-template-columns: minmax(430px, 0.72fr) minmax(620px, 1.18fr);
   grid-template-areas:
     "copy visual"
-    "support visual";
-  column-gap: 22px;
-  row-gap: 8px;
+    "support .";
+  column-gap: 52px;
+  row-gap: 10px;
   align-items: start;
 }
 
 body.marketing-page .hero-copy {
   grid-area: copy;
-  max-width: 500px;
+  max-width: 560px;
 }
 
 body.marketing-page .hero-visual {
   grid-area: visual;
-  align-self: start;
+  align-self: start !important;
+  padding-top: 4px;
 }
 
 .hero-support {
@@ -362,11 +367,11 @@ body.marketing-page .hero-visual {
 }
 
 body.marketing-page .hero-copy h1 {
-  margin: 0 0 10px;
-  font-size: clamp(2.35rem, 3.35vw, 3.25rem);
-  line-height: 0.96;
-  letter-spacing: -0.04em;
-  max-width: 9.6ch;
+  margin: 0 0 12px;
+  font-size: clamp(2.4rem, 2.95vw, 3.05rem);
+  line-height: 0.98;
+  letter-spacing: -0.025em;
+  max-width: 13.4ch;
 }
 
 body.marketing-page .hero-copy p {
@@ -377,18 +382,16 @@ body.marketing-page .hero-copy p {
 }
 
 .hero-copy .hero-offer-line {
-  display: inline-flex;
-  align-items: center;
-  width: fit-content;
+  display: block;
   max-width: 100%;
-  padding: 7px 12px;
-  border: 1px solid rgba(184, 255, 241, 0.36);
-  border-radius: 999px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
   color: #b8fff1;
-  background: rgba(184, 255, 241, 0.10);
-  box-shadow: 0 12px 30px rgba(7, 20, 25, 0.16);
+  background: transparent;
+  box-shadow: none;
   font-weight: 850;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
   line-height: 1.25;
 }
 
@@ -735,10 +738,10 @@ body.marketing-page .hero-copy .hero-detail-copy {
 
 body.marketing-page .screen-panel-hero {
   position: relative;
-  transform: rotate(-1.1deg) translateY(-24px);
+  transform: rotate(-0.8deg);
   transform-origin: center center;
   box-shadow: 0 42px 92px rgba(6, 22, 28, 0.24);
-  max-width: 820px;
+  max-width: 900px;
   margin-inline: auto;
 }
 
