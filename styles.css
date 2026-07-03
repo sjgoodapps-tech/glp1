@@ -377,9 +377,19 @@ body.marketing-page .hero-copy p {
 }
 
 body.marketing-page .hero-copy .hero-offer-line {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  max-width: 100%;
+  padding: 9px 13px;
+  border: 1px solid rgba(184, 255, 241, 0.36);
+  border-radius: 999px;
   color: #b8fff1;
+  background: rgba(184, 255, 241, 0.10);
+  box-shadow: 0 12px 30px rgba(7, 20, 25, 0.16);
   font-weight: 850;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
+  line-height: 1.25;
 }
 
 body.marketing-page .hero-copy .hero-detail-copy {
@@ -437,6 +447,10 @@ body.marketing-page .hero-copy .hero-detail-copy {
   color: #fff;
   background: linear-gradient(135deg, var(--accent), var(--accent-2));
   box-shadow: 0 14px 30px rgba(31, 120, 111, 0.28);
+}
+
+.button-primary:empty {
+  display: none;
 }
 
 .button-secondary {

@@ -137,8 +137,8 @@
     foundingOffer: {
       expiresAt: "2026-09-01T00:00:00",
       copy: foundingOfferCopy,
-      bannerDismissStorageKey: "glpzy-founding-offer-dismissed-until",
-      bannerDismissSessionKey: "glpzy-founding-offer-dismissed-session",
+      bannerDismissStorageKey: "glpzy-founding-offer-dismissed-until-v2",
+      bannerDismissSessionKey: "glpzy-founding-offer-dismissed-session-v2",
       stickyDismissSessionKey: "glpzy-founding-offer-sticky-dismissed-session"
     },
     productClaims: productClaims,
