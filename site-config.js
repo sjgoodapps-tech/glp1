@@ -76,8 +76,8 @@
 
   var productClaims = {
     heroH1: "Track GLP-1 doses, weight, symptoms, photos and Apple Health context privately.",
-    heroSupport: "Log doses, weight, symptoms, appetite, nutrition, photos and reminders in one private iPhone app. Optional Apple Health support can add read-only weight, glucose, body, sleep, movement and nutrition context.",
-    appleHealthScope: "Optional read-only Apple Health support can include weight history, height, glucose readings, body composition, sleep, movement, workouts, calories, protein, water, carbs, fat, fiber and sugar. GLPzy does not write data back to Apple Health.",
+    heroSupport: "Log doses, weight, symptoms, appetite, nutrition, photos and reminders in one private iPhone app. Optional Apple Health support can add read-only weight, glucose, body, movement and nutrition context.",
+    appleHealthScope: "Optional read-only Apple Health support can include weight history, height, glucose readings, body composition, movement, workouts, calories, protein, water, carbs, fat, fiber and sugar. GLPzy does not write data back to Apple Health.",
     freeSummary: "Free includes setup, daily logging, reminders, optional read-only Apple Health context, CSV and JSON export for core records, CSV import, charts, current and previous month calendar review, months needed for an active reorder reminder where applicable, historical Estimated Exposure context, photo comparison and the small Next Dose widget.",
     freeEdits: "Basic same-treatment edits stay free: dose, start date, and reminder time.",
     advancedEdits: "Advanced treatment changes, including switching country, medicine, route, presentation, cadence, or custom/compounded setup, may require Premium.",
@@ -135,7 +135,13 @@
       seoZepbound: campaignUrl("seo_zepbound_tracker"),
       seoTirzepatide: campaignUrl("seo_tirzepatide_tracker"),
       seoSemaglutide: campaignUrl("seo_semaglutide_tracker"),
-      seoGlp1Tracker: campaignUrl("seo_glp1_tracker")
+      seoGlp1Tracker: campaignUrl("seo_glp1_tracker"),
+      seoSideEffectTracker: campaignUrl("seo_side_effect_tracker"),
+      seoInjectionTracker: campaignUrl("seo_injection_tracker"),
+      seoPhotoTracker: campaignUrl("seo_photo_tracker"),
+      seoWeightTracker: campaignUrl("seo_weight_tracker"),
+      seoDoseReminder: campaignUrl("seo_dose_reminder"),
+      seoAppleHealthInjection: campaignUrl("seo_apple_health_injection")
     },
     appStoreCountry: storefront.country,
     appStoreCurrency: storefront.currency,
