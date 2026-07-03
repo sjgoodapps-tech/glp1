@@ -134,8 +134,27 @@
     return 'Download on the App Store';
   }
 
+  function valueAt(rootObject, path){
+    return String(path || '').split('.').reduce(function(value, part){
+      if(value == null || part === '') return value;
+      return value[part];
+    }, rootObject);
+  }
+
+  function applyConfiguredCopy(){
+    document.querySelectorAll('[data-offer-copy]').forEach(function(element){
+      var value = valueAt(offerConfig.copy || {}, element.getAttribute('data-offer-copy'));
+      if(typeof value === 'string') element.textContent = value;
+    });
+
+    document.querySelectorAll('[data-claim-copy]').forEach(function(element){
+      var value = valueAt(config.productClaims || {}, element.getAttribute('data-claim-copy'));
+      if(typeof value === 'string') element.textContent = value;
+    });
+  }
+
   function offerMessage(){
-    return offerMessages[config.locale] || offerMessages.en;
+    return offerMessages[config.locale] || valueAt(offerConfig.copy || {}, 'active.banner') || offerMessages.en;
   }
 
   function buildBadge(campaignKey, extraClass, badgeSrc){
@@ -239,7 +258,7 @@
     var cta = document.createElement('a');
     cta.className = 'founding-offer-banner-cta';
     cta.href = appStoreUrlFor('homepageTopBanner');
-    cta.textContent = 'Get GLPzy';
+    cta.textContent = valueAt(offerConfig.copy || {}, 'active.bannerCta') || 'Get GLPzy';
 
     var dismiss = document.createElement('button');
     dismiss.className = 'founding-offer-dismiss';
@@ -306,12 +325,12 @@
     sticky.setAttribute('aria-label', 'Lifetime Premium offer');
 
     var copy = document.createElement('p');
-    copy.textContent = 'Lifetime Premium free until 31 Aug';
+    copy.textContent = valueAt(offerConfig.copy || {}, 'active.sticky') || 'Lifetime Premium free until 31 Aug';
 
     var cta = document.createElement('a');
     cta.className = 'offer-sticky-button';
     cta.href = appStoreUrlFor('mobileSticky');
-    cta.textContent = 'Get the app';
+    cta.textContent = valueAt(offerConfig.copy || {}, 'active.stickyCta') || 'Get the app';
 
     var dismiss = document.createElement('button');
     dismiss.type = 'button';
@@ -385,11 +404,19 @@
   }
 
   function setOfferBodyState(){
-    document.body.classList.toggle('founding-offer-current', isOfferActive());
-    document.body.classList.toggle('founding-offer-expired', !isOfferActive());
+    var active = isOfferActive();
+    document.body.classList.toggle('founding-offer-current', active);
+    document.body.classList.toggle('founding-offer-expired', !active);
+    document.querySelectorAll('.offer-active-only').forEach(function(element){
+      element.hidden = !active;
+    });
+    document.querySelectorAll('.offer-expired-only').forEach(function(element){
+      element.hidden = active;
+    });
   }
 
   function init(){
+    applyConfiguredCopy();
     setOfferBodyState();
     hydrateAllBadges();
     ensureHeaderBadge();
@@ -397,6 +424,7 @@
     ensureOfferBanner();
     ensureMobileBadge();
     document.querySelectorAll('[data-site-cta]').forEach(bind);
+    setOfferBodyState();
   }
 
   if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);

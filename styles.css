@@ -46,6 +46,10 @@ body.founding-offer-banner-visible {
   padding-top: var(--offer-banner-height);
 }
 
+body:not(.founding-offer-current) .offer-active-only {
+  display: none !important;
+}
+
 body:not(.founding-offer-expired) .offer-expired-only {
   display: none !important;
 }
