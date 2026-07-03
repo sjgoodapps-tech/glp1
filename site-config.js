@@ -129,7 +129,13 @@
       homepageTopBanner: campaignUrl("founding_home_top_banner"),
       homepageHero: campaignUrl("founding_home_hero"),
       mobileSticky: campaignUrl("founding_mobile_sticky"),
-      freeLifetime: campaignUrl("founding_free_lifetime")
+      freeLifetime: campaignUrl("founding_free_lifetime"),
+      seoMounjaro: campaignUrl("seo_mounjaro_tracker"),
+      seoWegovy: campaignUrl("seo_wegovy_tracker"),
+      seoZepbound: campaignUrl("seo_zepbound_tracker"),
+      seoTirzepatide: campaignUrl("seo_tirzepatide_tracker"),
+      seoSemaglutide: campaignUrl("seo_semaglutide_tracker"),
+      seoGlp1Tracker: campaignUrl("seo_glp1_tracker")
     },
     appStoreCountry: storefront.country,
     appStoreCurrency: storefront.currency,

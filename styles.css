@@ -376,7 +376,7 @@ body.marketing-page .hero-copy p {
   max-width: 34ch;
 }
 
-body.marketing-page .hero-copy .hero-offer-line {
+.hero-copy .hero-offer-line {
   display: inline-flex;
   align-items: center;
   width: fit-content;
