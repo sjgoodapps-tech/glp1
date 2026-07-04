@@ -141,9 +141,16 @@
     }, rootObject);
   }
 
+  function offerCopyPath(path){
+    if(isOfferActive() || typeof path !== 'string' || path.indexOf('active.') !== 0) return path;
+    return path.replace(/^active\./, 'expired.');
+  }
+
   function applyConfiguredCopy(){
     document.querySelectorAll('[data-offer-copy]').forEach(function(element){
-      var value = valueAt(offerConfig.copy || {}, element.getAttribute('data-offer-copy'));
+      var path = element.getAttribute('data-offer-copy');
+      var value = valueAt(offerConfig.copy || {}, offerCopyPath(path));
+      if(typeof value !== 'string') value = valueAt(offerConfig.copy || {}, path);
       if(typeof value === 'string') element.textContent = value;
     });
 
