@@ -6,6 +6,22 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 
 P0_PATTERNS = {
+    "ambiguous English source string": [
+        "Fast logging without clutter",
+        "Route and cadence",
+        "Route and Cadence",
+        "Choose the packaging that matches what you use",
+        "Provider Summary",
+        "Provider summary",
+        "Create a calm provider summary PDF",
+        "one calmer place",
+        "Export-ready records",
+        "Export-ready records: CSV, JSON and PDF",
+        "Custom / Compounded",
+        "No account required to track",
+        "No account is required to track",
+        "track doses, weight, symptoms, reminders or orders",
+    ],
     "bad logging translation": [
         "mežizstrāde",
         "ťažba dreva",
@@ -13,6 +29,7 @@ P0_PATTERNS = {
         "metsaraie",
         "เข้าสู่ระบบอย่างรวดเร็ว",
         "Đăng nhập nhanh chóng",
+        "द्रुत लॉगिंग",
     ],
     "wrong route/cadence translation": [
         "Maršruts un kadence",
@@ -31,10 +48,29 @@ P0_PATTERNS = {
         "المسار والإيقاع",
         "Маршрут и частота вращения педалей",
         "Rute dan irama",
+        "मार्ग आणि ताल",
+        "Pot in kadenca",
+        "Rota e cadência",
+        "Percorso e cadenza",
+        "Trasa i rytm",
+    ],
+    "wrong medicine form/packaging wording": [
+        "Choose the packaging",
+        "packaging that matches",
+        "पॅकेजिंग",
+        "embalagem que corresponda",
+        "confezione",
+        "opakowanie",
+        "embalažo",
+        "Presentation fit",
+        ">Presentation<",
+        ">Presentations<",
     ],
     "wrong clinician/provider wording": [
         "provider-style PDF",
         "Provider-style PDF",
+        "provider-style exports",
+        "Provider-style exports",
         "提供商摘要",
         "提供者摘要",
         "プロバイダーの概要",
@@ -45,10 +81,26 @@ P0_PATTERNS = {
         "Anbieterübersicht",
         "Résumé du fournisseur",
         "ملخص الموفر",
+        "प्रदाता सारांश",
+        "Palveluntarjoajan yhteenveto",
+        "Ringkasan Pembekal",
+        "Povzetek ponudnika",
+    ],
+    "wrong calm/quiet place wording": [
+        "one calm place",
+        "one calmer place",
+        "quiet place",
+        "शांत ठिकाणी",
+        "rauhallisessa paikassa",
+        "mirnem mestu",
+        "tempat yang tenang",
     ],
     "bad PDF/export wording": [
         "PDF, PDF",
         "PDF-, PDF-",
+        "calm provider summary PDF",
+        "provider summary PDF",
+        "सारांश PDF",
     ],
     "mixed English commercial copy": [
         "Current mes",
@@ -67,6 +119,11 @@ P0_PATTERNS = {
         "custom/compounded setup",
     ],
     "wrong order/reorder wording": [
+        "orders",
+        "ordini",
+        "ordrer",
+        "tilausten",
+        "pesanan",
         "คำสั่งซื้อ",
         "订单",
         "訂單",
@@ -74,12 +131,48 @@ P0_PATTERNS = {
         "الطلبات",
     ],
     "wrong sleep claim": [
+        "sleep, ",
         "sleep, movement",
         "sleep tracking",
+        "søvn",
+        "tidur",
+        "sonno",
+        "sommeil",
+        "Schlaf",
+        "slaap",
+        "sömn",
+        "睡眠",
+        "수면",
     ],
     "mixed non-localized app-store pricing": [
         "See App Store pricing\u200b",
     ],
+}
+
+SCOPED_P0_PATTERNS = {
+    "pt-pt/": {
+        "PT-PT Brazilian-style wording": [
+            "você",
+            "Você",
+            "Seus registos",
+            "Contate",
+            "Gerencie",
+            "Gerenciar",
+            "configurações de App Store",
+            "somente leitura",
+            "tela inicial",
+            "rastreamento",
+            "compartilhar",
+            "solicitação",
+            "escopo",
+            "assinatura",
+        ],
+    },
+    "nl/": {
+        "Dutch support label": [
+            ">Steun<",
+        ],
+    },
 }
 
 SAFETY_REQUIRED = re.compile(
@@ -98,6 +191,13 @@ def scan_html():
             for pattern in patterns:
                 if pattern in text:
                     failures.append((rel, label, pattern))
+        for prefix, scoped_patterns in SCOPED_P0_PATTERNS.items():
+            if not rel.startswith(prefix):
+                continue
+            for label, patterns in scoped_patterns.items():
+                for pattern in patterns:
+                    if pattern in text:
+                        failures.append((rel, label, pattern))
         if "medical-safety" in rel or rel.endswith("methodology.html"):
             if "Estimated Exposure" in text and not SAFETY_REQUIRED.search(text):
                 failures.append((rel, "Estimated Exposure safety wording", "missing measured blood concentration warning"))
