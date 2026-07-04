@@ -882,6 +882,21 @@ table {
   min-width: 640px;
 }
 
+.seo-facts-table {
+  min-width: 0;
+  table-layout: fixed;
+  margin-top: 22px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--surface-strong);
+  box-shadow: var(--shadow);
+}
+
+.seo-facts-table th {
+  width: 32%;
+}
+
 th,
 td {
   padding: 16px 18px;
@@ -1149,21 +1164,21 @@ section + section {
 
   .founding-offer-banner-inner {
     width: min(calc(100% - 20px), var(--max));
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 8px;
-    padding: 8px 0;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    gap: 6px;
+    padding: 6px 0;
   }
 
   .founding-offer-banner-text {
-    grid-column: 1 / -1;
-    font-size: 0.84rem;
+    font-size: 0.76rem;
+    line-height: 1.22;
   }
 
   .founding-offer-banner-cta,
   .founding-offer-dismiss {
-    min-height: 34px;
-    padding-inline: 12px;
-    font-size: 0.82rem;
+    min-height: 32px;
+    padding-inline: 10px;
+    font-size: 0.78rem;
   }
 
   body.marketing-page .site-header {
@@ -1235,6 +1250,10 @@ section + section {
     -webkit-backdrop-filter: blur(16px);
   }
 
+  body:has(.offer-sticky-cta:not([hidden])) main {
+    padding-bottom: 106px;
+  }
+
   .offer-sticky-cta p {
     margin: 0;
     font-size: 0.82rem;
@@ -1247,6 +1266,39 @@ section + section {
     min-height: 36px;
     padding-inline: 10px;
     font-size: 0.8rem;
+  }
+
+  .seo-facts-table,
+  .seo-facts-table tbody,
+  .seo-facts-table tr,
+  .seo-facts-table th,
+  .seo-facts-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .seo-facts-table tr {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .seo-facts-table tr:last-child {
+    border-bottom: 0;
+  }
+
+  .seo-facts-table th,
+  .seo-facts-table td {
+    border-bottom: 0;
+    padding: 10px 14px;
+  }
+
+  .seo-facts-table th {
+    padding-bottom: 2px;
+    background: transparent;
+  }
+
+  .seo-facts-table td {
+    padding-top: 2px;
+    overflow-wrap: anywhere;
   }
 
   body.marketing-page .hero {
@@ -1557,6 +1609,23 @@ section + section {
   .topbar {
     width: min(calc(100% - 16px), var(--header-bar-width));
     padding: 6px 8px;
+  }
+
+  .founding-offer-banner-inner {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 5px;
+  }
+
+  .founding-offer-banner-text {
+    grid-column: 1 / -1;
+    font-size: 0.76rem;
+  }
+
+  .founding-offer-banner-cta,
+  .founding-offer-dismiss {
+    min-height: 32px;
+    padding-inline: 10px;
+    font-size: 0.76rem;
   }
 
   body.marketing-page .hero-copy h1 {
