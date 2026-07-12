@@ -134,9 +134,24 @@ def root_equivalent(rel_path):
     return candidate if (ROOT / candidate).exists() else None
 
 
+ROBOTS_META_RE = re.compile(
+    r'(?P<indent>^[ \t]*)?<meta\b(?=[^>]*\bname\s*=\s*["\']robots["\'])'
+    r'(?=[^>]*\bcontent\s*=\s*["\'][^"\']*["\'])[^>]*>(?:[ \t]*\n|(?=<)|$)',
+    re.I | re.M,
+)
+
+
 def set_robots(text, content):
-    if re.search(r'<meta name="robots" content="[^"]*">', text, re.I):
-        return re.sub(r'<meta name="robots" content="[^"]*">', f'<meta name="robots" content="{content}">', text, count=1, flags=re.I)
+    matches = list(ROBOTS_META_RE.finditer(text))
+    if matches:
+        # Keep the first tag's position, but remove every duplicate regardless
+        # of attribute order or self-closing syntax.
+        first = matches[0]
+        first_start = matches[0].start()
+        cleaned = ROBOTS_META_RE.sub("", text)
+        indent = first.group("indent") or ""
+        replacement = f'{indent}<meta name="robots" content="{content}">\n'
+        return cleaned[:first_start] + replacement + cleaned[first_start:]
     return text.replace("</head>", f'  <meta name="robots" content="{content}">\n</head>', 1)
 
 

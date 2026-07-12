@@ -1,6 +1,6 @@
 # Localisation Index Gate Report
 
-Generated: 2026-07-12T22:47:58+00:00
+Generated: 2026-07-12T23:17:33+00:00
 
 Indexable sitemap URLs: 224
 Noindexed pages: 1080

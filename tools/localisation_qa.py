@@ -226,6 +226,32 @@ def is_noindex(text):
     return bool(re.search(r'<meta name="robots" content="[^\"]*noindex', text, re.I))
 
 
+def robots_values(text):
+    values = []
+    tag_pattern = re.compile(
+        r'<meta\b(?=[^>]*\bname\s*=\s*["\']robots["\'])'
+        r'(?=[^>]*\bcontent\s*=\s*["\'][^"\']*["\'])[^>]*>',
+        re.I,
+    )
+    for tag in tag_pattern.findall(text):
+        match = re.search(r'\bcontent\s*=\s*["\']([^"\']*)["\']', tag, re.I)
+        if match:
+            values.append(match.group(1).strip().lower())
+    return values
+
+
+def check_robots_meta():
+    failures = []
+    for path in sorted(ROOT.rglob("*.html")):
+        if ".git" in path.parts:
+            continue
+        rel = path.relative_to(ROOT).as_posix()
+        values = robots_values(path.read_text(encoding="utf-8"))
+        if len(values) != 1:
+            failures.append((rel, "robots meta count", str(len(values))))
+    return failures
+
+
 def visible_text(text):
     text = re.sub(r"<script\b.*?</script>|<style\b.*?</style>|<noscript\b.*?</noscript>", " ", text, flags=re.S | re.I)
     text = re.sub(r"<[^>]+>", " ", text)
@@ -369,7 +395,7 @@ def main():
     parser.add_argument("--all", action="store_true", help="scan gated pages as well as indexable pages")
     parser.add_argument("--live", action="store_true", help="scan live locale homepages and priority pages")
     args = parser.parse_args()
-    failures = scan_html(include_noindex=args.all) + check_offer_static_html() + check_dynamic_locale_copy()
+    failures = check_robots_meta() + scan_html(include_noindex=args.all) + check_offer_static_html() + check_dynamic_locale_copy()
     if not args.all:
         failures += check_index_gate()
     if args.live:
