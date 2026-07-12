@@ -18,6 +18,10 @@ LOCALE_DIRS = {
     "th", "tr", "uk", "ur", "vi", "zh-hans", "zh-hant",
 }
 
+FORCED_NOINDEX_LOCALES = {
+    "ar", "zh-hans", "zh-hant", "es-es", "de", "fr", "ja", "ko", "hi", "it", "nl",
+}
+
 APPROVED_ENGLISH_TOKENS = {
     "GLPzy", "Apple Health", "App Store", "CSV", "JSON", "PDF", "iPhone", "iPad",
     "Apple Watch", "Mounjaro", "Wegovy", "Ozempic", "Zepbound", "Victoza",
@@ -216,6 +220,9 @@ def noindex_and_canonicalise():
                 reasons.append("English duplicate without root equivalent")
         failures = detect_failures(rp, html)
         reasons.extend(failures)
+        locale = locale_for(rp)
+        if locale in FORCED_NOINDEX_LOCALES:
+            reasons.append("locale held noindex pending native-language review")
         if reasons:
             html = set_robots(html, "noindex,follow")
         else:

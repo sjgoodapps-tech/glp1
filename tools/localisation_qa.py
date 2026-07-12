@@ -24,6 +24,9 @@ P0_PATTERNS = {
         "Custom / Compounded",
         "No account required to track",
         "No account is required to track",
+        "No in-app account is required to record doses, weight, symptoms or reminders",
+        "Apple Health access is optional and limited to the permissions you grant",
+        "Keep dose, weight, symptoms, appetite and photos together in one place",
         "track doses, weight, symptoms, reminders or orders",
     ],
     "bad logging translation": [
@@ -192,6 +195,13 @@ SCOPED_P0_PATTERNS = {
     },
 }
 
+LOCALE_SAFETY_REQUIRED = {
+    "ar/": ("تركيز الدم", "قرارات الجرعات", "نصيحة طبية"),
+    "ja/": ("血中濃度", "投与判断", "医療上の助言"),
+    "hi/": ("रक्त सांद्रता", "खुराक", "चिकित्सीय सलाह"),
+    "it/": ("concentrazione ematica", "dosaggio", "consiglio medico"),
+}
+
 SAFETY_REQUIRED = re.compile(
     r"Estimated Exposure is a personal tracking estimate, not measured blood concentration"
 )
@@ -243,6 +253,12 @@ def scan_one(rel, text, include_noindex=False):
     if "medical-safety" in rel or rel.endswith("methodology.html"):
         if "Estimated Exposure" in text and not SAFETY_REQUIRED.search(text):
             failures.append((rel, "Estimated Exposure safety wording", "missing measured blood concentration warning"))
+        for prefix, required_phrases in LOCALE_SAFETY_REQUIRED.items():
+            if not rel.startswith(prefix):
+                continue
+            for phrase in required_phrases:
+                if phrase not in haystack:
+                    failures.append((rel, "translated Estimated Exposure safety wording", phrase))
     return failures
 
 
