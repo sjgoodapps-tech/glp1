@@ -1,6 +1,6 @@
 (function(){
   var config = window.GLPZY_SITE_CONFIG || {};
-  var script = document.currentScript || document.querySelector('script[src$="site-cta.js"]');
+  var script = document.currentScript || document.querySelector('script[src*="site-cta.js"]');
   var root = script ? new URL('.', script.src) : new URL('./', window.location.href);
   var offerConfig = config.foundingOffer || {};
   var dayMs = 24 * 60 * 60 * 1000;
@@ -188,6 +188,13 @@
     return message.split(/[.!؟。]/)[0] || 'Lifetime Premium';
   }
 
+  function localizedStickyButtonLabel(){
+    var fallback = valueAt(offerConfig.copy || {}, 'active.stickyCta') || 'Get the app';
+    if(config.locale === 'en' || config.locale === 'en-gb') return fallback;
+    var label = localizedStoreLabel('App Store');
+    return label.length > 14 ? 'App Store' : label;
+  }
+
   function buildBadge(campaignKey, extraClass, badgeSrc){
     var anchor = document.createElement('a');
     anchor.href = appStoreUrlFor(campaignKey);
@@ -361,7 +368,7 @@
     var cta = document.createElement('a');
     cta.className = 'offer-sticky-button';
     cta.href = appStoreUrlFor('mobileSticky');
-    cta.textContent = localizedStoreLabel(valueAt(offerConfig.copy || {}, 'active.stickyCta') || 'Get the app');
+    cta.textContent = localizedStickyButtonLabel();
 
     var dismiss = document.createElement('button');
     dismiss.type = 'button';
@@ -391,6 +398,7 @@
         var heroRect = hero.getBoundingClientRect();
         heroVisible = heroRect.bottom > 0 && heroRect.top < window.innerHeight;
       }
+      document.body.classList.toggle('mobile-cta-hero-visible', heroVisible);
       var shouldHide = isDismissed() || heroVisible || !(timeEligible || scrollEligible);
       if(shouldHide){
         sticky.hidden = true;

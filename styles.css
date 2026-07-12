@@ -1231,7 +1231,9 @@ section + section {
   body:has([data-language-panel]:not([hidden])) .mobile-store-cta,
   body:has([data-language-panel]:not([hidden])) .offer-sticky-cta,
   body.mobile-cta-suppressed .mobile-store-cta,
-  body.mobile-cta-suppressed .offer-sticky-cta {
+  body.mobile-cta-suppressed .offer-sticky-cta,
+  body.mobile-cta-hero-visible .mobile-store-cta,
+  body.mobile-cta-hero-visible .offer-sticky-cta {
     display: none;
   }
 
@@ -1262,6 +1264,8 @@ section + section {
   .offer-sticky-cta p {
     margin: 0;
     min-width: 0;
+    min-height: 2.2em;
+    max-height: 2.2em;
     font-size: 0.82rem;
     font-weight: 850;
     line-height: 1.18;
@@ -1276,6 +1280,7 @@ section + section {
     min-height: 36px;
     padding-inline: 10px;
     font-size: 0.8rem;
+    white-space: nowrap;
   }
 
   .seo-facts-table,
