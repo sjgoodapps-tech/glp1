@@ -1,0 +1,34 @@
+{
+  "app_name": "GLPzy",
+  "site_url": "https://www.glpzy.app",
+  "app_store_url": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
+  "platform": "iPhone and iPad",
+  "category": "Private GLP-1 tracking app",
+  "supported_tracking_types": [
+    "doses",
+    "dose reminders",
+    "injection sites",
+    "weight",
+    "symptoms",
+    "appetite",
+    "nutrition",
+    "notes",
+    "progress photos",
+    "optional read-only Apple Health context"
+  ],
+  "no_account_claim": "No mandatory in-app account is required for core tracking.",
+  "privacy_posture": "Local-first. Records stay on the device unless the user exports, shares or restores a local backup.",
+  "apple_health_scope": "Apple Health support is optional and read-only. With permission, GLPzy can read weight, height, glucose, body composition, movement, workouts and nutrition context. GLPzy does not write data back to Apple Health.",
+  "export_formats": "CSV and JSON for core records. Premium adds deeper summaries and clinician-ready PDF summaries.",
+  "premium_summary": "Premium adds broader calendar review, projected Estimated Exposure scenarios, advanced summaries, clinician-ready PDF summaries, deeper export and reporting tools, injection-site rotation review, maintenance tools, larger widgets, Apple Watch support and longer-range planning controls.",
+  "medical_boundary": "Personal tracking only. GLPzy is not medical advice, not a dosing guide, not a medical device and not a substitute for a qualified clinician.",
+  "estimated_exposure_boundary": "Estimated Exposure is a personal tracking estimate, not measured blood concentration and not medical advice. Do not use Estimated Exposure to guide dosing.",
+  "support_email": "sjgoodapps@gmail.com",
+  "trust_page_urls": {
+    "privacy": "privacy.html",
+    "support": "support.html",
+    "data_rights": "data-rights.html",
+    "medical_safety": "medical-safety.html",
+    "methodology": "methodology.html"
+  }
+}

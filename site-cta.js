@@ -12,6 +12,7 @@
 
   var offerMessages = {
     "ar": "عرض للمستخدمين الأوائل: احصل على Lifetime Premium مجانًا حتى 31 أغسطس. فعّل مرة واحدة واحتفظ بـ Premium للأبد. بلا اشتراك أو تجديد.",
+    "bg": "Оферта за първи потребители: Вземете Lifetime Premium безплатно до 31 август. Отключете веднъж и запазете Premium завинаги. Без абонамент или подновяване.",
     "bn": "প্রাথমিক ব্যবহারকারীদের অফার: ৩১ আগস্টের মধ্যে Lifetime Premium বিনামূল্যে নিন। একবার আনলক করুন, Premium চিরকাল রাখুন। সাবস্ক্রিপশন বা নবায়ন নেই।",
     "cs": "Nabídka pro první uživatele: Získejte Lifetime Premium zdarma do 31. srpna. Odemkněte jednou a Premium vám zůstane navždy. Bez předplatného a prodlužování.",
     "da": "Tilbud til tidlige brugere: Få Lifetime Premium gratis senest 31. august. Lås op én gang, og behold Premium for altid. Intet abonnement, ingen fornyelse.",
@@ -21,7 +22,9 @@
     "en-gb": "Founding User Offer: Claim Lifetime Premium free by 31 August. Unlock once and keep Premium forever. No subscription or renewal.",
     "es-es": "Oferta para primeros usuarios: consigue Lifetime Premium gratis antes del 31 de agosto. Desbloquea una vez y mantén Premium para siempre. Sin suscripción ni renovación.",
     "es-mx": "Oferta para primeros usuarios: obtén Lifetime Premium gratis antes del 31 de agosto. Desbloquea una vez y mantén Premium para siempre. Sin suscripción ni renovación.",
+    "et": "Varajase kasutaja pakkumine: hankige Lifetime Premium tasuta 31. augustini. Avage üks kord ja säilitage Premium alatiseks. Tellimust ega uuendamist ei ole.",
     "fi": "Tarjous varhaisille käyttäjille: lunasta Lifetime Premium maksutta 31.8. mennessä. Avaa kerran ja pidä Premium ikuisesti. Ei tilausta eikä uusimista.",
+    "fil": "Alokasyon para sa mga unang user: Kunin ang Lifetime Premium nang libre hanggang 31 Agosto. I-unlock nang isang beses at panatilihin ang Premium. Walang subscription o renewal.",
     "fr": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuit avant le 31 août. Déverrouillez une fois et gardez Premium à vie. Sans abonnement ni renouvellement.",
     "fr-ca": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuit d’ici le 31 août. Déverrouillez une fois et gardez Premium à vie. Aucun abonnement ni renouvellement.",
     "gu": "પ્રારંભિક વપરાશકર્તા ઓફર: 31 ઓગસ્ટ સુધી Lifetime Premium મફત મેળવો. એક વાર અનલૉક કરો અને Premium હંમેશા રાખો. કોઈ સબ્સ્ક્રિપ્શન કે રિન્યુઅલ નહીં.",
@@ -34,6 +37,8 @@
     "ja": "初期ユーザー限定オファー：8月31日までにLifetime Premiumを無料で入手。一度アンロックすればPremiumをずっと利用できます。サブスクリプションも自動更新もありません。",
     "kn": "ಆರಂಭಿಕ ಬಳಕೆದಾರರ ಆಫರ್: ಆಗಸ್ಟ್ 31ರೊಳಗೆ Lifetime Premium ಅನ್ನು ಉಚಿತವಾಗಿ ಪಡೆಯಿರಿ. ಒಮ್ಮೆ ಅನ್ಲಾಕ್ ಮಾಡಿ, Premium ಅನ್ನು ಸದಾಕಾಲ ಇಟ್ಟುಕೊಳ್ಳಿ. ಚಂದಾದಾರಿಕೆ ಅಥವಾ ನವೀಕರಣ ಇಲ್ಲ.",
     "ko": "초기 사용자 혜택: 8월 31일까지 Lifetime Premium을 무료로 받으세요. 한 번 잠금 해제하면 Premium을 영구적으로 이용할 수 있습니다. 구독이나 자동 갱신 없음.",
+    "lt": "Pasiūlymas pirmiesiems naudotojams: gaukite Lifetime Premium nemokamai iki rugpjūčio 31 d. Atrakinkite vieną kartą ir išsaugokite Premium visam laikui. Be prenumeratos ir atnaujinimo.",
+    "lv": "Piedāvājums pirmajiem lietotājiem: iegūstiet Lifetime Premium bez maksas līdz 31. augustam. Atbloķējiet vienu reizi un saglabājiet Premium uz visiem laikiem. Bez abonementa un atjaunošanas.",
     "ml": "ആദ്യകാല ഉപയോക്തൃ ഓഫർ: ഓഗസ്റ്റ് 31-നകം Lifetime Premium സൗജന്യമായി നേടൂ. ഒരിക്കൽ അൺലോക്ക് ചെയ്ത് Premium എന്നേക്കും നിലനിർത്തൂ. സബ്സ്ക്രിപ്ഷൻ അല്ലെങ്കിൽ പുതുക്കൽ ഇല്ല.",
     "mr": "सुरुवातीच्या वापरकर्त्यांसाठी ऑफर: 31 ऑगस्टपर्यंत Lifetime Premium मोफत मिळवा. एकदाच अनलॉक करा आणि Premium कायम ठेवा. सदस्यता किंवा नूतनीकरण नाही.",
     "ms": "Tawaran pengguna awal: tuntut Lifetime Premium percuma sebelum 31 Ogos. Buka kunci sekali dan simpan Premium selama-lamanya. Tiada langganan atau pembaharuan.",
@@ -46,6 +51,7 @@
     "pt-pt": "Oferta primeiros utilizadores: obtenha Lifetime Premium grátis até 31 de agosto. Desbloqueie uma vez e mantenha Premium para sempre. Sem subscrição nem renovação.",
     "ro": "Ofertă pentru primii utilizatori: obține Lifetime Premium gratuit până pe 31 august. Deblochează o dată și păstrează Premium pe viață. Fără abonament sau reînnoire.",
     "ru": "Предложение для первых пользователей: получите Lifetime Premium бесплатно до 31 августа. Разблокируйте один раз и сохраните Premium навсегда. Без подписки и продления.",
+    "sr": "Ponuda za prve korisnike: preuzmite Lifetime Premium besplatno do 31. avgusta. Otključajte jednom i zadržite Premium zauvek. Bez pretplate ili obnavljanja.",
     "sk": "Ponuka pre prvých používateľov: získajte Lifetime Premium zadarmo do 31. augusta. Odomknite raz a ponechajte si Premium navždy. Bez predplatného a obnovy.",
     "sl": "Ponudba za prve uporabnike: do 31. avgusta brezplačno pridobite Lifetime Premium. Odklenite enkrat in obdržite Premium za vedno. Brez naročnine ali podaljšanja.",
     "sv": "Erbjudande för tidiga användare: hämta Lifetime Premium gratis senast 31 augusti. Lås upp en gång och behåll Premium för alltid. Ingen prenumeration eller förnyelse.",
@@ -164,6 +170,24 @@
     return offerMessages[config.locale] || valueAt(offerConfig.copy || {}, 'active.banner') || offerMessages.en;
   }
 
+  function localizedStoreLabel(fallback){
+    if(config.locale === 'en' || config.locale === 'en-gb') return fallback;
+    var label = document.querySelector('[data-i18n="settings.copy.see.app.store.pricing"]');
+    return label && String(label.textContent || '').trim() || 'App Store';
+  }
+
+  function localizedDismissLabel(){
+    return config.locale === 'en' || config.locale === 'en-gb' ? 'Dismiss' : '×';
+  }
+
+  function localizedStickyMessage(){
+    if(config.locale === 'en' || config.locale === 'en-gb'){
+      return valueAt(offerConfig.copy || {}, 'active.sticky') || 'Lifetime Premium free until 31 Aug';
+    }
+    var message = offerMessage();
+    return message.split(/[.!؟。]/)[0] || 'Lifetime Premium';
+  }
+
   function buildBadge(campaignKey, extraClass, badgeSrc){
     var anchor = document.createElement('a');
     anchor.href = appStoreUrlFor(campaignKey);
@@ -265,12 +289,12 @@
     var cta = document.createElement('a');
     cta.className = 'founding-offer-banner-cta';
     cta.href = appStoreUrlFor('homepageTopBanner');
-    cta.textContent = valueAt(offerConfig.copy || {}, 'active.bannerCta') || 'Get GLPzy';
+    cta.textContent = localizedStoreLabel(valueAt(offerConfig.copy || {}, 'active.bannerCta') || 'Get GLPzy');
 
     var dismiss = document.createElement('button');
     dismiss.className = 'founding-offer-dismiss';
     dismiss.type = 'button';
-    dismiss.textContent = 'Dismiss';
+    dismiss.textContent = localizedDismissLabel();
     dismiss.setAttribute('aria-label', 'Dismiss founding offer');
     dismiss.addEventListener('click', function(){
       markBannerDismissed();
@@ -332,17 +356,17 @@
     sticky.setAttribute('aria-label', 'Lifetime Premium offer');
 
     var copy = document.createElement('p');
-    copy.textContent = valueAt(offerConfig.copy || {}, 'active.sticky') || 'Lifetime Premium free until 31 Aug';
+    copy.textContent = localizedStickyMessage();
 
     var cta = document.createElement('a');
     cta.className = 'offer-sticky-button';
     cta.href = appStoreUrlFor('mobileSticky');
-    cta.textContent = valueAt(offerConfig.copy || {}, 'active.stickyCta') || 'Get the app';
+    cta.textContent = localizedStoreLabel(valueAt(offerConfig.copy || {}, 'active.stickyCta') || 'Get the app');
 
     var dismiss = document.createElement('button');
     dismiss.type = 'button';
     dismiss.className = 'offer-sticky-dismiss';
-    dismiss.textContent = 'Dismiss';
+    dismiss.textContent = localizedDismissLabel();
     dismiss.setAttribute('aria-label', 'Dismiss Lifetime Premium offer');
 
     sticky.appendChild(copy);
@@ -361,7 +385,30 @@
     function update(){
       var maxScroll = Math.max(1, document.documentElement.scrollHeight - window.innerHeight);
       scrollEligible = (window.scrollY / maxScroll) >= 0.25;
-      sticky.hidden = isDismissed() || !(timeEligible || scrollEligible);
+      var hero = document.querySelector('.hero');
+      var heroVisible = false;
+      if(hero){
+        var heroRect = hero.getBoundingClientRect();
+        heroVisible = heroRect.bottom > 0 && heroRect.top < window.innerHeight;
+      }
+      var shouldHide = isDismissed() || heroVisible || !(timeEligible || scrollEligible);
+      if(shouldHide){
+        sticky.hidden = true;
+        return;
+      }
+
+      // Keep the fixed CTA away from headings and controls at small widths.
+      sticky.hidden = false;
+      var stickyRect = sticky.getBoundingClientRect();
+      var criticalOverlap = Array.from(document.querySelectorAll('h1, h2, h3, h4, a, button, input, select, textarea'))
+        .some(function(element){
+          if(sticky.contains(element) || element.hidden) return false;
+          var style = window.getComputedStyle(element);
+          if(style.display === 'none' || style.visibility === 'hidden') return false;
+          var rect = element.getBoundingClientRect();
+          return rect.width > 0 && rect.height > 0 && rect.bottom > stickyRect.top && rect.top < stickyRect.bottom && rect.right > stickyRect.left && rect.left < stickyRect.right;
+        });
+      sticky.hidden = criticalOverlap;
     }
 
     dismiss.addEventListener('click', function(){

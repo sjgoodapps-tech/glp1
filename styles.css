@@ -731,6 +731,11 @@ body.marketing-page .hero-copy .hero-detail-copy {
   object-fit: cover;
 }
 
+.responsive-picture {
+  display: block;
+  width: 100%;
+}
+
 .screen-panel {
   border-radius: 28px;
   overflow: hidden;
@@ -1256,9 +1261,14 @@ section + section {
 
   .offer-sticky-cta p {
     margin: 0;
+    min-width: 0;
     font-size: 0.82rem;
     font-weight: 850;
     line-height: 1.18;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
   }
 
   .offer-sticky-button,
@@ -1649,13 +1659,23 @@ section + section {
   }
 
   .offer-sticky-cta:not([hidden]) {
-    grid-template-columns: minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr) auto auto;
+    min-height: 50px;
+    gap: 5px;
+    padding: 6px;
+    border-radius: 16px;
   }
 
+  .offer-sticky-cta p {
+    font-size: 0.72rem;
+    line-height: 1.1;
+  }
+
+  .offer-sticky-button,
   .offer-sticky-dismiss {
-    grid-column: 1 / -1;
-    justify-self: end;
-    min-height: 30px;
+    min-height: 32px;
+    padding-inline: 8px;
+    font-size: 0.72rem;
   }
 
 }

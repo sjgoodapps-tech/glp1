@@ -173,6 +173,9 @@ REPLACEMENTS = {
     "No account required to record doses, weight, symptoms or reminders": "No in-app account is required to record doses, weight, symptoms or reminders",
     "Export-ready records: CSV, JSON and PDF": "CSV, JSON and PDF summaries for your records",
 
+    # PT-PT generated-page corruption from the previous bulk rewrite.
+    "hero-via a a sual": "hero-visual",
+
     # Remaining Phase 2 generated locale cleanup.
     "गोंधळाशिवाय द्रुत लॉगिंग": "गोंधळाशिवाय द्रुत डोस नोंद",
     "मार्ग आणि ताल": "देण्याचा मार्ग आणि डोस वारंवारता",
@@ -483,6 +486,22 @@ LOCALE_BLOCK_REPLACEMENTS = {
         "site.product.card.log.body": "Mantenha dose, peso, sintomas, apetite e fotografias juntos num só local.",
         "site.privacy.detail.body": "Não é necessária uma conta na app para registar doses, peso, sintomas ou lembretes.",
         "site.card.account.title": "Não é necessária uma conta na app para registar doses, peso, sintomas ou lembretes.",
+        "site.privacy.body": "Não é necessária uma conta na app para registar doses, peso, sintomas ou lembretes.",
+        "services.copy.no.account.is.required.to.track.doses.weight": "Não é necessária uma conta na app para registar doses, peso, sintomas ou lembretes.",
+        "site.card.health.body": "O acesso ao Apple Health é opcional e limitado às permissões que concede. O GLPzy importa o histórico de peso e a altura e lê, em modo só de leitura, a composição corporal, o movimento, os treinos, as calorias, as proteínas e a água. Não escreve dados de volta.",
+        "site.health.detail.body": "O acesso ao Apple Health é opcional e limitado às permissões que concede. O GLPzy importa o histórico de peso e a altura e lê, em modo só de leitura, a composição corporal, o movimento, os treinos, as calorias, as proteínas e a água. Não escreve dados de volta.",
+        "services.copy.apple.health.access.is.optional.and.limited.to": "O acesso ao Apple Health é opcional e limitado às permissões que concede. O GLPzy importa o histórico de peso e a altura e lê, em modo só de leitura, a composição corporal, o movimento, os treinos, as calorias, as proteínas e a água. Não escreve dados de volta.",
+        "site.card.control.body": "O GLPzy criará primeiro uma cópia de segurança local e, em seguida, substituirá os registos locais neste dispositivo.",
+        "onboarding.welcome.boundary.body": "O GLPzy ajuda-o a manter um registo mais claro do que aconteceu. Não diagnostica, prescreve nem escolhe a sua dose.",
+        "paywall.legal": "Preço, período de cobrança e quaisquer detalhes da oferta introdutória são apresentados na sua conta da App Store antes da compra. Faça a gestão ou cancele nas definições da App Store.",
+        "site.card.photos.body": "Compare, guarde e partilhe as suas fotografias de progresso.",
+        "site.card.medication.title": "Escolha o seu medicamento",
+        "site.medications.title": "Escolha o seu medicamento",
+        "site.product.related.title": "Escolha o seu medicamento",
+        "site.product.related.body": "Todos os medicamentos e formas incluídos são apresentados aqui.",
+        "site.data.detail.body": "O GLPzy cria primeiro uma cópia de segurança local e, em seguida, substitui os registos locais neste dispositivo.",
+        "site.safety.detail.body": "O GLPzy ajuda-o a manter um registo mais claro do que aconteceu. Não diagnostica, prescreve nem escolhe a sua dose.",
+        "site.terms.detail.body": "Preço, período de cobrança e quaisquer detalhes da oferta introdutória são apresentados na sua conta da App Store antes da compra. Faça a gestão ou cancele nas definições da App Store.",
     },
     "sk": {
         "site.card.provider.title": "Súhrn pre lekára",
@@ -525,6 +544,20 @@ LOCALE_REPLACEMENTS = {
     "pt-br": {"See App Store pricing": "Ver preço na App Store"},
     "pt-pt": {
         "See App Store pricing": "Ver preço na App Store",
+        "A a a a sua rotina GLP-1, organizada sem confusão": "A sua rotina GLP-1, organizada sem confusão",
+        "Comece pela a a a sua rotina real.": "Comece com a sua rotina real.",
+        "Escolha o o o seu medicamento": "Escolha o seu medicamento",
+        "Compare, guarde e compartilhe as a as a as a as suas fotografias de progresso.": "Compare, guarde e partilhe as suas fotografias de progresso.",
+        "Preço, período de cobrança e quaisquer detalhes da oferta introdutória são apresentados em a a a a a a sua conta App Store antes da compra.": "Preço, período de cobrança e quaisquer detalhes da oferta introdutória são apresentados na sua conta da App Store antes da compra.",
+        "O O O GLPzy": "O GLPzy",
+        "o o o seu medicamento": "o seu medicamento",
+        "a a a a sua conta App Store": "na sua conta da App Store",
+        "a a a a a a sua conta App Store": "na sua conta da App Store",
+        "a as a as a as a as suas": "as suas",
+        "No in-app account is required to record doses, weight, symptoms or reminders.": "Não é necessária uma conta na app para registar doses, peso, sintomas ou lembretes.",
+        "Apple Health access is optional and limited to the permissions you grant. GLPzy imports body weight history and height, then reads body composition, movement, workout, calorie, protein and water summaries in read-only mode. Nothing is written back.": "O acesso ao Apple Health é opcional e limitado às permissões que concede. O GLPzy importa o histórico de peso e a altura e lê, em modo só de leitura, a composição corporal, o movimento, os treinos, as calorias, as proteínas e a água. Não escreve dados de volta.",
+        "Create GLPzy Backup\u200b": "Criar cópia de segurança do GLPzy",
+        "Compounded\u200b": "Medicação manipulada",
         "você usa": "utiliza",
         "você opte": "opte",
         "você pode": "pode",
@@ -534,7 +567,6 @@ LOCALE_REPLACEMENTS = {
         "escolhe sua dose": "escolhe a sua dose",
         "sua conta App Store": "a sua conta App Store",
         "sua próxima dose": "a próxima dose",
-        "sua": "a sua",
         "seu medicamento": "o seu medicamento",
         "seu rastreamento": "o seu acompanhamento",
         "Seus registos": "Os seus registos",
@@ -568,6 +600,13 @@ LOCALE_REPLACEMENTS = {
         "Widgets da tela inicial": "Widgets do ecrã principal",
         "contagem regressiva": "contagem decrescente",
         "em uma": "numa",
+        "hero-via sual": "hero-visual",
+        "hero-via a sual": "hero-visual",
+        "hero-via a a sual": "hero-visual",
+        "A a sua": "A sua",
+        "a a sua": "a sua",
+        "a as suas": "as suas",
+        "na a sua conta": "na sua conta",
     },
     "ru": {"See App Store pricing": "Посмотреть цену в App Store"},
     "sk": {"See App Store pricing": "Pozrite si cenu v App Store"},
@@ -607,6 +646,15 @@ for path in ROOT.rglob("*.html"):
     updated = replace_i18n_text(updated, LOCALE_BLOCK_REPLACEMENTS.get(locale, {}))
     if path.name == "index.html":
         updated = replace_i18n_text(updated, INDEX_BLOCK_REPLACEMENTS.get(locale, {}))
+    if locale == "pt-pt":
+        # Repair repeated article tokens introduced by the earlier bulk rewrite.
+        updated = re.sub(r"\bA(?:\s+a)+\b", "A", updated)
+        updated = re.sub(r"\ba(?:\s+a)+\b", "a", updated)
+        updated = re.sub(r"\bO(?:\s+O)+\b", "O", updated)
+        updated = re.sub(r"\bo(?:\s+o)+\b", "o", updated)
+        updated = re.sub(r"\bas(?:\s+a)+\b", "as", updated)
+        updated = updated.replace("hero-via sual", "hero-visual")
+        updated = updated.replace("hero-via a sual", "hero-visual")
     if updated != text:
         path.write_text(updated, encoding="utf-8")
         changed.append(path.relative_to(ROOT).as_posix())

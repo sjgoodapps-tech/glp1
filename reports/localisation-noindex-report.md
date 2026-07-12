@@ -1,0 +1,5541 @@
+# Localisation Index Gate Report
+
+Generated: 2026-07-12T21:04:30+00:00
+
+Indexable sitemap URLs: 278
+Noindexed pages: 1026
+
+## Canonical Decision
+
+Root English URLs are the canonical English marketing pages. `/en/` duplicates are `noindex,follow` and canonicalised to their root English equivalent when one exists.
+
+## Noindexed Pages
+
+- `ar/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ar/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ar/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/data-rights.html` -> canonical `https://www.glpzy.app/ar/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ar/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/index.html` -> canonical `https://www.glpzy.app/ar/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ar/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ar/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ar/overview.html` -> canonical `https://www.glpzy.app/ar/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/privacy.html` -> canonical `https://www.glpzy.app/ar/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ar/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ar/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ar/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ar/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ar/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bg/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/bg/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `bg/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/data-rights.html` -> canonical `https://www.glpzy.app/bg/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/bg/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/index.html` -> canonical `https://www.glpzy.app/bg/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/bg/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `bg/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bg/overview.html` -> canonical `https://www.glpzy.app/bg/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/privacy.html` -> canonical `https://www.glpzy.app/bg/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `bg/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bg/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bg/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bg/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bg/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bn/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/bn/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `bn/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/data-rights.html` -> canonical `https://www.glpzy.app/bn/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/bn/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/index.html` -> canonical `https://www.glpzy.app/bn/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/bn/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `bn/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bn/overview.html` -> canonical `https://www.glpzy.app/bn/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/privacy.html` -> canonical `https://www.glpzy.app/bn/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `bn/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bn/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bn/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `bn/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `bn/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `cs/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/cs/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `cs/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/data-rights.html` -> canonical `https://www.glpzy.app/cs/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/cs/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/index.html` -> canonical `https://www.glpzy.app/cs/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/cs/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `cs/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `cs/overview.html` -> canonical `https://www.glpzy.app/cs/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/privacy.html` -> canonical `https://www.glpzy.app/cs/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `cs/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `cs/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `cs/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `cs/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `cs/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `da/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/da/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `da/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/data-rights.html` -> canonical `https://www.glpzy.app/da/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/da/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/index.html` -> canonical `https://www.glpzy.app/da/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/da/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `da/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `da/overview.html` -> canonical `https://www.glpzy.app/da/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/privacy.html` -> canonical `https://www.glpzy.app/da/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `da/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `da/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `da/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `da/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `da/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `de/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/de/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `de/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/de/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `de/index.html` -> canonical `https://www.glpzy.app/de/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/de/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `de/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `de/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/privacy.html` -> canonical `https://www.glpzy.app/de/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `de/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `de/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `de/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `de/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `de/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `el/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/el/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `el/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/data-rights.html` -> canonical `https://www.glpzy.app/el/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/el/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/index.html` -> canonical `https://www.glpzy.app/el/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/el/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `el/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `el/overview.html` -> canonical `https://www.glpzy.app/el/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/privacy.html` -> canonical `https://www.glpzy.app/el/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `el/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `el/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `el/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `el/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `el/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `en/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/apple-health-glp-tracker.html`
+  - English duplicate canonicalised to root English URL
+- `en/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/compounded-glp-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/custom-medication-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/data-rights.html` -> canonical `https://www.glpzy.app/data-rights.html`
+  - English duplicate canonicalised to root English URL
+- `en/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/foundayo-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/glp1-weight-dose-symptom-tracker.html`
+  - English duplicate canonicalised to root English URL
+- `en/index.html` -> canonical `https://www.glpzy.app/`
+  - English duplicate canonicalised to root English URL
+- `en/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/local-first-private-glp-tracker.html`
+  - English duplicate canonicalised to root English URL
+- `en/medical-safety.html` -> canonical `https://www.glpzy.app/medical-safety.html`
+  - English duplicate canonicalised to root English URL
+- `en/methodology.html` -> canonical `https://www.glpzy.app/methodology.html`
+  - English duplicate canonicalised to root English URL
+- `en/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/mounjaro-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/overview.html` -> canonical `https://www.glpzy.app/overview.html`
+  - English duplicate canonicalised to root English URL
+- `en/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ozempic-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/privacy.html` -> canonical `https://www.glpzy.app/privacy.html`
+  - English duplicate canonicalised to root English URL
+- `en/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/rybelsus-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/saxenda-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/semaglutide-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/support.html` -> canonical `https://www.glpzy.app/support.html`
+  - English duplicate canonicalised to root English URL
+- `en/terms.html` -> canonical `https://www.glpzy.app/terms.html`
+  - English duplicate canonicalised to root English URL
+- `en/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/tirzepatide-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/trulicity-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/victoza-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/wegovy-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/zepbound-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en-gb/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/en-gb/apple-health-glp-tracker.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `en-gb/data-rights.html` -> canonical `https://www.glpzy.app/en-gb/data-rights.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `en-gb/index.html` -> canonical `https://www.glpzy.app/en-gb/`
+  - mixed or untranslated English: No in-app account is required
+- `en-gb/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/en-gb/mounjaro-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `en-gb/privacy.html` -> canonical `https://www.glpzy.app/en-gb/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `en-gb/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/en-gb/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
+- `en-gb/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/en-gb/semaglutide-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `en-gb/support.html` -> canonical `https://www.glpzy.app/en-gb/support.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `en-gb/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/en-gb/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
+  - locale commercial page lacks upgraded answer/facts module
+- `en-gb/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/en-gb/wegovy-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `en-gb/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/en-gb/zepbound-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `es-es/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/es-es/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `es-es/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/es-es/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `es-es/index.html` -> canonical `https://www.glpzy.app/es-es/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/es-es/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `es-es/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-es/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/privacy.html` -> canonical `https://www.glpzy.app/es-es/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `es-es/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-es/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-es/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-es/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-es/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-mx/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/es-mx/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `es-mx/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/es-mx/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `es-mx/index.html` -> canonical `https://www.glpzy.app/es-mx/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/es-mx/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `es-mx/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-mx/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/privacy.html` -> canonical `https://www.glpzy.app/es-mx/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `es-mx/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-mx/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-mx/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `es-mx/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `es-mx/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `et/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/et/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `et/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/data-rights.html` -> canonical `https://www.glpzy.app/et/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/et/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/index.html` -> canonical `https://www.glpzy.app/et/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/et/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `et/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `et/overview.html` -> canonical `https://www.glpzy.app/et/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/privacy.html` -> canonical `https://www.glpzy.app/et/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `et/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `et/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `et/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `et/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `et/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fi/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fi/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `fi/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/data-rights.html` -> canonical `https://www.glpzy.app/fi/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/fi/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/index.html` -> canonical `https://www.glpzy.app/fi/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/fi/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `fi/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fi/overview.html` -> canonical `https://www.glpzy.app/fi/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/privacy.html` -> canonical `https://www.glpzy.app/fi/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `fi/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fi/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fi/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fi/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fi/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fil/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fil/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `fil/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/data-rights.html` -> canonical `https://www.glpzy.app/fil/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/fil/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/index.html` -> canonical `https://www.glpzy.app/fil/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/fil/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `fil/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fil/overview.html` -> canonical `https://www.glpzy.app/fil/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/privacy.html` -> canonical `https://www.glpzy.app/fil/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `fil/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fil/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fil/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `fil/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fil/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `fr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fr/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `fr/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/fr/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `fr/index.html` -> canonical `https://www.glpzy.app/fr/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/fr/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `fr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/privacy.html` -> canonical `https://www.glpzy.app/fr/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `fr/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr-ca/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fr-ca/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `fr-ca/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/fr-ca/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `fr-ca/index.html` -> canonical `https://www.glpzy.app/fr-ca/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/fr-ca/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `fr-ca/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr-ca/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/privacy.html` -> canonical `https://www.glpzy.app/fr-ca/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `fr-ca/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr-ca/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr-ca/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `fr-ca/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `fr-ca/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `gu/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/gu/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `gu/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/data-rights.html` -> canonical `https://www.glpzy.app/gu/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/gu/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/index.html` -> canonical `https://www.glpzy.app/gu/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/gu/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `gu/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `gu/overview.html` -> canonical `https://www.glpzy.app/gu/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/privacy.html` -> canonical `https://www.glpzy.app/gu/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `gu/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `gu/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `gu/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `gu/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `gu/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `he/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/he/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `he/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/data-rights.html` -> canonical `https://www.glpzy.app/he/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/he/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/index.html` -> canonical `https://www.glpzy.app/he/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/he/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `he/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `he/overview.html` -> canonical `https://www.glpzy.app/he/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/privacy.html` -> canonical `https://www.glpzy.app/he/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `he/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `he/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `he/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `he/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `he/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hi/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/hi/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `hi/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/data-rights.html` -> canonical `https://www.glpzy.app/hi/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/hi/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/index.html` -> canonical `https://www.glpzy.app/hi/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/hi/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `hi/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hi/overview.html` -> canonical `https://www.glpzy.app/hi/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/privacy.html` -> canonical `https://www.glpzy.app/hi/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `hi/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hi/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hi/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hi/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hi/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/hr/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `hr/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/data-rights.html` -> canonical `https://www.glpzy.app/hr/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/hr/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/index.html` -> canonical `https://www.glpzy.app/hr/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/hr/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `hr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hr/overview.html` -> canonical `https://www.glpzy.app/hr/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/privacy.html` -> canonical `https://www.glpzy.app/hr/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `hr/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hr/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hu/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/hu/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `hu/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/data-rights.html` -> canonical `https://www.glpzy.app/hu/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/hu/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/index.html` -> canonical `https://www.glpzy.app/hu/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/hu/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `hu/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hu/overview.html` -> canonical `https://www.glpzy.app/hu/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/privacy.html` -> canonical `https://www.glpzy.app/hu/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `hu/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hu/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hu/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `hu/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `hu/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `id/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/id/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `id/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/data-rights.html` -> canonical `https://www.glpzy.app/id/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/id/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/index.html` -> canonical `https://www.glpzy.app/id/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/id/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `id/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `id/overview.html` -> canonical `https://www.glpzy.app/id/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/privacy.html` -> canonical `https://www.glpzy.app/id/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `id/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `id/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `id/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `id/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `id/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `it/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/it/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `it/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/it/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `it/index.html` -> canonical `https://www.glpzy.app/it/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/it/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `it/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `it/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/privacy.html` -> canonical `https://www.glpzy.app/it/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `it/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `it/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `it/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `it/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `it/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `ja/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ja/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ja/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/data-rights.html` -> canonical `https://www.glpzy.app/ja/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ja/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/index.html` -> canonical `https://www.glpzy.app/ja/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ja/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ja/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ja/overview.html` -> canonical `https://www.glpzy.app/ja/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/privacy.html` -> canonical `https://www.glpzy.app/ja/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ja/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ja/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ja/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ja/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ja/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `kn/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/kn/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `kn/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/data-rights.html` -> canonical `https://www.glpzy.app/kn/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/kn/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/index.html` -> canonical `https://www.glpzy.app/kn/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/kn/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `kn/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `kn/overview.html` -> canonical `https://www.glpzy.app/kn/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/privacy.html` -> canonical `https://www.glpzy.app/kn/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `kn/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `kn/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `kn/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `kn/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `kn/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ko/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ko/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ko/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/data-rights.html` -> canonical `https://www.glpzy.app/ko/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ko/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/index.html` -> canonical `https://www.glpzy.app/ko/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ko/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ko/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ko/overview.html` -> canonical `https://www.glpzy.app/ko/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/privacy.html` -> canonical `https://www.glpzy.app/ko/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ko/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ko/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ko/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ko/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ko/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lt/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/lt/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `lt/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/data-rights.html` -> canonical `https://www.glpzy.app/lt/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/lt/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/index.html` -> canonical `https://www.glpzy.app/lt/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/lt/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `lt/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lt/overview.html` -> canonical `https://www.glpzy.app/lt/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/privacy.html` -> canonical `https://www.glpzy.app/lt/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `lt/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lt/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lt/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lt/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lt/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lv/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/lv/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `lv/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/data-rights.html` -> canonical `https://www.glpzy.app/lv/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/lv/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/index.html` -> canonical `https://www.glpzy.app/lv/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/lv/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `lv/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lv/overview.html` -> canonical `https://www.glpzy.app/lv/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/privacy.html` -> canonical `https://www.glpzy.app/lv/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `lv/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lv/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lv/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `lv/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `lv/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ml/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ml/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ml/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/data-rights.html` -> canonical `https://www.glpzy.app/ml/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ml/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/index.html` -> canonical `https://www.glpzy.app/ml/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ml/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ml/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ml/overview.html` -> canonical `https://www.glpzy.app/ml/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/privacy.html` -> canonical `https://www.glpzy.app/ml/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ml/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ml/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ml/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ml/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ml/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `mr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/mr/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `mr/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/data-rights.html` -> canonical `https://www.glpzy.app/mr/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/mr/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/index.html` -> canonical `https://www.glpzy.app/mr/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `mr/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/mr/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `mr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `mr/overview.html` -> canonical `https://www.glpzy.app/mr/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/privacy.html` -> canonical `https://www.glpzy.app/mr/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `mr/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `mr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `mr/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `mr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `mr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ms/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ms/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ms/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/data-rights.html` -> canonical `https://www.glpzy.app/ms/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ms/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/index.html` -> canonical `https://www.glpzy.app/ms/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ms/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ms/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ms/overview.html` -> canonical `https://www.glpzy.app/ms/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/privacy.html` -> canonical `https://www.glpzy.app/ms/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ms/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ms/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ms/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ms/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ms/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `nb/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/nb/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `nb/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/data-rights.html` -> canonical `https://www.glpzy.app/nb/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/nb/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/index.html` -> canonical `https://www.glpzy.app/nb/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/nb/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `nb/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `nb/overview.html` -> canonical `https://www.glpzy.app/nb/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/privacy.html` -> canonical `https://www.glpzy.app/nb/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `nb/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `nb/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `nb/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `nb/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `nb/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `nl/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/nl/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `nl/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/nl/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `nl/index.html` -> canonical `https://www.glpzy.app/nl/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/nl/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `nl/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `nl/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/privacy.html` -> canonical `https://www.glpzy.app/nl/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `nl/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `nl/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `nl/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `nl/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `nl/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `or/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/or/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `or/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/data-rights.html` -> canonical `https://www.glpzy.app/or/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/or/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/index.html` -> canonical `https://www.glpzy.app/or/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/or/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `or/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `or/overview.html` -> canonical `https://www.glpzy.app/or/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/privacy.html` -> canonical `https://www.glpzy.app/or/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `or/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `or/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `or/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `or/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `or/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `pa/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pa/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `pa/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/data-rights.html` -> canonical `https://www.glpzy.app/pa/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/pa/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/index.html` -> canonical `https://www.glpzy.app/pa/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/pa/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `pa/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `pa/overview.html` -> canonical `https://www.glpzy.app/pa/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/privacy.html` -> canonical `https://www.glpzy.app/pa/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `pa/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `pa/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `pa/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `pa/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `pa/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `pl/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pl/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `pl/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/pl/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `pl/index.html` -> canonical `https://www.glpzy.app/pl/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/pl/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `pl/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pl/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/privacy.html` -> canonical `https://www.glpzy.app/pl/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `pl/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pl/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pl/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pl/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pl/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-br/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pt-br/apple-health-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-br/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/pt-br/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `pt-br/index.html` -> canonical `https://www.glpzy.app/pt-br/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/pt-br/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `pt-br/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-br/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/privacy.html` -> canonical `https://www.glpzy.app/pt-br/privacy.html`
+  - mixed or untranslated English: Apple Health access is optional
+- `pt-br/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-br/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-br/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+- `pt-br/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-br/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-pt/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pt-pt/apple-health-glp-tracker.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-pt/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/mounjaro-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-pt/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/semaglutide-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-pt/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/tirzepatide-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-pt/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/wegovy-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `pt-pt/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/zepbound-tracker-iphone.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `ro/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ro/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ro/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/data-rights.html` -> canonical `https://www.glpzy.app/ro/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ro/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/index.html` -> canonical `https://www.glpzy.app/ro/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ro/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ro/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ro/overview.html` -> canonical `https://www.glpzy.app/ro/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/privacy.html` -> canonical `https://www.glpzy.app/ro/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ro/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ro/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ro/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ro/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ro/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ru/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ru/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ru/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/data-rights.html` -> canonical `https://www.glpzy.app/ru/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ru/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/index.html` -> canonical `https://www.glpzy.app/ru/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `ru/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ru/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ru/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ru/overview.html` -> canonical `https://www.glpzy.app/ru/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/privacy.html` -> canonical `https://www.glpzy.app/ru/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ru/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ru/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ru/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ru/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ru/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sk/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sk/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `sk/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/sk/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sk/index.html` -> canonical `https://www.glpzy.app/sk/`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+- `sk/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/sk/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sk/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - locale commercial page lacks upgraded answer/facts module
+- `sk/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/privacy.html` -> canonical `https://www.glpzy.app/sk/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sk/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - locale commercial page lacks upgraded answer/facts module
+- `sk/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - locale commercial page lacks upgraded answer/facts module
+- `sk/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+- `sk/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - locale commercial page lacks upgraded answer/facts module
+- `sk/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - locale commercial page lacks upgraded answer/facts module
+- `sl/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sl/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `sl/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/data-rights.html` -> canonical `https://www.glpzy.app/sl/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/sl/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/index.html` -> canonical `https://www.glpzy.app/sl/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/sl/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sl/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sl/overview.html` -> canonical `https://www.glpzy.app/sl/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/privacy.html` -> canonical `https://www.glpzy.app/sl/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sl/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sl/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sl/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sl/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sl/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sr/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `sr/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/data-rights.html` -> canonical `https://www.glpzy.app/sr/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/sr/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/index.html` -> canonical `https://www.glpzy.app/sr/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/sr/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sr/overview.html` -> canonical `https://www.glpzy.app/sr/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/privacy.html` -> canonical `https://www.glpzy.app/sr/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sr/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sr/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sv/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sv/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `sv/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/data-rights.html` -> canonical `https://www.glpzy.app/sv/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/sv/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/index.html` -> canonical `https://www.glpzy.app/sv/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/sv/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sv/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sv/overview.html` -> canonical `https://www.glpzy.app/sv/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/privacy.html` -> canonical `https://www.glpzy.app/sv/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `sv/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sv/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sv/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `sv/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `sv/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ta/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ta/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ta/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/data-rights.html` -> canonical `https://www.glpzy.app/ta/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ta/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/index.html` -> canonical `https://www.glpzy.app/ta/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ta/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ta/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ta/overview.html` -> canonical `https://www.glpzy.app/ta/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/privacy.html` -> canonical `https://www.glpzy.app/ta/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ta/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ta/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ta/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ta/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ta/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `te/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/te/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `te/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/data-rights.html` -> canonical `https://www.glpzy.app/te/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/te/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/index.html` -> canonical `https://www.glpzy.app/te/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/te/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `te/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `te/overview.html` -> canonical `https://www.glpzy.app/te/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/privacy.html` -> canonical `https://www.glpzy.app/te/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `te/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `te/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `te/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `te/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `te/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `th/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/th/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: See แอป Store pricing
+  - locale commercial page lacks upgraded answer/facts module
+- `th/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/data-rights.html` -> canonical `https://www.glpzy.app/th/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - known broken localisation: ส่งออก-ready records
+- `th/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/th/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/index.html` -> canonical `https://www.glpzy.app/th/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Clearer ตรวจสอบ surfaces
+  - mixed or untranslated English: Calendar ตรวจสอบ
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/th/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: See แอป Store pricing
+- `th/medical-safety.html` -> canonical `https://www.glpzy.app/th/medical-safety.html`
+  - mixed or untranslated English: See แอป Store pricing
+- `th/methodology.html` -> canonical `https://www.glpzy.app/th/methodology.html`
+  - mixed or untranslated English: See แอป Store pricing
+- `th/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `th/overview.html` -> canonical `https://www.glpzy.app/th/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Clearer ตรวจสอบ surfaces
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/privacy.html` -> canonical `https://www.glpzy.app/th/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: See แอป Store pricing
+- `th/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `th/support.html` -> canonical `https://www.glpzy.app/th/support.html`
+  - mixed or untranslated English: See แอป Store pricing
+- `th/terms.html` -> canonical `https://www.glpzy.app/th/terms.html`
+  - mixed or untranslated English: See แอป Store pricing
+- `th/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `th/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `th/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `th/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: See แอป Store pricing
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `tr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/tr/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `tr/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/data-rights.html` -> canonical `https://www.glpzy.app/tr/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/tr/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/index.html` -> canonical `https://www.glpzy.app/tr/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/tr/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `tr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `tr/overview.html` -> canonical `https://www.glpzy.app/tr/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/privacy.html` -> canonical `https://www.glpzy.app/tr/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `tr/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `tr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `tr/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `tr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `tr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `uk/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/uk/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `uk/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/data-rights.html` -> canonical `https://www.glpzy.app/uk/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/uk/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/index.html` -> canonical `https://www.glpzy.app/uk/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/uk/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `uk/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `uk/overview.html` -> canonical `https://www.glpzy.app/uk/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/privacy.html` -> canonical `https://www.glpzy.app/uk/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `uk/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `uk/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `uk/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `uk/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `uk/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ur/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ur/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `ur/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/data-rights.html` -> canonical `https://www.glpzy.app/ur/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/ur/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/index.html` -> canonical `https://www.glpzy.app/ur/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/ur/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ur/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ur/overview.html` -> canonical `https://www.glpzy.app/ur/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/privacy.html` -> canonical `https://www.glpzy.app/ur/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+- `ur/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ur/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ur/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `ur/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `ur/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `vi/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/vi/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - known broken localisation: first create a local safety sao lưu
+  - locale commercial page lacks upgraded answer/facts module
+- `vi/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/data-rights.html` -> canonical `https://www.glpzy.app/vi/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - known broken localisation: first create a local safety sao lưu
+- `vi/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/vi/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Bring a clearer lịch sử
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - known broken localisation: first create a local safety sao lưu
+- `vi/index.html` -> canonical `https://www.glpzy.app/vi/`
+  - mixed or untranslated English: Bring a clearer lịch sử
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - known broken localisation: first create a local safety sao lưu
+- `vi/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/vi/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - known broken localisation: first create a local safety sao lưu
+  - wrong order wording: đơn hàng
+- `vi/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `vi/overview.html` -> canonical `https://www.glpzy.app/vi/overview.html`
+  - mixed or untranslated English: Bring a clearer lịch sử
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/privacy.html` -> canonical `https://www.glpzy.app/vi/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - known broken localisation: first create a local safety sao lưu
+  - wrong order wording: đơn hàng
+- `vi/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `vi/support.html` -> canonical `https://www.glpzy.app/vi/support.html`
+  - known broken localisation: first create a local safety sao lưu
+- `vi/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `vi/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `vi/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `vi/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hans/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/zh-hans/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hans/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/data-rights.html` -> canonical `https://www.glpzy.app/zh-hans/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/zh-hans/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/index.html` -> canonical `https://www.glpzy.app/zh-hans/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/zh-hans/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+- `zh-hans/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hans/overview.html` -> canonical `https://www.glpzy.app/zh-hans/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/privacy.html` -> canonical `https://www.glpzy.app/zh-hans/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+- `zh-hans/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hans/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hans/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hans/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hans/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hant/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/zh-hant/apple-health-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Apple Health access is optional
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hant/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/compounded-glp-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/custom-medication-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/data-rights.html` -> canonical `https://www.glpzy.app/zh-hant/data-rights.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/foundayo-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/zh-hant/glp1-weight-dose-symptom-tracker.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/index.html` -> canonical `https://www.glpzy.app/zh-hant/`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: No in-app account is required
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/zh-hant/local-first-private-glp-tracker.html`
+  - mixed or untranslated English: No in-app account is required
+- `zh-hant/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/mounjaro-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hant/overview.html` -> canonical `https://www.glpzy.app/zh-hant/overview.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/privacy.html` -> canonical `https://www.glpzy.app/zh-hant/privacy.html`
+  - mixed or untranslated English: No in-app account is required
+- `zh-hant/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/semaglutide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hant/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/tirzepatide-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hant/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+- `zh-hant/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/wegovy-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module
+- `zh-hant/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Summary for your clinician
+  - mixed or untranslated English: Fast dose entry without clutter
+  - mixed or untranslated English: Administration route and dosing frequency
+  - mixed or untranslated English: Medicine form
+  - mixed or untranslated English: Choose the medicine form you use
+  - mixed or untranslated English: Create a clear PDF summary for appointments
+  - locale commercial page lacks upgraded answer/facts module

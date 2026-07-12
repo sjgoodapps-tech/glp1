@@ -1,0 +1,38 @@
+# GLPzy
+
+GLPzy is a private GLP-1 tracking app for iPhone and iPad.
+
+Core facts:
+
+- No mandatory in-app account is required for core tracking.
+- GLPzy tracks doses, dose reminders, injection sites, weight, symptoms, appetite, nutrition, notes, progress photos and optional read-only Apple Health context.
+- Apple Health support is optional and read-only. GLPzy does not write data back to Apple Health.
+- GLPzy is for personal tracking and review only.
+- GLPzy is not medical advice, not a dosing guide, not a medical device and not a substitute for a qualified clinician.
+- Estimated Exposure is a personal tracking estimate, not measured blood concentration and not for dosing decisions.
+
+Canonical priority URLs:
+
+- Homepage: https://www.glpzy.app/
+- GLP-1 tracker: https://www.glpzy.app/glp1-weight-dose-symptom-tracker.html
+- Mounjaro tracker: https://www.glpzy.app/mounjaro-tracker-iphone.html
+- Wegovy tracker: https://www.glpzy.app/wegovy-tracker-iphone.html
+- Zepbound tracker: https://www.glpzy.app/zepbound-tracker-iphone.html
+- Tirzepatide tracker: https://www.glpzy.app/tirzepatide-tracker-iphone.html
+- Semaglutide tracker: https://www.glpzy.app/semaglutide-tracker-iphone.html
+- Dose reminder app: https://www.glpzy.app/glp1-dose-reminder-app.html
+- Symptom tracker: https://www.glpzy.app/glp1-side-effect-symptom-tracker.html
+- Weight tracker: https://www.glpzy.app/glp1-weight-tracker.html
+- Progress photo tracker: https://www.glpzy.app/glp1-progress-photo-tracker.html
+- Apple Health support: https://www.glpzy.app/apple-health-glp-tracker.html
+- Privacy and no account: https://www.glpzy.app/local-first-private-glp-tracker.html
+- Medical safety: https://www.glpzy.app/medical-safety.html
+- Methodology: https://www.glpzy.app/methodology.html
+
+App Store:
+
+- https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005
+
+Support:
+
+- sjgoodapps@gmail.com

@@ -62,7 +62,7 @@
 
   <link rel="canonical" href="https://www.glpzy.app/">
   <link rel="alternate" hreflang="x-default" href="https://www.glpzy.app/">
-  <link rel="alternate" hreflang="en" href="https://www.glpzy.app/en/index.html">
+  <link rel="alternate" hreflang="en" href="https://www.glpzy.app/">
   <link rel="alternate" hreflang="ar" href="https://www.glpzy.app/ar/index.html">
   <link rel="alternate" hreflang="bg" href="https://www.glpzy.app/bg/index.html">
   <link rel="alternate" hreflang="bn" href="https://www.glpzy.app/bn/index.html">
@@ -127,7 +127,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260704-seo">
+  <link rel="stylesheet" href="styles.css?v=20260712-seo">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
@@ -161,6 +161,49 @@
       }
     ]
   }
+  </script>
+  <script type="application/ld+json" data-home-schema="true">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://www.glpzy.app/#organization",
+      "name": "GLPzy",
+      "url": "https://www.glpzy.app/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://www.glpzy.app/#website",
+      "name": "GLPzy",
+      "url": "https://www.glpzy.app/"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://www.glpzy.app/#software",
+      "name": "GLPzy",
+      "applicationCategory": "HealthApplication",
+      "operatingSystem": "iOS",
+      "url": "https://www.glpzy.app/",
+      "downloadUrl": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
+      "description": "Personal tracking only. GLPzy is not medical advice, not a dosing guide, not a medical device and not a substitute for a qualified clinician.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://www.glpzy.app/#webpage",
+      "url": "https://www.glpzy.app/",
+      "name": "Private GLP-1 dose, weight and symptom tracker | GLPzy",
+      "isPartOf": {
+        "@id": "https://www.glpzy.app/#website"
+      }
+    }
+  ]
+}
   </script>
   <script defer src="site-config.js"></script>
   <script defer src="site-cta.js"></script>
@@ -211,7 +254,11 @@
                 <span>Real app screens</span>
                 <span>Current screenshots only</span>
               </div>
-              <img src="assets/en-hero-sales-wow.png" width="1800" height="1160" decoding="async" fetchpriority="high" alt="Current GLPzy Today dashboard, photo comparison tools, and advanced graphing screens from the current release.">
+              <picture class="responsive-picture">
+                <source type="image/avif" srcset="assets/responsive/homepage-hero-480.avif 480w, assets/responsive/homepage-hero-768.avif 768w, assets/responsive/homepage-hero-1080.avif 1080w, assets/responsive/homepage-hero-1440.avif 1440w" sizes="(max-width: 980px) 100vw, 58vw">
+                <source type="image/webp" srcset="assets/responsive/homepage-hero-480.webp 480w, assets/responsive/homepage-hero-768.webp 768w, assets/responsive/homepage-hero-1080.webp 1080w, assets/responsive/homepage-hero-1440.webp 1440w" sizes="(max-width: 980px) 100vw, 58vw">
+                <img src="assets/en-hero-sales-wow.png" width="1800" height="1160" decoding="async" fetchpriority="high" alt="Current GLPzy Today dashboard, photo comparison tools, and advanced graphing screens from the current release.">
+              </picture>
             </div>
           </div>
 
@@ -222,7 +269,7 @@
               <div class="badge">Optional Apple Health</div>
               <div class="badge">No in-app account</div>
             </div>
-            <div class="hero-note">Estimated Exposure is a personal tracking estimate, not measured blood concentration and not medical advice. Do not use Estimated Exposure to guide dosing. Always check with your clinician before making medical decisions.</div>
+            <div class="hero-note"><a href="methodology.html">Estimated Exposure</a> is a personal tracking estimate, not measured blood concentration and not medical advice. Do not use Estimated Exposure to guide dosing. Always check with your clinician before making medical decisions.</div>
           </div>
         </div>
       </section>
@@ -272,7 +319,11 @@
               </ul>
             </div>
             <div class="mini-proof">
-              <img src="assets/setup-pair.png" width="1500" height="980" loading="lazy" decoding="async" alt="Current GLPzy country, medication, and starting-plan setup screens from the release-ready app.">
+              <picture class="responsive-picture">
+                <source type="image/avif" srcset="assets/responsive/homepage-setup-480.avif 480w, assets/responsive/homepage-setup-768.avif 768w, assets/responsive/homepage-setup-1080.avif 1080w, assets/responsive/homepage-setup-1440.avif 1440w" sizes="(max-width: 980px) 100vw, 720px">
+                <source type="image/webp" srcset="assets/responsive/homepage-setup-480.webp 480w, assets/responsive/homepage-setup-768.webp 768w, assets/responsive/homepage-setup-1080.webp 1080w, assets/responsive/homepage-setup-1440.webp 1440w" sizes="(max-width: 980px) 100vw, 720px">
+                <img src="assets/setup-pair.png" width="1500" height="980" loading="lazy" decoding="async" alt="Current GLPzy country, medication, and starting-plan setup screens from the release-ready app.">
+              </picture>
             </div>
           </article>
 
@@ -320,7 +371,7 @@
         <div class="screen-gallery real-screen-gallery">
           <article class="screen-card">
             <div class="screen-shot-shell">
-              <img src="assets/en-screen-dashboard.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy insights dashboard showing progress, goal distance, adherence, and summary cards." class="phone-shot">
+              <picture class="responsive-picture"><source type="image/avif" srcset="assets/responsive/homepage-dashboard-480.avif 480w, assets/responsive/homepage-dashboard-768.avif 768w, assets/responsive/homepage-dashboard-1080.avif 1080w, assets/responsive/homepage-dashboard-1320.avif 1320w" sizes="(max-width: 720px) 280px, 360px"><source type="image/webp" srcset="assets/responsive/homepage-dashboard-480.webp 480w, assets/responsive/homepage-dashboard-768.webp 768w, assets/responsive/homepage-dashboard-1080.webp 1080w, assets/responsive/homepage-dashboard-1320.webp 1320w" sizes="(max-width: 720px) 280px, 360px"><img src="assets/en-screen-dashboard.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy insights dashboard showing progress, goal distance, adherence, and summary cards." class="phone-shot"></picture>
             </div>
             <div class="screen-copy">
               <h3>Clear dashboards for the whole journey</h3>
@@ -330,7 +381,7 @@
 
           <article class="screen-card">
             <div class="screen-shot-shell">
-              <img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy before-and-after export screen for building private progress images to save or share." class="phone-shot">
+              <picture class="responsive-picture"><source type="image/avif" srcset="assets/responsive/homepage-photos-export-480.avif 480w, assets/responsive/homepage-photos-export-768.avif 768w, assets/responsive/homepage-photos-export-1080.avif 1080w, assets/responsive/homepage-photos-export-1320.avif 1320w" sizes="(max-width: 720px) 280px, 360px"><source type="image/webp" srcset="assets/responsive/homepage-photos-export-480.webp 480w, assets/responsive/homepage-photos-export-768.webp 768w, assets/responsive/homepage-photos-export-1080.webp 1080w, assets/responsive/homepage-photos-export-1320.webp 1320w" sizes="(max-width: 720px) 280px, 360px"><img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy before-and-after export screen for building private progress images to save or share." class="phone-shot"></picture>
             </div>
             <div class="screen-copy">
               <h3>Private photo montage and export tools</h3>
@@ -340,7 +391,7 @@
 
           <article class="screen-card">
             <div class="screen-shot-shell">
-              <img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy graphing screen showing weight trends, dose stages, photo markers, and medication-cycle overlays." class="phone-shot">
+              <picture class="responsive-picture"><source type="image/avif" srcset="assets/responsive/homepage-advanced-graphs-480.avif 480w, assets/responsive/homepage-advanced-graphs-768.avif 768w, assets/responsive/homepage-advanced-graphs-1080.avif 1080w, assets/responsive/homepage-advanced-graphs-1320.avif 1320w" sizes="(max-width: 720px) 280px, 360px"><source type="image/webp" srcset="assets/responsive/homepage-advanced-graphs-480.webp 480w, assets/responsive/homepage-advanced-graphs-768.webp 768w, assets/responsive/homepage-advanced-graphs-1080.webp 1080w, assets/responsive/homepage-advanced-graphs-1320.webp 1320w" sizes="(max-width: 720px) 280px, 360px"><img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy graphing screen showing weight trends, dose stages, photo markers, and medication-cycle overlays." class="phone-shot"></picture>
             </div>
             <div class="screen-copy">
               <h3>Advanced graphing with real treatment context</h3>
@@ -350,7 +401,7 @@
 
           <article class="screen-card">
             <div class="screen-shot-shell">
-              <img src="assets/en-screen-projections.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy projection scenario screen for modelling run-off, future dose changes, and custom chart scenarios." class="phone-shot">
+              <picture class="responsive-picture"><source type="image/avif" srcset="assets/responsive/homepage-projections-480.avif 480w, assets/responsive/homepage-projections-768.avif 768w, assets/responsive/homepage-projections-1080.avif 1080w, assets/responsive/homepage-projections-1320.avif 1320w" sizes="(max-width: 720px) 280px, 360px"><source type="image/webp" srcset="assets/responsive/homepage-projections-480.webp 480w, assets/responsive/homepage-projections-768.webp 768w, assets/responsive/homepage-projections-1080.webp 1080w, assets/responsive/homepage-projections-1320.webp 1320w" sizes="(max-width: 720px) 280px, 360px"><img src="assets/en-screen-projections.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy projection scenario screen for modelling run-off, future dose changes, and custom chart scenarios." class="phone-shot"></picture>
             </div>
             <div class="screen-copy">
               <h3>Advanced projections for planning ahead</h3>
@@ -360,7 +411,7 @@
 
           <article class="screen-card">
             <div class="screen-shot-shell">
-              <img src="assets/en-screen-quick-logging.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Today dashboard with dose timing, weight status, quick logging, and nutrition tracking." class="phone-shot">
+              <picture class="responsive-picture"><source type="image/avif" srcset="assets/responsive/homepage-quick-logging-480.avif 480w, assets/responsive/homepage-quick-logging-768.avif 768w, assets/responsive/homepage-quick-logging-1080.avif 1080w, assets/responsive/homepage-quick-logging-1320.avif 1320w" sizes="(max-width: 720px) 280px, 360px"><source type="image/webp" srcset="assets/responsive/homepage-quick-logging-480.webp 480w, assets/responsive/homepage-quick-logging-768.webp 768w, assets/responsive/homepage-quick-logging-1080.webp 1080w, assets/responsive/homepage-quick-logging-1320.webp 1320w" sizes="(max-width: 720px) 280px, 360px"><img src="assets/en-screen-quick-logging.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Today dashboard with dose timing, weight status, quick logging, and nutrition tracking." class="phone-shot"></picture>
             </div>
             <div class="screen-copy">
               <h3>Log dose, weight, nutrition, and photos fast</h3>
@@ -370,7 +421,7 @@
 
           <article class="screen-card">
             <div class="screen-shot-shell">
-              <img src="assets/en-screen-global-coverage.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy country-aware setup screen showing region-specific brand and presentation coverage." class="phone-shot">
+              <picture class="responsive-picture"><source type="image/avif" srcset="assets/responsive/homepage-global-coverage-480.avif 480w, assets/responsive/homepage-global-coverage-768.avif 768w, assets/responsive/homepage-global-coverage-1080.avif 1080w, assets/responsive/homepage-global-coverage-1320.avif 1320w" sizes="(max-width: 720px) 280px, 360px"><source type="image/webp" srcset="assets/responsive/homepage-global-coverage-480.webp 480w, assets/responsive/homepage-global-coverage-768.webp 768w, assets/responsive/homepage-global-coverage-1080.webp 1080w, assets/responsive/homepage-global-coverage-1320.webp 1320w" sizes="(max-width: 720px) 280px, 360px"><img src="assets/en-screen-global-coverage.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy country-aware setup screen showing region-specific brand and presentation coverage." class="phone-shot"></picture>
             </div>
             <div class="screen-copy">
               <h3>Built for 50+ languages and local treatment paths</h3>
@@ -380,7 +431,7 @@
 
           <article class="screen-card">
             <div class="screen-shot-shell">
-              <img src="assets/en-screen-medication-coverage.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy medication setup screen showing extensive medicine coverage across brands, ingredients, and presentation types." class="phone-shot">
+              <picture class="responsive-picture"><source type="image/avif" srcset="assets/responsive/homepage-medication-coverage-480.avif 480w, assets/responsive/homepage-medication-coverage-768.avif 768w, assets/responsive/homepage-medication-coverage-1080.avif 1080w, assets/responsive/homepage-medication-coverage-1320.avif 1320w" sizes="(max-width: 720px) 280px, 360px"><source type="image/webp" srcset="assets/responsive/homepage-medication-coverage-480.webp 480w, assets/responsive/homepage-medication-coverage-768.webp 768w, assets/responsive/homepage-medication-coverage-1080.webp 1080w, assets/responsive/homepage-medication-coverage-1320.webp 1320w" sizes="(max-width: 720px) 280px, 360px"><img src="assets/en-screen-medication-coverage.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy medication setup screen showing extensive medicine coverage across brands, ingredients, and presentation types." class="phone-shot"></picture>
             </div>
             <div class="screen-copy">
               <h3>Extensive medicine coverage from day one</h3>
@@ -691,7 +742,7 @@
           </article>
         </div>
 
-        <p class="small table-note"><span data-claim-copy="lifetimeUnlock">Lifetime Premium is a one-time unlock tied to your Apple ID. It does not renew.</span> <span data-claim-copy="safetyPrimary">Estimated Exposure is a personal tracking estimate, not measured blood concentration and not medical advice.</span></p>
+        <p class="small table-note"><span data-claim-copy="lifetimeUnlock">Lifetime Premium is a one-time unlock tied to your Apple ID. It does not renew.</span> <span data-claim-copy="safetyPrimary"><a href="methodology.html">Estimated Exposure</a> is a personal tracking estimate, not measured blood concentration and not medical advice.</span></p>
       </div>
     </section>
 
@@ -721,19 +772,19 @@
           </details>
           <details class="faq-item">
             <summary>What stays free?</summary>
-            <p>Free includes setup, daily dose entry, reminders, the Today dashboard, core history, current and previous month calendar review, core charts, historical Estimated Exposure context, optional read-only Apple Health context, CSV import, CSV/JSON export for core records, photo comparison and the small Next Dose widget. Basic same-treatment edits stay free: dose, start date, and reminder time.</p>
+            <p>Free includes setup, daily dose entry, reminders, the Today dashboard, core history, current and previous month calendar review, core charts, historical <a href="methodology.html">Estimated Exposure</a> context, optional read-only Apple Health context, CSV import, CSV/JSON export for core records, photo comparison and the small Next Dose widget. Basic same-treatment edits stay free: dose, start date, and reminder time.</p>
           </details>
           <details class="faq-item">
             <summary>What does Premium add?</summary>
-            <p>Premium adds broader older and future calendar browsing, projected Estimated Exposure scenarios, advanced summaries, clinician-ready PDF summaries, deeper export/reporting tools, injection-site rotation review, maintenance tools, larger widgets, Apple Watch support and longer-range planning tools. Advanced treatment changes may require Premium.</p>
+            <p>Premium adds broader older and future calendar browsing, projected <a href="methodology.html">Estimated Exposure</a> scenarios, advanced summaries, clinician-ready PDF summaries, deeper export/reporting tools, injection-site rotation review, maintenance tools, larger widgets, Apple Watch support and longer-range planning tools. Advanced treatment changes may require Premium.</p>
           </details>
           <details class="faq-item">
             <summary>Where can I find the app's medical references?</summary>
-            <p>GLPzy includes in-app medical references from Settings and directly from BMI and Estimated Exposure Trend source buttons, with matching bibliography pages on this site.</p>
+            <p>GLPzy includes in-app medical references from Settings and directly from BMI and <a href="methodology.html">Estimated Exposure</a> Trend source buttons, with matching bibliography pages on this site.</p>
           </details>
           <details class="faq-item">
             <summary>Is GLPzy medical advice?</summary>
-            <p>No. GLPzy is for personal tracking and review. Estimated Exposure Trend is a relative personal-tracking estimate. It is not a measured blood concentration. It is based on a simplified model. Do not use this for dosing decisions. Do not use Estimated Exposure to guide dosing. Always check with your clinician before making medical decisions.</p>
+            <p>No. GLPzy is for personal tracking and review. <a href="methodology.html">Estimated Exposure</a> Trend is a relative personal-tracking estimate. It is not a measured blood concentration. It is based on a simplified model. Do not use this for dosing decisions. Do not use Estimated Exposure to guide dosing. Always check with your clinician before making medical decisions.</p>
           </details>
           <details class="faq-item">
             <summary>Can I read the policy pages before using the app?</summary>
