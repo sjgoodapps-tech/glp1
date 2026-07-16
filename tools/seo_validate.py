@@ -60,6 +60,19 @@ UNSAFE_CLAIMS = [
     "tells you how much",
 ]
 
+PHOTO_ALLOWANCE = "2 new photo uploads per month"
+PHOTO_ALLOWANCE_SOURCES = {
+    "index.html": PHOTO_ALLOWANCE,
+    "en/index.html": PHOTO_ALLOWANCE,
+    "en-gb/index.html": PHOTO_ALLOWANCE,
+    "free-lifetime/index.html": PHOTO_ALLOWANCE,
+    "glp1-progress-photo-tracker.html": PHOTO_ALLOWANCE,
+    "site-config.js": PHOTO_ALLOWANCE,
+    "data/product-facts.json": PHOTO_ALLOWANCE,
+    "tools/seo_apply.py": PHOTO_ALLOWANCE,
+    "tools/seo_priority_pass.py": "FACTS['free_photo_allowance']",
+}
+
 
 def read(path):
     return (ROOT / path).read_text(encoding="utf-8")
@@ -273,6 +286,27 @@ def check_medical_claims(results):
     report(results, "priority medical boundary wording is safe", not failures, "; ".join(failures[:20]))
 
 
+def check_photo_allowance(results):
+    failures = []
+    for rel, expected in PHOTO_ALLOWANCE_SOURCES.items():
+        path = ROOT / rel
+        if not path.exists() or expected not in path.read_text(encoding="utf-8"):
+            failures.append(f"{rel}: missing {expected}")
+
+    stale_pattern = re.compile(r"\b6 new (?:photo )?uploads every 30 days\b", re.I)
+    paths = html_files() + [
+        ROOT / "site-config.js",
+        ROOT / "data/product-facts.json",
+        ROOT / "tools/seo_apply.py",
+        ROOT / "tools/seo_priority_pass.py",
+    ]
+    for path in paths:
+        if path.exists() and stale_pattern.search(path.read_text(encoding="utf-8")):
+            failures.append(f"{path.relative_to(ROOT).as_posix()}: stale photo allowance")
+
+    report(results, "Free photo allowance is consistent", not failures, "; ".join(failures[:20]))
+
+
 def check_internal_links(results):
     broken = []
     for path in html_files():
@@ -312,6 +346,7 @@ def main():
     check_priority_pages(results)
     check_bad_strings(results)
     check_medical_claims(results)
+    check_photo_allowance(results)
     check_internal_links(results)
     check_en_duplicates(results)
     width = max(len(name) for name, _, _ in results)

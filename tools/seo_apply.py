@@ -17,6 +17,7 @@ PRODUCT_FACTS = {
     "privacy": "Local-first. Records stay on the device unless the user exports, shares or restores a local backup.",
     "apple_health": "Optional and read-only. GLPzy does not write data back to Apple Health.",
     "exports": "CSV and JSON for core records. Premium adds deeper summaries and clinician-ready PDF summaries.",
+    "free_photo_allowance": "Free includes 2 new photo uploads per month. Existing photos remain available to view, compare, save and share.",
     "medical": "Personal tracking only. Not medical advice, not a dosing guide and not a medical device.",
     "app_store": APP_STORE,
 }
@@ -249,11 +250,12 @@ PAGES = {
         "name": "GLP-1 progress photo tracker",
         "h1": "GLP-1 progress photo tracker",
         "campaign": "seoPhotoTracker",
-        "answer": "GLPzy lets you keep GLP-1 progress photos beside dose history, weight records, symptoms and notes. Photo comparison is for personal review only. It does not assess health, diagnose changes or provide medical advice.",
+        "answer": "GLPzy lets you keep GLP-1 progress photos beside dose history, weight records, symptoms and notes. Free includes 2 new photo uploads per month, while Premium includes unlimited photo uploads. Photo comparison is for personal review only. It does not assess health, diagnose changes or provide medical advice.",
         "intro": ["Progress photos can help you review visible changes alongside routine records.", "GLPzy keeps photo review tied to the same private tracking history as dose, weight and symptom logs."],
         "screens": [("assets/en-screen-photos-export.png", "GLPzy progress photo comparison screen."), ("assets/en-screen-dashboard.png", "GLPzy Today dashboard with tracking context.")],
         "faq": [
             ("Can I track progress photos in GLPzy?", "Yes. GLPzy includes progress photo tracking and comparison tools."),
+            ("How many progress photos can I upload for free?", "Free includes 2 new photo uploads per month. Existing photos remain available to view, compare, save and share. Premium includes unlimited photo uploads."),
             ("Can I review photos beside weight?", "Yes. Photos can be reviewed with weight and dose records."),
             ("Does GLPzy assess my photos?", "No. Photos are for personal review only."),
             ("Can I export records?", "Core records can be exported as CSV and JSON."),

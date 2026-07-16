@@ -288,7 +288,7 @@ PAGES = {
         "description": "Track GLP-1 progress photos, weight, doses, symptoms and milestones privately on iPhone with GLPzy photo comparison tools.",
         "h1": "GLP-1 progress photo tracker",
         "campaign": "seo_photo_tracker",
-        "answer": "GLPzy lets you keep GLP-1 progress photos beside dose history, weight records, symptoms and notes. Photo comparison is for personal review only. It does not assess health, diagnose changes or provide medical advice.",
+        "answer": "GLPzy lets you keep GLP-1 progress photos beside dose history, weight records, symptoms and notes. Free includes 2 new photo uploads per month, while Premium includes unlimited photo uploads. Photo comparison is for personal review only. It does not assess health, diagnose changes or provide medical advice.",
         "intro": ["Progress photos can help you review visible changes alongside routine records.", "GLPzy keeps photo review tied to the same private tracking history as dose, weight and symptom logs."],
         "workflow": ["Save private progress photos when you choose.", "Compare photos beside weight, dose and note context.", "Use face-cover and sharing choices before any user-directed export."],
         "does": ["stores private photo records", "supports comparison and montage-style review", "keeps weight and dose context nearby", "lets the user choose export or sharing"],
@@ -296,6 +296,7 @@ PAGES = {
         "slots": ["progress-photo-library", "before-after-export", "today-dashboard"],
         "faq": [
             ("Can I track progress photos in GLPzy?", "Yes. GLPzy includes progress photo tracking and comparison tools."),
+            ("How many progress photos can I upload for free?", f"{FACTS['free_photo_allowance']} Premium includes unlimited photo uploads."),
             ("Can I review photos beside weight?", "Yes. Photos can be reviewed with weight and dose records."),
             ("Does GLPzy assess my photos?", "No. Photos are for personal review only."),
             ("Can I cover my face before sharing?", "GLPzy supports user-directed photo review and export choices, including privacy choices where available."),
