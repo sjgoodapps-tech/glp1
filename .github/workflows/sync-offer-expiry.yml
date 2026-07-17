@@ -1,0 +1,46 @@
+name: Sync founding offer expiry
+
+on:
+  schedule:
+    # The offer expires at 23:00 UTC on 31 August 2026.
+    - cron: "7 23 31 8 *"
+    # Daily fallback in case GitHub delays the date-specific run.
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-offer-copy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync static offer copy
+        run: python3 tools/sync_site_content.py
+
+      - name: Validate expiry contract and synced state
+        run: |
+          python3 tools/validate_offer_expiry.py
+          python3 tools/sync_site_content.py --check
+
+      - name: Rebuild sitemap dates
+        run: python3 tools/seo_gate_sitemap.py --sitemap-only
+
+      - name: Limit the workflow diff
+        run: python3 tools/validate_offer_expiry.py --check-worktree
+
+      - name: Commit an automatic expiry update
+        run: |
+          if git diff --quiet; then
+            echo "No offer update needed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -u
+          git commit -m "Expire Lifetime Premium founding offer"
+          git push

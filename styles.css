@@ -1,3 +1,19 @@
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url("assets/fonts/manrope-latin-variable.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Fraunces";
+  font-style: normal;
+  font-weight: 600 700;
+  font-display: swap;
+  src: url("assets/fonts/fraunces-latin-variable.woff2") format("woff2");
+}
+
 :root {
   --bg: #f4f6f3;
   --surface: rgba(255, 255, 255, 0.94);
@@ -75,6 +91,15 @@ a:hover { text-decoration: underline; }
 img {
   display: block;
   max-width: 100%;
+  height: auto;
+}
+
+html.founding-offer-space {
+  --offer-banner-height: 55px;
+}
+
+html.founding-offer-space body {
+  padding-top: var(--offer-banner-height);
 }
 
 .shell {
@@ -144,6 +169,10 @@ body.marketing-page .marketing-header > .shell {
   grid-template-columns: minmax(0, 1fr) auto auto;
   align-items: center;
   gap: 12px;
+}
+
+html.founding-offer-space .founding-offer-banner-inner {
+  min-height: var(--offer-banner-height);
 }
 
 .founding-offer-banner-text {
@@ -1152,6 +1181,10 @@ section + section {
 }
 
 @media (max-width: 720px) {
+  html.founding-offer-space {
+    --offer-banner-height: 80px;
+  }
+
   .shell,
   .narrow-shell {
     width: min(calc(100% - 24px), var(--max));

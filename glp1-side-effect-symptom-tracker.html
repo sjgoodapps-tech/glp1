@@ -16,10 +16,8 @@
   <meta name="twitter:title" content="GLP-1 side effect and symptom tracker app | GLPzy">
   <meta name="twitter:description" content="Track GLP-1 symptoms, side-effect notes, doses, weight, appetite, nutrition and progress photos privately on iPhone with GLPzy.">
   <meta name="twitter:image" content="https://www.glpzy.app/assets/hero-collage.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260712-seo">
+  <script src="site-preflight.js?v=20260716-offer-space"></script>
+  <link rel="stylesheet" href="styles.css?v=20260716-fonts">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <script type="application/ld+json" data-seo-schema="true">
@@ -31,7 +29,10 @@
       "@id": "https://www.glpzy.app/#organization",
       "name": "GLPzy",
       "url": "https://www.glpzy.app/",
-      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png"
+      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png",
+      "sameAs": [
+        "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005"
+      ]
     },
     {
       "@type": "WebSite",
@@ -47,7 +48,10 @@
       "operatingSystem": "iOS",
       "url": "https://www.glpzy.app/",
       "downloadUrl": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
-      "description": "Personal tracking only. GLPzy is not medical advice, not a dosing guide, not a medical device and not a substitute for a qualified clinician.",
+      "description": "Private iPhone and iPad app for recording GLP-1 doses, weight, symptoms, photos and optional read-only Apple Health context. Personal tracking only.",
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -65,7 +69,14 @@
       },
       "about": {
         "@id": "https://www.glpzy.app/#software"
-      }
+      },
+      "author": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "dateModified": "2026-07-16"
     },
     {
       "@type": "BreadcrumbList",
@@ -165,7 +176,7 @@
 }
   </script>
   <script defer src="site-config.js"></script>
-  <script defer src="site-cta.js?v=20260712-sticky"></script>
+  <script defer src="site-cta.js?v=20260716-layout"></script>
   <script defer src="site-i18n.js"></script>
 </head>
 <body>
@@ -195,11 +206,10 @@
             <div class="eyebrow">GLP-1 symptom tracker</div>
             <h1>GLP-1 side effect and symptom tracker</h1>
             <p>Log symptoms, appetite, nutrition, doses, weight, notes and progress photos in one iPhone app. GLPzy is for personal tracking only, not medical advice.</p>
-            <p class="hero-offer-line offer-active-only" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
-            <p class="offer-active-only" data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
+            <p class="hero-offer-line" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
+            <p data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
             <div class="site-cta-actions" data-site-cta>
-              <a class="button button-primary offer-active-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoSideEffectTracker" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">Get Lifetime Premium free</a>
-              <a class="button button-primary offer-expired-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoSideEffectTracker" data-offer-copy="expired.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">View on the App Store</a>
+              <a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoSideEffectTracker" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_side_effect_tracker" data-cta-placement="hero">Get Lifetime Premium free</a>
               <a class="button button-secondary hero-secondary-cta" href="medical-safety.html">Read safety notes</a>
             </div>
             <div class="site-cta-note" data-cta-note></div>
@@ -207,7 +217,11 @@
           <div class="hero-visual">
             <div class="screen-panel screen-panel-hero">
               <div class="screen-panel-head"><span>Symptom notes</span><span>Personal tracking</span></div>
-              <img src="assets/screen-recap.png" alt="GLPzy recap screen showing personal tracking history." width="1320" height="2868" decoding="async" loading="lazy">
+              <picture class="responsive-picture seo-hero-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-recap-360.avif 360w, assets/responsive/seo-screen-recap-720.avif 720w, assets/responsive/seo-screen-recap-1080.avif 1080w, assets/responsive/seo-screen-recap-1320.avif 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-recap-360.webp 360w, assets/responsive/seo-screen-recap-720.webp 720w, assets/responsive/seo-screen-recap-1080.webp 1080w, assets/responsive/seo-screen-recap-1320.webp 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <img src="assets/screen-recap.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy recap screen showing personal tracking history.">
+            </picture>
             </div>
           </div>
         </div>
@@ -245,7 +259,7 @@
         </div>
         <div class="card seo-answer-card" data-seo-answer>
           <p>GLPzy lets you record GLP-1 symptoms and side-effect notes beside doses, weight, appetite, nutrition and photos. It gives you a private record for review. It does not diagnose symptoms, explain side effects or provide medical advice.</p>
-          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_side_effect_tracker" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_side_effect_tracker">Get GLPzy</a></div>
+          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoSideEffectTracker" data-cta-placement="answer" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_side_effect_tracker">Get GLPzy</a></div>
         </div>
         <div class="seo-copy">
           <p>Symptom tracking works best when it is plain and consistent.</p>
@@ -291,21 +305,39 @@
               <tr><th scope="row">App Store link</th><td><a data-app-store-link href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">GLPzy on the App Store</a></td></tr>
             </tbody>
           </table>
+        <div class="seo-copy seo-evidence" data-seo-evidence>
+          <h2>Sources and page information</h2>
+          <p>Reviewed 16 July 2026. Published by GLPzy.</p>
+          <ul>
+          <li><a href="medical-safety.html">GLPzy medical safety boundaries</a></li>
+          <li><a href="methodology.html">GLPzy Estimated Exposure methodology</a></li>
+          </ul>
+          <p class="small">Official medicine information is linked for reference. GLPzy does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
+        </div>
         <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="symptom-appetite-log" data-target-webp="assets/screens/symptom-appetite-log.webp" data-target-avif="assets/screens/symptom-appetite-log.avif">
-            <img src="assets/en-screen-quick-logging.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy symptom and appetite log screen.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="symptom-appetite-log" data-target-webp="assets/responsive/seo-en-screen-quick-logging-720.webp" data-target-avif="assets/responsive/seo-en-screen-quick-logging-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-en-screen-quick-logging-360.avif 360w, assets/responsive/seo-en-screen-quick-logging-720.avif 720w, assets/responsive/seo-en-screen-quick-logging-1080.avif 1080w, assets/responsive/seo-en-screen-quick-logging-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-en-screen-quick-logging-360.webp 360w, assets/responsive/seo-en-screen-quick-logging-720.webp 720w, assets/responsive/seo-en-screen-quick-logging-1080.webp 1080w, assets/responsive/seo-en-screen-quick-logging-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/en-screen-quick-logging.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy symptom and appetite log screen.">
+            </picture>
             <figcaption>Symptom notes are for personal records and do not diagnose symptoms.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="symptom-timeline" data-target-webp="assets/screens/symptom-timeline.webp" data-target-avif="assets/screens/symptom-timeline.avif">
-            <img src="assets/screen-history.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy timeline showing symptom notes beside dose and weight records.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="symptom-timeline" data-target-webp="assets/responsive/seo-screen-history-720.webp" data-target-avif="assets/responsive/seo-screen-history-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-history-360.avif 360w, assets/responsive/seo-screen-history-720.avif 720w, assets/responsive/seo-screen-history-1080.avif 1080w, assets/responsive/seo-screen-history-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-history-360.webp 360w, assets/responsive/seo-screen-history-720.webp 720w, assets/responsive/seo-screen-history-1080.webp 1080w, assets/responsive/seo-screen-history-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/screen-history.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy timeline showing symptom notes beside dose and weight records.">
+            </picture>
             <figcaption>Timeline review helps with appointment preparation but is not medical advice.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="clinician-summary-pdf-preview" data-target-webp="assets/screens/clinician-summary-pdf-preview.webp" data-target-avif="assets/screens/clinician-summary-pdf-preview.avif">
-            <img src="assets/screen-recap.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy clinician summary PDF preview for appointments.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="clinician-summary-pdf-preview" data-target-webp="assets/responsive/seo-screen-recap-720.webp" data-target-avif="assets/responsive/seo-screen-recap-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-recap-360.avif 360w, assets/responsive/seo-screen-recap-720.avif 720w, assets/responsive/seo-screen-recap-1080.avif 1080w, assets/responsive/seo-screen-recap-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-recap-360.webp 360w, assets/responsive/seo-screen-recap-720.webp 720w, assets/responsive/seo-screen-recap-1080.webp 1080w, assets/responsive/seo-screen-recap-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/screen-recap.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy clinician summary PDF preview for appointments.">
+            </picture>
             <figcaption>PDF summaries are records for appointments and do not replace clinician advice.</figcaption>
-
           </figure>
         </div>
         <div class="section-head section-head-center">
@@ -338,28 +370,7 @@
           <a href="medical-safety.html">Medical safety</a>
           <a href="methodology.html">Methodology</a>
         </div>
-        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_side_effect_tracker" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_side_effect_tracker">Get GLPzy on the App Store</a></div>
-      </div>
-    </section>
-    <section class="section-strip faq-strip">
-      <div class="shell narrow-shell">
-        <div class="section-head section-head-center">
-          <div class="kicker">FAQ</div>
-          <h2>Questions about symptom tracking</h2>
-        </div>
-        <div class="faq-mini">
-          <details open><summary>Can I track GLP-1 symptoms in GLPzy?</summary><p>Yes. GLPzy can track symptoms, side-effect notes, appetite, nutrition, doses, weight and progress photos for personal review.</p></details>
-          <details><summary>Does GLPzy tell me what symptoms mean?</summary><p>No. GLPzy is for personal tracking only and does not interpret symptoms or provide medical advice.</p></details>
-          <details><summary>Can I export symptom records?</summary><p>Core records can be exported as CSV and JSON, so you can keep a copy of your own tracking history.</p></details>
-        </div>
-        <div class="meta-links">
-          <a href="glp1-weight-dose-symptom-tracker.html">GLP-1 tracker app</a>
-          <a href="mounjaro-tracker-iphone.html">Mounjaro tracker</a>
-          <a href="wegovy-tracker-iphone.html">Wegovy tracker</a>
-          <a href="zepbound-tracker-iphone.html">Zepbound tracker</a>
-          <a href="privacy.html">Privacy</a>
-          <a href="medical-safety.html">Medical safety</a>
-        </div>
+        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoSideEffectTracker" data-cta-placement="bottom" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_side_effect_tracker">Get GLPzy on the App Store</a></div>
       </div>
     </section>
   </main>

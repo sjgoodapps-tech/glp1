@@ -275,11 +275,18 @@
   function removeOfferBanner(banner){
     if(banner && banner.parentNode) banner.parentNode.removeChild(banner);
     document.body.classList.remove('founding-offer-banner-visible');
+    document.documentElement.classList.remove('founding-offer-space');
     updateOfferBannerHeight(null);
   }
 
   function ensureOfferBanner(){
-    if(!isOfferActive() || isBannerDismissed() || document.querySelector('.founding-offer-banner')) return;
+    if(!isOfferActive() || isBannerDismissed()){
+      document.documentElement.classList.remove('founding-offer-space');
+      document.body.classList.remove('founding-offer-banner-visible');
+      updateOfferBannerHeight(null);
+      return;
+    }
+    if(document.querySelector('.founding-offer-banner')) return;
 
     var banner = document.createElement('div');
     banner.className = 'founding-offer-banner';
@@ -314,6 +321,7 @@
     inner.appendChild(cta);
     inner.appendChild(dismiss);
     banner.appendChild(inner);
+    document.documentElement.classList.add('founding-offer-space');
     document.body.insertBefore(banner, document.body.firstChild);
     document.body.classList.add('founding-offer-banner-visible');
     updateOfferBannerHeight(banner);

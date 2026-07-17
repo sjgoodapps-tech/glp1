@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 import json
 import re
+import subprocess
 import sys
+from datetime import date
 from html import unescape
 from pathlib import Path
 from urllib.parse import urlparse
@@ -9,6 +11,21 @@ from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://www.glpzy.app"
+FACTS = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))
+SCREENSHOTS = json.loads((ROOT / "data" / "screenshot-manifest.json").read_text(encoding="utf-8"))
+LOCALE_POLICY = json.loads((ROOT / "data" / "locale-indexing.json").read_text(encoding="utf-8"))
+NATIVE_REVIEWED_LOCALES = {item.lower() for item in LOCALE_POLICY["native_reviewed_locales"]}
+REVIEWED_DATE = date.fromisoformat(FACTS["content_reviewed"])
+REVIEWED_DISPLAY = f"{REVIEWED_DATE.day} {REVIEWED_DATE.strftime('%B %Y')}"
+RESPONSIVE_WIDTHS = [360, 720, 1080, 1320]
+
+LOCALE_DIRS = {
+    "ar", "bg", "bn", "cs", "da", "de", "el", "en", "en-gb", "es-es", "es-mx",
+    "et", "fi", "fil", "fr", "fr-ca", "gu", "he", "hi", "hr", "hu", "id", "it",
+    "ja", "kn", "ko", "lt", "lv", "ml", "mr", "ms", "nb", "nl", "or", "pa",
+    "pl", "pt-br", "pt-pt", "ro", "ru", "sk", "sl", "sr", "sv", "ta", "te",
+    "th", "tr", "uk", "ur", "vi", "zh-hans", "zh-hant",
+}
 
 PRIORITY_PAGES = [
     "index.html",
@@ -69,7 +86,6 @@ PHOTO_ALLOWANCE_SOURCES = {
     "glp1-progress-photo-tracker.html": PHOTO_ALLOWANCE,
     "site-config.js": PHOTO_ALLOWANCE,
     "data/product-facts.json": PHOTO_ALLOWANCE,
-    "tools/seo_apply.py": PHOTO_ALLOWANCE,
     "tools/seo_priority_pass.py": "FACTS['free_photo_allowance']",
 }
 
@@ -98,6 +114,20 @@ def sitemap_urls():
     ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
     xml = ET.parse(path)
     return [loc.text for loc in xml.findall(".//sm:loc", ns) if loc.text]
+
+
+def sitemap_entries():
+    path = ROOT / "sitemap.xml"
+    if not path.exists():
+        return []
+    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    xml = ET.parse(path)
+    entries = []
+    for item in xml.findall(".//sm:url", ns):
+        loc = item.find("sm:loc", ns)
+        lastmod = item.find("sm:lastmod", ns)
+        entries.append((loc.text if loc is not None else "", lastmod.text if lastmod is not None else ""))
+    return entries
 
 
 def canonical(html):
@@ -195,6 +225,20 @@ def check_sitemap(results):
     report(results, "sitemap has no duplicate URLs", not duplicates, "; ".join(duplicates[:10]))
     report(results, "sitemap includes canonical indexable 200 URLs only", not failures, "; ".join(failures[:20]))
 
+    date_failures = []
+    dates = []
+    for url, value in sitemap_entries():
+        try:
+            parsed = date.fromisoformat(value)
+            dates.append(value)
+            if parsed > date.today():
+                date_failures.append(f"{url}: future lastmod {value}")
+        except ValueError:
+            date_failures.append(f"{url}: invalid lastmod {value or '(missing)'}")
+    if len(urls) > 1 and len(set(dates)) < 2:
+        date_failures.append("all sitemap URLs use the same lastmod date")
+    report(results, "sitemap lastmod values are page-specific ISO dates", not date_failures, "; ".join(date_failures[:20]))
+
 
 def check_priority_pages(results):
     failures = []
@@ -202,8 +246,12 @@ def check_priority_pages(results):
         html = read(rel)
         if noindex(html):
             failures.append(f"{rel}: priority page is noindex")
-        if 'styles.css?v=20260712-seo' not in html:
+        if 'styles.css?v=20260716-fonts' not in html:
             failures.append(f"{rel}: missing current CSS cache key")
+        if 'site-preflight.js?v=20260716-offer-space' not in html:
+            failures.append(f"{rel}: missing offer layout preflight")
+        if 'site-cta.js?v=20260716-layout' not in html:
+            failures.append(f"{rel}: missing current CTA cache key")
         if not re.search(r"<title>[^<]+</title>", html, re.I):
             failures.append(f"{rel}: missing title")
         if not re.search(r'<meta name="description" content="[^"]{40,}', html, re.I):
@@ -226,6 +274,7 @@ def check_priority_pages(results):
             required = {
                 "answer block": "data-seo-answer" in html,
                 "facts table": "data-seo-facts" in html,
+                "reviewed source block": "data-seo-evidence" in html and f"Reviewed {REVIEWED_DISPLAY}" in html,
                 "safety block": "data-seo-safety" in html and "not measured blood concentration" in html,
                 "App Store CTA": "data-app-store-link" in html and "data-app-store-campaign" in html,
                 "FAQ block": "data-seo-faq" in html,
@@ -239,10 +288,31 @@ def check_priority_pages(results):
             for label, ok in required.items():
                 if not ok:
                     failures.append(f"{rel}: missing {label}")
+            if f'"dateModified": "{FACTS["content_reviewed"]}"' not in html:
+                failures.append(f"{rel}: schema is missing the reviewed date")
             visible = [(strip_tags(q), strip_tags(a)) for q, a in visible_faq_pairs(html)]
             schema = schema_faq_pairs(html)
             if visible and schema and visible != schema:
                 failures.append(f"{rel}: FAQ schema differs from visible FAQ")
+            if len(re.findall(r'<div class="faq-mini(?:\s|\")', html, re.I)) != 1:
+                failures.append(f"{rel}: expected one visible FAQ block")
+            if len(re.findall(r'<div class="meta-links(?:\s|\")', html, re.I)) != 1:
+                failures.append(f"{rel}: expected one related-links block")
+            if 'class="responsive-picture seo-hero-picture"' not in html:
+                failures.append(f"{rel}: hero is missing responsive picture markup")
+            hero_picture = re.search(
+                r'<picture class="responsive-picture seo-hero-picture">.*?<img\b[^>]*>',
+                html,
+                re.S | re.I,
+            )
+            if not hero_picture or 'loading="eager"' not in hero_picture.group(0) or 'fetchpriority="high"' not in hero_picture.group(0):
+                failures.append(f"{rel}: hero image is not eager/high priority")
+            for figure in re.findall(r'<figure class="feature-card seo-screenshot".*?</figure>', html, re.S | re.I):
+                if '<source type="image/avif"' not in figure or '<source type="image/webp"' not in figure:
+                    failures.append(f"{rel}: SEO screenshot is missing AVIF/WebP sources")
+                image = re.search(r'<img\b[^>]*>', figure, re.I)
+                if not image or 'loading="lazy"' not in image.group(0) or 'fetchpriority="high"' in image.group(0):
+                    failures.append(f"{rel}: below-fold SEO screenshot has the wrong loading priority")
             for tag in re.findall(r"<img\b[^>]*>", html, re.I):
                 for attr in ["alt", "width", "height"]:
                     if f" {attr}=" not in tag:
@@ -250,6 +320,40 @@ def check_priority_pages(results):
                 if "loading=" not in tag and "fetchpriority=" not in tag:
                     failures.append(f"{rel}: image missing loading/fetchpriority: {tag[:120]}")
     report(results, "priority pages have metadata, modules, schema, CTAs, images and safety", not failures, "; ".join(failures[:30]))
+
+
+def check_responsive_assets(results):
+    failures = []
+    hero_assets = SCREENSHOTS.get("priority_page_hero_assets", {})
+    for rel in SEO_REQUIRED_PAGES:
+        if rel not in hero_assets:
+            failures.append(f"missing hero source mapping: {rel}")
+    source_names = (
+        set(SCREENSHOTS.get("source_assets", {}).values())
+        | set(hero_assets.values())
+    )
+    for source_name in sorted(source_names):
+        stem = Path(source_name).stem
+        for width in RESPONSIVE_WIDTHS:
+            for extension in ["avif", "webp"]:
+                relative = Path("assets") / "responsive" / f"seo-{stem}-{width}.{extension}"
+                path = ROOT / relative
+                if not path.exists() or path.stat().st_size == 0:
+                    failures.append(str(relative))
+    report(results, "priority SEO responsive image assets exist", not failures, "; ".join(failures[:20]))
+
+
+def check_content_sync(results):
+    command = [sys.executable, str(ROOT / "tools" / "sync_site_content.py"), "--check"]
+    process = subprocess.run(command, cwd=ROOT, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+    detail = process.stdout.strip().replace("\n", "; ")
+    report(results, "crawler-visible product and offer copy matches source data", process.returncode == 0, detail)
+    offer_classes = []
+    for path in html_files():
+        html = path.read_text(encoding="utf-8")
+        if "offer-active-only" in html or "offer-expired-only" in html:
+            offer_classes.append(path.relative_to(ROOT).as_posix())
+    report(results, "HTML contains one offer state rather than active and expired variants", not offer_classes, "; ".join(offer_classes[:20]))
 
 
 def check_bad_strings(results):
@@ -297,7 +401,6 @@ def check_photo_allowance(results):
     paths = html_files() + [
         ROOT / "site-config.js",
         ROOT / "data/product-facts.json",
-        ROOT / "tools/seo_apply.py",
         ROOT / "tools/seo_priority_pass.py",
     ]
     for path in paths:
@@ -339,16 +442,82 @@ def check_en_duplicates(results):
     report(results, "/en/ duplicates are gated", not leaks, "; ".join(leaks[:20]))
 
 
+def locale_for_path(path):
+    relative = path.relative_to(ROOT)
+    return relative.parts[0].lower() if len(relative.parts) > 1 and relative.parts[0].lower() in LOCALE_DIRS else "root"
+
+
+def check_locale_indexing(results):
+    failures = []
+    urls = set(sitemap_urls())
+    for path in html_files():
+        html = path.read_text(encoding="utf-8")
+        rel = path.relative_to(ROOT).as_posix()
+        locale = locale_for_path(path)
+        if locale != "root" and locale not in NATIVE_REVIEWED_LOCALES:
+            if not noindex(html):
+                failures.append(f"{rel}: locale lacks native approval but is indexable")
+            own_url = f"{SITE}/{rel}" if not rel.endswith("/index.html") else f"{SITE}/{rel[:-10]}"
+            if own_url in urls:
+                failures.append(f"{rel}: unreviewed locale is in sitemap")
+            if re.search(r'<link\b[^>]*\bhreflang=', html, re.I):
+                failures.append(f"{rel}: gated locale still exposes hreflang alternates")
+        if noindex(html):
+            continue
+        for href in re.findall(r'<link\b[^>]*\bhreflang=["\'][^"\']+["\'][^>]*\bhref=["\']([^"\']+)', html, re.I):
+            target_rel = page_path_from_url(href)
+            target = ROOT / target_rel
+            if target.exists() and noindex(target.read_text(encoding="utf-8")):
+                failures.append(f"{rel}: hreflang points to noindex {target_rel}")
+    report(
+        results,
+        "locale indexation requires documented native review",
+        not failures,
+        "; ".join(failures[:30]),
+    )
+
+
+def check_offer_preflight(results):
+    config = (ROOT / "site-config.js").read_text(encoding="utf-8")
+    preflight = (ROOT / "site-preflight.js").read_text(encoding="utf-8")
+    config_expiry = re.search(r'\bexpiresAt:\s*"([^"]+)"', config)
+    preflight_expiry = re.search(r'\bvar expiresAt = "([^"]+)"', preflight)
+    config_key = re.search(r'\bbannerDismissStorageKey:\s*"([^"]+)"', config)
+    preflight_key = re.search(r'\bvar dismissalKey = "([^"]+)"', preflight)
+    failures = []
+    if not config_expiry or not preflight_expiry or config_expiry.group(1) != preflight_expiry.group(1):
+        failures.append("expiry timestamp differs between preflight and runtime")
+    if not config_key or not preflight_key or config_key.group(1) != preflight_key.group(1):
+        failures.append("dismissal key differs between preflight and runtime")
+    report(results, "offer preflight matches runtime state", not failures, "; ".join(failures))
+
+
+def check_release_contracts(results):
+    checks = [
+        ("offer expiry contract passes before and after the deadline", [sys.executable, str(ROOT / "tools" / "validate_offer_expiry.py")]),
+        ("App Store CTA campaigns resolve without third-party analytics", [sys.executable, str(ROOT / "tools" / "cta_campaign_audit.py"), "--check"]),
+    ]
+    for label, command in checks:
+        process = subprocess.run(command, cwd=ROOT, text=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
+        detail = process.stdout.strip().replace("\n", "; ")
+        report(results, label, process.returncode == 0, detail)
+
+
 def main():
     results = []
     check_robots(results)
     check_sitemap(results)
     check_priority_pages(results)
+    check_responsive_assets(results)
+    check_content_sync(results)
     check_bad_strings(results)
     check_medical_claims(results)
     check_photo_allowance(results)
     check_internal_links(results)
     check_en_duplicates(results)
+    check_locale_indexing(results)
+    check_offer_preflight(results)
+    check_release_contracts(results)
     width = max(len(name) for name, _, _ in results)
     failed = False
     print("SEO validation")

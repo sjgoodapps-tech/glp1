@@ -1,131 +1,44 @@
 # Responsive Image Pipeline Report
 
-This script prepares the screenshot conversion map. It can convert files when raw screenshots are present and local encoders are available.
+Generated from the source screenshot map in `data/screenshot-manifest.json`.
+Original PNG files remain as fallbacks and social-sharing images.
 
-- sips available: yes
-- cwebp available: no
-- avifenc available: no
+## Priority SEO Assets
 
-## Slots
+- `assets/en-screen-advanced-graphs.png` -> `seo-en-screen-advanced-graphs-*`: 8 files, 357 KB total
+- `assets/en-screen-dashboard.png` -> `seo-en-screen-dashboard-*`: 8 files, 481 KB total
+- `assets/en-screen-medication-coverage.png` -> `seo-en-screen-medication-coverage-*`: 8 files, 400 KB total
+- `assets/en-screen-photos-export.png` -> `seo-en-screen-photos-export-*`: 8 files, 514 KB total
+- `assets/en-screen-projections.png` -> `seo-en-screen-projections-*`: 8 files, 442 KB total
+- `assets/en-screen-quick-logging.png` -> `seo-en-screen-quick-logging-*`: 8 files, 498 KB total
+- `assets/hero-collage.png` -> `seo-hero-collage-*`: 8 files, 264 KB total
+- `assets/screen-graphs.png` -> `seo-screen-graphs-*`: 8 files, 357 KB total
+- `assets/screen-history.png` -> `seo-screen-history-*`: 8 files, 394 KB total
+- `assets/screen-import.png` -> `seo-screen-import-*`: 8 files, 339 KB total
+- `assets/screen-insights.png` -> `seo-screen-insights-*`: 8 files, 481 KB total
+- `assets/screen-recap.png` -> `seo-screen-recap-*`: 8 files, 498 KB total
+- `assets/screen-settings.png` -> `seo-screen-settings-*`: 8 files, 378 KB total
+- `assets/screen-welcome.png` -> `seo-screen-welcome-*`: 8 files, 447 KB total
 
-- `today-dashboard`
-  - raw: `raw/today-dashboard.png`
-  - webp: `assets/screens/today-dashboard.webp`
-  - avif: `assets/screens/today-dashboard.avif`
-  - alt: GLPzy Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.
-  - status: waiting for screenshot
-- `dose-log`
-  - raw: `raw/dose-log.png`
-  - webp: `assets/screens/dose-log.webp`
-  - avif: `assets/screens/dose-log.avif`
-  - alt: GLPzy dose log screen showing dose date, dose amount and routine notes.
-  - status: waiting for screenshot
-- `injection-site-dose-detail`
-  - raw: `raw/injection-site-dose-detail.png`
-  - webp: `assets/screens/injection-site-dose-detail.webp`
-  - avif: `assets/screens/injection-site-dose-detail.avif`
-  - alt: GLPzy dose detail screen showing injection site and dose notes.
-  - status: waiting for screenshot
-- `medication-setup`
-  - raw: `raw/medication-setup.png`
-  - webp: `assets/screens/medication-setup.webp`
-  - avif: `assets/screens/medication-setup.avif`
-  - alt: GLPzy medication setup screen with medicine context, route, form and frequency choices.
-  - status: waiting for screenshot
-- `reminder-setup`
-  - raw: `raw/reminder-setup.png`
-  - webp: `assets/screens/reminder-setup.webp`
-  - avif: `assets/screens/reminder-setup.avif`
-  - alt: GLPzy reminder setup screen for next dose reminders.
-  - status: waiting for screenshot
-- `weight-chart`
-  - raw: `raw/weight-chart.png`
-  - webp: `assets/screens/weight-chart.webp`
-  - avif: `assets/screens/weight-chart.avif`
-  - alt: GLPzy weight chart showing weight history beside tracking context.
-  - status: waiting for screenshot
-- `advanced-graph`
-  - raw: `raw/advanced-graph.png`
-  - webp: `assets/screens/advanced-graph.webp`
-  - avif: `assets/screens/advanced-graph.avif`
-  - alt: GLPzy advanced graph screen showing dose stage and weight trend review.
-  - status: waiting for screenshot
-- `symptom-appetite-log`
-  - raw: `raw/symptom-appetite-log.png`
-  - webp: `assets/screens/symptom-appetite-log.webp`
-  - avif: `assets/screens/symptom-appetite-log.avif`
-  - alt: GLPzy symptom and appetite log screen.
-  - status: waiting for screenshot
-- `symptom-timeline`
-  - raw: `raw/symptom-timeline.png`
-  - webp: `assets/screens/symptom-timeline.webp`
-  - avif: `assets/screens/symptom-timeline.avif`
-  - alt: GLPzy timeline showing symptom notes beside dose and weight records.
-  - status: waiting for screenshot
-- `progress-photo-library`
-  - raw: `raw/progress-photo-library.png`
-  - webp: `assets/screens/progress-photo-library.webp`
-  - avif: `assets/screens/progress-photo-library.avif`
-  - alt: GLPzy progress photo library for private photo review.
-  - status: waiting for screenshot
-- `before-after-export`
-  - raw: `raw/before-after-export.png`
-  - webp: `assets/screens/before-after-export.webp`
-  - avif: `assets/screens/before-after-export.avif`
-  - alt: GLPzy before and after photo comparison export screen.
-  - status: waiting for screenshot
-- `apple-health-connection`
-  - raw: `raw/apple-health-connection.png`
-  - webp: `assets/screens/apple-health-connection.webp`
-  - avif: `assets/screens/apple-health-connection.avif`
-  - alt: GLPzy Apple Health connection screen showing optional read-only health context.
-  - status: waiting for screenshot
-- `csv-json-pdf-export`
-  - raw: `raw/csv-json-pdf-export.png`
-  - webp: `assets/screens/csv-json-pdf-export.webp`
-  - avif: `assets/screens/csv-json-pdf-export.avif`
-  - alt: GLPzy export screen for CSV, JSON and PDF summaries.
-  - status: waiting for screenshot
-- `clinician-summary-pdf-preview`
-  - raw: `raw/clinician-summary-pdf-preview.png`
-  - webp: `assets/screens/clinician-summary-pdf-preview.webp`
-  - avif: `assets/screens/clinician-summary-pdf-preview.avif`
-  - alt: GLPzy clinician summary PDF preview for appointments.
-  - status: waiting for screenshot
-- `local-backup-import-restore`
-  - raw: `raw/local-backup-import-restore.png`
-  - webp: `assets/screens/local-backup-import-restore.webp`
-  - avif: `assets/screens/local-backup-import-restore.avif`
-  - alt: GLPzy local backup, import and restore screen.
-  - status: waiting for screenshot
-- `privacy-settings`
-  - raw: `raw/privacy-settings.png`
-  - webp: `assets/screens/privacy-settings.webp`
-  - avif: `assets/screens/privacy-settings.avif`
-  - alt: GLPzy privacy and settings screen.
-  - status: waiting for screenshot
-- `estimated-exposure-projection`
-  - raw: `raw/estimated-exposure-projection.png`
-  - webp: `assets/screens/estimated-exposure-projection.webp`
-  - avif: `assets/screens/estimated-exposure-projection.avif`
-  - alt: GLPzy Estimated Exposure projection screen.
-  - status: waiting for screenshot
-- `projection-scenario-setup`
-  - raw: `raw/projection-scenario-setup.png`
-  - webp: `assets/screens/projection-scenario-setup.webp`
-  - avif: `assets/screens/projection-scenario-setup.avif`
-  - alt: GLPzy projection scenario setup screen.
-  - status: waiting for screenshot
-- `calendar-timeline-history`
-  - raw: `raw/calendar-timeline-history.png`
-  - webp: `assets/screens/calendar-timeline-history.webp`
-  - avif: `assets/screens/calendar-timeline-history.avif`
-  - alt: GLPzy calendar and timeline history screen.
-  - status: waiting for screenshot
-- `widgets`
-  - raw: `raw/widgets.png`
-  - webp: `assets/screens/widgets.webp`
-  - avif: `assets/screens/widgets.avif`
-  - alt: GLPzy iPhone widgets showing next dose and tracking context.
-  - status: waiting for screenshot
-- homepage variants: generated 72 WebP/AVIF files from 36 resized source variants
+## SEO Screenshot Slots
+
+- `today-dashboard`: `assets/en-screen-dashboard.png`; alt: GLPzy Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.
+- `dose-log`: `assets/screen-recap.png`; alt: GLPzy dose log screen showing dose date, dose amount and routine notes.
+- `injection-site-dose-detail`: `assets/en-screen-dashboard.png`; alt: GLPzy dose detail screen showing injection site and dose notes.
+- `medication-setup`: `assets/en-screen-medication-coverage.png`; alt: GLPzy medication setup screen with medicine context, route, form and frequency choices.
+- `reminder-setup`: `assets/screen-recap.png`; alt: GLPzy reminder setup screen for next dose reminders.
+- `weight-chart`: `assets/en-screen-advanced-graphs.png`; alt: GLPzy weight chart showing weight history beside tracking context.
+- `advanced-graph`: `assets/en-screen-advanced-graphs.png`; alt: GLPzy advanced graph screen showing dose stage and weight trend review.
+- `symptom-appetite-log`: `assets/en-screen-quick-logging.png`; alt: GLPzy symptom and appetite log screen.
+- `symptom-timeline`: `assets/screen-history.png`; alt: GLPzy timeline showing symptom notes beside dose and weight records.
+- `progress-photo-library`: `assets/en-screen-photos-export.png`; alt: GLPzy progress photo library for private photo review.
+- `before-after-export`: `assets/en-screen-photos-export.png`; alt: GLPzy before and after photo comparison export screen.
+- `apple-health-connection`: `assets/screen-settings.png`; alt: GLPzy Apple Health connection screen showing optional read-only health context.
+- `csv-json-pdf-export`: `assets/screen-import.png`; alt: GLPzy export screen for CSV, JSON and PDF summaries.
+- `clinician-summary-pdf-preview`: `assets/screen-recap.png`; alt: GLPzy clinician summary PDF preview for appointments.
+- `local-backup-import-restore`: `assets/screen-import.png`; alt: GLPzy local backup, import and restore screen.
+- `privacy-settings`: `assets/screen-settings.png`; alt: GLPzy privacy and settings screen.
+- `estimated-exposure-projection`: `assets/en-screen-projections.png`; alt: GLPzy Estimated Exposure projection screen.
+- `projection-scenario-setup`: `assets/en-screen-projections.png`; alt: GLPzy projection scenario setup screen.
+- `calendar-timeline-history`: `assets/screen-history.png`; alt: GLPzy calendar and timeline history screen.
+- `widgets`: `assets/screen-welcome.png`; alt: GLPzy iPhone widgets showing next dose and tracking context.

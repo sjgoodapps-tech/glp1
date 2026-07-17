@@ -1,0 +1,876 @@
+{
+  "generated": "2026-07-16T23:51:39+00:00",
+  "lighthouse_version": "13.4.0",
+  "base_url": "http://127.0.0.1:4173/",
+  "run_type": "3-run median local live-equivalent synthetic baseline",
+  "runs_per_page_and_mode": 3,
+  "thresholds": {
+    "performance": 90,
+    "accessibility": 95,
+    "best_practices": 95,
+    "seo": 95,
+    "lcp_ms_max": 2500,
+    "cls_max": 0.1,
+    "tbt_ms_max": 200
+  },
+  "results": [
+    {
+      "page": "homepage",
+      "path": "index.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 96,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1954.25,
+      "lcp_ms": 2481.18,
+      "tbt_ms": 0,
+      "cls": 0,
+      "speed_index_ms": 1954.25,
+      "total_bytes": 281393,
+      "sample_lcp_ms": [
+        2481.18,
+        2629.25,
+        2478.915
+      ],
+      "sample_cls": [
+        0,
+        0,
+        0
+      ],
+      "sample_performance": [
+        96,
+        95,
+        96
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "glp1-tracker",
+      "path": "glp1-weight-dose-symptom-tracker.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1804.482,
+      "lcp_ms": 2278.44,
+      "tbt_ms": 0,
+      "cls": 0.0,
+      "speed_index_ms": 1804.482,
+      "total_bytes": 240393,
+      "sample_lcp_ms": [
+        2278.44,
+        2404.482,
+        2013.043
+      ],
+      "sample_cls": [
+        0.025,
+        0.0,
+        0.0
+      ],
+      "sample_performance": [
+        97,
+        97,
+        99
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "mounjaro",
+      "path": "mounjaro-tracker-iphone.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1804.922,
+      "lcp_ms": 2404.922,
+      "tbt_ms": 0,
+      "cls": 0.016,
+      "speed_index_ms": 1804.922,
+      "total_bytes": 260757,
+      "sample_lcp_ms": [
+        2405.779,
+        1954.588,
+        2404.922
+      ],
+      "sample_cls": [
+        0.016,
+        0.016,
+        0.016
+      ],
+      "sample_performance": [
+        97,
+        99,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "wegovy",
+      "path": "wegovy-tracker-iphone.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1803.631,
+      "lcp_ms": 2403.631,
+      "tbt_ms": 0,
+      "cls": 0.015,
+      "speed_index_ms": 1803.631,
+      "total_bytes": 258803,
+      "sample_lcp_ms": [
+        2403.715,
+        2403.631,
+        2403.554
+      ],
+      "sample_cls": [
+        0.015,
+        0.015,
+        0.015
+      ],
+      "sample_performance": [
+        97,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "zepbound",
+      "path": "zepbound-tracker-iphone.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1805.415,
+      "lcp_ms": 2405.415,
+      "tbt_ms": 0,
+      "cls": 0.016,
+      "speed_index_ms": 1805.415,
+      "total_bytes": 261251,
+      "sample_lcp_ms": [
+        2555.932,
+        2403.432,
+        2405.415
+      ],
+      "sample_cls": [
+        0.016,
+        0.016,
+        0.016
+      ],
+      "sample_performance": [
+        96,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "tirzepatide",
+      "path": "tirzepatide-tracker-iphone.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1804.809,
+      "lcp_ms": 2404.809,
+      "tbt_ms": 0,
+      "cls": 0.0,
+      "speed_index_ms": 1804.809,
+      "total_bytes": 252872,
+      "sample_lcp_ms": [
+        2405.652,
+        2404.278,
+        2404.809
+      ],
+      "sample_cls": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_performance": [
+        97,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "semaglutide",
+      "path": "semaglutide-tracker-iphone.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1805.628,
+      "lcp_ms": 2404.238,
+      "tbt_ms": 0,
+      "cls": 0.015,
+      "speed_index_ms": 1805.628,
+      "total_bytes": 250804,
+      "sample_lcp_ms": [
+        2256.355,
+        2405.628,
+        2404.238
+      ],
+      "sample_cls": [
+        0.015,
+        0.015,
+        0.015
+      ],
+      "sample_performance": [
+        97,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "privacy",
+      "path": "local-first-private-glp-tracker.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1804.042,
+      "lcp_ms": 2404.042,
+      "tbt_ms": 0,
+      "cls": 0.027,
+      "speed_index_ms": 1804.042,
+      "total_bytes": 257799,
+      "sample_lcp_ms": [
+        2404.08,
+        2404.042,
+        2403.814
+      ],
+      "sample_cls": [
+        0.027,
+        0.027,
+        0.027
+      ],
+      "sample_performance": [
+        97,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "dose-reminder",
+      "path": "glp1-dose-reminder-app.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1803.568,
+      "lcp_ms": 2403.568,
+      "tbt_ms": 0,
+      "cls": 0.017,
+      "speed_index_ms": 1803.568,
+      "total_bytes": 247215,
+      "sample_lcp_ms": [
+        2414.919,
+        1953.899,
+        2403.568
+      ],
+      "sample_cls": [
+        0.017,
+        0.017,
+        0.017
+      ],
+      "sample_performance": [
+        97,
+        99,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "symptoms",
+      "path": "glp1-side-effect-symptom-tracker.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1803.932,
+      "lcp_ms": 2404.416,
+      "tbt_ms": 0,
+      "cls": 0.0,
+      "speed_index_ms": 1803.932,
+      "total_bytes": 247397,
+      "sample_lcp_ms": [
+        2403.932,
+        2404.416,
+        2553.239
+      ],
+      "sample_cls": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_performance": [
+        97,
+        97,
+        96
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "weight",
+      "path": "glp1-weight-tracker.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1803.796,
+      "lcp_ms": 2403.796,
+      "tbt_ms": 0,
+      "cls": 0.0,
+      "speed_index_ms": 1803.796,
+      "total_bytes": 238287,
+      "sample_lcp_ms": [
+        2403.796,
+        2403.131,
+        2404.031
+      ],
+      "sample_cls": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_performance": [
+        97,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "photos",
+      "path": "glp1-progress-photo-tracker.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1803.638,
+      "lcp_ms": 2403.638,
+      "tbt_ms": 0,
+      "cls": 0.0,
+      "speed_index_ms": 1803.638,
+      "total_bytes": 240416,
+      "sample_lcp_ms": [
+        2403.609,
+        2403.638,
+        2404.049
+      ],
+      "sample_cls": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sample_performance": [
+        97,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "apple-health",
+      "path": "apple-health-glp-tracker.html",
+      "strategy": "mobile",
+      "sample_count": 3,
+      "performance": 97,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 1804.68,
+      "lcp_ms": 2404.68,
+      "tbt_ms": 0,
+      "cls": 0.01,
+      "speed_index_ms": 1804.68,
+      "total_bytes": 260048,
+      "sample_lcp_ms": [
+        2405.095,
+        2403.53,
+        2404.68
+      ],
+      "sample_cls": [
+        0.0,
+        0.01,
+        0.01
+      ],
+      "sample_performance": [
+        96,
+        97,
+        97
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "homepage",
+      "path": "index.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 100,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 444.459,
+      "lcp_ms": 624.459,
+      "tbt_ms": 0,
+      "cls": 0.019,
+      "speed_index_ms": 444.459,
+      "total_bytes": 379362,
+      "sample_lcp_ms": [
+        564.218,
+        645.053,
+        624.459
+      ],
+      "sample_cls": [
+        0.01,
+        0.019,
+        0.019
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "glp1-tracker",
+      "path": "glp1-weight-dose-symptom-tracker.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 415.332,
+      "lcp_ms": 555.332,
+      "tbt_ms": 0,
+      "cls": 0.021,
+      "speed_index_ms": 415.332,
+      "total_bytes": 309381,
+      "sample_lcp_ms": [
+        555.332,
+        544.189,
+        582.037
+      ],
+      "sample_cls": [
+        0.084,
+        0.02,
+        0.021
+      ],
+      "sample_performance": [
+        98,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "mounjaro",
+      "path": "mounjaro-tracker-iphone.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 404.12,
+      "lcp_ms": 544.12,
+      "tbt_ms": 0,
+      "cls": 0.011,
+      "speed_index_ms": 404.12,
+      "total_bytes": 291322,
+      "sample_lcp_ms": [
+        544.579,
+        543.775,
+        544.12
+      ],
+      "sample_cls": [
+        0.011,
+        0.011,
+        0.039
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "wegovy",
+      "path": "wegovy-tracker-iphone.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 406.262,
+      "lcp_ms": 565.486,
+      "tbt_ms": 0,
+      "cls": 0.039,
+      "speed_index_ms": 406.262,
+      "total_bytes": 302888,
+      "sample_lcp_ms": [
+        546.262,
+        591.117,
+        565.486
+      ],
+      "sample_cls": [
+        0.039,
+        0.039,
+        0.039
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "zepbound",
+      "path": "zepbound-tracker-iphone.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 406.498,
+      "lcp_ms": 546.498,
+      "tbt_ms": 0,
+      "cls": 0.039,
+      "speed_index_ms": 406.498,
+      "total_bytes": 291248,
+      "sample_lcp_ms": [
+        546.498,
+        545.621,
+        548.432
+      ],
+      "sample_cls": [
+        0.039,
+        0.039,
+        0.039
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "tirzepatide",
+      "path": "tirzepatide-tracker-iphone.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 406.179,
+      "lcp_ms": 568.687,
+      "tbt_ms": 0,
+      "cls": 0.011,
+      "speed_index_ms": 406.179,
+      "total_bytes": 299794,
+      "sample_lcp_ms": [
+        568.687,
+        566.178,
+        583.777
+      ],
+      "sample_cls": [
+        0.011,
+        0.038,
+        0.011
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "semaglutide",
+      "path": "semaglutide-tracker-iphone.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 405.143,
+      "lcp_ms": 545.143,
+      "tbt_ms": 0,
+      "cls": 0.038,
+      "speed_index_ms": 405.143,
+      "total_bytes": 285748,
+      "sample_lcp_ms": [
+        529.317,
+        545.143,
+        545.814
+      ],
+      "sample_cls": [
+        0.011,
+        0.038,
+        0.038
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "privacy",
+      "path": "local-first-private-glp-tracker.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 403.976,
+      "lcp_ms": 543.976,
+      "tbt_ms": 0,
+      "cls": 0.035,
+      "speed_index_ms": 403.976,
+      "total_bytes": 266605,
+      "sample_lcp_ms": [
+        543.976,
+        543.682,
+        544.221
+      ],
+      "sample_cls": [
+        0.035,
+        0.035,
+        0.035
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "dose-reminder",
+      "path": "glp1-dose-reminder-app.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 406.009,
+      "lcp_ms": 546.009,
+      "tbt_ms": 0,
+      "cls": 0.015,
+      "speed_index_ms": 406.009,
+      "total_bytes": 280640,
+      "sample_lcp_ms": [
+        546.009,
+        544.87,
+        548.141
+      ],
+      "sample_cls": [
+        0.015,
+        0.015,
+        0.015
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "symptoms",
+      "path": "glp1-side-effect-symptom-tracker.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 404.153,
+      "lcp_ms": 544.153,
+      "tbt_ms": 0,
+      "cls": 0.016,
+      "speed_index_ms": 404.153,
+      "total_bytes": 278053,
+      "sample_lcp_ms": [
+        530.798,
+        544.652,
+        544.153
+      ],
+      "sample_cls": [
+        0.003,
+        0.016,
+        0.016
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "weight",
+      "path": "glp1-weight-tracker.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 404.39,
+      "lcp_ms": 544.39,
+      "tbt_ms": 0,
+      "cls": 0.016,
+      "speed_index_ms": 404.39,
+      "total_bytes": 270614,
+      "sample_lcp_ms": [
+        543.983,
+        544.978,
+        544.39
+      ],
+      "sample_cls": [
+        0.016,
+        0.016,
+        0.016
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "photos",
+      "path": "glp1-progress-photo-tracker.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 406.347,
+      "lcp_ms": 546.744,
+      "tbt_ms": 0,
+      "cls": 0.015,
+      "speed_index_ms": 406.347,
+      "total_bytes": 276065,
+      "sample_lcp_ms": [
+        546.744,
+        566.347,
+        543.714
+      ],
+      "sample_cls": [
+        0.015,
+        0.015,
+        0.015
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    },
+    {
+      "page": "apple-health",
+      "path": "apple-health-glp-tracker.html",
+      "strategy": "desktop",
+      "sample_count": 3,
+      "performance": 100,
+      "accessibility": 98,
+      "best_practices": 100,
+      "seo": 100,
+      "fcp_ms": 403.921,
+      "lcp_ms": 543.921,
+      "tbt_ms": 0,
+      "cls": 0.032,
+      "speed_index_ms": 403.921,
+      "total_bytes": 266916,
+      "sample_lcp_ms": [
+        544.128,
+        543.921,
+        543.443
+      ],
+      "sample_cls": [
+        0.032,
+        0.032,
+        0.032
+      ],
+      "sample_performance": [
+        100,
+        100,
+        100
+      ],
+      "release_threshold_pass": true,
+      "threshold_failures": []
+    }
+  ]
+}

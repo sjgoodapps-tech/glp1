@@ -329,7 +329,10 @@ def check_dynamic_locale_copy():
     failures = []
     config = (ROOT / "site-config.js").read_text(encoding="utf-8")
     cta = (ROOT / "site-cta.js").read_text(encoding="utf-8")
-    storefronts = set(re.findall(r'^\s*"([^\"]+)"\s*:\s*\{', config, re.M))
+    storefront_block = re.search(r'var\s+storefronts\s*=\s*\{(.*?)\n\s*\};', config, re.S)
+    storefronts = set(
+        re.findall(r'^\s*"([^\"]+)"\s*:\s*\{', storefront_block.group(1), re.M)
+    ) if storefront_block else set()
     messages = set(re.findall(r'^\s*"([^\"]+)"\s*:\s*"', cta, re.M))
     for locale in sorted(storefronts - {"en"} - messages):
         failures.append(("site-cta.js", "missing translated offer message", locale))

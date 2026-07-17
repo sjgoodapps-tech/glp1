@@ -1,0 +1,11 @@
+{
+  "policy": "Only root English pages and explicitly native-reviewed locales may be indexed.",
+  "native_reviewed_locales": [],
+  "review_requirements": [
+    "Native-language review of visible copy",
+    "Medical safety wording checked in context",
+    "No mixed English except approved product names",
+    "Mobile layout checked at 390px and 320px",
+    "Canonical and hreflang cluster checked"
+  ]
+}

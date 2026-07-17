@@ -16,10 +16,8 @@
   <meta name="twitter:title" content="GLP-1 progress photo tracker app | GLPzy">
   <meta name="twitter:description" content="Track GLP-1 progress photos, weight, doses, symptoms and milestones privately on iPhone with GLPzy photo comparison tools.">
   <meta name="twitter:image" content="https://www.glpzy.app/assets/hero-collage.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260712-seo">
+  <script src="site-preflight.js?v=20260716-offer-space"></script>
+  <link rel="stylesheet" href="styles.css?v=20260716-fonts">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <script type="application/ld+json" data-seo-schema="true">
@@ -31,7 +29,10 @@
       "@id": "https://www.glpzy.app/#organization",
       "name": "GLPzy",
       "url": "https://www.glpzy.app/",
-      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png"
+      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png",
+      "sameAs": [
+        "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005"
+      ]
     },
     {
       "@type": "WebSite",
@@ -47,7 +48,10 @@
       "operatingSystem": "iOS",
       "url": "https://www.glpzy.app/",
       "downloadUrl": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
-      "description": "Personal tracking only. GLPzy is not medical advice, not a dosing guide, not a medical device and not a substitute for a qualified clinician.",
+      "description": "Private iPhone and iPad app for recording GLP-1 doses, weight, symptoms, photos and optional read-only Apple Health context. Personal tracking only.",
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -65,7 +69,14 @@
       },
       "about": {
         "@id": "https://www.glpzy.app/#software"
-      }
+      },
+      "author": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "dateModified": "2026-07-16"
     },
     {
       "@type": "BreadcrumbList",
@@ -173,7 +184,7 @@
 }
   </script>
   <script defer src="site-config.js"></script>
-  <script defer src="site-cta.js?v=20260712-sticky"></script>
+  <script defer src="site-cta.js?v=20260716-layout"></script>
   <script defer src="site-i18n.js"></script>
 </head>
 <body>
@@ -203,11 +214,10 @@
             <div class="eyebrow">Progress photo tracker</div>
             <h1>GLP-1 progress photo tracker</h1>
             <p>Keep private progress photos, comparison views, weight history, dose records and notes together on iPhone. You choose what to export or share.</p>
-            <p class="hero-offer-line offer-active-only" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
-            <p class="offer-active-only" data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
+            <p class="hero-offer-line" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
+            <p data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
             <div class="site-cta-actions" data-site-cta>
-              <a class="button button-primary offer-active-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoPhotoTracker" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">Get Lifetime Premium free</a>
-              <a class="button button-primary offer-expired-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoPhotoTracker" data-offer-copy="expired.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">View on the App Store</a>
+              <a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoPhotoTracker" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_photo_tracker" data-cta-placement="hero">Get Lifetime Premium free</a>
               <a class="button button-secondary hero-secondary-cta" href="glp1-weight-tracker.html">See weight tracker</a>
             </div>
             <div class="site-cta-note" data-cta-note></div>
@@ -215,7 +225,11 @@
           <div class="hero-visual">
             <div class="screen-panel screen-panel-hero">
               <div class="screen-panel-head"><span>Photo review</span><span>User-directed export</span></div>
-              <img src="assets/screen-history.png" alt="GLPzy screen for reviewing photo and tracking history." width="1320" height="2868" decoding="async" loading="lazy">
+              <picture class="responsive-picture seo-hero-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-history-360.avif 360w, assets/responsive/seo-screen-history-720.avif 720w, assets/responsive/seo-screen-history-1080.avif 1080w, assets/responsive/seo-screen-history-1320.avif 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-history-360.webp 360w, assets/responsive/seo-screen-history-720.webp 720w, assets/responsive/seo-screen-history-1080.webp 1080w, assets/responsive/seo-screen-history-1320.webp 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <img src="assets/screen-history.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy screen for reviewing photo and tracking history.">
+            </picture>
             </div>
           </div>
         </div>
@@ -253,7 +267,7 @@
         </div>
         <div class="card seo-answer-card" data-seo-answer>
           <p>GLPzy lets you keep GLP-1 progress photos beside dose history, weight records, symptoms and notes. Free includes 2 new photo uploads per month, while Premium includes unlimited photo uploads. Photo comparison is for personal review only. It does not assess health, diagnose changes or provide medical advice.</p>
-          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_photo_tracker" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_photo_tracker">Get GLPzy</a></div>
+          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoPhotoTracker" data-cta-placement="answer" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_photo_tracker">Get GLPzy</a></div>
         </div>
         <div class="seo-copy">
           <p>Progress photos can help you review visible changes alongside routine records.</p>
@@ -300,21 +314,39 @@
               <tr><th scope="row">App Store link</th><td><a data-app-store-link href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">GLPzy on the App Store</a></td></tr>
             </tbody>
           </table>
+        <div class="seo-copy seo-evidence" data-seo-evidence>
+          <h2>Sources and page information</h2>
+          <p>Reviewed 16 July 2026. Published by GLPzy.</p>
+          <ul>
+          <li><a href="medical-safety.html">GLPzy medical safety boundaries</a></li>
+          <li><a href="methodology.html">GLPzy Estimated Exposure methodology</a></li>
+          </ul>
+          <p class="small">Official medicine information is linked for reference. GLPzy does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
+        </div>
         <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="progress-photo-library" data-target-webp="assets/screens/progress-photo-library.webp" data-target-avif="assets/screens/progress-photo-library.avif">
-            <img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy progress photo library for private photo review.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="progress-photo-library" data-target-webp="assets/responsive/seo-en-screen-photos-export-720.webp" data-target-avif="assets/responsive/seo-en-screen-photos-export-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-en-screen-photos-export-360.avif 360w, assets/responsive/seo-en-screen-photos-export-720.avif 720w, assets/responsive/seo-en-screen-photos-export-1080.avif 1080w, assets/responsive/seo-en-screen-photos-export-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-en-screen-photos-export-360.webp 360w, assets/responsive/seo-en-screen-photos-export-720.webp 720w, assets/responsive/seo-en-screen-photos-export-1080.webp 1080w, assets/responsive/seo-en-screen-photos-export-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy progress photo library for private photo review.">
+            </picture>
             <figcaption>Progress photos are private records unless the user chooses to export or share.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="before-after-export" data-target-webp="assets/screens/before-after-export.webp" data-target-avif="assets/screens/before-after-export.avif">
-            <img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy before and after photo comparison export screen.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="before-after-export" data-target-webp="assets/responsive/seo-en-screen-photos-export-720.webp" data-target-avif="assets/responsive/seo-en-screen-photos-export-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-en-screen-photos-export-360.avif 360w, assets/responsive/seo-en-screen-photos-export-720.avif 720w, assets/responsive/seo-en-screen-photos-export-1080.avif 1080w, assets/responsive/seo-en-screen-photos-export-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-en-screen-photos-export-360.webp 360w, assets/responsive/seo-en-screen-photos-export-720.webp 720w, assets/responsive/seo-en-screen-photos-export-1080.webp 1080w, assets/responsive/seo-en-screen-photos-export-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy before and after photo comparison export screen.">
+            </picture>
             <figcaption>Photo export is user-directed. Face covering and sharing choices stay with the user.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="today-dashboard" data-target-webp="assets/screens/today-dashboard.webp" data-target-avif="assets/screens/today-dashboard.avif">
-            <img src="assets/en-screen-dashboard.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="today-dashboard" data-target-webp="assets/responsive/seo-en-screen-dashboard-720.webp" data-target-avif="assets/responsive/seo-en-screen-dashboard-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-en-screen-dashboard-360.avif 360w, assets/responsive/seo-en-screen-dashboard-720.avif 720w, assets/responsive/seo-en-screen-dashboard-1080.avif 1080w, assets/responsive/seo-en-screen-dashboard-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-en-screen-dashboard-360.webp 360w, assets/responsive/seo-en-screen-dashboard-720.webp 720w, assets/responsive/seo-en-screen-dashboard-1080.webp 1080w, assets/responsive/seo-en-screen-dashboard-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/en-screen-dashboard.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.">
+            </picture>
             <figcaption>Today dashboard for private dose, weight and symptom review.</figcaption>
-
           </figure>
         </div>
         <div class="section-head section-head-center">
@@ -348,27 +380,7 @@
           <a href="medical-safety.html">Medical safety</a>
           <a href="methodology.html">Methodology</a>
         </div>
-        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_photo_tracker" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_photo_tracker">Get GLPzy on the App Store</a></div>
-      </div>
-    </section>
-    <section class="section-strip faq-strip">
-      <div class="shell narrow-shell">
-        <div class="section-head section-head-center">
-          <div class="kicker">FAQ</div>
-          <h2>Questions about progress photos</h2>
-        </div>
-        <div class="faq-mini">
-          <details open><summary>Can I track progress photos in GLPzy?</summary><p>Yes. GLPzy includes progress photos, milestones and comparison tools for personal review.</p></details>
-          <details><summary>Are progress photos shared automatically?</summary><p>No. Photo exports and sharing are user-directed. GLPzy does not require a mandatory in-app account for core tracking.</p></details>
-          <details><summary>Can I review photos with weight history?</summary><p>Yes. GLPzy can keep photos beside weight, dose, symptom and note history for personal tracking.</p></details>
-        </div>
-        <div class="meta-links">
-          <a href="glp1-weight-tracker.html">GLP-1 weight tracker</a>
-          <a href="weight-loss-injection-tracker.html">Weight loss injection tracker</a>
-          <a href="wegovy-tracker-iphone.html">Wegovy tracker</a>
-          <a href="zepbound-tracker-iphone.html">Zepbound tracker</a>
-          <a href="privacy.html">Privacy</a>
-        </div>
+        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoPhotoTracker" data-cta-placement="bottom" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_photo_tracker">Get GLPzy on the App Store</a></div>
       </div>
     </section>
   </main>

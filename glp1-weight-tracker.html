@@ -16,10 +16,8 @@
   <meta name="twitter:title" content="GLP-1 weight tracker app for iPhone | GLPzy">
   <meta name="twitter:description" content="Track GLP-1 weight history, dose records, symptoms, photos and optional read-only Apple Health context privately on iPhone.">
   <meta name="twitter:image" content="https://www.glpzy.app/assets/hero-collage.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260712-seo">
+  <script src="site-preflight.js?v=20260716-offer-space"></script>
+  <link rel="stylesheet" href="styles.css?v=20260716-fonts">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <script type="application/ld+json" data-seo-schema="true">
@@ -31,7 +29,10 @@
       "@id": "https://www.glpzy.app/#organization",
       "name": "GLPzy",
       "url": "https://www.glpzy.app/",
-      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png"
+      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png",
+      "sameAs": [
+        "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005"
+      ]
     },
     {
       "@type": "WebSite",
@@ -47,7 +48,10 @@
       "operatingSystem": "iOS",
       "url": "https://www.glpzy.app/",
       "downloadUrl": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
-      "description": "Personal tracking only. GLPzy is not medical advice, not a dosing guide, not a medical device and not a substitute for a qualified clinician.",
+      "description": "Private iPhone and iPad app for recording GLP-1 doses, weight, symptoms, photos and optional read-only Apple Health context. Personal tracking only.",
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -65,7 +69,14 @@
       },
       "about": {
         "@id": "https://www.glpzy.app/#software"
-      }
+      },
+      "author": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "dateModified": "2026-07-16"
     },
     {
       "@type": "BreadcrumbList",
@@ -165,7 +176,7 @@
 }
   </script>
   <script defer src="site-config.js"></script>
-  <script defer src="site-cta.js?v=20260712-sticky"></script>
+  <script defer src="site-cta.js?v=20260716-layout"></script>
   <script defer src="site-i18n.js"></script>
 </head>
 <body>
@@ -195,11 +206,10 @@
             <div class="eyebrow">GLP-1 weight tracker</div>
             <h1>GLP-1 weight tracker app for iPhone</h1>
             <p>Keep weight entries, charts, dose history, symptoms, photos and optional read-only Apple Health context together for personal review.</p>
-            <p class="hero-offer-line offer-active-only" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
-            <p class="offer-active-only" data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
+            <p class="hero-offer-line" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
+            <p data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
             <div class="site-cta-actions" data-site-cta>
-              <a class="button button-primary offer-active-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoWeightTracker" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">Get Lifetime Premium free</a>
-              <a class="button button-primary offer-expired-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoWeightTracker" data-offer-copy="expired.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">View on the App Store</a>
+              <a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoWeightTracker" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_weight_tracker" data-cta-placement="hero">Get Lifetime Premium free</a>
               <a class="button button-secondary hero-secondary-cta" href="apple-health-weight-loss-injection-tracker.html">See Apple Health page</a>
             </div>
             <div class="site-cta-note" data-cta-note></div>
@@ -207,7 +217,11 @@
           <div class="hero-visual">
             <div class="screen-panel screen-panel-hero">
               <div class="screen-panel-head"><span>Weight review</span><span>Private charts</span></div>
-              <img src="assets/screen-graphs.png" alt="GLPzy graph screen for reviewing weight and tracking history." width="1320" height="2868" decoding="async" loading="lazy">
+              <picture class="responsive-picture seo-hero-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-graphs-360.avif 360w, assets/responsive/seo-screen-graphs-720.avif 720w, assets/responsive/seo-screen-graphs-1080.avif 1080w, assets/responsive/seo-screen-graphs-1320.avif 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-graphs-360.webp 360w, assets/responsive/seo-screen-graphs-720.webp 720w, assets/responsive/seo-screen-graphs-1080.webp 1080w, assets/responsive/seo-screen-graphs-1320.webp 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <img src="assets/screen-graphs.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy graph screen for reviewing weight and tracking history.">
+            </picture>
             </div>
           </div>
         </div>
@@ -245,7 +259,7 @@
         </div>
         <div class="card seo-answer-card" data-seo-answer>
           <p>GLPzy helps you track weight history beside GLP-1 dose records, symptoms, appetite, nutrition and progress photos. Optional Apple Health support can add read-only weight context. GLPzy is for personal review and does not judge progress or give treatment advice.</p>
-          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_weight_tracker" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_weight_tracker">Get GLPzy</a></div>
+          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoWeightTracker" data-cta-placement="answer" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_weight_tracker">Get GLPzy</a></div>
         </div>
         <div class="seo-copy">
           <p>Weight records are easier to review when they sit beside dose dates, routine notes and photos.</p>
@@ -292,21 +306,40 @@
               <tr><th scope="row">App Store link</th><td><a data-app-store-link href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">GLPzy on the App Store</a></td></tr>
             </tbody>
           </table>
+        <div class="seo-copy seo-evidence" data-seo-evidence>
+          <h2>Sources and page information</h2>
+          <p>Reviewed 16 July 2026. Published by GLPzy.</p>
+          <ul>
+          <li><a href="https://developer.apple.com/documentation/HealthKit/authorizing-access-to-health-data">Apple HealthKit authorisation</a></li>
+          <li><a href="medical-safety.html">GLPzy medical safety boundaries</a></li>
+          <li><a href="methodology.html">GLPzy Estimated Exposure methodology</a></li>
+          </ul>
+          <p class="small">Official medicine information is linked for reference. GLPzy does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
+        </div>
         <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="weight-chart" data-target-webp="assets/screens/weight-chart.webp" data-target-avif="assets/screens/weight-chart.avif">
-            <img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy weight chart showing weight history beside tracking context.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="weight-chart" data-target-webp="assets/responsive/seo-en-screen-advanced-graphs-720.webp" data-target-avif="assets/responsive/seo-en-screen-advanced-graphs-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.avif 360w, assets/responsive/seo-en-screen-advanced-graphs-720.avif 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.avif 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.webp 360w, assets/responsive/seo-en-screen-advanced-graphs-720.webp 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.webp 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy weight chart showing weight history beside tracking context.">
+            </picture>
             <figcaption>Weight charts are for personal review and do not set clinical goals.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="apple-health-connection" data-target-webp="assets/screens/apple-health-connection.webp" data-target-avif="assets/screens/apple-health-connection.avif">
-            <img src="assets/screen-settings.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Apple Health connection screen showing optional read-only health context.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="apple-health-connection" data-target-webp="assets/responsive/seo-screen-settings-720.webp" data-target-avif="assets/responsive/seo-screen-settings-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-settings-360.avif 360w, assets/responsive/seo-screen-settings-720.avif 720w, assets/responsive/seo-screen-settings-1080.avif 1080w, assets/responsive/seo-screen-settings-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-settings-360.webp 360w, assets/responsive/seo-screen-settings-720.webp 720w, assets/responsive/seo-screen-settings-1080.webp 1080w, assets/responsive/seo-screen-settings-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/screen-settings.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Apple Health connection screen showing optional read-only health context.">
+            </picture>
             <figcaption>Apple Health is optional and read-only in GLPzy.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="advanced-graph" data-target-webp="assets/screens/advanced-graph.webp" data-target-avif="assets/screens/advanced-graph.avif">
-            <img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy advanced graph screen showing dose stage and weight trend review.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="advanced-graph" data-target-webp="assets/responsive/seo-en-screen-advanced-graphs-720.webp" data-target-avif="assets/responsive/seo-en-screen-advanced-graphs-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.avif 360w, assets/responsive/seo-en-screen-advanced-graphs-720.avif 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.avif 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.webp 360w, assets/responsive/seo-en-screen-advanced-graphs-720.webp 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.webp 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy advanced graph screen showing dose stage and weight trend review.">
+            </picture>
             <figcaption>Advanced graphs are personal records, not medical interpretation.</figcaption>
-
           </figure>
         </div>
         <div class="section-head section-head-center">
@@ -339,28 +372,7 @@
           <a href="medical-safety.html">Medical safety</a>
           <a href="methodology.html">Methodology</a>
         </div>
-        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_weight_tracker" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_weight_tracker">Get GLPzy on the App Store</a></div>
-      </div>
-    </section>
-    <section class="section-strip faq-strip">
-      <div class="shell narrow-shell">
-        <div class="section-head section-head-center">
-          <div class="kicker">FAQ</div>
-          <h2>Questions about weight tracking</h2>
-        </div>
-        <div class="faq-mini">
-          <details open><summary>Can GLPzy track weight with GLP-1 doses?</summary><p>Yes. GLPzy can track weight history alongside doses, symptoms, notes, nutrition and progress photos.</p></details>
-          <details><summary>Does GLPzy work with Apple Health weight data?</summary><p>Yes. Apple Health support is optional and read-only, and can add weight history and other permitted context.</p></details>
-          <details><summary>Does GLPzy set weight goals for me?</summary><p>No. GLPzy is for personal tracking and review. It does not provide medical advice or set clinical goals.</p></details>
-        </div>
-        <div class="meta-links">
-          <a href="glp1-progress-photo-tracker.html">Progress photo tracker</a>
-          <a href="glp1-dose-reminder-app.html">Dose reminder app</a>
-          <a href="mounjaro-tracker-iphone.html">Mounjaro weight tracker</a>
-          <a href="wegovy-tracker-iphone.html">Wegovy weight tracker</a>
-          <a href="zepbound-tracker-iphone.html">Zepbound weight tracker</a>
-          <a href="apple-health-glp-tracker.html">Apple Health GLP tracker</a>
-        </div>
+        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoWeightTracker" data-cta-placement="bottom" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_weight_tracker">Get GLPzy on the App Store</a></div>
       </div>
     </section>
   </main>

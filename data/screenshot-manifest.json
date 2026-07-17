@@ -1,5 +1,42 @@
 {
-  "version": "2026-07-04",
+  "version": "2026-07-16",
+  "responsive_output_pattern": "assets/responsive/seo-{source_stem}-{width}.{format}",
+  "source_assets": {
+    "today-dashboard": "assets/en-screen-dashboard.png",
+    "dose-log": "assets/screen-recap.png",
+    "injection-site-dose-detail": "assets/en-screen-dashboard.png",
+    "medication-setup": "assets/en-screen-medication-coverage.png",
+    "reminder-setup": "assets/screen-recap.png",
+    "weight-chart": "assets/en-screen-advanced-graphs.png",
+    "advanced-graph": "assets/en-screen-advanced-graphs.png",
+    "symptom-appetite-log": "assets/en-screen-quick-logging.png",
+    "symptom-timeline": "assets/screen-history.png",
+    "progress-photo-library": "assets/en-screen-photos-export.png",
+    "before-after-export": "assets/en-screen-photos-export.png",
+    "apple-health-connection": "assets/screen-settings.png",
+    "csv-json-pdf-export": "assets/screen-import.png",
+    "clinician-summary-pdf-preview": "assets/screen-recap.png",
+    "local-backup-import-restore": "assets/screen-import.png",
+    "privacy-settings": "assets/screen-settings.png",
+    "estimated-exposure-projection": "assets/en-screen-projections.png",
+    "projection-scenario-setup": "assets/en-screen-projections.png",
+    "calendar-timeline-history": "assets/screen-history.png",
+    "widgets": "assets/screen-welcome.png"
+  },
+  "priority_page_hero_assets": {
+    "glp1-weight-dose-symptom-tracker.html": "assets/hero-collage.png",
+    "mounjaro-tracker-iphone.html": "assets/screen-recap.png",
+    "wegovy-tracker-iphone.html": "assets/screen-insights.png",
+    "zepbound-tracker-iphone.html": "assets/screen-insights.png",
+    "tirzepatide-tracker-iphone.html": "assets/screen-history.png",
+    "semaglutide-tracker-iphone.html": "assets/screen-settings.png",
+    "local-first-private-glp-tracker.html": "assets/screen-import.png",
+    "glp1-dose-reminder-app.html": "assets/screen-insights.png",
+    "glp1-side-effect-symptom-tracker.html": "assets/screen-recap.png",
+    "glp1-weight-tracker.html": "assets/screen-graphs.png",
+    "glp1-progress-photo-tracker.html": "assets/screen-history.png",
+    "apple-health-glp-tracker.html": "assets/screen-settings.png"
+  },
   "slots": [
     {
       "slot": "today-dashboard",

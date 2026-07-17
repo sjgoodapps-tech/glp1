@@ -16,10 +16,8 @@
   <meta name="twitter:title" content="GLP-1 dose reminder app for iPhone | GLPzy">
   <meta name="twitter:description" content="Track GLP-1 dose dates, next dose reminders, last dose history, injection sites, weight, symptoms and notes privately on iPhone.">
   <meta name="twitter:image" content="https://www.glpzy.app/assets/hero-collage.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260712-seo">
+  <script src="site-preflight.js?v=20260716-offer-space"></script>
+  <link rel="stylesheet" href="styles.css?v=20260716-fonts">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <script type="application/ld+json" data-seo-schema="true">
@@ -31,7 +29,10 @@
       "@id": "https://www.glpzy.app/#organization",
       "name": "GLPzy",
       "url": "https://www.glpzy.app/",
-      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png"
+      "logo": "https://www.glpzy.app/assets/apple-touch-icon.png",
+      "sameAs": [
+        "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005"
+      ]
     },
     {
       "@type": "WebSite",
@@ -47,7 +48,10 @@
       "operatingSystem": "iOS",
       "url": "https://www.glpzy.app/",
       "downloadUrl": "https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005",
-      "description": "Personal tracking only. GLPzy is not medical advice, not a dosing guide, not a medical device and not a substitute for a qualified clinician.",
+      "description": "Private iPhone and iPad app for recording GLP-1 doses, weight, symptoms, photos and optional read-only Apple Health context. Personal tracking only.",
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
       "offers": {
         "@type": "Offer",
         "price": "0",
@@ -65,7 +69,14 @@
       },
       "about": {
         "@id": "https://www.glpzy.app/#software"
-      }
+      },
+      "author": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "publisher": {
+        "@id": "https://www.glpzy.app/#organization"
+      },
+      "dateModified": "2026-07-16"
     },
     {
       "@type": "BreadcrumbList",
@@ -173,7 +184,7 @@
 }
   </script>
   <script defer src="site-config.js"></script>
-  <script defer src="site-cta.js?v=20260712-sticky"></script>
+  <script defer src="site-cta.js?v=20260716-layout"></script>
   <script defer src="site-i18n.js"></script>
 </head>
 <body>
@@ -203,11 +214,10 @@
             <div class="eyebrow">Dose reminder app</div>
             <h1>GLP-1 dose reminder app for iPhone</h1>
             <p>Keep dose dates, reminder times, injection sites, weight, symptoms and notes together in one private iPhone app.</p>
-            <p class="hero-offer-line offer-active-only" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
-            <p class="offer-active-only" data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
+            <p class="hero-offer-line" data-offer-copy="active.heroLine">Lifetime Premium is free until 31 August 2026.</p>
+            <p data-offer-copy="active.support">Claim once and keep Premium. No subscription, no renewal, no account required.</p>
             <div class="site-cta-actions" data-site-cta>
-              <a class="button button-primary offer-active-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoDoseReminder" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">Get Lifetime Premium free</a>
-              <a class="button button-primary offer-expired-only" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoDoseReminder" data-offer-copy="expired.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">View on the App Store</a>
+              <a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoDoseReminder" data-offer-copy="active.heroCta" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_dose_reminder" data-cta-placement="hero">Get Lifetime Premium free</a>
               <a class="button button-secondary hero-secondary-cta" href="weight-loss-injection-tracker.html">See injection tracker</a>
             </div>
             <div class="site-cta-note" data-cta-note></div>
@@ -215,7 +225,11 @@
           <div class="hero-visual">
             <div class="screen-panel screen-panel-hero">
               <div class="screen-panel-head"><span>Next dose</span><span>Reminder tracking</span></div>
-              <img src="assets/screen-insights.png" alt="GLPzy dashboard screen showing personal tracking summaries." width="1320" height="2868" decoding="async" loading="lazy">
+              <picture class="responsive-picture seo-hero-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-insights-360.avif 360w, assets/responsive/seo-screen-insights-720.avif 720w, assets/responsive/seo-screen-insights-1080.avif 1080w, assets/responsive/seo-screen-insights-1320.avif 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-insights-360.webp 360w, assets/responsive/seo-screen-insights-720.webp 720w, assets/responsive/seo-screen-insights-1080.webp 1080w, assets/responsive/seo-screen-insights-1320.webp 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
+              <img src="assets/screen-insights.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy dashboard screen showing personal tracking summaries.">
+            </picture>
             </div>
           </div>
         </div>
@@ -253,7 +267,7 @@
         </div>
         <div class="card seo-answer-card" data-seo-answer>
           <p>GLPzy helps you keep GLP-1 dose dates, reminder times, last dose history, injection sites and notes in one private iPhone app. It can support your routine record, but it does not change your schedule or tell you when to dose.</p>
-          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_dose_reminder" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_dose_reminder">Get GLPzy</a></div>
+          <div class="site-cta-actions"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoDoseReminder" data-cta-placement="answer" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_dose_reminder">Get GLPzy</a></div>
         </div>
         <div class="seo-copy">
           <p>Dose reminders are easiest to trust when they sit beside the record of what happened last time.</p>
@@ -300,26 +314,47 @@
               <tr><th scope="row">App Store link</th><td><a data-app-store-link href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005">GLPzy on the App Store</a></td></tr>
             </tbody>
           </table>
+        <div class="seo-copy seo-evidence" data-seo-evidence>
+          <h2>Sources and page information</h2>
+          <p>Reviewed 16 July 2026. Published by GLPzy.</p>
+          <ul>
+          <li><a href="medical-safety.html">GLPzy medical safety boundaries</a></li>
+          <li><a href="methodology.html">GLPzy Estimated Exposure methodology</a></li>
+          </ul>
+          <p class="small">Official medicine information is linked for reference. GLPzy does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
+        </div>
         <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="today-dashboard" data-target-webp="assets/screens/today-dashboard.webp" data-target-avif="assets/screens/today-dashboard.avif">
-            <img src="assets/en-screen-dashboard.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="today-dashboard" data-target-webp="assets/responsive/seo-en-screen-dashboard-720.webp" data-target-avif="assets/responsive/seo-en-screen-dashboard-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-en-screen-dashboard-360.avif 360w, assets/responsive/seo-en-screen-dashboard-720.avif 720w, assets/responsive/seo-en-screen-dashboard-1080.avif 1080w, assets/responsive/seo-en-screen-dashboard-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-en-screen-dashboard-360.webp 360w, assets/responsive/seo-en-screen-dashboard-720.webp 720w, assets/responsive/seo-en-screen-dashboard-1080.webp 1080w, assets/responsive/seo-en-screen-dashboard-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/en-screen-dashboard.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.">
+            </picture>
             <figcaption>Today dashboard for private dose, weight and symptom review.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="dose-log" data-target-webp="assets/screens/dose-log.webp" data-target-avif="assets/screens/dose-log.avif">
-            <img src="assets/screen-recap.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy dose log screen showing dose date, dose amount and routine notes.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="dose-log" data-target-webp="assets/responsive/seo-screen-recap-720.webp" data-target-avif="assets/responsive/seo-screen-recap-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-recap-360.avif 360w, assets/responsive/seo-screen-recap-720.avif 720w, assets/responsive/seo-screen-recap-1080.avif 1080w, assets/responsive/seo-screen-recap-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-recap-360.webp 360w, assets/responsive/seo-screen-recap-720.webp 720w, assets/responsive/seo-screen-recap-1080.webp 1080w, assets/responsive/seo-screen-recap-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/screen-recap.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy dose log screen showing dose date, dose amount and routine notes.">
+            </picture>
             <figcaption>Dose records are for personal review and do not change treatment instructions.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="reminder-setup" data-target-webp="assets/screens/reminder-setup.webp" data-target-avif="assets/screens/reminder-setup.avif">
-            <img src="assets/screen-recap.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy reminder setup screen for next dose reminders.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="reminder-setup" data-target-webp="assets/responsive/seo-screen-recap-720.webp" data-target-avif="assets/responsive/seo-screen-recap-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-recap-360.avif 360w, assets/responsive/seo-screen-recap-720.avif 720w, assets/responsive/seo-screen-recap-1080.avif 1080w, assets/responsive/seo-screen-recap-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-recap-360.webp 360w, assets/responsive/seo-screen-recap-720.webp 720w, assets/responsive/seo-screen-recap-1080.webp 1080w, assets/responsive/seo-screen-recap-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/screen-recap.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy reminder setup screen for next dose reminders.">
+            </picture>
             <figcaption>Reminders support routine tracking and are not dosing advice.</figcaption>
-
           </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="widgets" data-target-webp="assets/screens/widgets.webp" data-target-avif="assets/screens/widgets.avif">
-            <img src="assets/screen-welcome.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy iPhone widgets showing next dose and tracking context.">
+          <figure class="feature-card seo-screenshot" data-screenshot-slot="widgets" data-target-webp="assets/responsive/seo-screen-welcome-720.webp" data-target-avif="assets/responsive/seo-screen-welcome-720.avif">
+            <picture class="responsive-picture">
+              <source type="image/avif" srcset="assets/responsive/seo-screen-welcome-360.avif 360w, assets/responsive/seo-screen-welcome-720.avif 720w, assets/responsive/seo-screen-welcome-1080.avif 1080w, assets/responsive/seo-screen-welcome-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <source type="image/webp" srcset="assets/responsive/seo-screen-welcome-360.webp 360w, assets/responsive/seo-screen-welcome-720.webp 720w, assets/responsive/seo-screen-welcome-1080.webp 1080w, assets/responsive/seo-screen-welcome-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
+              <img src="assets/screen-welcome.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy iPhone widgets showing next dose and tracking context.">
+            </picture>
             <figcaption>Widgets show personal tracking context and do not provide dosing advice.</figcaption>
-
           </figure>
         </div>
         <div class="section-head section-head-center">
@@ -352,28 +387,7 @@
           <a href="medical-safety.html">Medical safety</a>
           <a href="methodology.html">Methodology</a>
         </div>
-        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seo_dose_reminder" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_dose_reminder">Get GLPzy on the App Store</a></div>
-      </div>
-    </section>
-    <section class="section-strip faq-strip">
-      <div class="shell narrow-shell">
-        <div class="section-head section-head-center">
-          <div class="kicker">FAQ</div>
-          <h2>Questions about dose reminders</h2>
-        </div>
-        <div class="faq-mini">
-          <details open><summary>Can GLPzy remind me about the next dose?</summary><p>GLPzy can help track reminder times, next dose timing and last dose history for personal routine tracking.</p></details>
-          <details><summary>Can I track injection sites?</summary><p>Yes. GLPzy can track injection sites beside dose dates, dose notes, symptoms, weight and photos.</p></details>
-          <details><summary>Does GLPzy change my dose schedule?</summary><p>No. GLPzy is for personal tracking only and does not provide dosing advice or medical advice.</p></details>
-        </div>
-        <div class="meta-links">
-          <a href="weight-loss-injection-tracker.html">Weight loss injection tracker</a>
-          <a href="glp1-weight-dose-symptom-tracker.html">GLP-1 tracker app</a>
-          <a href="mounjaro-tracker-iphone.html">Mounjaro dose tracker</a>
-          <a href="wegovy-tracker-iphone.html">Wegovy dose tracker</a>
-          <a href="zepbound-tracker-iphone.html">Zepbound dose tracker</a>
-          <a href="medical-safety.html">Medical safety</a>
-        </div>
+        <div class="site-cta-actions seo-bottom-cta"><a class="button button-primary" data-app-store-link data-app-store-style="text" data-app-store-campaign="seoDoseReminder" data-cta-placement="bottom" href="https://apps.apple.com/us/app/glpzy-glp-1-tracker/id6761775005?ct=seo_dose_reminder">Get GLPzy on the App Store</a></div>
       </div>
     </section>
   </main>

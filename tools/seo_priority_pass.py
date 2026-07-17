@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 import json
 import re
+import struct
+from datetime import date
 from html import escape
 from pathlib import Path
 
@@ -10,8 +12,47 @@ FACTS = json.loads((DATA / "product-facts.json").read_text(encoding="utf-8"))
 MANIFEST = json.loads((DATA / "screenshot-manifest.json").read_text(encoding="utf-8"))
 SITE = FACTS["site_url"].rstrip("/")
 APP_STORE = FACTS["app_store_url"]
+REVIEWED_ISO = FACTS["content_reviewed"]
+REVIEWED_DATE = date.fromisoformat(REVIEWED_ISO)
+REVIEWED_DISPLAY = f"{REVIEWED_DATE.day} {REVIEWED_DATE.strftime('%B %Y')}"
+PUBLISHER = FACTS["publisher"]
+PRIMARY_SOURCES = FACTS["primary_sources"]
+SCHEMA_DESCRIPTION = "Private iPhone and iPad app for recording GLP-1 doses, weight, symptoms, photos and optional read-only Apple Health context. Personal tracking only."
 
 SLOTS = {item["slot"]: item for item in MANIFEST["slots"]}
+SOURCE_ASSETS = MANIFEST["source_assets"]
+HERO_ASSETS = MANIFEST["priority_page_hero_assets"]
+RESPONSIVE_WIDTHS = [360, 720, 1080, 1320]
+
+CAMPAIGNS = {
+    "site_default": ("siteDefault", "founding_site_default"),
+    "seo_glp1_tracker": ("seoGlp1Tracker", "seo_glp1_tracker"),
+    "seo_mounjaro_tracker": ("seoMounjaro", "seo_mounjaro_tracker"),
+    "seo_wegovy_tracker": ("seoWegovy", "seo_wegovy_tracker"),
+    "seo_zepbound_tracker": ("seoZepbound", "seo_zepbound_tracker"),
+    "seo_tirzepatide_tracker": ("seoTirzepatide", "seo_tirzepatide_tracker"),
+    "seo_semaglutide_tracker": ("seoSemaglutide", "seo_semaglutide_tracker"),
+    "seo_side_effect_tracker": ("seoSideEffectTracker", "seo_side_effect_tracker"),
+    "seo_photo_tracker": ("seoPhotoTracker", "seo_photo_tracker"),
+    "seo_weight_tracker": ("seoWeightTracker", "seo_weight_tracker"),
+    "seo_dose_reminder": ("seoDoseReminder", "seo_dose_reminder"),
+    "seo_apple_health_injection": ("seoAppleHealthInjection", "seo_apple_health_injection"),
+}
+
+SOURCE_KEYS_BY_PAGE = {
+    "glp1-weight-dose-symptom-tracker.html": ["apple_health_authorisation"],
+    "mounjaro-tracker-iphone.html": ["mounjaro_label", "apple_health_authorisation"],
+    "wegovy-tracker-iphone.html": ["wegovy_label", "apple_health_authorisation"],
+    "zepbound-tracker-iphone.html": ["zepbound_label", "apple_health_authorisation"],
+    "tirzepatide-tracker-iphone.html": ["mounjaro_label", "zepbound_label"],
+    "semaglutide-tracker-iphone.html": ["wegovy_label"],
+    "local-first-private-glp-tracker.html": ["apple_health_authorisation"],
+    "glp1-dose-reminder-app.html": [],
+    "glp1-side-effect-symptom-tracker.html": [],
+    "glp1-weight-tracker.html": ["apple_health_authorisation"],
+    "glp1-progress-photo-tracker.html": [],
+    "apple-health-glp-tracker.html": ["apple_health_authorisation"],
+}
 
 COMMON_LINKS = [
     ("GLP-1 tracker app", "glp1-weight-dose-symptom-tracker.html"),
@@ -31,30 +72,6 @@ COMMON_LINKS = [
     ("Medical safety", "medical-safety.html"),
     ("Methodology", "methodology.html"),
 ]
-
-ASSET_FALLBACK = {
-    "today-dashboard": "assets/en-screen-dashboard.png",
-    "dose-log": "assets/screen-recap.png",
-    "injection-site-dose-detail": "assets/en-screen-dashboard.png",
-    "medication-setup": "assets/en-screen-medication-coverage.png",
-    "reminder-setup": "assets/screen-recap.png",
-    "weight-chart": "assets/en-screen-advanced-graphs.png",
-    "advanced-graph": "assets/en-screen-advanced-graphs.png",
-    "symptom-appetite-log": "assets/en-screen-quick-logging.png",
-    "symptom-timeline": "assets/screen-history.png",
-    "progress-photo-library": "assets/en-screen-photos-export.png",
-    "before-after-export": "assets/en-screen-photos-export.png",
-    "apple-health-connection": "assets/screen-settings.png",
-    "csv-json-pdf-export": "assets/screen-import.png",
-    "clinician-summary-pdf-preview": "assets/screen-recap.png",
-    "local-backup-import-restore": "assets/screen-import.png",
-    "privacy-settings": "assets/screen-settings.png",
-    "estimated-exposure-projection": "assets/en-screen-projections.png",
-    "projection-scenario-setup": "assets/en-screen-projections.png",
-    "calendar-timeline-history": "assets/screen-history.png",
-    "widgets": "assets/screen-welcome.png",
-}
-
 
 def campaign_url(token):
     return f"{APP_STORE}?ct={token}"
@@ -351,27 +368,64 @@ def facts_table():
     return "          <table class=\"seo-facts-table\" data-seo-facts>\n            <tbody>\n" + "\n".join(body) + "\n            </tbody>\n          </table>"
 
 
-def cta(page, label="Get GLPzy"):
+def campaign_details(page):
+    return CAMPAIGNS[page["campaign"]]
+
+
+def cta(page, label="Get GLPzy", placement="content"):
+    key, token = campaign_details(page)
     return (
         f'<a class="button button-primary" data-app-store-link data-app-store-style="text" '
-        f'data-app-store-campaign="{escape(page["campaign"])}" href="{campaign_url(page["campaign"])}">{escape(label)}</a>'
+        f'data-app-store-campaign="{escape(key)}" data-cta-placement="{escape(placement)}" '
+        f'href="{campaign_url(token)}">{escape(label)}</a>'
     )
 
 
-def screenshot_figure(slot_name, priority=False):
+def responsive_picture(src, alt, width, height, loading, sizes, priority=False, class_name="responsive-picture"):
+    stem = Path(src).stem
+    prefix = f"assets/responsive/seo-{stem}"
+    avif = ", ".join(f"{prefix}-{item}.avif {item}w" for item in RESPONSIVE_WIDTHS)
+    webp = ", ".join(f"{prefix}-{item}.webp {item}w" for item in RESPONSIVE_WIDTHS)
+    fetch = ' fetchpriority="high"' if priority else ""
+    return f"""<picture class="{escape(class_name)}">
+              <source type="image/avif" srcset="{avif}" sizes="{escape(sizes)}">
+              <source type="image/webp" srcset="{webp}" sizes="{escape(sizes)}">
+              <img src="{escape(src)}" width="{width}" height="{height}" loading="{loading}" decoding="async"{fetch} alt="{escape(alt)}">
+            </picture>"""
+
+
+def png_dimensions(src, fallback_width, fallback_height):
+    source = ROOT / src
+    try:
+        header = source.read_bytes()[:24]
+        if header[:8] == b"\x89PNG\r\n\x1a\n":
+            width, height = struct.unpack(">II", header[16:24])
+            return str(width), str(height)
+    except OSError:
+        pass
+    return fallback_width, fallback_height
+
+
+def screenshot_figure(slot_name):
     slot = SLOTS[slot_name]
-    src = ASSET_FALLBACK.get(slot_name, "assets/en-screen-dashboard.png")
-    loading = "eager" if priority or not slot["lazy_loaded"] else "lazy"
-    fetch = ' fetchpriority="high"' if priority or not slot["lazy_loaded"] else ""
+    src = SOURCE_ASSETS[slot_name]
+    responsive_stem = Path(src).stem
+    picture = responsive_picture(
+        src,
+        slot["alt"],
+        slot["width"],
+        slot["height"],
+        "lazy",
+        "(max-width: 860px) calc(100vw - 64px), 270px",
+    )
     safety = (
-        '<p class="small">Estimated Exposure is not measured blood concentration and is not for dosing decisions.</p>'
+        '\n            <p class="small">Estimated Exposure is not measured blood concentration and is not for dosing decisions.</p>'
         if slot["safety_caption_required"] and "Estimated Exposure" in slot["caption"]
         else ""
     )
-    return f"""          <figure class="feature-card seo-screenshot" data-screenshot-slot="{escape(slot_name)}" data-target-webp="{escape(slot["target_webp_filename"])}" data-target-avif="{escape(slot["target_avif_filename"])}">
-            <img src="{escape(src)}" width="{slot["width"]}" height="{slot["height"]}" loading="{loading}" decoding="async"{fetch} alt="{escape(slot["alt"])}">
-            <figcaption>{escape(slot["caption"])}</figcaption>
-            {safety}
+    return f"""          <figure class="feature-card seo-screenshot" data-screenshot-slot="{escape(slot_name)}" data-target-webp="assets/responsive/seo-{responsive_stem}-720.webp" data-target-avif="assets/responsive/seo-{responsive_stem}-720.avif">
+            {picture}
+            <figcaption>{escape(slot["caption"])}</figcaption>{safety}
           </figure>"""
 
 
@@ -379,12 +433,33 @@ def list_items(items):
     return "\n".join(f"            <li>{escape(item)}</li>" for item in items)
 
 
-def render_module(page):
+def source_section(path):
+    source_items = []
+    for key in SOURCE_KEYS_BY_PAGE[path]:
+        item = PRIMARY_SOURCES[key]
+        source_items.append(f'          <li><a href="{escape(item["url"])}">{escape(item["label"])}</a></li>')
+    source_items.extend(
+        [
+            '          <li><a href="medical-safety.html">GLPzy medical safety boundaries</a></li>',
+            '          <li><a href="methodology.html">GLPzy Estimated Exposure methodology</a></li>',
+        ]
+    )
+    return f"""        <div class="seo-copy seo-evidence" data-seo-evidence>
+          <h2>Sources and page information</h2>
+          <p>Reviewed {REVIEWED_DISPLAY}. Published by {escape(PUBLISHER)}.</p>
+          <ul>
+{chr(10).join(source_items)}
+          </ul>
+          <p class="small">Official medicine information is linked for reference. GLPzy does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
+        </div>"""
+
+
+def render_module(path, page):
     intro = "\n".join(f"          <p>{escape(p)}</p>" for p in page["intro"])
     workflow = list_items(page["workflow"])
     does = list_items(page["does"])
     does_not = list_items(page["does_not"])
-    screenshots = "\n".join(screenshot_figure(slot, i == 0) for i, slot in enumerate(page["slots"]))
+    screenshots = "\n".join(screenshot_figure(slot) for slot in page["slots"])
     faq = "\n".join(f"          <details><summary>{escape(q)}</summary><p>{escape(a)}</p></details>" for q, a in page["faq"])
     links = "\n".join(f'          <a href="{href}">{escape(label)}</a>' for label, href in COMMON_LINKS)
     return f"""
@@ -396,7 +471,7 @@ def render_module(page):
         </div>
         <div class="card seo-answer-card" data-seo-answer>
           <p>{escape(page["answer"])}</p>
-          <div class="site-cta-actions">{cta(page, "Get GLPzy")}</div>
+          <div class="site-cta-actions">{cta(page, "Get GLPzy", "answer")}</div>
         </div>
         <div class="seo-copy">
 {intro}
@@ -421,6 +496,7 @@ def render_module(page):
           <p data-seo-safety><strong>Safety boundary:</strong> <a href="methodology.html">Estimated Exposure</a> is a personal tracking estimate, not measured blood concentration and not medical advice. Do not use Estimated Exposure to guide dosing. Always check with your clinician before making medical decisions. Read the <a href="medical-safety.html">medical safety page</a>.</p>
         </div>
 {facts_table()}
+{source_section(path)}
         <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
 {screenshots}
         </div>
@@ -434,7 +510,7 @@ def render_module(page):
         <div class="meta-links" data-seo-related>
 {links}
         </div>
-        <div class="site-cta-actions seo-bottom-cta">{cta(page, "Get GLPzy on the App Store")}</div>
+        <div class="site-cta-actions seo-bottom-cta">{cta(page, "Get GLPzy on the App Store", "bottom")}</div>
       </div>
     </section>
 """
@@ -443,7 +519,7 @@ def render_module(page):
 def schema_graph(path, page):
     url = rel_url(path)
     graph = [
-        {"@type": "Organization", "@id": f"{SITE}/#organization", "name": "GLPzy", "url": f"{SITE}/", "logo": f"{SITE}/assets/apple-touch-icon.png"},
+        {"@type": "Organization", "@id": f"{SITE}/#organization", "name": PUBLISHER, "url": f"{SITE}/", "logo": f"{SITE}/assets/apple-touch-icon.png", "sameAs": [APP_STORE]},
         {"@type": "WebSite", "@id": f"{SITE}/#website", "name": "GLPzy", "url": f"{SITE}/"},
         {
             "@type": "SoftwareApplication",
@@ -453,7 +529,8 @@ def schema_graph(path, page):
             "operatingSystem": "iOS",
             "url": f"{SITE}/",
             "downloadUrl": APP_STORE,
-            "description": FACTS["medical_boundary"],
+            "description": SCHEMA_DESCRIPTION,
+            "publisher": {"@id": f"{SITE}/#organization"},
             "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
         },
         {
@@ -464,6 +541,9 @@ def schema_graph(path, page):
             "description": page["description"],
             "isPartOf": {"@id": f"{SITE}/#website"},
             "about": {"@id": f"{SITE}/#software"},
+            "author": {"@id": f"{SITE}/#organization"},
+            "publisher": {"@id": f"{SITE}/#organization"},
+            "dateModified": REVIEWED_ISO,
         },
         {
             "@type": "BreadcrumbList",
@@ -484,7 +564,7 @@ def schema_graph(path, page):
         slot = SLOTS[slot_name]
         graph.append({
             "@type": "ImageObject",
-            "url": f"{SITE}/{ASSET_FALLBACK.get(slot_name, slot['target_webp_filename'])}",
+            "url": f"{SITE}/{SOURCE_ASSETS[slot_name]}",
             "caption": slot["caption"],
             "description": slot["alt"],
             "width": slot["width"],
@@ -497,7 +577,7 @@ def methodology_schema():
     graph = {
         "@context": "https://schema.org",
         "@graph": [
-            {"@type": "Organization", "@id": f"{SITE}/#organization", "name": "GLPzy", "url": f"{SITE}/"},
+            {"@type": "Organization", "@id": f"{SITE}/#organization", "name": PUBLISHER, "url": f"{SITE}/", "sameAs": [APP_STORE]},
             {"@type": "WebSite", "@id": f"{SITE}/#website", "name": "GLPzy", "url": f"{SITE}/"},
             {
                 "@type": "TechArticle",
@@ -507,6 +587,9 @@ def methodology_schema():
                 "url": f"{SITE}/methodology.html",
                 "about": "Estimated Exposure Trend in GLPzy",
                 "isPartOf": {"@id": f"{SITE}/#website"},
+                "author": {"@id": f"{SITE}/#organization"},
+                "publisher": {"@id": f"{SITE}/#organization"},
+                "dateModified": REVIEWED_ISO,
             },
             {
                 "@type": "BreadcrumbList",
@@ -565,15 +648,89 @@ def inject_schema(text, schema):
 def replace_module(text, module):
     if 'data-seo-module' in text:
         return re.sub(
-            r'\n\s*<section class="section-strip seo-answer-strip" data-seo-module>.*?</section>\n\s*<section class="section-strip faq-strip">',
-            "\n" + module + '    <section class="section-strip faq-strip">',
+            r'\n\s*<section class="section-strip seo-answer-strip" data-seo-module>.*?</section>',
+            "\n" + module.rstrip(),
             text,
             count=1,
             flags=re.S | re.I,
         )
-    if '    <section class="section-strip faq-strip">' in text:
-        return text.replace('    <section class="section-strip faq-strip">', module + '    <section class="section-strip faq-strip">', 1)
     return text.replace("</main>", module + "</main>", 1)
+
+
+def strip_legacy_faq(text):
+    return re.sub(
+        r'\n\s*<section class="section-strip faq-strip">.*?</section>',
+        "",
+        text,
+        flags=re.S | re.I,
+    )
+
+
+def rewrite_hero_image(text, path):
+    pattern = re.compile(
+        r'(<div class="hero-visual">.*?)(<picture class="responsive-picture seo-hero-picture">.*?</picture>|<img\b[^>]*>)(.*?</div>\s*</div>)',
+        re.S | re.I,
+    )
+    match = pattern.search(text)
+    if not match:
+        return text
+    img_match = re.search(r'<img\b[^>]*>', match.group(2), re.I)
+    if not img_match:
+        return text
+    img = img_match.group(0)
+
+    def attr(name, fallback):
+        found = re.search(rf'\b{name}="([^"]*)"', img, re.I)
+        return found.group(1) if found else fallback
+
+    src = HERO_ASSETS.get(path, attr("src", "assets/en-screen-dashboard.png"))
+    width, height = png_dimensions(src, attr("width", "1320"), attr("height", "2868"))
+    picture = responsive_picture(
+        src,
+        attr("alt", "Current GLPzy app screen."),
+        width,
+        height,
+        "eager",
+        "(max-width: 640px) calc(100vw - 48px), 330px",
+        priority=True,
+        class_name="responsive-picture seo-hero-picture",
+    )
+    return text[:match.start()] + match.group(1) + picture + match.group(3) + text[match.end():]
+
+
+def rewrite_hero_campaign(text, page):
+    hero = re.search(r'<section class="hero marketing-hero">.*?</section>', text, re.S | re.I)
+    if not hero:
+        return text
+    key, token = campaign_details(page)
+    segment = hero.group(0)
+
+    def update_anchor(match):
+        tag = match.group(0)
+        if re.search(r'\bdata-app-store-campaign="[^"]*"', tag, re.I):
+            tag = re.sub(
+                r'\bdata-app-store-campaign="[^"]*"',
+                f'data-app-store-campaign="{key}"',
+                tag,
+                count=1,
+                flags=re.I,
+            )
+        else:
+            tag = tag[:-1] + f' data-app-store-campaign="{key}">'
+        if re.search(r'\bhref="[^"]*"', tag, re.I):
+            tag = re.sub(r'\bhref="[^"]*"', f'href="{campaign_url(token)}"', tag, count=1, flags=re.I)
+        if "data-cta-placement=" not in tag:
+            tag = tag[:-1] + ' data-cta-placement="hero">'
+        return tag
+
+    segment = re.sub(
+        r'<a\b(?=[^>]*\bdata-app-store-link\b)[^>]*>',
+        update_anchor,
+        segment,
+        count=1,
+        flags=re.I,
+    )
+    return text[:hero.start()] + segment + text[hero.end():]
 
 
 def ensure_priority_image_attrs(text):
@@ -597,7 +754,10 @@ def update_priority_page(path, page):
     text = update_meta(text, page, path)
     text = strip_old_schema(text)
     text = inject_schema(text, schema_graph(path, page))
-    text = replace_module(text, render_module(page))
+    text = strip_legacy_faq(text)
+    text = replace_module(text, render_module(path, page))
+    text = rewrite_hero_image(text, path)
+    text = rewrite_hero_campaign(text, page)
     text = ensure_priority_image_attrs(text)
     file.write_text(text, encoding="utf-8")
 
@@ -615,12 +775,16 @@ def update_methodology():
 def update_home_schema():
     file = ROOT / "index.html"
     text = file.read_text(encoding="utf-8")
-    if 'data-home-schema="true"' in text:
-        return
+    text = re.sub(
+        r'\n\s*<script type="application/ld\+json" data-home-schema="true">.*?</script>',
+        "",
+        text,
+        flags=re.S | re.I,
+    )
     graph = {
         "@context": "https://schema.org",
         "@graph": [
-            {"@type": "Organization", "@id": f"{SITE}/#organization", "name": "GLPzy", "url": f"{SITE}/"},
+            {"@type": "Organization", "@id": f"{SITE}/#organization", "name": PUBLISHER, "url": f"{SITE}/", "sameAs": [APP_STORE]},
             {"@type": "WebSite", "@id": f"{SITE}/#website", "name": "GLPzy", "url": f"{SITE}/"},
             {
                 "@type": "SoftwareApplication",
@@ -630,10 +794,11 @@ def update_home_schema():
                 "operatingSystem": "iOS",
                 "url": f"{SITE}/",
                 "downloadUrl": APP_STORE,
-                "description": FACTS["medical_boundary"],
+                "description": SCHEMA_DESCRIPTION,
+                "publisher": {"@id": f"{SITE}/#organization"},
                 "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
             },
-            {"@type": "WebPage", "@id": f"{SITE}/#webpage", "url": f"{SITE}/", "name": "Private GLP-1 dose, weight and symptom tracker | GLPzy", "isPartOf": {"@id": f"{SITE}/#website"}},
+            {"@type": "WebPage", "@id": f"{SITE}/#webpage", "url": f"{SITE}/", "name": "Private GLP-1 dose, weight and symptom tracker | GLPzy", "isPartOf": {"@id": f"{SITE}/#website"}, "author": {"@id": f"{SITE}/#organization"}, "publisher": {"@id": f"{SITE}/#organization"}, "dateModified": REVIEWED_ISO},
         ],
     }
     schema = '<script type="application/ld+json" data-home-schema="true">\n' + json.dumps(graph, indent=2) + "\n  </script>"

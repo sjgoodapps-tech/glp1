@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
+import argparse
+import json
 import re
+import subprocess
 from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
@@ -9,6 +12,9 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 SITE = "https://www.glpzy.app"
 REPORT = ROOT / "reports" / "localisation-noindex-report.md"
+LOCALE_INDEXING_PATH = ROOT / "data" / "locale-indexing.json"
+LOCALE_INDEXING = json.loads(LOCALE_INDEXING_PATH.read_text(encoding="utf-8"))
+NATIVE_REVIEWED_LOCALES = {item.lower() for item in LOCALE_INDEXING["native_reviewed_locales"]}
 
 LOCALE_DIRS = {
     "ar", "bg", "bn", "cs", "da", "de", "el", "en", "en-gb", "es-es", "es-mx",
@@ -16,10 +22,6 @@ LOCALE_DIRS = {
     "ja", "kn", "ko", "lt", "lv", "ml", "mr", "ms", "nb", "nl", "or", "pa",
     "pl", "pt-br", "pt-pt", "ro", "ru", "sk", "sl", "sr", "sv", "ta", "te",
     "th", "tr", "uk", "ur", "vi", "zh-hans", "zh-hant",
-}
-
-FORCED_NOINDEX_LOCALES = {
-    "ar", "zh-hans", "zh-hant", "es-es", "de", "fr", "ja", "ko", "hi", "it", "nl",
 }
 
 APPROVED_ENGLISH_TOKENS = {
@@ -218,12 +220,36 @@ def fix_hreflang_en(text, current_rel):
     return re.sub(r'hreflang="en" href="([^"]+)"', repl, text)
 
 
+HREFLANG_LINK_RE = re.compile(
+    r'<link\b(?=[^>]*\brel=["\']alternate["\'])(?=[^>]*\bhreflang=["\'][^"\']+["\'])[^>]*>[ \t]*\n?',
+    re.I,
+)
+
+
+def filter_hreflang(text, page_locale):
+    if page_locale != "root" and page_locale not in NATIVE_REVIEWED_LOCALES:
+        return HREFLANG_LINK_RE.sub("", text)
+
+    allowed = {"en", "x-default", *NATIVE_REVIEWED_LOCALES}
+
+    def repl(match):
+        tag = match.group(0)
+        value = re.search(r'\bhreflang=["\']([^"\']+)["\']', tag, re.I)
+        if not value or value.group(1).lower() not in allowed:
+            return ""
+        return tag
+
+    return HREFLANG_LINK_RE.sub(repl, text)
+
+
 def noindex_and_canonicalise():
     records = []
     for path in html_files():
         rp = rel(path)
         html = path.read_text(encoding="utf-8")
         html = fix_hreflang_en(html, rp)
+        locale = locale_for(rp)
+        html = filter_hreflang(html, locale)
         reasons = []
         canonical = url_for_path(rp)
         if rp.startswith("en/"):
@@ -235,9 +261,8 @@ def noindex_and_canonicalise():
                 reasons.append("English duplicate without root equivalent")
         failures = detect_failures(rp, html)
         reasons.extend(failures)
-        locale = locale_for(rp)
-        if locale in FORCED_NOINDEX_LOCALES:
-            reasons.append("locale held noindex pending native-language review")
+        if locale != "root" and locale not in NATIVE_REVIEWED_LOCALES:
+            reasons.append("locale held noindex pending documented native-language review")
         if reasons:
             html = set_robots(html, "noindex,follow")
         else:
@@ -259,9 +284,99 @@ def canonical_href(html):
     return match.group(1) if match else ""
 
 
+def git_dirty_paths():
+    try:
+        result = subprocess.run(
+            ["git", "status", "--porcelain=v1", "--untracked-files=all"],
+            cwd=ROOT,
+            check=True,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        return set()
+    return {line[3:] for line in result.stdout.splitlines() if len(line) > 3}
+
+
+MECHANICAL_HTML_DIFF_MARKERS = {
+    "site-preflight.js",
+    "styles.css?v=",
+    "site-cta.js?v=",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+}
+
+
+def has_significant_dirty_diff(relative):
+    try:
+        result = subprocess.run(
+            ["git", "diff", "--no-ext-diff", "--unified=0", "--", relative],
+            cwd=ROOT,
+            check=True,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        return True
+    changed_lines = []
+    for line in result.stdout.splitlines():
+        if not line.startswith(("+", "-")) or line.startswith(("+++", "---")):
+            continue
+        content = line[1:].strip()
+        if not content or any(marker in content for marker in MECHANICAL_HTML_DIFF_MARKERS):
+            continue
+        changed_lines.append(content)
+    return bool(changed_lines)
+
+
+def existing_sitemap_lastmods():
+    path = ROOT / "sitemap.xml"
+    if not path.exists():
+        return {}
+    try:
+        root = ET.parse(path).getroot()
+    except ET.ParseError:
+        return {}
+    namespace = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+    values = {}
+    for entry in root.findall("sm:url", namespace):
+        location = entry.findtext("sm:loc", default="", namespaces=namespace)
+        lastmod = entry.findtext("sm:lastmod", default="", namespaces=namespace)
+        if location and re.fullmatch(r"\d{4}-\d{2}-\d{2}", lastmod):
+            values[location] = lastmod
+    return values
+
+
+def significant_lastmod(path, dirty_paths, canonical, existing_lastmods):
+    relative = rel(path)
+    if relative in dirty_paths and has_significant_dirty_diff(relative):
+        return datetime.now(timezone.utc).date().isoformat()
+    if canonical in existing_lastmods:
+        return existing_lastmods[canonical]
+    try:
+        result = subprocess.run(
+            ["git", "log", "-1", "--format=%cs", "--", relative],
+            cwd=ROOT,
+            check=True,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+        )
+        value = result.stdout.strip()
+        if re.fullmatch(r"\d{4}-\d{2}-\d{2}", value):
+            return value
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        pass
+    return datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).date().isoformat()
+
+
 def build_sitemap():
     urls = []
     seen = set()
+    dirty_paths = git_dirty_paths()
+    existing_lastmods = existing_sitemap_lastmods()
     for path in html_files():
         rp = rel(path)
         html = path.read_text(encoding="utf-8")
@@ -274,8 +389,7 @@ def build_sitemap():
         if canonical in seen:
             continue
         seen.add(canonical)
-        mtime = datetime.fromtimestamp(path.stat().st_mtime, timezone.utc).date().isoformat()
-        urls.append((canonical, mtime))
+        urls.append((canonical, significant_lastmod(path, dirty_paths, canonical, existing_lastmods)))
     urls.sort()
     lines = ['<?xml version="1.0" encoding="UTF-8"?>', '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
     for url, lastmod in urls:
@@ -297,10 +411,12 @@ def write_report(records, urls):
         "",
         f"Indexable sitemap URLs: {len(urls)}",
         f"Noindexed pages: {len(records)}",
+        f"Native-reviewed indexable locales: {', '.join(sorted(NATIVE_REVIEWED_LOCALES)) or 'none'}",
         "",
         "## Canonical Decision",
         "",
         "Root English URLs are the canonical English marketing pages. `/en/` duplicates are `noindex,follow` and canonicalised to their root English equivalent when one exists.",
+        "Locale pages remain accessible through the language picker. They are excluded from indexing and hreflang clusters until native review is recorded in `data/locale-indexing.json`.",
         "",
         "## Noindexed Pages",
         "",
@@ -314,7 +430,23 @@ def write_report(records, urls):
     REPORT.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def parse_args():
+    parser = argparse.ArgumentParser(description="Apply locale gates and build the sitemap.")
+    parser.add_argument(
+        "--sitemap-only",
+        action="store_true",
+        help="Rebuild sitemap.xml without changing HTML or the localisation report.",
+    )
+    return parser.parse_args()
+
+
 def main():
+    args = parse_args()
+    if args.sitemap_only:
+        urls = build_sitemap()
+        print(f"wrote sitemap.xml with {len(urls)} URLs")
+        return
+
     records = noindex_and_canonicalise()
     urls = build_sitemap()
     write_report(records, urls)
