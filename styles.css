@@ -496,6 +496,48 @@ body.marketing-page .hero-copy .hero-detail-copy {
   border-color: rgba(255, 255, 255, 0.14);
 }
 
+.hero-proof {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 6px 18px;
+  max-width: 390px;
+  margin-top: 16px;
+  padding-top: 12px;
+  border-top: 1px solid rgba(239, 248, 246, 0.25);
+  color: #eff8f6;
+  letter-spacing: 0;
+}
+
+.hero-proof-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.hero-proof-item strong {
+  font-size: 1.55rem;
+  line-height: 1.15;
+  font-variant-numeric: tabular-nums;
+}
+
+.hero-proof-item > span {
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.hero-proof-star {
+  color: #f3ce78;
+  font-size: 1.15rem;
+}
+
+.hero-proof small {
+  grid-column: 1 / -1;
+  color: #b8cdca;
+  font-size: 0.7rem;
+  line-height: 1.4;
+}
+
 .badge-row {
   display: flex;
   flex-wrap: wrap;

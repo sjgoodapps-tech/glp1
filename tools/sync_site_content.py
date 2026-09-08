@@ -6,6 +6,7 @@ import sys
 from datetime import datetime, timezone
 from html import escape, unescape
 from pathlib import Path
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 FACTS_PATH = ROOT / "data" / "product-facts.json"
@@ -112,6 +113,12 @@ def desired_files(now):
     desired = {}
     config = CONFIG_PATH.read_text(encoding="utf-8")
     config = generated_block(config, "product-claims", js_declaration("productClaims", product_claims))
+    campaign = facts["app_store_campaign"]
+    provider = campaign.get("provider_token")
+    if provider is not None and not re.fullmatch(r"[0-9]+", str(provider)):
+        raise ValueError("App Store provider token must come from an Apple campaign URL and contain digits only")
+    config = generated_block(config, "app-store-campaign", js_declaration("appStoreCampaign", campaign))
+    campaign_tokens = dict(re.findall(r'^\s*([A-Za-z][A-Za-z0-9]*): campaignUrl\("([^"]+)"\)', config, re.M))
     config = generated_block(
         config,
         "founding-offer-copy",
@@ -140,6 +147,28 @@ def desired_files(now):
             continue
         html = path.read_text(encoding="utf-8")
         updated = replace_data_copy(html, "data-claim-copy", product_claims)
+        def update_campaign(match):
+            anchor = match.group(0)
+            href = re.search(r'\bhref="([^"]+)"', anchor)
+            if not href:
+                return anchor
+            url = urlsplit(unescape(href.group(1)))
+            if url.scheme != "https" or url.hostname != "apps.apple.com":
+                return anchor
+            query = dict(parse_qsl(url.query))
+            key = re.search(r'data-app-store-campaign="([^"]+)"', anchor)
+            token = campaign_tokens.get(key.group(1)) if key else query.get("ct")
+            if not token:
+                token = campaign_tokens["siteDefault"]
+            query["ct"] = token
+            if provider:
+                query.update(pt=str(provider), mt="8")
+            else:
+                query.pop("pt", None)
+                query.pop("mt", None)
+            value = urlunsplit(url._replace(query=urlencode(query)))
+            return anchor[:href.start(1)] + escape(value, quote=True) + anchor[href.end(1):]
+        updated = re.sub(r'<a\b(?=[^>]*\bdata-app-store-link\b)[^>]*>', update_campaign, updated)
         if "data-offer-copy" in updated or "offer-expired-only" in updated or "offer-active-only" in updated:
             updated = remove_inactive_offer_variants(updated)
             updated = replace_data_copy(updated, "data-offer-copy", offer_copy, state=state)

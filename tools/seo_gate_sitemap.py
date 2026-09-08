@@ -303,6 +303,7 @@ MECHANICAL_HTML_DIFF_MARKERS = {
     "site-preflight.js",
     "styles.css?v=",
     "site-cta.js?v=",
+    "site-config.js",
     "fonts.googleapis.com",
     "fonts.gstatic.com",
 }

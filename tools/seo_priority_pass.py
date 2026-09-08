@@ -5,6 +5,7 @@ import struct
 from datetime import date
 from html import escape
 from pathlib import Path
+from urllib.parse import urlencode
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -74,7 +75,11 @@ COMMON_LINKS = [
 ]
 
 def campaign_url(token):
-    return f"{APP_STORE}?ct={token}"
+    params = {"ct": token}
+    provider = FACTS["app_store_campaign"]["provider_token"]
+    if provider:
+        params.update(pt=str(provider), mt="8")
+    return f"{APP_STORE}?{urlencode(params)}"
 
 
 TRACKS = ", ".join(FACTS["supported_tracking_types"])
@@ -265,7 +270,7 @@ PAGES = {
         "campaign": "seo_side_effect_tracker",
         "answer": "GLPzy lets you record GLP-1 symptoms and side-effect notes beside doses, weight, appetite, nutrition and photos. It gives you a private record for review. It does not diagnose symptoms, explain side effects or provide medical advice.",
         "intro": ["Symptom tracking works best when it is plain and consistent.", "GLPzy keeps symptom notes close to the dose, weight, appetite and nutrition context you already record."],
-        "workflow": ["Log symptoms or side-effect notes when you want a record.", "Add appetite, nutrition, dose and weight context without asking the app to interpret it.", "Export records or create a clinician-ready PDF summary for appointments if needed."],
+        "workflow": ["Log symptoms or side-effect notes when you want a record.", "Add appetite, nutrition, dose and weight context without asking the app to interpret it.", "Export records or create a PDF summary for your clinician for appointments if needed."],
         "does": ["records symptoms and appetite notes", "keeps dose and weight context nearby", "supports export and appointment summaries"],
         "does_not": ["diagnose symptoms", "explain side effects", "triage urgent issues", "replace medical advice"],
         "slots": ["symptom-appetite-log", "symptom-timeline", "clinician-summary-pdf-preview"],
@@ -377,7 +382,7 @@ def cta(page, label="Get GLPzy", placement="content"):
     return (
         f'<a class="button button-primary" data-app-store-link data-app-store-style="text" '
         f'data-app-store-campaign="{escape(key)}" data-cta-placement="{escape(placement)}" '
-        f'href="{campaign_url(token)}">{escape(label)}</a>'
+        f'href="{escape(campaign_url(token))}">{escape(label)}</a>'
     )
 
 
@@ -718,7 +723,7 @@ def rewrite_hero_campaign(text, page):
         else:
             tag = tag[:-1] + f' data-app-store-campaign="{key}">'
         if re.search(r'\bhref="[^"]*"', tag, re.I):
-            tag = re.sub(r'\bhref="[^"]*"', f'href="{campaign_url(token)}"', tag, count=1, flags=re.I)
+            tag = re.sub(r'\bhref="[^"]*"', f'href="{escape(campaign_url(token))}"', tag, count=1, flags=re.I)
         if "data-cta-placement=" not in tag:
             tag = tag[:-1] + ' data-cta-placement="hero">'
         return tag

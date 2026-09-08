@@ -246,11 +246,13 @@ def check_priority_pages(results):
         html = read(rel)
         if noindex(html):
             failures.append(f"{rel}: priority page is noindex")
-        if 'styles.css?v=20260716-fonts' not in html:
+        if 'styles.css?v=20260908-offer-proof' not in html:
             failures.append(f"{rel}: missing current CSS cache key")
-        if 'site-preflight.js?v=20260716-offer-space' not in html:
+        if 'site-config.js?v=20260908-growth' not in html:
+            failures.append(f"{rel}: missing current offer configuration cache key")
+        if 'site-preflight.js?v=20260908-growth' not in html:
             failures.append(f"{rel}: missing offer layout preflight")
-        if 'site-cta.js?v=20260716-layout' not in html:
+        if 'site-cta.js?v=20260908-growth' not in html:
             failures.append(f"{rel}: missing current CTA cache key")
         if not re.search(r"<title>[^<]+</title>", html, re.I):
             failures.append(f"{rel}: missing title")

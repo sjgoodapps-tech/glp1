@@ -1,0 +1,7 @@
+{
+  "priority_locales": ["ar", "zh-hans", "zh-hant", "es-es", "de", "fr", "pt-pt", "ja", "ko", "hi", "it", "nl"],
+  "priority_pages": ["index.html", "data-rights.html", "privacy.html", "support.html", "terms.html", "medical-safety.html"],
+  "all_locale_pages": ["index.html"],
+  "root_pages": ["index.html", "free-lifetime/index.html", "mounjaro-tracker-iphone.html", "wegovy-tracker-iphone.html", "zepbound-tracker-iphone.html", "glp1-weight-dose-symptom-tracker.html", "glp1-progress-photo-tracker.html"],
+  "purpose": "Check excluded locales as well as indexed pages. This is technical QA, not native-language approval."
+}

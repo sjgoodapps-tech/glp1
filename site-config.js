@@ -68,10 +68,21 @@
   var storefront = storefronts[locale];
   var appStoreBaseUrl = "https://apps.apple.com/" + storefront.country + "/app/glpzy-glp-1-tracker/id6761775005";
 
+  // generated:app-store-campaign:start
+  var appStoreCampaign = {
+    "provider_token": null,
+    "source": "Pending an App Store Connect generated campaign URL. Do not invent a provider token."
+  };
+  // generated:app-store-campaign:end
+
   function campaignUrl(token){
     if(!token) return appStoreBaseUrl;
 
-    return appStoreBaseUrl + "?ct=" + encodeURIComponent(token);
+    var url = appStoreBaseUrl + "?ct=" + encodeURIComponent(token);
+    if(appStoreCampaign.provider_token){
+      url += "&pt=" + encodeURIComponent(appStoreCampaign.provider_token) + "&mt=8";
+    }
+    return url;
   }
 
   // generated:product-claims:start
@@ -82,33 +93,38 @@
     "freeSummary": "Free includes setup, daily dose entry, reminders, optional read-only Apple Health context, CSV and JSON export for core records, CSV import, charts, current and previous month calendar review, months needed for an active reorder reminder where applicable, historical Estimated Exposure context, 2 new photo uploads per month, photo comparison and the small Next Dose widget.",
     "freeEdits": "Basic same-treatment edits stay free: dose, start date, and reminder time.",
     "advancedEdits": "Advanced treatment changes, including switching country, medicine, administration route, medicine form, dosing frequency, custom treatment, or compounded treatment setup, may require Premium.",
-    "premiumSummary": "Premium adds unlimited photo uploads, extra before-and-after montage styles, broader older and future calendar browsing, projected Estimated Exposure scenarios, advanced summaries, clinician-ready PDF summaries, deeper export and reporting tools, injection-site rotation review, maintenance tools, larger widgets, Apple Watch support and longer-range planning controls.",
-    "exportSummary": "CSV and JSON history export stay available for core records. Clinician-ready PDF summaries and deeper export/reporting tools are Premium.",
+    "premiumSummary": "Premium adds unlimited photo uploads, extra before-and-after montage styles, broader older and future calendar browsing, projected Estimated Exposure scenarios, advanced summaries, PDF summaries for your clinician, deeper export and reporting tools, injection-site rotation review, maintenance tools, larger widgets, Apple Watch support and longer-range planning controls.",
+    "exportSummary": "CSV and JSON history export stay available for core records. PDF summaries for your clinician and deeper export/reporting tools are Premium.",
     "supplySafety": "Supply tracking and reorder reminders are for personal planning only and do not change dose instructions.",
     "safetyPrimary": "Estimated Exposure is a personal tracking estimate, not measured blood concentration and not medical advice.",
     "safetyClinician": "Do not use Estimated Exposure to guide dosing. Always check with your clinician before making medical decisions.",
-    "lifetimeUnlock": "Lifetime Premium is a one-time unlock tied to your Apple ID. It does not renew."
+    "lifetimeUnlock": "Lifetime Premium is a one-time unlock tied to your Apple ID. It does not renew.",
+    "proofDownloads": "10,000+",
+    "proofDownloadsLabel": "downloads",
+    "proofRating": "4.7+",
+    "proofRatingLabel": "US App Store rating",
+    "proofChecked": "Rating checked 8 September 2026."
   };
   // generated:product-claims:end
 
   // generated:founding-offer-copy:start
   var foundingOfferCopy = {
     "active": {
-      "banner": "Founding offer: Lifetime Premium free until 31 August. No subscription or renewal.",
+      "banner": "Founding offer: Lifetime Premium free until 31 December 2026. No subscription or renewal.",
       "bannerCta": "Get GLPzy",
-      "heroLine": "Lifetime Premium is free until 31 August 2026.",
+      "heroLine": "Lifetime Premium is free until 31 December 2026.",
       "support": "Claim once and keep Premium. No subscription, no renewal, no account required.",
       "heroCta": "Get Lifetime Premium free",
-      "sticky": "Lifetime Premium free until 31 Aug",
+      "sticky": "Lifetime Premium free until 31 Dec",
       "stickyCta": "Get the app",
-      "landingTitle": "Lifetime Premium is free until 31 August 2026",
+      "landingTitle": "Lifetime Premium is free until 31 December 2026",
       "landingSupport": "Claim once and keep Premium. No subscription, no renewal, no account required.",
       "landingProof": "Track doses, weight, symptoms, photos, imports, exports and Apple Health context in one private GLP-1 app.",
-      "landingCtaTitle": "Claim Lifetime Premium free before 31 August 2026",
-      "keepExplanation": "This is a founding offer. Claim Lifetime Premium once before 31 August 2026 and keep Premium. There is no subscription and no renewal.",
+      "landingCtaTitle": "Claim Lifetime Premium free by 31 December 2026",
+      "keepExplanation": "This is a founding offer. Claim Lifetime Premium once by 31 December 2026 and keep Premium. The offer ends at 23:59 UK time that day. There is no subscription and no renewal.",
       "faqTitle": "Founding offer questions",
-      "faqKeepQuestion": "Do I keep Premium after 31 August?",
-      "faqKeepAnswer": "Yes. If you claim Lifetime Premium before 31 August 2026, you keep Premium. There is no subscription or renewal."
+      "faqKeepQuestion": "Do I keep Premium after 31 December?",
+      "faqKeepAnswer": "Yes. If you claim Lifetime Premium by 31 December 2026, you keep Premium. There is no subscription or renewal."
     },
     "expired": {
       "heroLine": "The Lifetime Premium founding offer has ended.",
@@ -121,7 +137,7 @@
       "keepExplanation": "The founding offer has ended. GLPzy remains available on the App Store.",
       "faqTitle": "Premium offer status",
       "faqKeepQuestion": "Has the founding offer ended?",
-      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer ended after 31 August 2026. You can still download GLPzy from the App Store."
+      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer ended after 31 December 2026. If you claimed it by that date, you keep Premium with no subscription or renewal. You can still download GLPzy from the App Store."
     }
   };
   // generated:founding-offer-copy:end
@@ -152,7 +168,7 @@
     appStoreCurrency: storefront.currency,
     locale: locale,
     foundingOffer: {
-      expiresAt: "2026-09-01T00:00:00+01:00",
+      expiresAt: "2027-01-01T00:00:00+00:00",
       copy: foundingOfferCopy,
       bannerDismissStorageKey: "glpzy-founding-offer-dismissed-until-v2",
       bannerDismissSessionKey: "glpzy-founding-offer-dismissed-session-v2",

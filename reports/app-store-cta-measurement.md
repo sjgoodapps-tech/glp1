@@ -1,10 +1,10 @@
 # Privacy-First App Store CTA Measurement
 
-Generated: 2026-07-17T00:03:50+00:00
+Generated: 2026-09-08T00:42:55+00:00
 
 ## What Is Implemented
 
-- Every homepage offer placement uses a distinct Apple campaign link.
+- Campaign names are configured. Attribution is NOT ready until an Apple-generated provider token is supplied and the strict audit passes.
 - Every priority SEO page uses its own Apple campaign token.
 - Hero, answer and bottom CTAs are labelled in HTML so placement can be audited.
 - JavaScript resolves each named campaign key to the same token used in crawler-visible HTML.
@@ -12,14 +12,14 @@ Generated: 2026-07-17T00:03:50+00:00
 
 ## Data Flow
 
-1. The website displays an ordinary App Store link with an Apple `ct` campaign token.
+1. The website displays ordinary App Store links. Apple requires both `ct` and its generated `pt` provider token for campaign attribution.
 2. No measurement request is sent when the page loads.
 3. Apple receives the campaign token only when the visitor chooses the App Store link.
 4. Results are reviewed in App Store Connect when Apple provides enough campaign data.
 
 ## Campaign Scope
 
-Homepage placements are measured separately. Priority SEO pages are measured by page, not by individual button. This keeps reporting understandable and avoids creating dozens of low-volume campaigns.
+Homepage placements have separate campaign names. Priority SEO pages use page-level names. These labels do not prove that any downloads have been measured.
 
 ## Limits
 

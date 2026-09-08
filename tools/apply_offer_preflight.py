@@ -3,9 +3,9 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "20260716-offer-space"
-CSS_VERSION = "20260716-fonts"
-CTA_VERSION = "20260716-layout"
+VERSION = "20260908-growth"
+CSS_VERSION = "20260908-offer-proof"
+CTA_VERSION = VERSION
 
 
 def apply(path):
@@ -25,6 +25,7 @@ def apply(path):
     )
     html = re.sub(r'(styles\.css)\?v=[^"\']+', rf'\1?v={CSS_VERSION}', html)
     html = re.sub(r'(site-cta\.js)\?v=[^"\']+', rf'\1?v={CTA_VERSION}', html)
+    html = re.sub(r'(site-config\.js)(?:\?v=[^"\']+)?', rf'\1?v={VERSION}', html)
     stylesheet = re.search(r'<link\b[^>]*href="(?P<prefix>[^"]*?)styles\.css[^>]*>', html, re.I)
     if not stylesheet:
         return False

@@ -2,14 +2,15 @@ name: Sync founding offer expiry
 
 on:
   schedule:
-    # The offer expires at 23:00 UTC on 31 August 2026.
-    - cron: "7 23 31 8 *"
+    # The offer expires at midnight UK time (UTC) on 1 January 2027.
+    - cron: "7 0 1 1 *"
     # Daily fallback in case GitHub delays the date-specific run.
     - cron: "17 0 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   sync-offer-copy:
@@ -26,6 +27,8 @@ jobs:
         run: |
           python3 tools/validate_offer_expiry.py
           python3 tools/sync_site_content.py --check
+          node tools/offer_runtime_qa.cjs
+          node tools/offer_pages_build_qa.cjs
 
       - name: Rebuild sitemap dates
         run: python3 tools/seo_gate_sitemap.py --sitemap-only
@@ -44,3 +47,10 @@ jobs:
           git add -u
           git commit -m "Expire Lifetime Premium founding offer"
           git push
+
+      - name: Ensure expired copy is published
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const ensureBuild = require('./tools/ensure_offer_pages_build.cjs');
+            await ensureBuild({ github, context, core });

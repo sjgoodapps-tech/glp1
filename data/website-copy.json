@@ -1,0 +1,110 @@
+{
+  "review_status": "Context-checked website copy. Native-language approval is still required before locale indexation.",
+  "keys": ["site.card.control.title", "site.card.control.body", "site.premium.body", "site.card.premium.calendar.body", "site.card.premium.exports.body", "paywall.legal"],
+  "translations": {
+    "en": [
+      "Export your records",
+      "Export a copy of your records. Exporting does not replace the records on your device.",
+      "Free includes core CSV and JSON exports and the small Next Dose widget. Premium adds PDF summaries for your clinician, larger widgets and more planning tools.",
+      "Free includes the current and previous month, plus months needed for an active reorder reminder where applicable. Premium adds older and future calendar browsing.",
+      "Core CSV and JSON exports are free. Premium adds PDF summaries for your clinician and more reporting tools.",
+      "Check the App Store for current pricing. Lifetime Premium is a one-time unlock with no subscription or renewal."
+    ],
+    "ar": [
+      "تصدير سجلاتك",
+      "صدّر نسخة من سجلاتك. التصدير لا يستبدل السجلات الموجودة على جهازك.",
+      "تشمل النسخة المجانية تصدير السجلات الأساسية بصيغتي CSV وJSON والأداة الصغيرة للجرعة التالية. يضيف Premium ملخصات PDF للطبيب وأدوات أكبر وخيارات تخطيط إضافية.",
+      "تشمل النسخة المجانية الشهر الحالي والسابق، والأشهر اللازمة لتذكير نشط بإعادة شراء الدواء عند الاقتضاء. يتيح Premium تصفح الأشهر الأقدم والمستقبلية.",
+      "تصدير السجلات الأساسية بصيغتي CSV وJSON مجاني. يضيف Premium ملخصات PDF للطبيب وأدوات تقارير إضافية.",
+      "راجع App Store لمعرفة السعر الحالي. Lifetime Premium شراء لمرة واحدة، بلا اشتراك أو تجديد."
+    ],
+    "zh-hans": [
+      "导出记录",
+      "导出记录副本。导出不会替换设备上的记录。",
+      "免费版包含基本记录的 CSV 和 JSON 导出以及小号下次用药小组件。Premium 增加供医生查看的 PDF 摘要、更大的小组件和更多规划工具。",
+      "免费版可查看本月和上月，以及有效补药提醒所需的月份（如适用）。Premium 可浏览更早和未来的月份。",
+      "基本记录的 CSV 和 JSON 导出免费。Premium 增加供医生查看的 PDF 摘要和更多报告工具。",
+      "请在 App Store 查看当前价格。Lifetime Premium 为一次性购买，无订阅或续费。"
+    ],
+    "zh-hant": [
+      "匯出紀錄",
+      "匯出紀錄副本。匯出不會取代裝置上的紀錄。",
+      "免費版包含基本紀錄的 CSV 和 JSON 匯出以及小型下次用藥小工具。Premium 增加供醫師查看的 PDF 摘要、更大的小工具和更多規劃工具。",
+      "免費版可查看本月和上月，以及有效補藥提醒所需的月份（如適用）。Premium 可瀏覽更早和未來的月份。",
+      "基本紀錄的 CSV 和 JSON 匯出免費。Premium 增加供醫師查看的 PDF 摘要和更多報告工具。",
+      "請在 App Store 查看目前價格。Lifetime Premium 為一次性購買，無訂閱或續費。"
+    ],
+    "es-es": [
+      "Exporta tus registros",
+      "Exporta una copia de tus registros. La exportación no sustituye los registros del dispositivo.",
+      "La versión gratuita incluye la exportación de registros básicos en CSV y JSON y el widget pequeño de próxima dosis. Premium añade resúmenes PDF para tu profesional sanitario, widgets más grandes y más herramientas de planificación.",
+      "La versión gratuita incluye el mes actual y el anterior, además de los meses necesarios para un recordatorio activo de reposición, cuando corresponda. Premium permite consultar meses anteriores y futuros.",
+      "La exportación de registros básicos en CSV y JSON es gratuita. Premium añade resúmenes PDF para tu profesional sanitario y más herramientas de informes.",
+      "Consulta el precio actual en el App Store. Lifetime Premium es una compra única, sin suscripción ni renovación."
+    ],
+    "de": [
+      "Aufzeichnungen exportieren",
+      "Exportiere eine Kopie deiner Aufzeichnungen. Beim Export werden die Aufzeichnungen auf deinem Gerät nicht ersetzt.",
+      "Kostenlos enthalten sind CSV- und JSON-Exporte der grundlegenden Aufzeichnungen und das kleine Widget für die nächste Dosis. Premium ergänzt PDF-Zusammenfassungen für deine Arztpraxis, größere Widgets und weitere Planungsfunktionen.",
+      "Kostenlos enthalten sind der aktuelle und der vorherige Monat sowie gegebenenfalls Monate für eine aktive Erinnerung zum Nachkaufen. Premium ermöglicht das Durchblättern älterer und zukünftiger Monate.",
+      "CSV- und JSON-Exporte der grundlegenden Aufzeichnungen sind kostenlos. Premium ergänzt PDF-Zusammenfassungen für deine Arztpraxis und weitere Berichtsfunktionen.",
+      "Den aktuellen Preis findest du im App Store. Lifetime Premium ist ein einmaliger Kauf ohne Abonnement oder Verlängerung."
+    ],
+    "fr": [
+      "Exporter vos données",
+      "Exportez une copie de vos données. L'exportation ne remplace pas les données présentes sur votre appareil.",
+      "La version gratuite inclut l'exportation des données de base en CSV et JSON et le petit widget de prochaine dose. Premium ajoute des résumés PDF pour votre professionnel de santé, des widgets plus grands et davantage d'outils de planification.",
+      "La version gratuite inclut le mois en cours et le précédent, ainsi que les mois nécessaires à un rappel actif de réapprovisionnement, le cas échéant. Premium permet de parcourir les mois plus anciens et futurs.",
+      "L'exportation des données de base en CSV et JSON est gratuite. Premium ajoute des résumés PDF pour votre professionnel de santé et davantage d'outils de rapport.",
+      "Consultez le prix actuel sur l'App Store. Lifetime Premium est un achat unique, sans abonnement ni renouvellement."
+    ],
+    "pt-pt": [
+      "Exportar os seus registos",
+      "Exporte uma cópia dos seus registos. A exportação não substitui os registos no dispositivo.",
+      "A versão gratuita inclui a exportação dos registos básicos em CSV e JSON e o widget pequeno da próxima dose. O Premium acrescenta resumos em PDF para o seu profissional de saúde, widgets maiores e mais ferramentas de planeamento.",
+      "A versão gratuita inclui o mês atual e o anterior, bem como os meses necessários para um lembrete ativo de reposição, quando aplicável. O Premium permite consultar meses mais antigos e futuros.",
+      "A exportação dos registos básicos em CSV e JSON é gratuita. O Premium acrescenta resumos em PDF para o seu profissional de saúde e mais ferramentas de relatórios.",
+      "Consulte o preço atual na App Store. O Lifetime Premium é uma compra única, sem subscrição nem renovação."
+    ],
+    "ja": [
+      "記録を書き出す",
+      "記録のコピーを書き出します。書き出しても、端末内の記録は置き換わりません。",
+      "無料版には基本記録のCSV・JSON書き出しと、次回投与の小型ウィジェットが含まれます。Premiumでは医療者に見せるPDF要約、大型ウィジェット、追加の計画機能を利用できます。",
+      "無料版では今月と先月に加え、該当する場合は有効な補充リマインダーに必要な月を確認できます。Premiumではそれ以前の月や将来の月も閲覧できます。",
+      "基本記録のCSV・JSON書き出しは無料です。Premiumでは医療者に見せるPDF要約や追加のレポート機能を利用できます。",
+      "現在の価格はApp Storeで確認してください。Lifetime Premiumは一度きりの購入で、サブスクリプションや更新はありません。"
+    ],
+    "ko": [
+      "기록 내보내기",
+      "기록의 사본을 내보냅니다. 내보내기는 기기에 있는 기록을 교체하지 않습니다.",
+      "무료 버전에는 기본 기록의 CSV 및 JSON 내보내기와 작은 다음 투여 위젯이 포함됩니다. Premium은 의료진에게 보여 줄 PDF 요약, 더 큰 위젯과 추가 계획 도구를 제공합니다.",
+      "무료 버전에서는 이번 달과 지난달, 해당하는 경우 활성화된 약 보충 알림에 필요한 달을 볼 수 있습니다. Premium에서는 더 오래된 달과 미래의 달도 볼 수 있습니다.",
+      "기본 기록의 CSV 및 JSON 내보내기는 무료입니다. Premium은 의료진에게 보여 줄 PDF 요약과 추가 보고서 도구를 제공합니다.",
+      "현재 가격은 App Store에서 확인하세요. Lifetime Premium은 일회성 구매이며 구독이나 갱신이 없습니다."
+    ],
+    "hi": [
+      "अपने रिकॉर्ड निर्यात करें",
+      "अपने रिकॉर्ड की एक प्रति निर्यात करें। निर्यात करने से डिवाइस पर मौजूद रिकॉर्ड नहीं बदलते।",
+      "मुफ़्त संस्करण में बुनियादी रिकॉर्ड का CSV और JSON निर्यात और अगली खुराक का छोटा विजेट शामिल है। Premium में चिकित्सक को दिखाने के लिए PDF सार, बड़े विजेट और योजना बनाने के अतिरिक्त साधन मिलते हैं।",
+      "मुफ़्त संस्करण में मौजूदा और पिछला महीना शामिल है। जहाँ लागू हो, सक्रिय दवा पुनः खरीद रिमाइंडर के लिए ज़रूरी महीने भी शामिल हैं। Premium में पुराने और आने वाले महीने भी देख सकते हैं।",
+      "बुनियादी रिकॉर्ड का CSV और JSON निर्यात मुफ़्त है। Premium में चिकित्सक को दिखाने के लिए PDF सार और रिपोर्ट के अतिरिक्त साधन मिलते हैं।",
+      "मौजूदा कीमत App Store में देखें। Lifetime Premium एक बार की खरीद है। इसमें सदस्यता या नवीनीकरण नहीं है।"
+    ],
+    "it": [
+      "Esporta i tuoi dati",
+      "Esporta una copia dei tuoi dati. L'esportazione non sostituisce i dati sul dispositivo.",
+      "La versione gratuita include l'esportazione dei dati di base in CSV e JSON e il widget piccolo della prossima dose. Premium aggiunge riepiloghi PDF per il medico, widget più grandi e altri strumenti di pianificazione.",
+      "La versione gratuita include il mese corrente e quello precedente, oltre ai mesi necessari per un promemoria attivo di rifornimento, se applicabile. Premium permette di consultare mesi più vecchi e futuri.",
+      "L'esportazione dei dati di base in CSV e JSON è gratuita. Premium aggiunge riepiloghi PDF per il medico e altri strumenti per i resoconti.",
+      "Consulta il prezzo attuale sull'App Store. Lifetime Premium è un acquisto unico, senza abbonamento né rinnovo."
+    ],
+    "nl": [
+      "Je gegevens exporteren",
+      "Exporteer een kopie van je gegevens. Exporteren vervangt de gegevens op je apparaat niet.",
+      "Gratis inbegrepen zijn CSV- en JSON-exports van basisgegevens en de kleine widget voor de volgende dosis. Premium voegt PDF-samenvattingen voor je zorgverlener, grotere widgets en extra planningshulpmiddelen toe.",
+      "Gratis inbegrepen zijn de huidige en vorige maand en, indien van toepassing, maanden die nodig zijn voor een actieve herinnering om je medicijnvoorraad aan te vullen. Met Premium kun je ook oudere en toekomstige maanden bekijken.",
+      "CSV- en JSON-exports van basisgegevens zijn gratis. Premium voegt PDF-samenvattingen voor je zorgverlener en extra rapportagehulpmiddelen toe.",
+      "Bekijk de huidige prijs in de App Store. Lifetime Premium is een eenmalige aankoop, zonder abonnement of verlenging."
+    ]
+  }
+}

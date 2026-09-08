@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import argparse
+import json
 import re
 import sys
 import urllib.request
@@ -10,6 +11,13 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 
 P0_PATTERNS = {
+    "untranslated English app copy": [
+        "Fast dose entry without clutter",
+        "Administration route and dosing frequency",
+        "Choose the medicine form you use",
+        "Create a clear PDF summary for appointments",
+        "Summary for your clinician",
+    ],
     "ambiguous English source string": [
         "Fast logging without clutter",
         "Route and cadence",
@@ -259,7 +267,7 @@ def visible_text(text):
 
 
 def scan_one(rel, text, include_noindex=False):
-    if locale_for(rel) in {"root", "en"}:
+    if locale_for(rel) in {"root", "en", "en-gb"}:
         return []
     if not include_noindex and is_noindex(text):
         return []
@@ -277,7 +285,7 @@ def scan_one(rel, text, include_noindex=False):
                 if pattern in haystack or pattern in text:
                     failures.append((rel, label, pattern))
     if "medical-safety" in rel or rel.endswith("methodology.html"):
-        if "Estimated Exposure" in text and not SAFETY_REQUIRED.search(text):
+        if "Estimated Exposure is" in haystack and not SAFETY_REQUIRED.search(haystack):
             failures.append((rel, "Estimated Exposure safety wording", "missing measured blood concentration warning"))
         for prefix, required_phrases in LOCALE_SAFETY_REQUIRED.items():
             if not rel.startswith(prefix):
@@ -350,21 +358,41 @@ def fetch(url):
         return response.status, response.read().decode("utf-8", errors="replace")
 
 
-def scan_live():
+def live_paths():
+    manifest = json.loads((ROOT / "data/localisation-qa.json").read_text())
+    selected = set(manifest["root_pages"])
+    for locale in LOCALE_DIRS:
+        selected.update(f'{locale}/{page}' for page in manifest['all_locale_pages'])
+    for locale in manifest['priority_locales']:
+        selected.update(f'{locale}/{page}' for page in manifest['priority_pages'])
+    missing = [path for path in selected if not (ROOT / path).is_file()]
+    if missing:
+        raise ValueError(f'QA manifest references missing pages: {missing}')
+    covered = {locale_for(path) for path in selected}
+    if not LOCALE_DIRS.issubset(covered):
+        raise ValueError('Live manifest must include every locale, including noindex locales')
+    return sorted(selected)
+
+
+def check_website_copy(rel, text):
+    from sync_website_copy import corrected_html, TRANSLATIONS
     failures = []
-    status, sitemap_text = fetch(f"{LIVE_SITE}/sitemap.xml")
-    if status != 200:
-        return [("sitemap.xml", "live fetch failed", str(status))]
-    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    urls = [node.text for node in ET.fromstring(sitemap_text).findall(".//sm:loc", ns) if node.text]
-    # Scan all live locale homepages plus the root and commercial priority pages.
-    selected = {f"{LIVE_SITE}/"}
-    priority_names = {"mounjaro-tracker-iphone.html", "wegovy-tracker-iphone.html", "zepbound-tracker-iphone.html", "tirzepatide-tracker-iphone.html", "semaglutide-tracker-iphone.html", "glp1-weight-dose-symptom-tracker.html"}
-    for url in urls:
-        path = urlparse(url).path.strip("/")
-        if path.endswith("/index.html") or (path and path.split("/")[-1] in priority_names):
-            selected.add(url)
-    for url in sorted(selected):
+    if corrected_html(rel, text) != text:
+        failures.append((rel, 'website copy or English routing drift', 'run sync_website_copy.py'))
+    locale = locale_for(rel)
+    if locale in TRANSLATIONS and locale != 'en':
+        if rel.endswith('/index.html'):
+            for key in ('site.card.control.body', 'site.card.premium.calendar.body', 'site.premium.body', 'paywall.legal'):
+                if f'data-i18n="{key}"' not in text:
+                    failures.append((rel, 'missing checked copy anchor', key))
+    return failures
+
+
+def scan_live(base_url=LIVE_SITE):
+    failures = []
+    selected = live_paths()
+    for rel in selected:
+        url = f'{base_url.rstrip("/")}/{rel}'
         try:
             status, text = fetch(url)
         except Exception as exc:
@@ -373,11 +401,15 @@ def scan_live():
         if status != 200:
             failures.append((url, "live HTTP status", str(status)))
             continue
-        rel = urlparse(url).path.strip("/") or "index.html"
-        if rel.endswith("/"):
-            rel += "index.html"
-        failures.extend(scan_one(rel, text, include_noindex=False))
-    print(f"live locale pages checked: {len(selected)}")
+        failures.extend(scan_one(rel, text, include_noindex=True))
+        failures.extend(check_website_copy(rel, text))
+        values = robots_values(text)
+        if len(values) != 1:
+            failures.append((rel, 'live robots meta count', str(values)))
+        local = (ROOT / rel).read_text(encoding='utf-8')
+        if values != robots_values(local):
+            failures.append((rel, 'live robots differs from local policy', str(values)))
+    print(f"live pages checked: {len(selected)}; all {len(LOCALE_DIRS)} locales included regardless of sitemap/noindex")
     return failures
 
 
@@ -397,12 +429,17 @@ def main():
     parser = argparse.ArgumentParser(description="Check GLPzy locale copy and index gates.")
     parser.add_argument("--all", action="store_true", help="scan gated pages as well as indexable pages")
     parser.add_argument("--live", action="store_true", help="scan live locale homepages and priority pages")
+    parser.add_argument("--base-url", default=LIVE_SITE, help="HTTP preview or live base for --live")
     args = parser.parse_args()
     failures = check_robots_meta() + scan_html(include_noindex=args.all) + check_offer_static_html() + check_dynamic_locale_copy()
+    live_paths()
+    for path in ROOT.rglob('*.html'):
+        if '.git' not in path.parts:
+            failures.extend(check_website_copy(path.relative_to(ROOT).as_posix(), path.read_text(encoding='utf-8')))
     if not args.all:
         failures += check_index_gate()
     if args.live:
-        failures += scan_live()
+        failures += scan_live(args.base_url)
     if failures:
         for rel, label, pattern in failures:
             print(f"{rel}: {label}: {pattern}")

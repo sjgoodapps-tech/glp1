@@ -8,10 +8,10 @@ REPLACEMENTS = {
     # English source and generated English pages.
     "daily logging": "daily dose entry",
     "Fast dose logging": "Fast dose entry",
-    "provider-style PDF summaries": "clinician-ready PDF summaries",
-    "Provider-style PDF summaries": "Clinician-ready PDF summaries",
-    "provider-style exports": "clinician-ready exports",
-    "Provider-style exports": "Clinician-ready exports",
+    "provider-style PDF summaries": "PDF summaries for your clinician",
+    "Provider-style PDF summaries": "PDF summaries for your clinician",
+    "provider-style exports": "exports for your clinician",
+    "Provider-style exports": "exports for your clinician",
     "provider-friendly review": "clinician-friendly review",
     "provider-friendly": "clinician-friendly",
     "Supply logging": "Supply tracking",
@@ -806,7 +806,8 @@ for path in ROOT.rglob("*.html"):
     locale = locale_for(path)
     for before, after in LOCALE_REPLACEMENTS.get(locale, {}).items():
         updated = updated.replace(before, after)
-    updated = replace_i18n_text(updated, DEFAULT_BLOCK_REPLACEMENTS)
+    if locale in {"en", "en-gb"}:
+        updated = replace_i18n_text(updated, DEFAULT_BLOCK_REPLACEMENTS)
     updated = replace_i18n_text(updated, LOCALE_BLOCK_REPLACEMENTS.get(locale, {}))
     if path.name == "index.html":
         updated = replace_i18n_text(updated, INDEX_BLOCK_REPLACEMENTS.get(locale, {}))
