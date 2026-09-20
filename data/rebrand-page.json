@@ -1,0 +1,561 @@
+{
+  "slug": "glpzy-is-now-oneglp",
+  "campaign": "rebrand_explanation",
+  "translations": {
+    "bn": {
+      "language": "বাংলা", "storefront": "bd", "title": "GLPzy-এর নতুন নাম OneGLP", "tagline": "একই অ্যাপ। নতুন নাম।",
+      "description": "GLPzy এখন OneGLP। অ্যাপ ও ডেভেলপার একই আছেন। আপনার আগের রেকর্ড এবং কেনা Premium সুবিধা অপরিবর্তিত থাকবে।",
+      "intro": "OneGLP হলো Steven Good-এর তৈরি GLP-1 রেকর্ড রাখার অ্যাপ GLPzy-এর নতুন নাম। App Store-এ একই পৃষ্ঠা রয়েছে, অ্যাপের আইডি 6761775005।",
+      "cta": "OneGLP ডাউনলোড করুন", "explore": "OneGLP সম্পর্কে জানুন", "support": "সহায়তা", "privacy": "গোপনীয়তা", "publisher": "প্রকাশক: Steven Good", "stays": "যা অপরিবর্তিত থাকছে",
+      "items": ["আপনার আগের রেকর্ড এবং ছবি।", "আপনার কেনা Premium সুবিধা।", "সাধারণ রেকর্ড রাখার জন্য অ্যাপে অ্যাকাউন্টের প্রয়োজন নেই।"],
+      "questions": [["অ্যাপটি কি আবার ইনস্টল করতে হবে?", "না। নাম বদলানোর জন্য অ্যাপ মুছে ফেলা বা আবার ইনস্টল করার প্রয়োজন নেই।"], ["Premium কি আবার কিনতে হবে?", "না। আপনার আগে কেনা Premium সুবিধা কার্যকর থাকবে।"]],
+      "safety": "OneGLP ব্যক্তিগত রেকর্ড রাখার জন্য, চিকিৎসা পরামর্শের জন্য নয়। অ্যাপের আনুমানিক হিসাবের ভিত্তিতে ওষুধের মাত্রা ঠিক করবেন না।"
+    },
+    "gu": {
+      "language": "ગુજરાતી", "storefront": "in", "title": "GLPzyનું નવું નામ OneGLP છે", "tagline": "એ જ ઍપ. નવું નામ.",
+      "description": "GLPzy હવે OneGLP છે. ઍપ અને ડેવલપર એ જ છે. તમારા અગાઉના રેકોર્ડ અને Premiumની ખરીદીઓ જળવાઈ રહેશે.",
+      "intro": "OneGLP એ Steven Good દ્વારા બનાવેલી GLP-1 નોંધવાની ઍપ GLPzyનું નવું નામ છે. App Storeમાં તેનું પેજ એ જ છે અને ઍપનો ID 6761775005 છે.",
+      "cta": "OneGLP ડાઉનલોડ કરો", "explore": "OneGLP વિશે જાણો", "support": "મદદ", "privacy": "ગોપનીયતા", "publisher": "પ્રકાશક: Steven Good", "stays": "શું એ જ રહેશે",
+      "items": ["તમારા હાલના રેકોર્ડ અને ફોટા.", "તમારી Premiumની ખરીદીઓ.", "મૂળભૂત નોંધો રાખવા માટે ઍપમાં ખાતું જરૂરી નથી."],
+      "questions": [["શું ઍપ ફરીથી ઇન્સ્ટોલ કરવી પડશે?", "ના. નામ બદલાવા માટે ઍપ કાઢી નાખવાની કે ફરી ઇન્સ્ટોલ કરવાની જરૂર નથી."], ["શું Premium ફરી ખરીદવું પડશે?", "ના. તમારી હાલની Premiumની ખરીદીઓ માન્ય રહેશે."]],
+      "safety": "OneGLP વ્યક્તિગત નોંધો રાખવા માટે છે, તબીબી સલાહ માટે નહીં. ઍપના અંદાજના આધારે દવાનો ડોઝ નક્કી કરશો નહીં."
+    },
+    "kn": {
+      "language": "ಕನ್ನಡ", "storefront": "in", "title": "GLPzy ಈಗ OneGLP", "tagline": "ಅದೇ ಆ್ಯಪ್. ಹೊಸ ಹೆಸರು.",
+      "description": "GLPzy ಈಗ OneGLP ಆಗಿದೆ. ಆ್ಯಪ್ ಮತ್ತು ಡೆವಲಪರ್ ಬದಲಾಗಿಲ್ಲ. ನಿಮ್ಮ ಹಳೆಯ ದಾಖಲೆಗಳು ಮತ್ತು Premium ಖರೀದಿಗಳು ಉಳಿಯುತ್ತವೆ.",
+      "intro": "Steven Good ಅಭಿವೃದ್ಧಿಪಡಿಸಿದ GLP-1 ದಾಖಲಿಸುವ ಆ್ಯಪ್ GLPzyಯ ಹೊಸ ಹೆಸರು OneGLP. App Store ಪುಟ ಬದಲಾಗಿಲ್ಲ. ಆ್ಯಪ್ ID 6761775005.",
+      "cta": "OneGLP ಡೌನ್‌ಲೋಡ್ ಮಾಡಿ", "explore": "OneGLP ಬಗ್ಗೆ", "support": "ಸಹಾಯ", "privacy": "ಗೌಪ್ಯತೆ", "publisher": "ಪ್ರಕಾಶಕರು: Steven Good", "stays": "ಏನು ಬದಲಾಗುವುದಿಲ್ಲ",
+      "items": ["ನಿಮ್ಮ ಈಗಿನ ದಾಖಲೆಗಳು ಮತ್ತು ಫೋಟೋಗಳು.", "ನಿಮ್ಮ Premium ಖರೀದಿಗಳು.", "ಮೂಲಭೂತ ದಾಖಲೆಗಳಿಗಾಗಿ ಆ್ಯಪ್‌ನಲ್ಲಿ ಖಾತೆ ಬೇಕಿಲ್ಲ."],
+      "questions": [["ಆ್ಯಪ್ ಅನ್ನು ಮತ್ತೆ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಬೇಕೇ?", "ಇಲ್ಲ. ಹೆಸರು ಬದಲಾಗಿರುವುದರಿಂದ ಆ್ಯಪ್ ಅಳಿಸುವ ಅಥವಾ ಮತ್ತೆ ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡುವ ಅಗತ್ಯವಿಲ್ಲ."], ["Premium ಅನ್ನು ಮತ್ತೆ ಖರೀದಿಸಬೇಕೇ?", "ಇಲ್ಲ. ನಿಮ್ಮ ಈಗಿನ Premium ಖರೀದಿಗಳು ಮಾನ್ಯವಾಗಿರುತ್ತವೆ."]],
+      "safety": "OneGLP ವೈಯಕ್ತಿಕ ದಾಖಲೆಗಳಿಗಾಗಿ, ವೈದ್ಯಕೀಯ ಸಲಹೆಗಾಗಿ ಅಲ್ಲ. ಆ್ಯಪ್‌ನ ಅಂದಾಜುಗಳನ್ನು ಬಳಸಿ ಔಷಧದ ಪ್ರಮಾಣವನ್ನು ನಿರ್ಧರಿಸಬೇಡಿ."
+    },
+    "ml": {
+      "language": "മലയാളം", "storefront": "in", "title": "GLPzy ഇനി OneGLP", "tagline": "അതേ ആപ്പ്. പുതിയ പേര്.",
+      "description": "GLPzy ഇനി OneGLP ആണ്. ആപ്പും ഡെവലപ്പറും മാറിയിട്ടില്ല. നിലവിലുള്ള രേഖകളും Premium വാങ്ങലുകളും നിലനിൽക്കും.",
+      "intro": "Steven Good വികസിപ്പിച്ച GLP-1 രേഖപ്പെടുത്തൽ ആപ്പായ GLPzyയുടെ പുതിയ പേരാണ് OneGLP. App Store പേജ് അതേപോലെ തുടരുന്നു. ആപ്പ് ID 6761775005 ആണ്.",
+      "cta": "OneGLP ഡൗൺലോഡ് ചെയ്യുക", "explore": "OneGLPയെക്കുറിച്ച്", "support": "സഹായം", "privacy": "സ്വകാര്യത", "publisher": "പ്രസാധകൻ: Steven Good", "stays": "മാറ്റമില്ലാതെ തുടരുന്നവ",
+      "items": ["നിങ്ങളുടെ നിലവിലുള്ള രേഖകളും ഫോട്ടോകളും.", "നിങ്ങളുടെ Premium വാങ്ങലുകൾ.", "അടിസ്ഥാന രേഖപ്പെടുത്തലിന് ആപ്പിൽ അക്കൗണ്ട് ആവശ്യമില്ല."],
+      "questions": [["ആപ്പ് വീണ്ടും ഇൻസ്റ്റാൾ ചെയ്യണോ?", "വേണ്ട. പേര് മാറ്റിയതിനാൽ ആപ്പ് നീക്കുകയോ വീണ്ടും ഇൻസ്റ്റാൾ ചെയ്യുകയോ വേണ്ട."], ["Premium വീണ്ടും വാങ്ങണോ?", "വേണ്ട. നിലവിലുള്ള Premium വാങ്ങലുകൾ തുടർന്നും സാധുവാണ്."]],
+      "safety": "OneGLP വ്യക്തിഗത രേഖകൾക്കുള്ളതാണ്, വൈദ്യോപദേശത്തിനുള്ളതല്ല. ആപ്പിലെ കണക്കുകൂട്ടലുകൾ ഉപയോഗിച്ച് മരുന്നിന്റെ ഡോസ് തീരുമാനിക്കരുത്."
+    },
+    "mr": {
+      "language": "मराठी", "storefront": "in", "title": "GLPzy चे नवीन नाव OneGLP आहे", "tagline": "तेच ॲप. नवीन नाव.",
+      "description": "GLPzy आता OneGLP आहे. ॲप आणि डेव्हलपर तेच आहेत. तुमच्या आधीच्या नोंदी आणि Premium खरेदी कायम राहतील.",
+      "intro": "OneGLP हे Steven Good यांनी तयार केलेल्या GLP-1 नोंदी ठेवण्याच्या GLPzy ॲपचे नवीन नाव आहे. App Store वरील पान तेच आहे आणि ॲपचा ID 6761775005 आहे.",
+      "cta": "OneGLP डाउनलोड करा", "explore": "OneGLP बद्दल जाणून घ्या", "support": "मदत", "privacy": "गोपनीयता", "publisher": "प्रकाशक: Steven Good", "stays": "काय कायम राहते",
+      "items": ["तुमच्या आधीच्या नोंदी आणि फोटो.", "तुमची Premium खरेदी.", "मूलभूत नोंदी ठेवण्यासाठी ॲपमध्ये खाते आवश्यक नाही."],
+      "questions": [["ॲप पुन्हा इंस्टॉल करावे लागेल का?", "नाही. नाव बदलल्यामुळे ॲप हटवण्याची किंवा पुन्हा इंस्टॉल करण्याची गरज नाही."], ["Premium पुन्हा विकत घ्यावे लागेल का?", "नाही. तुमची सध्याची Premium खरेदी वैध राहील."]],
+      "safety": "OneGLP वैयक्तिक नोंदींसाठी आहे, वैद्यकीय सल्ल्यासाठी नाही. ॲपमधील अंदाजांच्या आधारे औषधाचा डोस ठरवू नका."
+    },
+    "or": {
+      "language": "ଓଡ଼ିଆ", "storefront": "in", "title": "GLPzyର ନୂଆ ନାମ OneGLP", "tagline": "ସେହି ଆପ୍। ନୂଆ ନାମ।",
+      "description": "GLPzy ଏବେ OneGLP। ଆପ୍ ଏବଂ ଡେଭେଲପର ବଦଳିନାହାନ୍ତି। ଆପଣଙ୍କ ପୂର୍ବ ରେକର୍ଡ ଏବଂ Premium କ୍ରୟ ଅପରିବର୍ତ୍ତିତ ରହିବ।",
+      "intro": "OneGLP ହେଉଛି Steven Good ତିଆରି କରିଥିବା GLP-1 ରେକର୍ଡ ରଖିବା ଆପ୍ GLPzyର ନୂଆ ନାମ। App Store ପୃଷ୍ଠା ସେହି ଅଛି। ଆପ୍ ID ହେଉଛି 6761775005।",
+      "cta": "OneGLP ଡାଉନଲୋଡ୍ କରନ୍ତୁ", "explore": "OneGLP ବିଷୟରେ", "support": "ସହାୟତା", "privacy": "ଗୋପନୀୟତା", "publisher": "ପ୍ରକାଶକ: Steven Good", "stays": "କଣ ଅପରିବର୍ତ୍ତିତ ରହିବ",
+      "items": ["ଆପଣଙ୍କ ପୂର୍ବ ରେକର୍ଡ ଏବଂ ଫଟୋ।", "ଆପଣଙ୍କ Premium କ୍ରୟ।", "ସାଧାରଣ ରେକର୍ଡ ରଖିବା ପାଇଁ ଆପ୍‌ରେ ଖାତା ଦରକାର ନାହିଁ।"],
+      "questions": [["ଆପ୍ ପୁଣି ଇନଷ୍ଟଲ୍ କରିବାକୁ ପଡ଼ିବ କି?", "ନା। ନାମ ବଦଳିବା ପାଇଁ ଆପ୍ ଡିଲିଟ୍ କିମ୍ବା ପୁଣି ଇନଷ୍ଟଲ୍ କରିବା ଦରକାର ନାହିଁ।"], ["Premium ପୁଣି କିଣିବାକୁ ପଡ଼ିବ କି?", "ନା। ଆପଣଙ୍କ ପୂର୍ବ Premium କ୍ରୟ ବୈଧ ରହିବ।"]],
+      "safety": "OneGLP ବ୍ୟକ୍ତିଗତ ରେକର୍ଡ ପାଇଁ, ଚିକିତ୍ସା ପରାମର୍ଶ ପାଇଁ ନୁହେଁ। ଆପ୍‌ର ଆନୁମାନିକ ହିସାବ ଆଧାରରେ ଔଷଧର ମାତ୍ରା ନିଷ୍ପତ୍ତି ନିଅନ୍ତୁ ନାହିଁ।"
+    },
+    "pa": {
+      "language": "ਪੰਜਾਬੀ", "storefront": "in", "title": "GLPzy ਦਾ ਨਵਾਂ ਨਾਮ OneGLP ਹੈ", "tagline": "ਉਹੀ ਐਪ। ਨਵਾਂ ਨਾਮ।",
+      "description": "GLPzy ਹੁਣ OneGLP ਹੈ। ਐਪ ਅਤੇ ਡਿਵੈਲਪਰ ਉਹੀ ਹਨ। ਤੁਹਾਡੇ ਪੁਰਾਣੇ ਰਿਕਾਰਡ ਅਤੇ Premium ਖਰੀਦਾਂ ਬਰਕਰਾਰ ਹਨ।",
+      "intro": "OneGLP, Steven Good ਵੱਲੋਂ ਬਣਾਈ ਗਈ GLP-1 ਰਿਕਾਰਡ ਰੱਖਣ ਵਾਲੀ ਐਪ GLPzy ਦਾ ਨਵਾਂ ਨਾਮ ਹੈ। App Store ਦਾ ਪੰਨਾ ਉਹੀ ਹੈ ਅਤੇ ਐਪ ਦੀ ID 6761775005 ਹੈ।",
+      "cta": "OneGLP ਡਾਊਨਲੋਡ ਕਰੋ", "explore": "OneGLP ਬਾਰੇ ਜਾਣੋ", "support": "ਮਦਦ", "privacy": "ਪਰਦੇਦਾਰੀ", "publisher": "ਪ੍ਰਕਾਸ਼ਕ: Steven Good", "stays": "ਕੀ ਉਹੀ ਰਹਿੰਦਾ ਹੈ",
+      "items": ["ਤੁਹਾਡੇ ਮੌਜੂਦਾ ਰਿਕਾਰਡ ਅਤੇ ਫੋਟੋਆਂ।", "ਤੁਹਾਡੀਆਂ Premium ਖਰੀਦਾਂ।", "ਮੁੱਢਲੇ ਰਿਕਾਰਡ ਰੱਖਣ ਲਈ ਐਪ ਵਿੱਚ ਖਾਤੇ ਦੀ ਲੋੜ ਨਹੀਂ।"],
+      "questions": [["ਕੀ ਐਪ ਮੁੜ ਇੰਸਟਾਲ ਕਰਨੀ ਪਵੇਗੀ?", "ਨਹੀਂ। ਨਾਮ ਬਦਲਣ ਲਈ ਐਪ ਮਿਟਾਉਣ ਜਾਂ ਮੁੜ ਇੰਸਟਾਲ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ।"], ["ਕੀ Premium ਦੁਬਾਰਾ ਖਰੀਦਣਾ ਪਵੇਗਾ?", "ਨਹੀਂ। ਤੁਹਾਡੀਆਂ ਮੌਜੂਦਾ Premium ਖਰੀਦਾਂ ਵੈਧ ਰਹਿਣਗੀਆਂ।"]],
+      "safety": "OneGLP ਨਿੱਜੀ ਰਿਕਾਰਡਾਂ ਲਈ ਹੈ, ਡਾਕਟਰੀ ਸਲਾਹ ਲਈ ਨਹੀਂ। ਐਪ ਦੇ ਅੰਦਾਜ਼ਿਆਂ ਦੇ ਆਧਾਰ 'ਤੇ ਦਵਾਈ ਦੀ ਖੁਰਾਕ ਦਾ ਫੈਸਲਾ ਨਾ ਕਰੋ।"
+    },
+    "ta": {
+      "language": "தமிழ்", "storefront": "in", "title": "GLPzy இப்போது OneGLP", "tagline": "அதே செயலி. புதிய பெயர்.",
+      "description": "GLPzy இப்போது OneGLP என அழைக்கப்படுகிறது. செயலியும் உருவாக்குநரும் மாறவில்லை. உங்கள் பதிவுகளும் Premium வாங்குதல்களும் தொடரும்.",
+      "intro": "Steven Good உருவாக்கிய GLP-1 பதிவுச் செயலியான GLPzy இன் புதிய பெயர் OneGLP. App Store பக்கம் அதேதான். செயலியின் ID 6761775005.",
+      "cta": "OneGLP பதிவிறக்கவும்", "explore": "OneGLP பற்றி", "support": "உதவி", "privacy": "தனியுரிமை", "publisher": "வெளியீட்டாளர்: Steven Good", "stays": "மாறாமல் இருப்பவை",
+      "items": ["உங்கள் தற்போதைய பதிவுகளும் புகைப்படங்களும்.", "உங்கள் Premium வாங்குதல்கள்.", "அடிப்படை பதிவுகளுக்குச் செயலியில் கணக்கு தேவையில்லை."],
+      "questions": [["செயலியை மீண்டும் நிறுவ வேண்டுமா?", "இல்லை. பெயர் மாற்றத்திற்காகச் செயலியை நீக்கவோ மீண்டும் நிறுவவோ தேவையில்லை."], ["Premium மீண்டும் வாங்க வேண்டுமா?", "இல்லை. உங்கள் தற்போதைய Premium வாங்குதல்கள் செல்லுபடியாகும்."]],
+      "safety": "OneGLP தனிப்பட்ட பதிவுகளுக்கானது, மருத்துவ ஆலோசனைக்கானது அல்ல. செயலியின் மதிப்பீடுகளைக் கொண்டு மருந்தின் அளவை முடிவு செய்ய வேண்டாம்."
+    },
+    "te": {
+      "language": "తెలుగు", "storefront": "in", "title": "GLPzy ఇప్పుడు OneGLP", "tagline": "అదే యాప్. కొత్త పేరు.",
+      "description": "GLPzy ఇప్పుడు OneGLP అయింది. యాప్, డెవలపర్ మారలేదు. మీ ప్రస్తుత రికార్డులు, Premium కొనుగోళ్లు అలాగే ఉంటాయి.",
+      "intro": "Steven Good రూపొందించిన GLP-1 రికార్డుల యాప్ GLPzy కొత్త పేరు OneGLP. App Store పేజీ అదే ఉంటుంది. యాప్ ID 6761775005.",
+      "cta": "OneGLP డౌన్‌లోడ్ చేయండి", "explore": "OneGLP గురించి", "support": "సహాయం", "privacy": "గోప్యత", "publisher": "ప్రచురణకర్త: Steven Good", "stays": "మారకుండా ఉండేవి",
+      "items": ["మీ ప్రస్తుత రికార్డులు, ఫోటోలు.", "మీ Premium కొనుగోళ్లు.", "ప్రాథమిక రికార్డుల కోసం యాప్‌లో ఖాతా అవసరం లేదు."],
+      "questions": [["యాప్‌ను మళ్లీ ఇన్‌స్టాల్ చేయాలా?", "వద్దు. పేరు మార్పు కోసం యాప్‌ను తొలగించడం లేదా మళ్లీ ఇన్‌స్టాల్ చేయడం అవసరం లేదు."], ["Premium మళ్లీ కొనాలా?", "వద్దు. మీ ప్రస్తుత Premium కొనుగోళ్లు చెల్లుబాటులో ఉంటాయి."]],
+      "safety": "OneGLP వ్యక్తిగత రికార్డుల కోసం, వైద్య సలహా కోసం కాదు. యాప్ అంచనాల ఆధారంగా మందు మోతాదును నిర్ణయించవద్దు."
+    },
+    "en-gb": {
+      "language": "English (UK)", "storefront": "gb", "title": "GLPzy is now OneGLP", "tagline": "Same app. New name.",
+      "description": "GLPzy is now OneGLP. Same app and developer, with your existing records and Premium purchases retained.",
+      "intro": "OneGLP is the new name for GLPzy, the GLP-1 tracking app developed by Steven Good. It uses the same App Store listing, with app ID 6761775005.",
+      "cta": "Get OneGLP", "explore": "Explore OneGLP", "support": "Support", "privacy": "Privacy", "publisher": "Published by Steven Good", "stays": "What stays the same",
+      "items": ["Your existing records and photos.", "Your Premium purchases.", "No mandatory in-app account for core tracking."],
+      "questions": [["Do I need to reinstall the app?", "No. The name change does not require you to delete or reinstall the app."], ["Do I need to buy Premium again?", "No. Your existing Premium purchases remain valid."]],
+      "safety": "OneGLP is for personal tracking, not medical advice. Do not use Estimated Exposure to guide dosing."
+    },
+    "es-mx": {
+      "language": "Español (México)", "storefront": "mx", "title": "GLPzy ahora se llama OneGLP", "tagline": "La misma app. Un nuevo nombre.",
+      "description": "GLPzy ahora es OneGLP. La app y el desarrollador son los mismos. Conservas tus registros y compras de Premium.",
+      "intro": "OneGLP es el nuevo nombre de GLPzy, la app de seguimiento de GLP-1 desarrollada por Steven Good. Mantiene la misma página en App Store, con el ID 6761775005.",
+      "cta": "Descargar OneGLP", "explore": "Conoce OneGLP", "support": "Soporte", "privacy": "Privacidad", "publisher": "Publicado por Steven Good", "stays": "Qué sigue igual",
+      "items": ["Tus registros y fotos actuales.", "Tus compras de Premium.", "Sin cuenta obligatoria en la app para el seguimiento básico."],
+      "questions": [["¿Tengo que reinstalar la app?", "No. El cambio de nombre no requiere eliminar ni reinstalar la app."], ["¿Tengo que comprar Premium de nuevo?", "No. Tus compras actuales de Premium siguen siendo válidas."]],
+      "safety": "OneGLP es para el seguimiento personal y no ofrece asesoramiento médico. No uses la exposición estimada para decidir la dosis."
+    },
+    "fr-ca": {
+      "language": "Français (Canada)", "storefront": "ca", "title": "GLPzy s’appelle désormais OneGLP", "tagline": "La même app. Un nouveau nom.",
+      "description": "GLPzy s’appelle désormais OneGLP. L’app, son développeur, vos données et vos achats Premium restent les mêmes.",
+      "intro": "OneGLP est le nouveau nom de GLPzy, l’app de suivi GLP-1 développée par Steven Good. Elle conserve la même fiche sur l’App Store, avec l’identifiant 6761775005.",
+      "cta": "Télécharger OneGLP", "explore": "Découvrir OneGLP", "support": "Assistance", "privacy": "Confidentialité", "publisher": "Publié par Steven Good", "stays": "Ce qui ne change pas",
+      "items": ["Vos données et photos existantes.", "Vos achats Premium.", "Aucun compte obligatoire dans l’app pour le suivi de base."],
+      "questions": [["Dois-je réinstaller l’app?", "Non. Le changement de nom ne nécessite pas de supprimer ni de réinstaller l’app."], ["Dois-je acheter Premium à nouveau?", "Non. Vos achats Premium existants restent valables."]],
+      "safety": "OneGLP sert au suivi personnel et ne fournit pas de conseils médicaux. N’utilisez pas l’exposition estimée pour déterminer une dose."
+    },
+    "pt-br": {
+      "language": "Português (Brasil)", "storefront": "br", "title": "GLPzy agora se chama OneGLP", "tagline": "O mesmo app. Um novo nome.",
+      "description": "GLPzy agora é OneGLP. O app, o desenvolvedor, seus registros e suas compras Premium continuam os mesmos.",
+      "intro": "OneGLP é o novo nome do GLPzy, o app de acompanhamento de GLP-1 desenvolvido por Steven Good. Ele mantém a mesma página na App Store, com o ID 6761775005.",
+      "cta": "Baixar OneGLP", "explore": "Conheça o OneGLP", "support": "Suporte", "privacy": "Privacidade", "publisher": "Publicado por Steven Good", "stays": "O que continua igual",
+      "items": ["Seus registros e fotos existentes.", "Suas compras Premium.", "Sem conta obrigatória no app para o acompanhamento básico."],
+      "questions": [["Preciso reinstalar o app?", "Não. A mudança de nome não exige excluir nem reinstalar o app."], ["Preciso comprar Premium de novo?", "Não. Suas compras Premium existentes continuam válidas."]],
+      "safety": "O OneGLP é para acompanhamento pessoal, não para orientação médica. Não use a exposição estimada para decidir doses."
+    },
+    "fil": {
+      "language": "Filipino", "storefront": "ph", "title": "OneGLP na ang pangalan ng GLPzy", "tagline": "Parehong app. Bagong pangalan.",
+      "description": "OneGLP na ang GLPzy. Pareho pa rin ang app, gumawa nito, mga tala mo at mga biniling Premium.",
+      "intro": "OneGLP ang bagong pangalan ng GLPzy, ang app na ginawa ni Steven Good para sa pagtatala ng GLP-1. Pareho pa rin ang pahina sa App Store, na may ID na 6761775005.",
+      "cta": "I-download ang OneGLP", "explore": "Tungkol sa OneGLP", "support": "Tulong", "privacy": "Pagkapribado", "publisher": "Inilathala ni Steven Good", "stays": "Ano ang hindi nagbago",
+      "items": ["Ang mga kasalukuyan mong tala at larawan.", "Ang mga binili mong Premium.", "Hindi kailangan ng account sa app para sa pangunahing pagtatala."],
+      "questions": [["Kailangan ko bang i-install muli ang app?", "Hindi. Hindi kailangang burahin o i-install muli ang app dahil sa pagbabago ng pangalan."], ["Kailangan ko bang bumili muli ng Premium?", "Hindi. Mananatiling magagamit ang mga dati mong biniling Premium."]],
+      "safety": "Para sa personal na pagtatala ang OneGLP, hindi para sa payong medikal. Huwag gamitin ang tinatayang pagkakalantad sa gamot para magpasya ng dosis."
+    },
+    "id": {
+      "language": "Bahasa Indonesia", "storefront": "id", "title": "GLPzy kini bernama OneGLP", "tagline": "Aplikasi yang sama. Nama baru.",
+      "description": "GLPzy kini menjadi OneGLP. Aplikasi, pengembang, catatan, dan pembelian Premium Anda tetap sama.",
+      "intro": "OneGLP adalah nama baru GLPzy, aplikasi pencatatan GLP-1 yang dikembangkan oleh Steven Good. Halaman App Store tetap sama, dengan ID 6761775005.",
+      "cta": "Unduh OneGLP", "explore": "Tentang OneGLP", "support": "Bantuan", "privacy": "Privasi", "publisher": "Diterbitkan oleh Steven Good", "stays": "Yang tetap sama",
+      "items": ["Catatan dan foto Anda yang sudah ada.", "Pembelian Premium Anda.", "Pencatatan dasar tidak memerlukan akun di dalam aplikasi."],
+      "questions": [["Apakah saya perlu menginstal ulang aplikasi?", "Tidak. Perubahan nama tidak mengharuskan Anda menghapus atau menginstal ulang aplikasi."], ["Apakah saya perlu membeli Premium lagi?", "Tidak. Pembelian Premium Anda yang sudah ada tetap berlaku."]],
+      "safety": "OneGLP digunakan untuk pencatatan pribadi, bukan nasihat medis. Jangan gunakan perkiraan paparan untuk menentukan dosis."
+    },
+    "ms": {
+      "language": "Bahasa Melayu", "storefront": "my", "title": "GLPzy kini bernama OneGLP", "tagline": "Aplikasi yang sama. Nama baharu.",
+      "description": "GLPzy kini menjadi OneGLP. Aplikasi, pembangun, rekod dan pembelian Premium anda kekal sama.",
+      "intro": "OneGLP ialah nama baharu GLPzy, aplikasi catatan GLP-1 yang dibangunkan oleh Steven Good. Halaman App Store kekal sama, dengan ID 6761775005.",
+      "cta": "Muat turun OneGLP", "explore": "Tentang OneGLP", "support": "Bantuan", "privacy": "Privasi", "publisher": "Diterbitkan oleh Steven Good", "stays": "Perkara yang kekal sama",
+      "items": ["Rekod dan foto anda yang sedia ada.", "Pembelian Premium anda.", "Catatan asas tidak memerlukan akaun dalam aplikasi."],
+      "questions": [["Adakah saya perlu memasang semula aplikasi?", "Tidak. Pertukaran nama tidak memerlukan anda memadam atau memasang semula aplikasi."], ["Adakah saya perlu membeli Premium semula?", "Tidak. Pembelian Premium anda yang sedia ada kekal sah."]],
+      "safety": "OneGLP untuk catatan peribadi, bukan nasihat perubatan. Jangan gunakan anggaran pendedahan untuk menentukan dos."
+    },
+    "th": {
+      "language": "ไทย", "storefront": "th", "title": "GLPzy เปลี่ยนชื่อเป็น OneGLP แล้ว", "tagline": "แอปเดิม ชื่อใหม่",
+      "description": "GLPzy เปลี่ยนชื่อเป็น OneGLP แอปและผู้พัฒนาไม่เปลี่ยนแปลง บันทึกและการซื้อ Premium เดิมของคุณยังคงอยู่",
+      "intro": "OneGLP คือชื่อใหม่ของ GLPzy แอปบันทึกข้อมูล GLP-1 ที่พัฒนาโดย Steven Good ยังคงใช้หน้าเดิมใน App Store โดยมีรหัสแอป 6761775005",
+      "cta": "ดาวน์โหลด OneGLP", "explore": "รู้จัก OneGLP", "support": "ช่วยเหลือ", "privacy": "ความเป็นส่วนตัว", "publisher": "เผยแพร่โดย Steven Good", "stays": "สิ่งที่ยังเหมือนเดิม",
+      "items": ["บันทึกและรูปภาพเดิมของคุณ", "การซื้อ Premium ของคุณ", "การบันทึกข้อมูลพื้นฐานไม่ต้องมีบัญชีในแอป"],
+      "questions": [["ต้องติดตั้งแอปใหม่หรือไม่?", "ไม่ต้อง การเปลี่ยนชื่อไม่จำเป็นต้องลบหรือติดตั้งแอปใหม่"], ["ต้องซื้อ Premium อีกครั้งหรือไม่?", "ไม่ต้อง การซื้อ Premium เดิมของคุณยังคงใช้ได้"]],
+      "safety": "OneGLP ใช้สำหรับบันทึกข้อมูลส่วนตัว ไม่ใช่คำแนะนำทางการแพทย์ ห้ามใช้ค่าการได้รับยาโดยประมาณเพื่อตัดสินใจเรื่องขนาดยา"
+    },
+    "vi": {
+      "language": "Tiếng Việt", "storefront": "vn", "title": "GLPzy nay có tên là OneGLP", "tagline": "Vẫn là ứng dụng đó. Tên mới.",
+      "description": "GLPzy nay là OneGLP. Ứng dụng và nhà phát triển không thay đổi. Dữ liệu và các giao dịch mua Premium của bạn được giữ nguyên.",
+      "intro": "OneGLP là tên mới của GLPzy, ứng dụng ghi chép GLP-1 do Steven Good phát triển. Trang App Store vẫn giữ nguyên, với mã ứng dụng 6761775005.",
+      "cta": "Tải OneGLP", "explore": "Tìm hiểu OneGLP", "support": "Hỗ trợ", "privacy": "Quyền riêng tư", "publisher": "Nhà phát hành: Steven Good", "stays": "Những gì không thay đổi",
+      "items": ["Dữ liệu và ảnh hiện có của bạn.", "Các giao dịch mua Premium của bạn.", "Việc ghi chép cơ bản không yêu cầu tài khoản trong ứng dụng."],
+      "questions": [["Tôi có cần cài đặt lại ứng dụng không?", "Không. Việc đổi tên không yêu cầu bạn xóa hay cài đặt lại ứng dụng."], ["Tôi có cần mua lại Premium không?", "Không. Các giao dịch mua Premium hiện có của bạn vẫn có hiệu lực."]],
+      "safety": "OneGLP dùng để ghi chép cá nhân, không cung cấp lời khuyên y tế. Không dùng mức phơi nhiễm ước tính để quyết định liều dùng."
+    },
+    "he": {
+      "language": "עברית", "storefront": "il", "title": "GLPzy נקראת עכשיו OneGLP", "tagline": "אותה אפליקציה. שם חדש.",
+      "description": "GLPzy היא עכשיו OneGLP. האפליקציה והמפתח לא השתנו. הרשומות ורכישות Premium הקיימות נשמרות.",
+      "intro": "OneGLP הוא השם החדש של GLPzy, אפליקציית המעקב אחר GLP-1 שפיתח Steven Good. דף האפליקציה ב-App Store נשאר זהה, עם המזהה 6761775005.",
+      "cta": "הורדת OneGLP", "explore": "על OneGLP", "support": "תמיכה", "privacy": "פרטיות", "publisher": "מוציא לאור: Steven Good", "stays": "מה נשאר ללא שינוי",
+      "items": ["הרשומות והתמונות הקיימות שלך.", "רכישות Premium שלך.", "אין צורך בחשבון בתוך האפליקציה לצורך מעקב בסיסי."],
+      "questions": [["האם צריך להתקין את האפליקציה מחדש?", "לא. שינוי השם אינו מחייב מחיקה או התקנה מחדש."], ["האם צריך לקנות Premium שוב?", "לא. רכישות Premium הקיימות נשארות בתוקף."]],
+      "safety": "OneGLP מיועדת למעקב אישי, לא לייעוץ רפואי. אין להשתמש בחשיפה המשוערת לקבלת החלטות על מינון."
+    },
+    "ur": {
+      "language": "اردو", "storefront": "pk", "title": "GLPzy کا نیا نام OneGLP ہے", "tagline": "وہی ایپ۔ نیا نام۔",
+      "description": "GLPzy اب OneGLP ہے۔ ایپ اور ڈویلپر وہی ہیں۔ آپ کے موجودہ ریکارڈ اور Premium کی خریداریاں برقرار ہیں۔",
+      "intro": "OneGLP، Steven Good کی بنائی ہوئی GLP-1 ریکارڈ کرنے والی ایپ GLPzy کا نیا نام ہے۔ App Store پر اس کا وہی صفحہ ہے، جس کی شناخت 6761775005 ہے۔",
+      "cta": "OneGLP ڈاؤن لوڈ کریں", "explore": "OneGLP کے بارے میں", "support": "مدد", "privacy": "رازداری", "publisher": "ناشر: Steven Good", "stays": "کیا وہی رہتا ہے",
+      "items": ["آپ کے موجودہ ریکارڈ اور تصاویر۔", "آپ کی Premium خریداریاں۔", "بنیادی ریکارڈنگ کے لیے ایپ میں اکاؤنٹ ضروری نہیں۔"],
+      "questions": [["کیا ایپ دوبارہ انسٹال کرنی ہوگی؟", "نہیں۔ نام کی تبدیلی کے لیے ایپ حذف یا دوبارہ انسٹال کرنا ضروری نہیں۔"], ["کیا Premium دوبارہ خریدنا ہوگا؟", "نہیں۔ آپ کی موجودہ Premium خریداریاں برقرار رہیں گی۔"]],
+      "safety": "OneGLP ذاتی ریکارڈ کے لیے ہے، طبی مشورے کے لیے نہیں۔ دوا کی اندازاً نمائش کو خوراک کا فیصلہ کرنے کے لیے استعمال نہ کریں۔"
+    },
+    "bg": {
+      "language": "Български", "storefront": "bg", "title": "GLPzy вече се казва OneGLP", "tagline": "Същото приложение. Ново име.",
+      "description": "GLPzy вече е OneGLP. Приложението, разработчикът, записите ви и покупките на Premium остават същите.",
+      "intro": "OneGLP е новото име на GLPzy, приложението за проследяване на GLP-1 от Steven Good. Страницата в App Store остава същата, с идентификатор 6761775005.",
+      "cta": "Изтеглете OneGLP", "explore": "За OneGLP", "support": "Помощ", "privacy": "Поверителност", "publisher": "Издател: Steven Good", "stays": "Какво остава същото",
+      "items": ["Съществуващите ви записи и снимки.", "Покупките ви на Premium.", "Основното проследяване не изисква профил в приложението."],
+      "questions": [["Трябва ли да преинсталирам приложението?", "Не. Промяната на името не изисква изтриване или преинсталиране."], ["Трябва ли да купя Premium отново?", "Не. Съществуващите ви покупки на Premium остават валидни."]],
+      "safety": "OneGLP е за лично проследяване, а не за медицински съвети. Не използвайте изчислената експозиция за определяне на дози."
+    },
+    "cs": {
+      "language": "Čeština", "storefront": "cz", "title": "GLPzy se nyní jmenuje OneGLP", "tagline": "Stejná aplikace. Nový název.",
+      "description": "GLPzy je nyní OneGLP. Aplikace, vývojář, vaše záznamy i nákupy Premium zůstávají stejné.",
+      "intro": "OneGLP je nový název aplikace GLPzy pro sledování GLP-1 od Stevena Gooda. Stránka v App Storu zůstává stejná, s ID 6761775005.",
+      "cta": "Stáhnout OneGLP", "explore": "O OneGLP", "support": "Podpora", "privacy": "Soukromí", "publisher": "Vydavatel: Steven Good", "stays": "Co zůstává stejné",
+      "items": ["Vaše stávající záznamy a fotografie.", "Vaše nákupy Premium.", "Základní záznamy nevyžadují účet v aplikaci."],
+      "questions": [["Musím aplikaci přeinstalovat?", "Ne. Změna názvu nevyžaduje smazání ani přeinstalování aplikace."], ["Musím si znovu koupit Premium?", "Ne. Vaše stávající nákupy Premium zůstávají platné."]],
+      "safety": "OneGLP slouží k osobním záznamům, nikoli k lékařskému poradenství. Odhadovanou expozici nepoužívejte k rozhodování o dávkování."
+    },
+    "da": {
+      "language": "Dansk", "storefront": "dk", "title": "GLPzy hedder nu OneGLP", "tagline": "Samme app. Nyt navn.",
+      "description": "GLPzy hedder nu OneGLP. Appen, udvikleren, dine registreringer og Premium-køb er uændrede.",
+      "intro": "OneGLP er det nye navn for GLPzy, appen til GLP-1-registrering fra Steven Good. Den har samme side i App Store og samme ID: 6761775005.",
+      "cta": "Hent OneGLP", "explore": "Om OneGLP", "support": "Hjælp", "privacy": "Privatliv", "publisher": "Udgivet af Steven Good", "stays": "Det ændrer sig ikke",
+      "items": ["Dine eksisterende registreringer og billeder.", "Dine Premium-køb.", "Grundlæggende registrering kræver ikke en konto i appen."],
+      "questions": [["Skal jeg geninstallere appen?", "Nej. Navneskiftet kræver ikke, at du sletter eller geninstallerer appen."], ["Skal jeg købe Premium igen?", "Nej. Dine eksisterende Premium-køb er stadig gyldige."]],
+      "safety": "OneGLP er til personlig registrering og giver ikke lægefaglig rådgivning. Brug ikke estimeret eksponering til at vælge dosis."
+    },
+    "el": {
+      "language": "Ελληνικά", "storefront": "gr", "title": "Το GLPzy ονομάζεται πλέον OneGLP", "tagline": "Ίδια εφαρμογή. Νέο όνομα.",
+      "description": "Το GLPzy είναι πλέον OneGLP. Η εφαρμογή, ο δημιουργός, οι καταγραφές και οι αγορές Premium παραμένουν ίδια.",
+      "intro": "Το OneGLP είναι το νέο όνομα του GLPzy, της εφαρμογής καταγραφής GLP-1 του Steven Good. Διατηρεί την ίδια σελίδα στο App Store, με αναγνωριστικό 6761775005.",
+      "cta": "Λήψη OneGLP", "explore": "Σχετικά με το OneGLP", "support": "Υποστήριξη", "privacy": "Απόρρητο", "publisher": "Εκδότης: Steven Good", "stays": "Τι παραμένει ίδιο",
+      "items": ["Οι υπάρχουσες καταγραφές και φωτογραφίες σας.", "Οι αγορές Premium σας.", "Δεν απαιτείται λογαριασμός στην εφαρμογή για βασικές καταγραφές."],
+      "questions": [["Πρέπει να εγκαταστήσω ξανά την εφαρμογή;", "Όχι. Η αλλαγή ονόματος δεν απαιτεί διαγραφή ή επανεγκατάσταση."], ["Πρέπει να αγοράσω ξανά το Premium;", "Όχι. Οι υπάρχουσες αγορές Premium παραμένουν σε ισχύ."]],
+      "safety": "Το OneGLP προορίζεται για προσωπικές καταγραφές, όχι για ιατρικές συμβουλές. Μη χρησιμοποιείτε την εκτιμώμενη έκθεση για αποφάσεις δοσολογίας."
+    },
+    "et": {
+      "language": "Eesti", "storefront": "ee", "title": "GLPzy uus nimi on OneGLP", "tagline": "Sama rakendus. Uus nimi.",
+      "description": "GLPzy on nüüd OneGLP. Rakendus, arendaja, sinu kirjed ja Premiumi ostud jäävad samaks.",
+      "intro": "OneGLP on Steven Goodi loodud GLP-1 jälgimisrakenduse GLPzy uus nimi. App Store'i leht ja rakenduse ID 6761775005 jäävad samaks.",
+      "cta": "Laadi alla OneGLP", "explore": "OneGLP kohta", "support": "Abi", "privacy": "Privaatsus", "publisher": "Väljaandja: Steven Good", "stays": "Mis jääb samaks",
+      "items": ["Sinu olemasolevad kirjed ja fotod.", "Sinu Premiumi ostud.", "Põhiandmete salvestamiseks pole rakenduses kontot vaja."],
+      "questions": [["Kas pean rakenduse uuesti installima?", "Ei. Nime muutmine ei nõua rakenduse kustutamist ega uuesti installimist."], ["Kas pean Premiumi uuesti ostma?", "Ei. Sinu olemasolevad Premiumi ostud jäävad kehtima."]],
+      "safety": "OneGLP on isiklikuks jälgimiseks ega anna meditsiinilist nõu. Ära kasuta hinnangulist ekspositsiooni annustamisotsuste tegemiseks."
+    },
+    "fi": {
+      "language": "Suomi", "storefront": "fi", "title": "GLPzy on nyt OneGLP", "tagline": "Sama sovellus. Uusi nimi.",
+      "description": "GLPzy on nyt OneGLP. Sovellus, kehittäjä, tietosi ja Premium-ostoksesi pysyvät samoina.",
+      "intro": "OneGLP on Steven Goodin kehittämän GLP-1-seurantasovelluksen GLPzyn uusi nimi. App Store -sivu ja sovelluksen tunniste 6761775005 pysyvät samoina.",
+      "cta": "Lataa OneGLP", "explore": "Tietoa OneGLP:stä", "support": "Tuki", "privacy": "Tietosuoja", "publisher": "Julkaisija: Steven Good", "stays": "Mikä pysyy samana",
+      "items": ["Nykyiset kirjauksesi ja valokuvasi.", "Premium-ostoksesi.", "Peruskirjaaminen ei vaadi käyttäjätiliä sovelluksessa."],
+      "questions": [["Pitääkö sovellus asentaa uudelleen?", "Ei. Nimenmuutos ei edellytä sovelluksen poistamista tai uudelleenasennusta."], ["Pitääkö Premium ostaa uudelleen?", "Ei. Nykyiset Premium-ostoksesi pysyvät voimassa."]],
+      "safety": "OneGLP on henkilökohtaiseen seurantaan, ei lääketieteelliseen neuvontaan. Älä käytä arvioitua altistusta annostuspäätöksiin."
+    },
+    "hr": {
+      "language": "Hrvatski", "storefront": "hr", "title": "GLPzy se sada zove OneGLP", "tagline": "Ista aplikacija. Novo ime.",
+      "description": "GLPzy je sada OneGLP. Aplikacija, razvojni programer, vaši zapisi i kupnje Premiuma ostaju isti.",
+      "intro": "OneGLP je novo ime aplikacije GLPzy za praćenje GLP-1, koju je razvio Steven Good. Stranica u App Storeu ostaje ista, s ID-jem 6761775005.",
+      "cta": "Preuzmite OneGLP", "explore": "O OneGLP-u", "support": "Podrška", "privacy": "Privatnost", "publisher": "Izdavač: Steven Good", "stays": "Što ostaje isto",
+      "items": ["Vaši postojeći zapisi i fotografije.", "Vaše kupnje Premiuma.", "Za osnovno praćenje nije potreban račun u aplikaciji."],
+      "questions": [["Moram li ponovno instalirati aplikaciju?", "Ne. Promjena imena ne zahtijeva brisanje ni ponovnu instalaciju."], ["Moram li ponovno kupiti Premium?", "Ne. Vaše postojeće kupnje Premiuma ostaju valjane."]],
+      "safety": "OneGLP služi za osobno praćenje, ne za medicinske savjete. Procijenjenu izloženost nemojte koristiti za odluke o doziranju."
+    },
+    "hu": {
+      "language": "Magyar", "storefront": "hu", "title": "A GLPzy új neve OneGLP", "tagline": "Ugyanaz az alkalmazás. Új név.",
+      "description": "A GLPzy mostantól OneGLP. Az alkalmazás, a fejlesztő, a feljegyzések és a Premium-vásárlások változatlanok.",
+      "intro": "A OneGLP a Steven Good által fejlesztett GLPzy GLP-1-naplózó alkalmazás új neve. Az App Store-oldal és a 6761775005 alkalmazásazonosító változatlan.",
+      "cta": "OneGLP letöltése", "explore": "A OneGLP bemutatása", "support": "Segítség", "privacy": "Adatvédelem", "publisher": "Kiadó: Steven Good", "stays": "Mi marad változatlan?",
+      "items": ["A meglévő feljegyzéseid és fényképeid.", "A Premium-vásárlásaid.", "Az alapvető naplózáshoz nem kell fiókot létrehoznod az alkalmazásban."],
+      "questions": [["Újra kell telepítenem az alkalmazást?", "Nem. A névváltás nem igényel törlést vagy újratelepítést."], ["Újra meg kell vennem a Premiumot?", "Nem. A meglévő Premium-vásárlásaid érvényben maradnak."]],
+      "safety": "A OneGLP személyes naplózásra szolgál, nem ad orvosi tanácsot. A becsült expozíciót ne használd adagolási döntésekhez."
+    },
+    "lt": {
+      "language": "Lietuvių", "storefront": "lt", "title": "GLPzy dabar vadinasi OneGLP", "tagline": "Ta pati programėlė. Naujas pavadinimas.",
+      "description": "GLPzy dabar yra OneGLP. Programėlė, kūrėjas, jūsų įrašai ir Premium pirkiniai nesikeičia.",
+      "intro": "OneGLP yra naujas Steven Good sukurtos GLP-1 stebėjimo programėlės GLPzy pavadinimas. App Store puslapis lieka tas pats, programėlės ID yra 6761775005.",
+      "cta": "Atsisiųsti OneGLP", "explore": "Apie OneGLP", "support": "Pagalba", "privacy": "Privatumas", "publisher": "Leidėjas: Steven Good", "stays": "Kas nesikeičia",
+      "items": ["Jūsų esami įrašai ir nuotraukos.", "Jūsų Premium pirkiniai.", "Pagrindinėms įrašymo funkcijoms paskyra programėlėje nereikalinga."],
+      "questions": [["Ar reikia iš naujo įdiegti programėlę?", "Ne. Dėl pavadinimo pakeitimo nereikia jos ištrinti ar įdiegti iš naujo."], ["Ar reikia dar kartą pirkti Premium?", "Ne. Jūsų esami Premium pirkiniai lieka galioti."]],
+      "safety": "OneGLP skirta asmeniniams įrašams, o ne medicininiams patarimams. Nenaudokite apskaičiuotos ekspozicijos sprendimams dėl dozavimo."
+    },
+    "lv": {
+      "language": "Latviešu", "storefront": "lv", "title": "GLPzy tagad saucas OneGLP", "tagline": "Tā pati lietotne. Jauns nosaukums.",
+      "description": "GLPzy tagad ir OneGLP. Lietotne, izstrādātājs, jūsu ieraksti un Premium pirkumi nemainās.",
+      "intro": "OneGLP ir Steven Good izstrādātās GLP-1 uzskaites lietotnes GLPzy jaunais nosaukums. App Store lapa paliek tā pati, lietotnes ID ir 6761775005.",
+      "cta": "Lejupielādēt OneGLP", "explore": "Par OneGLP", "support": "Palīdzība", "privacy": "Privātums", "publisher": "Izdevējs: Steven Good", "stays": "Kas nemainās",
+      "items": ["Jūsu esošie ieraksti un fotoattēli.", "Jūsu Premium pirkumi.", "Pamata uzskaitei lietotnē nav nepieciešams konts."],
+      "questions": [["Vai lietotne jāpārinstalē?", "Nē. Nosaukuma maiņa neprasa lietotni dzēst vai pārinstalēt."], ["Vai Premium jāpērk vēlreiz?", "Nē. Jūsu esošie Premium pirkumi paliek spēkā."]],
+      "safety": "OneGLP paredzēta personīgai uzskaitei, nevis medicīniskiem padomiem. Neizmantojiet aprēķināto ekspozīciju lēmumiem par devām."
+    },
+    "nb": {
+      "language": "Norsk bokmål", "storefront": "no", "title": "GLPzy heter nå OneGLP", "tagline": "Samme app. Nytt navn.",
+      "description": "GLPzy heter nå OneGLP. Appen, utvikleren, registreringene dine og Premium-kjøpene er uendret.",
+      "intro": "OneGLP er det nye navnet på GLPzy, appen for GLP-1-registrering fra Steven Good. Den har samme side i App Store og samme ID: 6761775005.",
+      "cta": "Last ned OneGLP", "explore": "Om OneGLP", "support": "Hjelp", "privacy": "Personvern", "publisher": "Utgitt av Steven Good", "stays": "Dette er uendret",
+      "items": ["De eksisterende registreringene og bildene dine.", "Premium-kjøpene dine.", "Grunnleggende registrering krever ingen konto i appen."],
+      "questions": [["Må jeg installere appen på nytt?", "Nei. Navneendringen krever ikke at du sletter eller installerer appen på nytt."], ["Må jeg kjøpe Premium igjen?", "Nei. De eksisterende Premium-kjøpene dine er fortsatt gyldige."]],
+      "safety": "OneGLP er for personlig registrering og gir ikke medisinske råd. Ikke bruk estimert eksponering til å velge dose."
+    },
+    "pl": {
+      "language": "Polski", "storefront": "pl", "title": "GLPzy nazywa się teraz OneGLP", "tagline": "Ta sama aplikacja. Nowa nazwa.",
+      "description": "GLPzy to teraz OneGLP. Aplikacja, twórca, Twoje zapisy i zakupy Premium pozostają bez zmian.",
+      "intro": "OneGLP to nowa nazwa GLPzy, aplikacji do zapisywania danych związanych z GLP-1, której twórcą jest Steven Good. Strona w App Store i identyfikator 6761775005 pozostają bez zmian.",
+      "cta": "Pobierz OneGLP", "explore": "O OneGLP", "support": "Pomoc", "privacy": "Prywatność", "publisher": "Wydawca: Steven Good", "stays": "Co pozostaje bez zmian",
+      "items": ["Twoje dotychczasowe zapisy i zdjęcia.", "Twoje zakupy Premium.", "Podstawowe zapisywanie danych nie wymaga konta w aplikacji."],
+      "questions": [["Czy muszę ponownie zainstalować aplikację?", "Nie. Zmiana nazwy nie wymaga usuwania ani ponownego instalowania aplikacji."], ["Czy muszę ponownie kupić Premium?", "Nie. Twoje dotychczasowe zakupy Premium pozostają ważne."]],
+      "safety": "OneGLP służy do osobistych zapisów, a nie do udzielania porad medycznych. Nie używaj szacowanej ekspozycji do podejmowania decyzji o dawkowaniu."
+    },
+    "ro": {
+      "language": "Română", "storefront": "ro", "title": "GLPzy se numește acum OneGLP", "tagline": "Aceeași aplicație. Un nume nou.",
+      "description": "GLPzy este acum OneGLP. Aplicația, dezvoltatorul, înregistrările și achizițiile Premium rămân aceleași.",
+      "intro": "OneGLP este noul nume al GLPzy, aplicația de monitorizare GLP-1 dezvoltată de Steven Good. Pagina din App Store rămâne aceeași, cu identificatorul 6761775005.",
+      "cta": "Descarcă OneGLP", "explore": "Despre OneGLP", "support": "Asistență", "privacy": "Confidențialitate", "publisher": "Publicat de Steven Good", "stays": "Ce rămâne la fel",
+      "items": ["Înregistrările și fotografiile tale existente.", "Achizițiile tale Premium.", "Înregistrarea de bază nu necesită un cont în aplicație."],
+      "questions": [["Trebuie să reinstalez aplicația?", "Nu. Schimbarea numelui nu necesită ștergerea sau reinstalarea aplicației."], ["Trebuie să cumpăr Premium din nou?", "Nu. Achizițiile tale Premium existente rămân valabile."]],
+      "safety": "OneGLP este pentru monitorizare personală, nu pentru sfaturi medicale. Nu utiliza expunerea estimată pentru a decide dozele."
+    },
+    "ru": {
+      "language": "Русский", "storefront": "ru", "title": "GLPzy теперь называется OneGLP", "tagline": "То же приложение. Новое название.",
+      "description": "GLPzy теперь OneGLP. Приложение и разработчик не изменились. Ваши записи и покупки Premium сохраняются.",
+      "intro": "OneGLP — новое название GLPzy, приложения для учёта GLP-1 от Steven Good. Страница в App Store остаётся прежней, с идентификатором 6761775005.",
+      "cta": "Скачать OneGLP", "explore": "О OneGLP", "support": "Поддержка", "privacy": "Конфиденциальность", "publisher": "Издатель: Steven Good", "stays": "Что остаётся прежним",
+      "items": ["Ваши существующие записи и фотографии.", "Ваши покупки Premium.", "Для основных записей не требуется учётная запись в приложении."],
+      "questions": [["Нужно ли переустанавливать приложение?", "Нет. Смена названия не требует удаления или переустановки приложения."], ["Нужно ли снова покупать Premium?", "Нет. Ваши существующие покупки Premium остаются действительными."]],
+      "safety": "OneGLP предназначен для личных записей, а не для медицинских рекомендаций. Не используйте расчётную экспозицию для выбора дозировки."
+    },
+    "sk": {
+      "language": "Slovenčina", "storefront": "sk", "title": "GLPzy sa teraz volá OneGLP", "tagline": "Rovnaká aplikácia. Nový názov.",
+      "description": "GLPzy je teraz OneGLP. Aplikácia, vývojár, vaše záznamy aj nákupy Premium zostávajú rovnaké.",
+      "intro": "OneGLP je nový názov aplikácie GLPzy na sledovanie GLP-1 od Stevena Gooda. Stránka v App Store zostáva rovnaká, s ID 6761775005.",
+      "cta": "Stiahnuť OneGLP", "explore": "O OneGLP", "support": "Podpora", "privacy": "Súkromie", "publisher": "Vydavateľ: Steven Good", "stays": "Čo zostáva rovnaké",
+      "items": ["Vaše existujúce záznamy a fotografie.", "Vaše nákupy Premium.", "Základné zaznamenávanie nevyžaduje účet v aplikácii."],
+      "questions": [["Musím aplikáciu preinštalovať?", "Nie. Zmena názvu nevyžaduje vymazanie ani preinštalovanie aplikácie."], ["Musím si znovu kúpiť Premium?", "Nie. Vaše existujúce nákupy Premium zostávajú platné."]],
+      "safety": "OneGLP slúži na osobné záznamy, nie na lekárske poradenstvo. Odhadovanú expozíciu nepoužívajte na rozhodovanie o dávkovaní."
+    },
+    "sl": {
+      "language": "Slovenščina", "storefront": "si", "title": "GLPzy se zdaj imenuje OneGLP", "tagline": "Ista aplikacija. Novo ime.",
+      "description": "GLPzy je zdaj OneGLP. Aplikacija, razvijalec, vaši zapisi in nakupi Premium ostajajo enaki.",
+      "intro": "OneGLP je novo ime aplikacije GLPzy za spremljanje GLP-1, ki jo je razvil Steven Good. Stran v App Store ostaja ista, z ID-jem 6761775005.",
+      "cta": "Prenesite OneGLP", "explore": "O OneGLP", "support": "Pomoč", "privacy": "Zasebnost", "publisher": "Izdajatelj: Steven Good", "stays": "Kaj ostaja enako",
+      "items": ["Vaši obstoječi zapisi in fotografije.", "Vaši nakupi Premium.", "Za osnovno beleženje ne potrebujete računa v aplikaciji."],
+      "questions": [["Ali moram aplikacijo znova namestiti?", "Ne. Sprememba imena ne zahteva brisanja ali ponovne namestitve."], ["Ali moram znova kupiti Premium?", "Ne. Vaši obstoječi nakupi Premium ostajajo veljavni."]],
+      "safety": "OneGLP je namenjen osebnim zapisom, ne zdravniškim nasvetom. Ocenjene izpostavljenosti ne uporabljajte za odločitve o odmerjanju."
+    },
+    "sr": {
+      "language": "Српски", "storefront": "rs", "title": "GLPzy се сада зове OneGLP", "tagline": "Иста апликација. Ново име.",
+      "description": "GLPzy је сада OneGLP. Апликација, програмер, ваши записи и куповине Premium остају исти.",
+      "intro": "OneGLP је ново име апликације GLPzy за праћење GLP-1, чији је аутор Steven Good. Страница у App Store остаје иста, са идентификатором 6761775005.",
+      "cta": "Преузмите OneGLP", "explore": "О OneGLP", "support": "Подршка", "privacy": "Приватност", "publisher": "Издавач: Steven Good", "stays": "Шта остаје исто",
+      "items": ["Ваши постојећи записи и фотографије.", "Ваше куповине Premium.", "За основно праћење није потребан налог у апликацији."],
+      "questions": [["Да ли морам поново да инсталирам апликацију?", "Не. Промена имена не захтева брисање или поновну инсталацију."], ["Да ли морам поново да купим Premium?", "Не. Ваше постојеће куповине Premium остају важеће."]],
+      "safety": "OneGLP служи за личне записе, а не за медицинске савете. Не користите процењену изложеност за одлуке о дозирању."
+    },
+    "sv": {
+      "language": "Svenska", "storefront": "se", "title": "GLPzy heter nu OneGLP", "tagline": "Samma app. Nytt namn.",
+      "description": "GLPzy heter nu OneGLP. Appen, utvecklaren, dina anteckningar och Premium-köp är oförändrade.",
+      "intro": "OneGLP är det nya namnet på GLPzy, appen för GLP-1-registrering från Steven Good. Den har samma sida i App Store och samma ID: 6761775005.",
+      "cta": "Hämta OneGLP", "explore": "Om OneGLP", "support": "Hjälp", "privacy": "Integritet", "publisher": "Utgiven av Steven Good", "stays": "Det här är oförändrat",
+      "items": ["Dina befintliga anteckningar och foton.", "Dina Premium-köp.", "Grundläggande registrering kräver inget konto i appen."],
+      "questions": [["Behöver jag installera om appen?", "Nej. Namnbytet kräver inte att du raderar eller installerar om appen."], ["Behöver jag köpa Premium igen?", "Nej. Dina befintliga Premium-köp gäller fortfarande."]],
+      "safety": "OneGLP är till för personlig registrering och ger inte medicinska råd. Använd inte uppskattad exponering för att bestämma dosering."
+    },
+    "tr": {
+      "language": "Türkçe", "storefront": "tr", "title": "GLPzy artık OneGLP", "tagline": "Aynı uygulama. Yeni ad.",
+      "description": "GLPzy artık OneGLP adını taşıyor. Uygulama, geliştirici, kayıtlarınız ve Premium satın alımlarınız değişmedi.",
+      "intro": "OneGLP, Steven Good tarafından geliştirilen GLP-1 takip uygulaması GLPzy'nin yeni adıdır. App Store sayfası ve 6761775005 uygulama kimliği aynıdır.",
+      "cta": "OneGLP'yi indirin", "explore": "OneGLP hakkında", "support": "Destek", "privacy": "Gizlilik", "publisher": "Yayıncı: Steven Good", "stays": "Değişmeyenler",
+      "items": ["Mevcut kayıtlarınız ve fotoğraflarınız.", "Premium satın alımlarınız.", "Temel takip için uygulama içi hesap gerekmez."],
+      "questions": [["Uygulamayı yeniden yüklemem gerekiyor mu?", "Hayır. Ad değişikliği için uygulamayı silmeniz veya yeniden yüklemeniz gerekmez."], ["Premium'u tekrar satın almam gerekiyor mu?", "Hayır. Mevcut Premium satın alımlarınız geçerliliğini korur."]],
+      "safety": "OneGLP kişisel takip içindir, tıbbi tavsiye vermez. Tahmini maruziyeti doz kararları için kullanmayın."
+    },
+    "uk": {
+      "language": "Українська", "storefront": "ua", "title": "GLPzy тепер називається OneGLP", "tagline": "Той самий застосунок. Нова назва.",
+      "description": "GLPzy тепер OneGLP. Застосунок і розробник не змінилися. Ваші записи та покупки Premium зберігаються.",
+      "intro": "OneGLP — нова назва GLPzy, застосунку для обліку GLP-1 від Steven Good. Сторінка в App Store залишається тією самою, з ідентифікатором 6761775005.",
+      "cta": "Завантажити OneGLP", "explore": "Про OneGLP", "support": "Підтримка", "privacy": "Конфіденційність", "publisher": "Видавець: Steven Good", "stays": "Що залишається без змін",
+      "items": ["Ваші наявні записи та фотографії.", "Ваші покупки Premium.", "Для основних записів не потрібен обліковий запис у застосунку."],
+      "questions": [["Чи потрібно перевстановлювати застосунок?", "Ні. Зміна назви не потребує видалення чи перевстановлення застосунку."], ["Чи потрібно знову купувати Premium?", "Ні. Ваші наявні покупки Premium залишаються чинними."]],
+      "safety": "OneGLP призначений для особистих записів, а не для медичних порад. Не використовуйте розрахункову експозицію для вибору дозування."
+    },
+    "en": {
+      "language": "English", "storefront": "us", "title": "GLPzy is now OneGLP",
+      "tagline": "Same app. New name.",
+      "description": "GLPzy is now OneGLP. Same app and developer, with your existing records and Premium purchases retained. Learn about the name change.",
+      "intro": "OneGLP is the new name for GLPzy, the GLP-1 tracking app developed by Steven Good. It uses the same App Store listing. The name change does not change your existing records or Premium purchases.",
+      "cta": "Get OneGLP", "explore": "Explore OneGLP", "support": "Support", "privacy": "Privacy", "publisher": "Published by Steven Good",
+      "stays": "What stays the same",
+      "items": ["Your existing tracking records and photos.", "Your Premium purchases.", "The developer, Steven Good.", "No mandatory in-app account for core tracking.", "Optional, read-only Apple Health access."],
+      "questions": [
+        ["Is OneGLP a separate app?", "No. OneGLP was previously called GLPzy. It is the same app, with App Store ID 6761775005."],
+        ["Do I need to reinstall the app?", "No. The name change does not require you to delete or reinstall the app."],
+        ["Do I need to buy Premium again?", "No. Your existing Premium purchases remain valid."]
+      ],
+      "safety": "OneGLP is for personal tracking, not medical advice. Do not use Estimated Exposure to guide dosing."
+    },
+    "ar": {
+      "language": "العربية", "storefront": "sa", "title": "أصبح اسم GLPzy الآن OneGLP",
+      "tagline": "التطبيق نفسه. اسم جديد.",
+      "description": "أصبح اسم GLPzy الآن OneGLP. التطبيق والمطور لم يتغيرا، وتظل سجلاتك ومشتريات Premium الحالية محفوظة. تعرّف على تغيير الاسم.",
+      "intro": "OneGLP هو الاسم الجديد لتطبيق GLPzy لتتبع GLP-1، الذي طوّره Steven Good. يستخدم صفحة التطبيق نفسها في App Store. لا يغيّر الاسم الجديد سجلاتك أو مشتريات Premium الحالية.",
+      "cta": "تنزيل OneGLP", "explore": "تعرّف على OneGLP", "support": "الدعم", "privacy": "الخصوصية", "publisher": "الناشر: Steven Good",
+      "stays": "ما الذي يبقى كما هو؟",
+      "items": ["سجلات التتبع والصور الحالية.", "مشتريات Premium الخاصة بك.", "المطور Steven Good.", "لا يلزم إنشاء حساب داخل التطبيق للتتبع الأساسي.", "الوصول الاختياري إلى Apple Health للقراءة فقط."],
+      "questions": [
+        ["هل OneGLP تطبيق منفصل؟", "لا. كان OneGLP يُسمّى GLPzy سابقًا. إنه التطبيق نفسه، ومعرّفه في App Store هو 6761775005."],
+        ["هل أحتاج إلى إعادة تثبيت التطبيق؟", "لا. تغيير الاسم لا يتطلب حذف التطبيق أو إعادة تثبيته."],
+        ["هل أحتاج إلى شراء Premium مرة أخرى؟", "لا. تظل مشتريات Premium الحالية صالحة."]
+      ],
+      "safety": "OneGLP مخصص للتتبع الشخصي، وليس نصيحة طبية. لا تستخدم التعرض المقدر لتحديد الجرعات."
+    },
+    "zh-hans": {
+      "language": "简体中文", "storefront": "cn", "title": "GLPzy 现已更名为 OneGLP",
+      "tagline": "同一款应用，全新名称。",
+      "description": "GLPzy 现已更名为 OneGLP。应用和开发者不变，现有记录和已购买的 Premium 权益继续保留。了解此次更名。",
+      "intro": "OneGLP 是 GLPzy 的新名称。这款 GLP-1 记录应用由 Steven Good 开发，仍使用同一个 App Store 应用页面。更名不会改变您的现有记录或已购买的 Premium 权益。",
+      "cta": "下载 OneGLP", "explore": "了解 OneGLP", "support": "支持", "privacy": "隐私", "publisher": "发布者：Steven Good",
+      "stays": "哪些内容保持不变",
+      "items": ["您现有的记录和照片。", "您已购买的 Premium 权益。", "开发者 Steven Good。", "基本记录功能无需强制注册应用内账户。", "可选的 Apple Health 只读访问权限。"],
+      "questions": [
+        ["OneGLP 是另一款应用吗？", "不是。OneGLP 原名 GLPzy，仍是同一款应用，App Store ID 为 6761775005。"],
+        ["我需要重新安装应用吗？", "不需要。更名不要求您删除或重新安装应用。"],
+        ["我需要重新购买 Premium 吗？", "不需要。您现有的 Premium 购买权益仍然有效。"]
+      ],
+      "safety": "OneGLP 仅用于个人记录，不提供医疗建议。请勿使用估算暴露量来指导用药剂量。"
+    },
+    "zh-hant": {
+      "language": "繁體中文", "storefront": "tw", "title": "GLPzy 現已更名為 OneGLP",
+      "tagline": "同一款 App，全新名稱。",
+      "description": "GLPzy 現已更名為 OneGLP。App 和開發者不變，現有紀錄及已購買的 Premium 權益繼續保留。了解這次更名。",
+      "intro": "OneGLP 是 GLPzy 的新名稱。這款 GLP-1 紀錄 App 由 Steven Good 開發，仍使用同一個 App Store 頁面。更名不會改變您的現有紀錄或已購買的 Premium 權益。",
+      "cta": "下載 OneGLP", "explore": "了解 OneGLP", "support": "支援", "privacy": "隱私", "publisher": "發布者：Steven Good",
+      "stays": "哪些內容維持不變",
+      "items": ["您現有的紀錄和照片。", "您已購買的 Premium 權益。", "開發者 Steven Good。", "基本紀錄功能無須強制註冊 App 內帳號。", "可選的 Apple Health 唯讀存取權限。"],
+      "questions": [
+        ["OneGLP 是另一款 App 嗎？", "不是。OneGLP 原名 GLPzy，仍是同一款 App，App Store ID 為 6761775005。"],
+        ["我需要重新安裝 App 嗎？", "不需要。更名不要求您刪除或重新安裝 App。"],
+        ["我需要重新購買 Premium 嗎？", "不需要。您現有的 Premium 購買權益仍然有效。"]
+      ],
+      "safety": "OneGLP 僅供個人紀錄使用，不提供醫療建議。請勿使用估計暴露量來決定用藥劑量。"
+    },
+    "es-es": {
+      "language": "Español", "storefront": "es", "title": "GLPzy ahora se llama OneGLP",
+      "tagline": "La misma app. Un nuevo nombre.",
+      "description": "GLPzy ahora se llama OneGLP. La app y el desarrollador siguen siendo los mismos. Conservas tus registros y compras de Premium. Conoce el cambio de nombre.",
+      "intro": "OneGLP es el nuevo nombre de GLPzy, la app de seguimiento de GLP-1 desarrollada por Steven Good. Mantiene la misma ficha en el App Store. El cambio de nombre no modifica tus registros ni tus compras de Premium.",
+      "cta": "Descargar OneGLP", "explore": "Conoce OneGLP", "support": "Soporte", "privacy": "Privacidad", "publisher": "Publicado por Steven Good",
+      "stays": "Qué sigue igual",
+      "items": ["Tus registros y fotos actuales.", "Tus compras de Premium.", "El desarrollador, Steven Good.", "Sin cuenta obligatoria en la app para el seguimiento básico.", "Acceso opcional y de solo lectura a Apple Health."],
+      "questions": [
+        ["¿OneGLP es otra app?", "No. OneGLP antes se llamaba GLPzy. Es la misma app, con el ID 6761775005 en el App Store."],
+        ["¿Tengo que reinstalar la app?", "No. El cambio de nombre no requiere eliminar ni reinstalar la app."],
+        ["¿Tengo que comprar Premium de nuevo?", "No. Tus compras actuales de Premium siguen siendo válidas."]
+      ],
+      "safety": "OneGLP es para el seguimiento personal y no ofrece asesoramiento médico. No uses la exposición estimada para decidir la dosis."
+    },
+    "de": {
+      "language": "Deutsch", "storefront": "de", "title": "GLPzy heißt jetzt OneGLP",
+      "tagline": "Dieselbe App. Ein neuer Name.",
+      "description": "GLPzy heißt jetzt OneGLP. App und Entwickler bleiben gleich. Deine vorhandenen Aufzeichnungen und Premium-Käufe bleiben erhalten. Mehr zur Umbenennung.",
+      "intro": "OneGLP ist der neue Name von GLPzy, der GLP-1-Tracking-App von Steven Good. Der App-Store-Eintrag bleibt derselbe. Die Umbenennung ändert nichts an deinen vorhandenen Aufzeichnungen oder Premium-Käufen.",
+      "cta": "OneGLP laden", "explore": "OneGLP kennenlernen", "support": "Support", "privacy": "Datenschutz", "publisher": "Herausgegeben von Steven Good",
+      "stays": "Was gleich bleibt",
+      "items": ["Deine vorhandenen Aufzeichnungen und Fotos.", "Deine Premium-Käufe.", "Der Entwickler Steven Good.", "Kein verpflichtendes App-Konto für grundlegende Aufzeichnungen.", "Optionaler, ausschließlich lesender Zugriff auf Apple Health."],
+      "questions": [
+        ["Ist OneGLP eine andere App?", "Nein. OneGLP hieß zuvor GLPzy. Es ist dieselbe App mit der App-Store-ID 6761775005."],
+        ["Muss ich die App neu installieren?", "Nein. Für die Umbenennung musst du die App weder löschen noch neu installieren."],
+        ["Muss ich Premium erneut kaufen?", "Nein. Deine vorhandenen Premium-Käufe bleiben gültig."]
+      ],
+      "safety": "OneGLP dient der persönlichen Dokumentation und bietet keine medizinische Beratung. Verwende die geschätzte Exposition nicht für Dosierungsentscheidungen."
+    },
+    "fr": {
+      "language": "Français", "storefront": "fr", "title": "GLPzy s’appelle désormais OneGLP",
+      "tagline": "La même app. Un nouveau nom.",
+      "description": "GLPzy s’appelle désormais OneGLP. L’app et son développeur restent les mêmes. Vos données et achats Premium sont conservés. Découvrez ce changement de nom.",
+      "intro": "OneGLP est le nouveau nom de GLPzy, l’app de suivi GLP-1 développée par Steven Good. Elle conserve la même fiche sur l’App Store. Le changement de nom ne modifie ni vos données existantes ni vos achats Premium.",
+      "cta": "Télécharger OneGLP", "explore": "Découvrir OneGLP", "support": "Assistance", "privacy": "Confidentialité", "publisher": "Publié par Steven Good",
+      "stays": "Ce qui ne change pas",
+      "items": ["Vos données de suivi et vos photos existantes.", "Vos achats Premium.", "Le développeur, Steven Good.", "Aucun compte obligatoire dans l’app pour le suivi de base.", "Un accès facultatif et en lecture seule à Apple Health."],
+      "questions": [
+        ["OneGLP est-elle une autre app ?", "Non. OneGLP s’appelait auparavant GLPzy. Il s’agit de la même app, avec l’identifiant App Store 6761775005."],
+        ["Dois-je réinstaller l’app ?", "Non. Le changement de nom ne nécessite pas de supprimer ni de réinstaller l’app."],
+        ["Dois-je acheter Premium à nouveau ?", "Non. Vos achats Premium existants restent valables."]
+      ],
+      "safety": "OneGLP sert au suivi personnel et ne fournit pas de conseils médicaux. N’utilisez pas l’exposition estimée pour déterminer une dose."
+    },
+    "pt-pt": {
+      "language": "Português (Portugal)", "storefront": "pt", "title": "GLPzy chama-se agora OneGLP",
+      "tagline": "A mesma aplicação. Um novo nome.",
+      "description": "GLPzy chama-se agora OneGLP. A aplicação e o programador mantêm-se. Os seus registos e compras Premium continuam disponíveis. Saiba mais sobre a mudança de nome.",
+      "intro": "OneGLP é o novo nome da GLPzy, a aplicação de registo de GLP-1 desenvolvida por Steven Good. Mantém a mesma página na App Store. A mudança de nome não altera os seus registos nem as suas compras Premium.",
+      "cta": "Descarregar OneGLP", "explore": "Conhecer a OneGLP", "support": "Apoio", "privacy": "Privacidade", "publisher": "Publicado por Steven Good",
+      "stays": "O que se mantém",
+      "items": ["Os seus registos e fotografias existentes.", "As suas compras Premium.", "O programador, Steven Good.", "Sem conta obrigatória na aplicação para os registos básicos.", "Acesso opcional e apenas de leitura ao Apple Health."],
+      "questions": [
+        ["A OneGLP é outra aplicação?", "Não. A OneGLP chamava-se anteriormente GLPzy. É a mesma aplicação, com o identificador 6761775005 na App Store."],
+        ["Preciso de reinstalar a aplicação?", "Não. A mudança de nome não exige que elimine ou reinstale a aplicação."],
+        ["Preciso de comprar Premium novamente?", "Não. As suas compras Premium existentes continuam válidas."]
+      ],
+      "safety": "A OneGLP destina-se a registos pessoais e não fornece aconselhamento médico. Não utilize a exposição estimada para decidir a dose."
+    },
+    "ja": {
+      "language": "日本語", "storefront": "jp", "title": "GLPzyはOneGLPに名称を変更しました",
+      "tagline": "同じアプリ。新しい名前。",
+      "description": "GLPzyはOneGLPに名称を変更しました。アプリと開発者は変わりません。既存の記録とPremiumの購入内容は引き続き利用できます。",
+      "intro": "OneGLPは、Steven Goodが開発したGLP-1記録アプリGLPzyの新しい名前です。App Storeの掲載ページは同じです。名称変更によって、既存の記録やPremiumの購入内容が変わることはありません。",
+      "cta": "OneGLPをダウンロード", "explore": "OneGLPについて", "support": "サポート", "privacy": "プライバシー", "publisher": "発行者：Steven Good",
+      "stays": "変わらないもの",
+      "items": ["既存の記録と写真。", "Premiumの購入内容。", "開発者のSteven Good。", "基本的な記録機能にアプリ内アカウントの登録は不要です。", "任意で利用できるApple Healthの読み取り専用アクセス。"],
+      "questions": [
+        ["OneGLPは別のアプリですか？", "いいえ。OneGLPの以前の名前はGLPzyです。App Store IDが6761775005の同じアプリです。"],
+        ["アプリを再インストールする必要はありますか？", "いいえ。名称変更のためにアプリを削除したり、再インストールしたりする必要はありません。"],
+        ["Premiumを再購入する必要はありますか？", "いいえ。既存のPremiumの購入内容は引き続き有効です。"]
+      ],
+      "safety": "OneGLPは個人の記録用であり、医療上の助言を提供するものではありません。推定曝露量を投与量の判断に使用しないでください。"
+    },
+    "ko": {
+      "language": "한국어", "storefront": "kr", "title": "GLPzy의 이름이 OneGLP로 변경되었습니다",
+      "tagline": "같은 앱, 새로운 이름.",
+      "description": "GLPzy의 이름이 OneGLP로 변경되었습니다. 앱과 개발자는 그대로이며 기존 기록과 Premium 구매 내역도 유지됩니다. 이름 변경에 대해 알아보세요.",
+      "intro": "OneGLP는 Steven Good이 개발한 GLP-1 기록 앱 GLPzy의 새로운 이름입니다. App Store 등록 페이지는 동일합니다. 이름 변경으로 기존 기록이나 Premium 구매 내역이 달라지지 않습니다.",
+      "cta": "OneGLP 다운로드", "explore": "OneGLP 알아보기", "support": "지원", "privacy": "개인정보 보호", "publisher": "게시자: Steven Good",
+      "stays": "변하지 않는 것",
+      "items": ["기존 기록과 사진.", "Premium 구매 내역.", "개발자 Steven Good.", "기본 기록 기능에는 필수 앱 계정이 없습니다.", "선택적으로 사용하는 Apple Health 읽기 전용 접근 권한."],
+      "questions": [
+        ["OneGLP는 별도의 앱인가요?", "아니요. OneGLP의 이전 이름은 GLPzy입니다. App Store ID가 6761775005인 같은 앱입니다."],
+        ["앱을 다시 설치해야 하나요?", "아니요. 이름 변경을 위해 앱을 삭제하거나 다시 설치할 필요가 없습니다."],
+        ["Premium을 다시 구매해야 하나요?", "아니요. 기존 Premium 구매 내역은 계속 유효합니다."]
+      ],
+      "safety": "OneGLP는 개인 기록용이며 의학적 조언을 제공하지 않습니다. 추정 노출량을 투여량 결정에 사용하지 마세요."
+    },
+    "hi": {
+      "language": "हिन्दी", "storefront": "in", "title": "GLPzy का नया नाम OneGLP है",
+      "tagline": "ऐप वही है। नाम नया है।",
+      "description": "GLPzy का नया नाम OneGLP है। ऐप और डेवलपर वही हैं। आपके मौजूदा रिकॉर्ड और Premium की खरीदारी बनी रहती है। नाम में बदलाव के बारे में जानें।",
+      "intro": "OneGLP, Steven Good द्वारा बनाए गए GLP-1 ट्रैकिंग ऐप GLPzy का नया नाम है। App Store पर इसकी लिस्टिंग वही है। नाम बदलने से आपके मौजूदा रिकॉर्ड या Premium की खरीदारी नहीं बदलती।",
+      "cta": "OneGLP डाउनलोड करें", "explore": "OneGLP के बारे में जानें", "support": "सहायता", "privacy": "गोपनीयता", "publisher": "प्रकाशक: Steven Good",
+      "stays": "क्या पहले जैसा रहेगा",
+      "items": ["आपके मौजूदा रिकॉर्ड और तस्वीरें।", "आपकी Premium की खरीदारी।", "डेवलपर Steven Good।", "बुनियादी रिकॉर्ड रखने के लिए ऐप में खाता बनाना अनिवार्य नहीं है।", "Apple Health का वैकल्पिक, केवल पढ़ने का ऐक्सेस।"],
+      "questions": [
+        ["क्या OneGLP एक अलग ऐप है?", "नहीं। OneGLP का पिछला नाम GLPzy था। यह वही ऐप है, जिसकी App Store ID 6761775005 है।"],
+        ["क्या मुझे ऐप दोबारा इंस्टॉल करना होगा?", "नहीं। नाम बदलने के लिए ऐप को हटाने या दोबारा इंस्टॉल करने की ज़रूरत नहीं है।"],
+        ["क्या मुझे Premium दोबारा खरीदना होगा?", "नहीं। आपकी मौजूदा Premium खरीदारी मान्य रहेगी।"]
+      ],
+      "safety": "OneGLP निजी रिकॉर्ड रखने के लिए है, चिकित्सा सलाह के लिए नहीं। अनुमानित एक्सपोज़र का उपयोग खुराक तय करने के लिए न करें।"
+    },
+    "it": {
+      "language": "Italiano", "storefront": "it", "title": "GLPzy ora si chiama OneGLP",
+      "tagline": "La stessa app. Un nuovo nome.",
+      "description": "GLPzy ora si chiama OneGLP. L’app e lo sviluppatore restano gli stessi. I tuoi dati e acquisti Premium vengono mantenuti. Scopri il cambio di nome.",
+      "intro": "OneGLP è il nuovo nome di GLPzy, l’app per registrare il percorso GLP-1 sviluppata da Steven Good. La pagina sull’App Store è la stessa. Il cambio di nome non modifica i tuoi dati o acquisti Premium esistenti.",
+      "cta": "Scarica OneGLP", "explore": "Scopri OneGLP", "support": "Assistenza", "privacy": "Privacy", "publisher": "Pubblicato da Steven Good",
+      "stays": "Cosa resta uguale",
+      "items": ["I tuoi dati e le tue foto esistenti.", "I tuoi acquisti Premium.", "Lo sviluppatore, Steven Good.", "Nessun account obbligatorio nell’app per le registrazioni di base.", "Accesso facoltativo e in sola lettura ad Apple Health."],
+      "questions": [
+        ["OneGLP è un’altra app?", "No. OneGLP prima si chiamava GLPzy. È la stessa app, con ID App Store 6761775005."],
+        ["Devo reinstallare l’app?", "No. Il cambio di nome non richiede di eliminare o reinstallare l’app."],
+        ["Devo acquistare di nuovo Premium?", "No. I tuoi acquisti Premium esistenti restano validi."]
+      ],
+      "safety": "OneGLP serve per le registrazioni personali e non fornisce consigli medici. Non usare l’esposizione stimata per decidere il dosaggio."
+    },
+    "nl": {
+      "language": "Nederlands", "storefront": "nl", "title": "GLPzy heet nu OneGLP",
+      "tagline": "Dezelfde app. Een nieuwe naam.",
+      "description": "GLPzy heet nu OneGLP. De app en ontwikkelaar blijven hetzelfde. Je bestaande gegevens en Premium-aankopen blijven behouden. Lees over de naamswijziging.",
+      "intro": "OneGLP is de nieuwe naam van GLPzy, de GLP-1-trackingapp van Steven Good. De vermelding in de App Store blijft dezelfde. De naamswijziging verandert niets aan je bestaande gegevens of Premium-aankopen.",
+      "cta": "Download OneGLP", "explore": "Ontdek OneGLP", "support": "Ondersteuning", "privacy": "Privacy", "publisher": "Uitgegeven door Steven Good",
+      "stays": "Wat hetzelfde blijft",
+      "items": ["Je bestaande gegevens en foto’s.", "Je Premium-aankopen.", "De ontwikkelaar, Steven Good.", "Geen verplicht account in de app voor basisregistratie.", "Optionele toegang tot Apple Health, alleen om gegevens te lezen."],
+      "questions": [
+        ["Is OneGLP een andere app?", "Nee. OneGLP heette eerder GLPzy. Het is dezelfde app, met App Store-ID 6761775005."],
+        ["Moet ik de app opnieuw installeren?", "Nee. Voor de naamswijziging hoef je de app niet te verwijderen of opnieuw te installeren."],
+        ["Moet ik Premium opnieuw kopen?", "Nee. Je bestaande Premium-aankopen blijven geldig."]
+      ],
+      "safety": "OneGLP is voor persoonlijke registratie en geeft geen medisch advies. Gebruik de geschatte blootstelling niet om de dosering te bepalen."
+    }
+  }
+}

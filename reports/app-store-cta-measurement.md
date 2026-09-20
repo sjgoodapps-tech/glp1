@@ -1,6 +1,6 @@
 # Privacy-First App Store CTA Measurement
 
-Generated: 2026-09-08T00:42:55+00:00
+Generated: 2026-09-20T00:37:53+00:00
 
 ## What Is Implemented
 
@@ -31,5 +31,5 @@ Homepage placements have separate campaign names. Priority SEO pages use page-le
 
 Keep each campaign unchanged for at least 28 days. Compare matched time periods. Change one major page element at a time, and do not claim a conversion improvement without enough attributed activity.
 
-Audited priority CTA links: 36
-Configured campaign keys: 17
+Audited priority CTA links: 142
+Configured campaign keys: 19

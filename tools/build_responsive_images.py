@@ -23,7 +23,7 @@ HOMEPAGE_SOURCES = {
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Build responsive GLPzy screenshot assets.")
+    parser = argparse.ArgumentParser(description="Build responsive OneGLP screenshot assets.")
     group = parser.add_mutually_exclusive_group()
     group.add_argument("--seo-only", action="store_true", help="Build priority SEO page assets only.")
     group.add_argument("--homepage-only", action="store_true", help="Build homepage assets only.")

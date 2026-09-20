@@ -10,6 +10,7 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 from seo_priority_pass import CAMPAIGNS, PAGES
+from build_rebrand_pages import DATA as REBRAND_PAGES, page_path
 
 ROOT = Path(__file__).resolve().parents[1]
 INVENTORY = ROOT / "reports" / "app-store-cta-inventory.csv"
@@ -20,6 +21,8 @@ HOMEPAGE_CAMPAIGNS = {
     "homepageHero": "founding_home_hero",
     "mobileSticky": "founding_mobile_sticky",
     "freeLifetime": "founding_free_lifetime",
+    "rebrandPage": "rebrand_explanation",
+    "rebrandPageBottom": "rebrand_explanation_bottom",
 }
 
 ANCHOR_RE = re.compile(r'<a\b(?=[^>]*\bdata-app-store-link\b)[^>]*>', re.I)
@@ -102,6 +105,18 @@ def audit(allow_unconfigured=False):
         for src in SCRIPT_RE.findall(html):
             if src.startswith(("http://", "https://", "//")):
                 errors.append(f"{path}: external analytics/script source is not allowed: {src}")
+    for locale in REBRAND_PAGES['translations']:
+        rel = page_path(locale)
+        tags = ANCHOR_RE.findall((ROOT / rel).read_text())
+        if len(tags) != 2:
+            errors.append(f'{rel}: expected two download buttons')
+        for tag, placement, key in zip(tags, ('hero', 'bottom'), ('rebrandPage', 'rebrandPageBottom')):
+            data = attrs(tag)
+            token = href_token(data.get('href', ''))
+            if data.get('data-cta-placement') != placement or data.get('data-app-store-campaign') != key or token != config.get(key):
+                errors.append(f'{rel}: {placement} campaign drift')
+            rows.append({'page': rel.as_posix(), 'placement': placement, 'campaign_key': key,
+                         'campaign_token': token, 'href': data.get('href', '')})
     return rows, errors, config
 
 

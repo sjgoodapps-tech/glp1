@@ -3,6 +3,7 @@
 import argparse
 import json
 import re
+from html import escape
 from pathlib import Path
 
 from localisation_qa import LOCALE_DIRS, locale_for
@@ -23,6 +24,7 @@ CORE_TRANSLATIONS = {locale: dict(zip(CORE['keys'], values)) for locale, values 
 LABELS = json.loads((ROOT / 'data/website-label-copy.json').read_text(encoding='utf-8'))
 assert set(LABELS['translations']) == set(ESSENTIAL_TRANSLATIONS)
 LABEL_TRANSLATIONS = {locale: dict(zip(LABELS['keys'], values)) for locale, values in LABELS['translations'].items()}
+CORRECTIONS = json.loads((ROOT / 'data/website-locale-corrections.json').read_text())['translations']
 
 
 def corrected_html(rel, text):
@@ -66,6 +68,17 @@ def corrected_html(rel, text):
         for key, label in label_keys.items():
             text = replace_data_copy(text, 'data-i18n', nest_key(key, labels[label]))
 
+    corrections = CORRECTIONS.get(locale, {})
+    for key, value in corrections.items():
+        text = replace_data_copy(text, 'data-i18n', nest_key(key, value))
+        pattern = r'<[a-z][^>]*\bdata-i18n-aria-label="' + re.escape(key) + r'"[^>]*>'
+        text = re.sub(pattern, lambda m: re.sub(r'(?<![\w-])aria-label="[^"]*"',
+                      'aria-label="' + escape(value, quote=True) + '"', m[0]), text)
+    if corrections and rel.endswith('/data-rights.html'):
+        value = escape(corrections['site.data.detail.body'], quote=True)
+        text = re.sub(r'<meta\b(?=[^>]*(?:name|property)="(?:description|og:description|twitter:description)")[^>]*>',
+                      lambda m: re.sub(r'\bcontent="[^"]*"', 'content="' + value + '"', m[0]), text)
+
     # Resolve the current page's English equivalent in static HTML, including when
     # scripts are disabled. Keep relative URLs working in file and HTTP previews.
     candidate = rel.split('/', 1)[1] if locale in LOCALE_DIRS else rel
@@ -75,6 +88,15 @@ def corrected_html(rel, text):
     def language_link(match):
         return re.sub(r'href="[^"]*"', f'href="{prefix}{candidate}"', match.group(0))
     text = re.sub(r'<a\b(?=[^>]*data-language-option="en")[^>]*>', language_link, text)
+    # Older templates sent the current policy/support navigation item home.
+    page = Path(rel).name
+    current_keys = {
+        'support.html': ['settings.tile.support.title'],
+        'privacy.html': ['settings.detail.privacy.policy', 'site.nav.privacy'],
+    }.get(page, [])
+    for key in current_keys:
+        text = re.sub(r'<a\b(?=[^>]*data-i18n="' + re.escape(key) + r'")[^>]*>',
+                      lambda m: re.sub(r'href="[^"]*"', f'href="{page}"', m[0]), text)
     return text
 
 
@@ -99,7 +121,7 @@ def main():
             if not args.check:
                 path.write_text(after, encoding='utf-8')
     print(f'Website copy {"drift" if args.check else "updated"}: {len(changes)} pages; '
-          f'{len(TRANSLATIONS) - 1} translated locales; other locales keep index gates and omit unapproved optional claims.')
+          f'{len(TRANSLATIONS) - 1} translated locales; all locales remain indexable; optional claims still require suitable translations.')
     return int(args.check and bool(changes))
 
 

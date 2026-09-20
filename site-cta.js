@@ -133,7 +133,7 @@
   }
 
   function badgeAriaLabel(){
-    return 'Download GLPzy on the App Store';
+    return 'Download OneGLP on the App Store';
   }
 
   function badgeImgAlt(){
@@ -305,7 +305,7 @@
     var cta = document.createElement('a');
     cta.className = 'founding-offer-banner-cta';
     cta.href = appStoreUrlFor('homepageTopBanner');
-    cta.textContent = localizedStoreLabel(valueAt(offerConfig.copy || {}, 'active.bannerCta') || 'Get GLPzy');
+    cta.textContent = localizedStoreLabel(valueAt(offerConfig.copy || {}, 'active.bannerCta') || 'Get OneGLP');
 
     var dismiss = document.createElement('button');
     dismiss.className = 'founding-offer-dismiss';

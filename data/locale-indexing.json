@@ -1,5 +1,6 @@
 {
-  "policy": "Only root English pages and explicitly native-reviewed locales may be indexed.",
+  "policy": "All published translations remain indexable. Translation quality checks report problems but never add noindex or remove a language from the sitemap or hreflang links.",
+  "index_translations": true,
   "native_reviewed_locales": [],
   "review_requirements": [
     "Native-language review of visible copy",

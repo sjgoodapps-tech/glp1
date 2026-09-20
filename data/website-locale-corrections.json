@@ -1,0 +1,31 @@
+{
+  "forbidden": [
+    "See แอป Store pricing", "Bring a clearer", "Clearer ตรวจสอบ surfaces",
+    "Clearer xem lại surfaces", "Calendar ตรวจสอบ", "first create a local safety",
+    "Bring over ที่ผ่านมา doses", "Bring over trước doses",
+    "เลือก the รูปแบบ you want to share.", "Chọn the định dạng you want to share."
+  ],
+  "translations": {
+    "th": {
+      "settings.copy.see.app.store.pricing": "ดูราคาบน App Store",
+      "site.card.import.title": "นำเข้าประวัติการใช้ยา",
+      "site.review.body": "นำประวัติที่อ่านเข้าใจง่ายไปใช้ในการนัดหมายทางการแพทย์",
+      "site.card.premium.review.title": "ดูประวัติได้ชัดเจนขึ้น",
+      "history.export.chooseFormat": "เลือกรูปแบบไฟล์ที่ต้องการแชร์",
+      "site.data.detail.body": "ส่งออกสำเนาบันทึกของคุณ การส่งออกจะไม่แทนที่บันทึกที่อยู่ในอุปกรณ์",
+      "appViews.copy.glpzy.will.first.create.a.local.safety.backup": "สร้างไฟล์สำรองข้อมูลเพื่อเก็บสำเนาบันทึกของคุณ การสร้างไฟล์สำรองข้อมูลจะไม่แทนที่บันทึกในอุปกรณ์",
+      "settings.tile.subscription.title": "Premium",
+      "settings.copy.use.email.for.technical.privacy.accessibility.or.subscription": "ติดต่อทางอีเมลสำหรับคำถามด้านเทคนิค ความเป็นส่วนตัว การช่วยการเข้าถึง หรือการซื้อ Premium"
+    },
+    "vi": {
+      "site.card.import.title": "Nhập lịch sử dùng thuốc",
+      "site.review.body": "Mang lịch sử dễ đọc đến buổi khám.",
+      "site.card.premium.review.title": "Xem lại lịch sử rõ ràng hơn",
+      "history.export.chooseFormat": "Chọn định dạng tệp bạn muốn chia sẻ.",
+      "site.data.detail.body": "Xuất một bản sao dữ liệu của bạn. Việc xuất không thay thế dữ liệu trên thiết bị.",
+      "appViews.copy.glpzy.will.first.create.a.local.safety.backup": "Tạo tệp sao lưu để giữ một bản sao dữ liệu của bạn. Việc tạo bản sao lưu không thay thế dữ liệu trên thiết bị.",
+      "settings.tile.subscription.title": "Premium",
+      "settings.copy.use.email.for.technical.privacy.accessibility.or.subscription": "Liên hệ qua email nếu bạn có câu hỏi về kỹ thuật, quyền riêng tư, trợ năng hoặc việc mua Premium."
+    }
+  }
+}

@@ -11,6 +11,7 @@ from xml.etree import ElementTree as ET
 ROOT = Path(__file__).resolve().parents[1]
 
 P0_PATTERNS = {
+    "mixed English rebrand conversion copy": json.loads((ROOT / 'data/website-locale-corrections.json').read_text())['forbidden'],
     "untranslated English app copy": [
         "Fast dose entry without clutter",
         "Administration route and dosing frequency",
@@ -307,30 +308,8 @@ def scan_html(include_noindex=False):
 
 
 def check_index_gate():
-    failures = []
-    gated = []
-    sitemap = set()
-    sitemap_path = ROOT / "sitemap.xml"
-    if sitemap_path.exists():
-        ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-        sitemap = {node.text for node in ET.parse(sitemap_path).findall(".//sm:loc", ns) if node.text}
-    for path in sorted(ROOT.rglob("*.html")):
-        if ".git" in path.parts:
-            continue
-        rel = path.relative_to(ROOT).as_posix()
-        if locale_for(rel) in {"root", "en"}:
-            continue
-        text = path.read_text(encoding="utf-8")
-        issues = scan_one(rel, text, include_noindex=True)
-        if issues and not is_noindex(text):
-            failures.extend(issues)
-        if issues and is_noindex(text):
-            gated.append(rel)
-        canonical = re.search(r'<link rel="canonical" href="([^\"]+)"', text, re.I)
-        if is_noindex(text) and canonical and canonical.group(1) in sitemap:
-            failures.append((rel, "noindex sitemap conflict", canonical.group(1)))
-    print(f"gated locale pages with remaining copy risk: {len(gated)}")
-    return failures
+    from locale_indexing_qa import audit
+    return [('indexability', 'translation indexing policy', issue) for issue in audit()]
 
 
 def check_dynamic_locale_copy():
@@ -344,7 +323,7 @@ def check_dynamic_locale_copy():
     messages = set(re.findall(r'^\s*"([^\"]+)"\s*:\s*"', cta, re.M))
     for locale in sorted(storefronts - {"en"} - messages):
         failures.append(("site-cta.js", "missing translated offer message", locale))
-    for pattern in ["Get GLPzy", "Dismiss", "Get the app"]:
+    for pattern in ["Get OneGLP", "Dismiss", "Get the app"]:
         if pattern in cta:
             # English is allowed as the English fallback, but localized pages must
             # replace these labels with their existing translated App Store label.
@@ -353,7 +332,7 @@ def check_dynamic_locale_copy():
 
 
 def fetch(url):
-    request = urllib.request.Request(url, headers={"User-Agent": "GLPzy-localisation-qa/1.0"})
+    request = urllib.request.Request(url, headers={"User-Agent": "OneGLP-localisation-qa/1.0"})
     with urllib.request.urlopen(request, timeout=12) as response:
         return response.status, response.read().decode("utf-8", errors="replace")
 
@@ -381,7 +360,7 @@ def check_website_copy(rel, text):
         failures.append((rel, 'website copy or English routing drift', 'run sync_website_copy.py'))
     locale = locale_for(rel)
     if locale in TRANSLATIONS and locale != 'en':
-        if rel.endswith('/index.html'):
+        if rel == f'{locale}/index.html':
             for key in ('site.card.control.body', 'site.card.premium.calendar.body', 'site.premium.body', 'paywall.legal'):
                 if f'data-i18n="{key}"' not in text:
                     failures.append((rel, 'missing checked copy anchor', key))
@@ -426,8 +405,8 @@ def check_offer_static_html():
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Check GLPzy locale copy and index gates.")
-    parser.add_argument("--all", action="store_true", help="scan gated pages as well as indexable pages")
+    parser = argparse.ArgumentParser(description="Check OneGLP locale copy and translation indexability.")
+    parser.add_argument("--all", action="store_true", help="scan every page even if it accidentally has noindex")
     parser.add_argument("--live", action="store_true", help="scan live locale homepages and priority pages")
     parser.add_argument("--base-url", default=LIVE_SITE, help="HTTP preview or live base for --live")
     args = parser.parse_args()
@@ -436,8 +415,7 @@ def main():
     for path in ROOT.rglob('*.html'):
         if '.git' not in path.parts:
             failures.extend(check_website_copy(path.relative_to(ROOT).as_posix(), path.read_text(encoding='utf-8')))
-    if not args.all:
-        failures += check_index_gate()
+    failures += check_index_gate()
     if args.live:
         failures += scan_live(args.base_url)
     if failures:

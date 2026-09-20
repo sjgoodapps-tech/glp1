@@ -205,9 +205,9 @@ def recommendation(status, noindex, canonical, own_url, html, word_count, parser
             if marker not in html:
                 missing_priority.append(label)
     if missing_priority:
-        return "fix-before-index"
+        return "improve-copy-keep-indexable"
     if word_count < 250 and family(path_from_url(own_url)) in {"medicine", "ingredient", "feature", "commercial"}:
-        return "fix-before-index"
+        return "improve-copy-keep-indexable"
     return "index"
 
 
@@ -252,7 +252,7 @@ def main():
             "internal_inlinks_count": inlinks.get(rp, 0),
         }
         row["recommendation"] = recommendation(200, noindex, parser.canonical, own_url, html, row["word_count"], parser)
-        if row["recommendation"] == "fix-before-index" or (noindex and own_url in sitemap):
+        if row["recommendation"] == "improve-copy-keep-indexable" or (noindex and own_url in sitemap):
             p0.append(row)
         rows.append(row)
 
@@ -266,7 +266,7 @@ def main():
     for row in rows:
         counts[row["recommendation"]] += 1
     lines = [
-        "# GLPzy URL Inventory Summary",
+        "# OneGLP URL Inventory Summary",
         "",
         f"Generated: {datetime.now(timezone.utc).isoformat(timespec='seconds')}",
         "",
@@ -278,8 +278,8 @@ def main():
     ]
     for key in sorted(counts):
         lines.append(f"- {key}: {counts[key]}")
-    lines.extend(["", "## P0 Pages Not Ready For Indexing", ""])
-    blockers = [r for r in rows if r["recommendation"] in {"noindex", "fix-before-index"}]
+    lines.extend(["", "## Copy and Technical Follow-ups", "", "Copy warnings do not remove published translations from indexing.", ""])
+    blockers = [r for r in rows if r["recommendation"] in {"noindex", "improve-copy-keep-indexable"}]
     if not blockers:
         lines.append("None.")
     else:

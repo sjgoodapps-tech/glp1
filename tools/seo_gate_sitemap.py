@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://www.glpzy.app"
+SITE = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))["site_url"].rstrip("/")
 REPORT = ROOT / "reports" / "localisation-noindex-report.md"
 LOCALE_INDEXING_PATH = ROOT / "data" / "locale-indexing.json"
 LOCALE_INDEXING = json.loads(LOCALE_INDEXING_PATH.read_text(encoding="utf-8"))
@@ -25,7 +25,7 @@ LOCALE_DIRS = {
 }
 
 APPROVED_ENGLISH_TOKENS = {
-    "GLPzy", "Apple Health", "App Store", "CSV", "JSON", "PDF", "iPhone", "iPad",
+    "OneGLP", "Apple Health", "App Store", "CSV", "JSON", "PDF", "iPhone", "iPad",
     "Apple Watch", "Mounjaro", "Wegovy", "Ozempic", "Zepbound", "Victoza",
     "Rybelsus", "Saxenda", "Trulicity", "Foundayo", "tirzepatide", "semaglutide",
 }
@@ -158,9 +158,18 @@ def set_robots(text, content):
 
 
 def set_canonical(text, url):
-    if re.search(r'<link rel="canonical" href="[^"]*">', text, re.I):
-        return re.sub(r'<link rel="canonical" href="[^"]*">', f'<link rel="canonical" href="{url}">', text, count=1, flags=re.I)
-    return text.replace("</head>", f'  <link rel="canonical" href="{url}">\n</head>', 1)
+    pattern = re.compile(r'<link\b(?=[^>]*\brel\s*=\s*["\']canonical["\'])[^>]*>', re.I)
+    matches = list(pattern.finditer(text))
+    first = matches[0].start() if matches else None
+    replacement = f'<link rel="canonical" href="{escape(url, quote=True)}">'
+    if matches:
+        text = pattern.sub(lambda match: replacement if match.start() == first else '', text)
+    else:
+        text = text.replace('</head>', '  ' + replacement + '\n</head>', 1)
+    # Old locale templates also exposed nonexistent slash URLs in social metadata.
+    og = re.compile(r'<meta\b(?=[^>]*\bproperty\s*=\s*["\']og:url["\'])[^>]*>', re.I)
+    text = og.sub(f'<meta property="og:url" content="{escape(url, quote=True)}">', text)
+    return re.sub(r'[ \t]+$', '', text, flags=re.M)
 
 
 def text_without_code(html):
@@ -171,7 +180,7 @@ def text_without_code(html):
 
 def detect_failures(rel_path, html):
     loc = locale_for(rel_path)
-    if loc in {"root", "en"}:
+    if loc in {"root", "en", "en-gb"}:
         return []
     failures = []
     haystack = text_without_code(html)
@@ -226,30 +235,43 @@ HREFLANG_LINK_RE = re.compile(
 )
 
 
-def filter_hreflang(text, page_locale):
-    if page_locale != "root" and page_locale not in NATIVE_REVIEWED_LOCALES:
-        return HREFLANG_LINK_RE.sub("", text)
-
-    allowed = {"en", "x-default", *NATIVE_REVIEWED_LOCALES}
-
-    def repl(match):
-        tag = match.group(0)
-        value = re.search(r'\bhreflang=["\']([^"\']+)["\']', tag, re.I)
-        if not value or value.group(1).lower() not in allowed:
-            return ""
-        return tag
-
-    return HREFLANG_LINK_RE.sub(repl, text)
+def page_family(rel_path):
+    return rel_path.split("/", 1)[1] if locale_for(rel_path) != "root" else rel_path
 
 
-def noindex_and_canonicalise():
+def hreflang_clusters(paths):
+    families = {}
+    for path in paths:
+        rp = rel(path)
+        locale = locale_for(rp)
+        family = families.setdefault(page_family(rp), {})
+        if locale == "en" and root_equivalent(rp):
+            continue
+        family["en" if locale == "root" else locale] = url_for_path(rp)
+    for family in families.values():
+        if "en" in family:
+            family["x-default"] = family["en"]
+    return families
+
+
+def set_hreflang(text, alternates):
+    # Replace the whole cluster so removed gates cannot leave stale or one-way links.
+    text = re.sub(r'^[ \t]*' + HREFLANG_LINK_RE.pattern, "", text, flags=re.I | re.M)
+    links = "\n".join(
+        f'  <link rel="alternate" hreflang="{escape(locale)}" href="{escape(url)}">'
+        for locale, url in sorted(alternates.items())
+    )
+    return text.replace("</head>", links + "\n</head>", 1)
+
+
+def index_and_canonicalise():
     records = []
-    for path in html_files():
+    paths = html_files()
+    clusters = hreflang_clusters(paths)
+    for path in paths:
         rp = rel(path)
         html = path.read_text(encoding="utf-8")
-        html = fix_hreflang_en(html, rp)
-        locale = locale_for(rp)
-        html = filter_hreflang(html, locale)
+        html = set_hreflang(html, clusters[page_family(rp)])
         reasons = []
         canonical = url_for_path(rp)
         if rp.startswith("en/"):
@@ -261,12 +283,8 @@ def noindex_and_canonicalise():
                 reasons.append("English duplicate without root equivalent")
         failures = detect_failures(rp, html)
         reasons.extend(failures)
-        if locale != "root" and locale not in NATIVE_REVIEWED_LOCALES:
-            reasons.append("locale held noindex pending documented native-language review")
-        if reasons:
-            html = set_robots(html, "noindex,follow")
-        else:
-            html = set_robots(html, "index,follow")
+        # Copy issues remain QA findings, never an automatic indexing restriction.
+        html = set_robots(html, "index,follow")
         html = set_canonical(html, canonical)
         if path.read_text(encoding="utf-8") != html:
             path.write_text(html, encoding="utf-8")
@@ -406,20 +424,21 @@ def build_sitemap():
 def write_report(records, urls):
     REPORT.parent.mkdir(exist_ok=True)
     lines = [
-        "# Localisation Index Gate Report",
+        "# Localisation Indexability and Copy Report",
         "",
         f"Generated: {datetime.now(timezone.utc).isoformat(timespec='seconds')}",
         "",
         f"Indexable sitemap URLs: {len(urls)}",
-        f"Noindexed pages: {len(records)}",
-        f"Native-reviewed indexable locales: {', '.join(sorted(NATIVE_REVIEWED_LOCALES)) or 'none'}",
+        "Translation-based noindex restrictions: none",
+        f"Pages with copy warnings or canonical notes: {len(records)}",
+        f"Documented native reviews (not an indexing gate): {', '.join(sorted(NATIVE_REVIEWED_LOCALES)) or 'none'}",
         "",
         "## Canonical Decision",
         "",
-        "Root English URLs are the canonical English marketing pages. `/en/` duplicates are `noindex,follow` and canonicalised to their root English equivalent when one exists.",
-        "Locale pages remain accessible through the language picker. They are excluded from indexing and hreflang clusters until native review is recorded in `data/locale-indexing.json`.",
+        "All published pages use `index,follow`. `/en/` duplicates retain root English canonicals; only those canonical root URLs are in the sitemap and English hreflang entries.",
+        "All other published translations have self-canonicals, sitemap entries and reciprocal language links. Copy quality and native review do not gate indexability. Search engines decide actual indexing.",
         "",
-        "## Noindexed Pages",
+        "## Copy Warnings and Canonical Notes",
         "",
     ]
     if not records:
@@ -432,7 +451,7 @@ def write_report(records, urls):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Apply locale gates and build the sitemap.")
+    parser = argparse.ArgumentParser(description="Make published translations indexable and build the sitemap.")
     parser.add_argument(
         "--sitemap-only",
         action="store_true",
@@ -448,10 +467,10 @@ def main():
         print(f"wrote sitemap.xml with {len(urls)} URLs")
         return
 
-    records = noindex_and_canonicalise()
+    records = index_and_canonicalise()
     urls = build_sitemap()
     write_report(records, urls)
-    print(f"noindexed {len(records)} pages")
+    print(f"all published pages indexable; {len(records)} copy warnings or canonical notes")
     print(f"wrote sitemap.xml with {len(urls)} URLs")
     print(f"wrote {REPORT.relative_to(ROOT)}")
 

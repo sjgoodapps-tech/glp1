@@ -87,9 +87,9 @@
 
   // generated:product-claims:start
   var productClaims = {
-    "heroH1": "Track GLP-1 doses, weight, symptoms, photos and Apple Health context privately.",
+    "heroH1": "Private GLP-1 tracker for iPhone",
     "heroSupport": "Log doses, weight, symptoms, appetite, nutrition, photos and reminders in one private iPhone app. Optional Apple Health support can add read-only weight, glucose, body, movement and nutrition context.",
-    "appleHealthScope": "Optional read-only Apple Health support can include weight history, height, glucose readings, body composition, movement, workouts, calories, protein, water, carbs, fat, fiber and sugar. GLPzy does not write data back to Apple Health.",
+    "appleHealthScope": "Optional read-only Apple Health support can include weight history, height, glucose readings, body composition, movement, workouts, calories, protein, water, carbs, fat, fiber and sugar. OneGLP does not write data back to Apple Health.",
     "freeSummary": "Free includes setup, daily dose entry, reminders, optional read-only Apple Health context, CSV and JSON export for core records, CSV import, charts, current and previous month calendar review, months needed for an active reorder reminder where applicable, historical Estimated Exposure context, 2 new photo uploads per month, photo comparison and the small Next Dose widget.",
     "freeEdits": "Basic same-treatment edits stay free: dose, start date, and reminder time.",
     "advancedEdits": "Advanced treatment changes, including switching country, medicine, administration route, medicine form, dosing frequency, custom treatment, or compounded treatment setup, may require Premium.",
@@ -111,7 +111,7 @@
   var foundingOfferCopy = {
     "active": {
       "banner": "Founding offer: Lifetime Premium free until 31 December 2026. No subscription or renewal.",
-      "bannerCta": "Get GLPzy",
+      "bannerCta": "Get OneGLP",
       "heroLine": "Lifetime Premium is free until 31 December 2026.",
       "support": "Claim once and keep Premium. No subscription, no renewal, no account required.",
       "heroCta": "Get Lifetime Premium free",
@@ -128,16 +128,16 @@
     },
     "expired": {
       "heroLine": "The Lifetime Premium founding offer has ended.",
-      "support": "You can still download GLPzy from the App Store for private GLP-1 tracking.",
+      "support": "You can still download OneGLP from the App Store for private GLP-1 tracking.",
       "heroCta": "View on the App Store",
       "landingTitle": "The Lifetime Premium founding offer has ended",
-      "landingSupport": "You can still download GLPzy from the App Store for private GLP-1 tracking.",
-      "landingProof": "GLPzy remains available for private dose, weight, symptom, photo, import, export and Apple Health context tracking.",
-      "landingCtaTitle": "Download GLPzy from the App Store",
-      "keepExplanation": "The founding offer has ended. GLPzy remains available on the App Store.",
+      "landingSupport": "You can still download OneGLP from the App Store for private GLP-1 tracking.",
+      "landingProof": "OneGLP remains available for private dose, weight, symptom, photo, import, export and Apple Health context tracking.",
+      "landingCtaTitle": "Download OneGLP from the App Store",
+      "keepExplanation": "The founding offer has ended. OneGLP remains available on the App Store.",
       "faqTitle": "Premium offer status",
       "faqKeepQuestion": "Has the founding offer ended?",
-      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer ended after 31 December 2026. If you claimed it by that date, you keep Premium with no subscription or renewal. You can still download GLPzy from the App Store."
+      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer ended after 31 December 2026. If you claimed it by that date, you keep Premium with no subscription or renewal. You can still download OneGLP from the App Store."
     }
   };
   // generated:founding-offer-copy:end
@@ -147,6 +147,8 @@
     appStoreUrl: appStoreBaseUrl,
     appStoreCampaigns: {
       siteDefault: campaignUrl("founding_site_default"),
+      rebrandPage: campaignUrl("rebrand_explanation"),
+      rebrandPageBottom: campaignUrl("rebrand_explanation_bottom"),
       homepageTopBanner: campaignUrl("founding_home_top_banner"),
       homepageHero: campaignUrl("founding_home_hero"),
       mobileSticky: campaignUrl("founding_mobile_sticky"),

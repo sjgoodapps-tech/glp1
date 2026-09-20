@@ -9,10 +9,40 @@ from unittest.mock import patch
 
 import localisation_qa as qa
 import sync_site_content as sync
-from sync_website_copy import corrected_html, TRANSLATIONS, ESSENTIAL_TRANSLATIONS
+from sync_website_copy import corrected_html, TRANSLATIONS, ESSENTIAL_TRANSLATIONS, CORRECTIONS
 
 
 class WebsiteGrowthQA(unittest.TestCase):
+    def test_policy_and_support_navigation_does_not_send_visitors_home(self):
+        for page, key in [('support.html', 'settings.tile.support.title'), ('privacy.html', 'settings.detail.privacy.policy')]:
+            for locale in ('zh-hans', 'zh-hant', 'th', 'vi'):
+                result = corrected_html(f'{locale}/{page}', f'<a data-i18n="{key}" href="./index.html">Label</a>')
+                self.assertIn(f'href="{page}"', result)
+
+    def test_thai_vietnamese_repairs_cover_body_metadata_and_labels(self):
+        for locale, translations in CORRECTIONS.items():
+            source = '<meta name="description" content="first create a local safety backup">'
+            for key in translations:
+                source += f'<p data-i18n="{key}">first create a local safety backup</p>'
+            if locale == 'th':
+                source += '<a aria-label="See แอป Store pricing" data-i18n-aria-label="settings.copy.see.app.store.pricing">App Store</a>'
+            rel = locale + '/data-rights.html'
+            result = corrected_html(rel, source)
+            self.assertEqual(corrected_html(rel, result), result)
+            self.assertNotIn('first create a local safety', result)
+            self.assertNotIn('See แอป Store pricing', result)
+            if locale == 'th':
+                self.assertIn('data-i18n-aria-label="settings.copy.see.app.store.pricing"', result)
+            self.assertIn(escape(translations['site.data.detail.body']), result)
+            self.assertEqual(qa.scan_one(rel, result, True), [])
+
+    def test_both_validators_reject_known_mixed_english(self):
+        from seo_validate import BAD_STRINGS
+        forbidden = qa.P0_PATTERNS['mixed English rebrand conversion copy']
+        for bad in forbidden:
+            self.assertIn(bad, BAD_STRINGS)
+            self.assertTrue(qa.scan_one('th/overview.html', '<p>' + bad + '</p>', True))
+
     def test_export_and_purchase_copy_all_locales(self):
         for locale in qa.LOCALE_DIRS:
             copy = TRANSLATIONS.get('en' if locale == 'en-gb' else locale) or ESSENTIAL_TRANSLATIONS[locale]
@@ -27,7 +57,10 @@ class WebsiteGrowthQA(unittest.TestCase):
         self.assertTrue(qa.check_website_copy('pt-pt/privacy.html', html))
 
     def test_missing_priority_anchor_is_a_failure(self):
-        self.assertTrue(qa.check_website_copy('ar/index.html', '<p>GLPzy</p>'))
+        self.assertTrue(qa.check_website_copy('ar/index.html', '<p>OneGLP</p>'))
+
+    def test_article_index_is_not_a_homepage(self):
+        self.assertEqual(qa.check_website_copy('ar/glpzy-is-now-oneglp/index.html', '<p>OneGLP</p>'), [])
 
     def test_english_is_allowed_in_british_english(self):
         self.assertEqual(qa.scan_one('en-gb/index.html', '<p>Administration route and dosing frequency</p>', True), [])
@@ -60,7 +93,7 @@ class WebsiteGrowthQA(unittest.TestCase):
         with patch.object(sync, 'FACTS_PATH') as source:
             source.read_text.return_value = json.dumps(facts)
             _, desired = sync.desired_files(sync.parsed_time('2026-09-08T12:00:00Z'))
-        for rel in ('index.html', 'free-lifetime/index.html', 'ar/index.html', 'mounjaro-tracker-iphone.html'):
+        for rel in ('index.html', 'free-lifetime/index.html', 'ar/index.html', 'mounjaro-tracker-iphone.html', 'glpzy-is-now-oneglp/index.html', 'ar/glpzy-is-now-oneglp/index.html'):
             text = desired[sync.ROOT / rel]
             tags = re.findall(r'<a\b(?=[^>]*\bdata-app-store-link\b)[^>]*>', text)
             self.assertTrue(tags, rel)

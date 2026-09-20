@@ -87,28 +87,19 @@ def decision(row):
 
     if locale == "en":
         return (
-            "keep_noindex_duplicate",
+            "keep_root_canonical_duplicate",
             row["canonical_url"],
             "P0",
             "The /en/ page duplicates the root English page.",
-            "Confirm Google drops the duplicate after recrawl.",
-        )
-
-    if locale not in REVIEWED_LOCALES:
-        return (
-            "keep_noindex_pending_native_review",
-            "",
-            "P0",
-            "No documented native-language approval exists for this locale.",
-            "Native copy, medical wording and mobile layout must pass before indexing.",
+            "Keep index,follow; use the root canonical in sitemap and English hreflang entries.",
         )
 
     return (
-        "keep_index_native_reviewed" if indexed else "review_native_locale_gate",
+        "keep_index_translation" if indexed else "remove_translation_index_gate",
         "",
         "P1",
-        "Locale is recorded as native-reviewed.",
-        "Confirm hreflang reciprocity, canonical URL and Search Console coverage.",
+        "All published translations remain indexable under the owner's policy.",
+        "Check wording, medical safety, mobile layout and Search Console coverage without adding noindex.",
     )
 
 
@@ -162,8 +153,8 @@ def main():
             "## Rules",
             "",
             "- Root English priority and trust pages remain indexable.",
-            "- `/en/` duplicates remain `noindex,follow` and point to root English canonicals.",
-            "- A locale is not indexable until native approval is recorded in `data/locale-indexing.json`.",
+            "- `/en/` duplicates use `index,follow` and point to root English canonicals.",
+            "- All published translations remain indexable, in the sitemap and linked by hreflang. Native review is a copy-quality check, not an indexing gate.",
             "- Overlapping root medicine pages are not merged without at least 28 days of Search Console query data.",
             "- A consolidation target is a decision aid, not an automatic redirect instruction.",
         ]

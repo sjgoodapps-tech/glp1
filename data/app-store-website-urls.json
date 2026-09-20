@@ -1,0 +1,33 @@
+{
+  "evidence_date": "2026-09-20",
+  "source": "Owner-provided App Store Connect 5.00 URL evidence; no App Store changes",
+  "origin": "https://www.oneglp.app",
+  "paths": [
+    "/ar/index.html", "/ar/privacy.html", "/ar/support.html", "/bn/index.html",
+    "/cs/index.html", "/da/index.html", "/de/index.html", "/el/index.html",
+    "/en-GB/index.html", "/en/index.html", "/en/privacy.html", "/es-ES/index.html",
+    "/es-MX/index.html", "/fi/index.html", "/fr-CA/index.html", "/fr/index.html",
+    "/gu/index.html", "/he/index.html", "/hi/index.html", "/hr/index.html",
+    "/hu/index.html", "/id/index.html", "/it/index.html", "/ja/index.html",
+    "/kn/index.html", "/ko/index.html", "/ml/index.html", "/mr/index.html",
+    "/ms/index.html", "/nb/index.html", "/nl/index.html", "/or/index.html",
+    "/pa/index.html", "/pl/index.html", "/privacy.html", "/pt-BR/index.html",
+    "/pt-PT/index.html", "/ro/index.html", "/ru/index.html", "/sk/index.html",
+    "/sl/index.html", "/support.html", "/sv/index.html", "/ta/index.html",
+    "/te/index.html", "/th/index.html", "/tr/index.html", "/uk/index.html",
+    "/ur/index.html", "/vi/index.html", "/zh-Hans/index.html", "/zh-Hans/support.html",
+    "/zh-Hant/index.html", "/zh-Hant/support.html"
+  ],
+  "aliases": {
+    "/en-GB/index.html": "/en-gb/index.html",
+    "/es-ES/index.html": "/es-es/index.html",
+    "/es-MX/index.html": "/es-mx/index.html",
+    "/fr-CA/index.html": "/fr-ca/index.html",
+    "/pt-BR/index.html": "/pt-br/index.html",
+    "/pt-PT/index.html": "/pt-pt/index.html",
+    "/zh-Hans/index.html": "/zh-hans/index.html",
+    "/zh-Hans/support.html": "/zh-hans/support.html",
+    "/zh-Hant/index.html": "/zh-hant/index.html",
+    "/zh-Hant/support.html": "/zh-hant/support.html"
+  }
+}

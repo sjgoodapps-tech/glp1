@@ -58,7 +58,7 @@ def default_chrome():
 
 
 def parse_args():
-    parser = argparse.ArgumentParser(description="Run a local Lighthouse baseline for GLPzy priority pages.")
+    parser = argparse.ArgumentParser(description="Run a local Lighthouse baseline for OneGLP priority pages.")
     parser.add_argument("--base-url", default="http://127.0.0.1:4173/")
     parser.add_argument("--node", default=default_node())
     parser.add_argument("--chrome-path", default=default_chrome())
