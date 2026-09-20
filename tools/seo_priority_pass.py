@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 import json
 import re
-import struct
 from datetime import date
 from html import escape
 from pathlib import Path
 from urllib.parse import urlencode
+from refresh_screenshots import figure as approved_figure, refreshed_html
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "data"
@@ -106,7 +106,7 @@ PAGES = {
         ],
         "does": ["keeps routine records together", "supports user-directed exports", "shows personal trend views", "keeps core tracking available without a mandatory in-app account"],
         "does_not": ["prescribe medicine", "recommend doses", "diagnose symptoms", "replace official medicine information", "replace advice from a qualified clinician"],
-        "slots": ["today-dashboard", "medication-setup", "advanced-graph", "csv-json-pdf-export"],
+        "slots": MANIFEST['page_slots']['glp1-weight-dose-symptom-tracker.html'],
         "faq": [
             ("What can OneGLP track?", f"OneGLP can track {TRACKS}."),
             ("Does OneGLP tell me how much medicine to take?", "No. OneGLP is a tracking app. It does not provide dosing advice, prescribing advice or treatment instructions."),
@@ -128,7 +128,7 @@ PAGES = {
         "workflow": ["Record each dose date and site.", "Add weight, symptom, appetite, nutrition and photo context when useful.", "Export or review your own record before an appointment."],
         "does": ["tracks Mounjaro context as personal records", "keeps photos and notes beside dose history", "supports export for your own review"],
         "does_not": ["provide Mounjaro dosing advice", "interpret symptoms", "replace official Mounjaro information"],
-        "slots": ["today-dashboard", "dose-log", "before-after-export"],
+        "slots": MANIFEST['page_slots']['mounjaro-tracker-iphone.html'],
         "faq": [
             ("Can I use OneGLP as a Mounjaro tracker?", "Yes. OneGLP can track Mounjaro dose records, reminders, sites, symptoms, weight, notes and photos for personal review."),
             ("Does OneGLP give Mounjaro dosing advice?", "No. OneGLP does not provide dosing advice or treatment instructions."),
@@ -149,7 +149,7 @@ PAGES = {
         "workflow": ["Record dose dates and reminder context.", "Review weight and symptom notes beside dose stages.", "Use exports or photo comparison when you want a clearer personal record."],
         "does": ["tracks Wegovy context as personal records", "shows weight and photo history", "supports optional read-only Apple Health context"],
         "does_not": ["provide Wegovy dosing advice", "set clinical weight goals", "diagnose symptoms"],
-        "slots": ["weight-chart", "before-after-export", "symptom-timeline"],
+        "slots": MANIFEST['page_slots']['wegovy-tracker-iphone.html'],
         "faq": [
             ("Can I use OneGLP as a Wegovy tracker?", "Yes. OneGLP can track Wegovy dose records, reminders, weight, symptoms and photos for personal review."),
             ("Does OneGLP provide Wegovy dosing advice?", "No. OneGLP is not a dosing guide and does not provide treatment instructions."),
@@ -170,7 +170,7 @@ PAGES = {
         "workflow": ["Record dose dates, reminder times and injection sites.", "Add weight, symptom, appetite, nutrition, note and photo context when useful.", "Review charts, exports and the methodology page when you need to understand personal tracking estimates."],
         "does": ["keeps Zepbound context in a private record", "supports injection-site and reminder review", "connects dose history with weight, symptoms and photos", "links Estimated Exposure wording to the methodology page"],
         "does_not": ["provide Zepbound dosing advice", "interpret side effects", "replace official Zepbound information", "measure blood concentration"],
-        "slots": ["today-dashboard", "injection-site-dose-detail", "weight-chart", "estimated-exposure-projection"],
+        "slots": MANIFEST['page_slots']['zepbound-tracker-iphone.html'],
         "faq": [
             ("Can I use OneGLP as a Zepbound tracker?", "Yes. OneGLP can track Zepbound dose records, reminders, sites, symptoms, weight, notes and photos for personal review."),
             ("Does OneGLP provide Zepbound dosing advice?", "No. OneGLP does not provide dosing advice or treatment instructions."),
@@ -192,7 +192,7 @@ PAGES = {
         "workflow": ["Choose the medicine context you want to record.", "Log dose, site, reminder, symptom, weight and photo records.", "Review related Mounjaro and Zepbound pages for brand-context tracking notes."],
         "does": ["tracks tirzepatide context as personal data", "links brand pages and ingredient context", "supports export for user records"],
         "does_not": ["provide treatment instructions", "recommend dose changes", "measure medicine levels"],
-        "slots": ["medication-setup", "advanced-graph", "estimated-exposure-projection"],
+        "slots": MANIFEST['page_slots']['tirzepatide-tracker-iphone.html'],
         "faq": [
             ("Can I track tirzepatide in OneGLP?", "Yes. OneGLP can keep dose, reminder, site, weight, symptom, note and photo records for personal review."),
             ("Does OneGLP support Mounjaro and Zepbound contexts?", "Yes. OneGLP has separate pages for Mounjaro and Zepbound tracking contexts."),
@@ -213,7 +213,7 @@ PAGES = {
         "workflow": ["Record semaglutide-context dose history.", "Review weight, symptoms, appetite, nutrition and photo records together.", "Use related Wegovy and Ozempic pages where brand context matters."],
         "does": ["tracks semaglutide context as personal records", "supports weight, symptom and photo review", "keeps Apple Health optional and read-only"],
         "does_not": ["provide semaglutide dosing advice", "diagnose symptoms", "make treatment claims"],
-        "slots": ["weight-chart", "today-dashboard", "advanced-graph"],
+        "slots": MANIFEST['page_slots']['semaglutide-tracker-iphone.html'],
         "faq": [
             ("Can I track semaglutide in OneGLP?", "Yes. OneGLP can track semaglutide dose records, reminders, weight, symptoms, notes and photos."),
             ("Does OneGLP support Wegovy context?", "Yes. OneGLP has a separate Wegovy tracker page for that brand context."),
@@ -234,7 +234,7 @@ PAGES = {
         "workflow": ["Record core tracking data on the device.", "Export or back up records only when you choose.", "Review privacy, data rights and support pages for the policy details."],
         "does": ["keeps core tracking local-first", "supports user-directed exports and local backups", "keeps Apple Health optional and read-only"],
         "does_not": ["require a mandatory in-app account for core tracking", "create public profiles", "write data back to Apple Health"],
-        "slots": ["privacy-settings", "local-backup-import-restore", "apple-health-connection"],
+        "slots": MANIFEST['page_slots']['local-first-private-glp-tracker.html'],
         "faq": [
             ("Do I need an account to use OneGLP?", FACTS["no_account_claim"]),
             ("Where are my records kept?", FACTS["privacy_posture"]),
@@ -255,7 +255,7 @@ PAGES = {
         "workflow": ["Set the medicine context and reminder time you want to record.", "Log the dose when it happens, including site and notes if useful.", "Use supply or reorder planning only as a personal planning aid, not as dose guidance."],
         "does": ["records next dose and last dose context", "keeps reminder time and injection site history", "supports supply planning boundaries", "keeps reminders separate from clinical instructions"],
         "does_not": ["tell you when to take medicine", "change your prescribed schedule", "provide dosing advice", "replace clinician or pharmacy instructions"],
-        "slots": ["today-dashboard", "dose-log", "reminder-setup", "widgets"],
+        "slots": MANIFEST['page_slots']['glp1-dose-reminder-app.html'],
         "faq": [
             ("Can OneGLP remind me about a dose?", "OneGLP can help track reminder times and next dose context for personal routine tracking."),
             ("Can I review the last dose?", "Yes. You can review last dose history, sites and notes."),
@@ -276,7 +276,7 @@ PAGES = {
         "workflow": ["Log symptoms or side-effect notes when you want a record.", "Add appetite, nutrition, dose and weight context without asking the app to interpret it.", "Export records or create a PDF summary for your clinician for appointments if needed."],
         "does": ["records symptoms and appetite notes", "keeps dose and weight context nearby", "supports export and appointment summaries"],
         "does_not": ["diagnose symptoms", "explain side effects", "triage urgent issues", "replace medical advice"],
-        "slots": ["symptom-appetite-log", "symptom-timeline", "clinician-summary-pdf-preview"],
+        "slots": MANIFEST['page_slots']['glp1-side-effect-symptom-tracker.html'],
         "faq": [
             ("Can I track GLP-1 symptoms in OneGLP?", "Yes. You can record symptom and side-effect notes for personal review."),
             ("Does OneGLP tell me what symptoms mean?", "No. OneGLP does not diagnose or interpret symptoms."),
@@ -297,7 +297,7 @@ PAGES = {
         "workflow": ["Record weight manually or use optional read-only Apple Health context.", "Review weight beside dose stages, symptoms, appetite, nutrition and photos.", "Export records for your own files or appointment preparation."],
         "does": ["tracks manual weight records", "can read Apple Health weight context with permission", "shows charts and dose-stage review", "supports export"],
         "does_not": ["set clinical goals", "judge progress", "tell you to change treatment", "write data back to Apple Health"],
-        "slots": ["weight-chart", "apple-health-connection", "advanced-graph"],
+        "slots": MANIFEST['page_slots']['glp1-weight-tracker.html'],
         "faq": [
             ("Can I track weight in OneGLP?", "Yes. You can track weight history beside dose and symptom records."),
             ("Can Apple Health add weight data?", FACTS["apple_health_scope"]),
@@ -318,7 +318,7 @@ PAGES = {
         "workflow": ["Save private progress photos when you choose.", "Compare photos beside weight, dose and note context.", "Use face-cover and sharing choices before any user-directed export."],
         "does": ["stores private photo records", "supports comparison and montage-style review", "keeps weight and dose context nearby", "lets the user choose export or sharing"],
         "does_not": ["assess health from photos", "diagnose body changes", "share photos automatically", "replace medical review"],
-        "slots": ["progress-photo-library", "before-after-export", "today-dashboard"],
+        "slots": MANIFEST['page_slots']['glp1-progress-photo-tracker.html'],
         "faq": [
             ("Can I track progress photos in OneGLP?", "Yes. OneGLP includes progress photo tracking and comparison tools."),
             ("How many progress photos can I upload for free?", f"{FACTS['free_photo_allowance']} Premium includes unlimited photo uploads."),
@@ -340,7 +340,7 @@ PAGES = {
         "workflow": ["Grant Apple Health permissions only if you want read-only context.", "Review Health context beside manual OneGLP records.", "Change permissions in iOS settings whenever needed."],
         "does": ["reads approved Health context", "keeps Health optional", "does not write back to Apple Health"],
         "does_not": ["require Apple Health", "change Health data", "provide clinical interpretation"],
-        "slots": ["apple-health-connection", "weight-chart", "privacy-settings"],
+        "slots": MANIFEST['page_slots']['apple-health-glp-tracker.html'],
         "faq": [
             ("Is Apple Health required?", "No. Apple Health is optional."),
             ("Is Apple Health read-only?", "Yes. OneGLP reads permitted Apple Health context and does not write data back."),
@@ -389,52 +389,10 @@ def cta(page, label="Get OneGLP", placement="content"):
     )
 
 
-def responsive_picture(src, alt, width, height, loading, sizes, priority=False, class_name="responsive-picture"):
-    stem = Path(src).stem
-    prefix = f"assets/responsive/seo-{stem}"
-    avif = ", ".join(f"{prefix}-{item}.avif {item}w" for item in RESPONSIVE_WIDTHS)
-    webp = ", ".join(f"{prefix}-{item}.webp {item}w" for item in RESPONSIVE_WIDTHS)
-    fetch = ' fetchpriority="high"' if priority else ""
-    return f"""<picture class="{escape(class_name)}">
-              <source type="image/avif" srcset="{avif}" sizes="{escape(sizes)}">
-              <source type="image/webp" srcset="{webp}" sizes="{escape(sizes)}">
-              <img src="{escape(src)}" width="{width}" height="{height}" loading="{loading}" decoding="async"{fetch} alt="{escape(alt)}">
-            </picture>"""
-
-
-def png_dimensions(src, fallback_width, fallback_height):
-    source = ROOT / src
-    try:
-        header = source.read_bytes()[:24]
-        if header[:8] == b"\x89PNG\r\n\x1a\n":
-            width, height = struct.unpack(">II", header[16:24])
-            return str(width), str(height)
-    except OSError:
-        pass
-    return fallback_width, fallback_height
 
 
 def screenshot_figure(slot_name):
-    slot = SLOTS[slot_name]
-    src = SOURCE_ASSETS[slot_name]
-    responsive_stem = Path(src).stem
-    picture = responsive_picture(
-        src,
-        slot["alt"],
-        slot["width"],
-        slot["height"],
-        "lazy",
-        "(max-width: 860px) calc(100vw - 64px), 270px",
-    )
-    safety = (
-        '\n            <p class="small">Estimated Exposure is not measured blood concentration and is not for dosing decisions.</p>'
-        if slot["safety_caption_required"] and "Estimated Exposure" in slot["caption"]
-        else ""
-    )
-    return f"""          <figure class="feature-card seo-screenshot" data-screenshot-slot="{escape(slot_name)}" data-target-webp="assets/responsive/seo-{responsive_stem}-720.webp" data-target-avif="assets/responsive/seo-{responsive_stem}-720.avif">
-            {picture}
-            <figcaption>{escape(slot["caption"])}</figcaption>{safety}
-          </figure>"""
+    return approved_figure(slot_name)
 
 
 def list_items(items):
@@ -505,7 +463,7 @@ def render_module(path, page):
         </div>
 {facts_table()}
 {source_section(path)}
-        <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
+        <div class="website-shot-grid" data-seo-screenshots>
 {screenshots}
         </div>
         <div class="section-head section-head-center">
@@ -574,7 +532,7 @@ def schema_graph(path, page):
         slot = SLOTS[slot_name]
         graph.append({
             "@type": "ImageObject",
-            "url": f"{SITE}/{SOURCE_ASSETS[slot_name]}",
+            "url": f"{SITE}/assets/responsive/seo-{Path(SOURCE_ASSETS[slot_name]).stem}-1320.webp",
             "caption": slot["caption"],
             "description": slot["alt"],
             "width": slot["width"],
@@ -677,35 +635,9 @@ def strip_legacy_faq(text):
 
 
 def rewrite_hero_image(text, path):
-    pattern = re.compile(
-        r'(<div class="hero-visual">.*?)(<picture class="responsive-picture seo-hero-picture">.*?</picture>|<img\b[^>]*>)(.*?</div>\s*</div>)',
-        re.S | re.I,
-    )
-    match = pattern.search(text)
-    if not match:
-        return text
-    img_match = re.search(r'<img\b[^>]*>', match.group(2), re.I)
-    if not img_match:
-        return text
-    img = img_match.group(0)
+    return refreshed_html(path, text)
 
-    def attr(name, fallback):
-        found = re.search(rf'\b{name}="([^"]*)"', img, re.I)
-        return found.group(1) if found else fallback
 
-    src = HERO_ASSETS.get(path, attr("src", "assets/en-screen-dashboard.png"))
-    width, height = png_dimensions(src, attr("width", "1320"), attr("height", "2868"))
-    picture = responsive_picture(
-        src,
-        attr("alt", "Current OneGLP app screen."),
-        width,
-        height,
-        "eager",
-        "(max-width: 640px) calc(100vw - 48px), 330px",
-        priority=True,
-        class_name="responsive-picture seo-hero-picture",
-    )
-    return text[:match.start()] + match.group(1) + picture + match.group(3) + text[match.end():]
 
 
 def rewrite_hero_campaign(text, page):

@@ -8,18 +8,6 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "data" / "screenshot-manifest.json"
 OUT = ROOT / "reports" / "image-pipeline-report.md"
 SEO_WIDTHS = [360, 720, 1080, 1320]
-HOMEPAGE_WIDTHS = [480, 768, 1080, 1440]
-HOMEPAGE_SOURCES = {
-    "hero": "assets/en-hero-sales-wow.png",
-    "setup": "assets/setup-pair.png",
-    "dashboard": "assets/en-screen-dashboard.png",
-    "photos-export": "assets/en-screen-photos-export.png",
-    "advanced-graphs": "assets/en-screen-advanced-graphs.png",
-    "projections": "assets/en-screen-projections.png",
-    "quick-logging": "assets/en-screen-quick-logging.png",
-    "global-coverage": "assets/en-screen-global-coverage.png",
-    "medication-coverage": "assets/en-screen-medication-coverage.png",
-}
 
 
 def parse_args():
@@ -62,16 +50,17 @@ def save_variants(image_module, source, prefix, widths, lines):
     return generated
 
 
-def build_homepage_variants(image_module, lines):
+def build_homepage_variants(image_module, data, lines):
     lines.extend(["", "## Homepage Assets", ""])
     generated = []
-    for name, source_name in HOMEPAGE_SOURCES.items():
+    for name in data['homepage_slots']:
+        source_name = data['source_assets'][name]
         source = ROOT / source_name
         if not source.exists():
             lines.append(f"- `{source_name}`: source missing")
             continue
         generated.extend(
-            save_variants(image_module, source, f"homepage-{name}", HOMEPAGE_WIDTHS, lines)
+            save_variants(image_module, source, f"seo-{source.stem}", SEO_WIDTHS, lines)
         )
     return generated
 
@@ -81,7 +70,7 @@ def build_seo_variants(image_module, data, lines):
     generated = []
     source_names = sorted(
         set(data.get("source_assets", {}).values())
-        | set(data.get("priority_page_hero_assets", {}).values())
+        | {source for source in data.get("priority_page_hero_assets", {}).values() if source}
     )
     for source_name in source_names:
         source = ROOT / source_name
@@ -112,12 +101,12 @@ def main():
         "# Responsive Image Pipeline Report",
         "",
         "Generated from the source screenshot map in `data/screenshot-manifest.json`.",
-        "Original PNG files remain as fallbacks and social-sharing images.",
+        "Original PNG files are retained as source assets. Published screenshots use responsive AVIF and WebP, with a WebP fallback.",
     ]
     generated = []
-    if not args.seo_only:
-        generated.extend(build_homepage_variants(image_module, lines))
-    if not args.homepage_only:
+    if args.homepage_only:
+        generated.extend(build_homepage_variants(image_module, data, lines))
+    else:
         generated.extend(build_seo_variants(image_module, data, lines))
 
     OUT.parent.mkdir(exist_ok=True)

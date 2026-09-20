@@ -17,9 +17,12 @@
   <meta name="twitter:description" content="Track GLP-1 symptoms, side-effect notes, doses, weight, appetite, nutrition and progress photos privately on iPhone with OneGLP.">
   <meta name="twitter:image" content="https://www.glpzy.app/assets/oneglp/social-icon.png">
   <script src="site-preflight.js?v=20260920-oneglp-conversion"></script>
-  <link rel="stylesheet" href="styles.css?v=20260920-oneglp-conversion">
+  <link rel="stylesheet" href="styles.css?v=20260920-screens-v5">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/oneglp/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/oneglp/apple-touch-icon.png">
+  <script defer src="site-config.js?v=20260920-oneglp-conversion"></script>
+  <script defer src="site-cta.js?v=20260920-oneglp-conversion"></script>
+  <script defer src="site-i18n.js"></script>
   <script type="application/ld+json" data-seo-schema="true">
 {
   "@context": "https://schema.org",
@@ -40,6 +43,10 @@
       "@type": "SoftwareApplication",
       "@id": "https://www.glpzy.app/#software",
       "name": "OneGLP",
+      "alternateName": "GLPzy",
+      "subjectOf": {
+        "@id": "https://www.glpzy.app/glpzy-is-now-oneglp/#webpage"
+      },
       "applicationCategory": "HealthApplication",
       "operatingSystem": "iOS",
       "url": "https://www.glpzy.app/",
@@ -52,10 +59,6 @@
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
-      },
-      "alternateName": "GLPzy",
-      "subjectOf": {
-        "@id": "https://www.glpzy.app/glpzy-is-now-oneglp/#webpage"
       }
     },
     {
@@ -150,34 +153,23 @@
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/en-screen-quick-logging.png",
-      "caption": "Symptom notes are for personal records and do not diagnose symptoms.",
-      "description": "OneGLP symptom and appetite log screen.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-log-1320.webp",
+      "caption": "Choose what to record: a dose, weight, symptoms, nutrition, a photo or measurements.",
+      "description": "OneGLP: Choose what to record: a dose, weight, symptoms, nutrition, a photo or measurements.",
       "width": 1320,
       "height": 2868
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/screen-history.png",
-      "caption": "Timeline review helps with appointment preparation but is not medical advice.",
-      "description": "OneGLP timeline showing symptom notes beside dose and weight records.",
-      "width": 1320,
-      "height": 2868
-    },
-    {
-      "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/screen-recap.png",
-      "caption": "PDF summaries are records for appointments and do not replace clinician advice.",
-      "description": "OneGLP clinician summary PDF preview for appointments.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-clinician-summary-1320.webp",
+      "caption": "Review a PDF summary of doses, weight, symptoms and body measurements.",
+      "description": "OneGLP: Review a PDF summary of doses, weight, symptoms and body measurements.",
       "width": 1320,
       "height": 2868
     }
   ]
 }
 </script>
-  <script defer src="site-config.js?v=20260920-oneglp-conversion"></script>
-  <script defer src="site-cta.js?v=20260920-oneglp-conversion"></script>
-  <script defer src="site-i18n.js"></script>
   <link rel="alternate" hreflang="en" href="https://www.glpzy.app/glp1-side-effect-symptom-tracker.html">
   <link rel="alternate" hreflang="x-default" href="https://www.glpzy.app/glp1-side-effect-symptom-tracker.html">
 </head>
@@ -202,7 +194,7 @@
           <a href="medical-safety.html">Medical safety</a>
         </nav>
       </div><p class="rebrand-notice" data-i18n="site.rebrand.notice"><a href="glpzy-is-now-oneglp/index.html" data-rebrand-link><bdi>GLPzy</bdi> is now <bdi>OneGLP</bdi>.</a></p>
-      <section class="hero marketing-hero">
+      <section class="hero marketing-hero image-refresh-hero">
         <div class="hero-grid marketing-hero-grid">
           <div class="hero-copy">
             <div class="eyebrow">GLP-1 symptom tracker</div>
@@ -216,16 +208,8 @@
             </div>
             <div class="site-cta-note" data-cta-note></div>
           </div>
-          <div class="hero-visual">
-            <div class="screen-panel screen-panel-hero">
-              <div class="screen-panel-head"><span>Symptom notes</span><span>Personal tracking</span></div>
-              <picture class="responsive-picture seo-hero-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-screen-recap-360.avif 360w, assets/responsive/seo-screen-recap-720.avif 720w, assets/responsive/seo-screen-recap-1080.avif 1080w, assets/responsive/seo-screen-recap-1320.avif 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
-              <source type="image/webp" srcset="assets/responsive/seo-screen-recap-360.webp 360w, assets/responsive/seo-screen-recap-720.webp 720w, assets/responsive/seo-screen-recap-1080.webp 1080w, assets/responsive/seo-screen-recap-1320.webp 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
-              <img src="assets/screen-recap.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy recap screen showing personal tracking history.">
-            </picture>
-            </div>
-          </div>
+          <div class="hero-visual" data-image-refresh="v5"><figure class="hero-single-shot"><picture class="responsive-picture seo-hero-picture" data-image-slot="log"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-log-360.avif 360w, assets/responsive/seo-oneglp-v5-log-720.avif 720w, assets/responsive/seo-oneglp-v5-log-1080.avif 1080w, assets/responsive/seo-oneglp-v5-log-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 280px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-log-360.webp 360w, assets/responsive/seo-oneglp-v5-log-720.webp 720w, assets/responsive/seo-oneglp-v5-log-1080.webp 1080w, assets/responsive/seo-oneglp-v5-log-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 280px"><img src="assets/responsive/seo-oneglp-v5-log-720.webp" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" data-i18n-alt="screens.log.alt" alt="OneGLP: Choose what to record: a dose, weight, symptoms, nutrition, a photo or measurements."></picture><figcaption data-i18n="screens.log.caption">Choose what to record: a dose, weight, symptoms, nutrition, a photo or measurements.</figcaption></figure><p class="shot-language-note" data-i18n="screens.note">App screens shown in English.</p></div>
         </div>
       </section>
     </div>
@@ -316,31 +300,11 @@
           </ul>
           <p class="small">Official medicine information is linked for reference. OneGLP does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
         </div>
-        <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="symptom-appetite-log" data-target-webp="assets/responsive/seo-en-screen-quick-logging-720.webp" data-target-avif="assets/responsive/seo-en-screen-quick-logging-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-en-screen-quick-logging-360.avif 360w, assets/responsive/seo-en-screen-quick-logging-720.avif 720w, assets/responsive/seo-en-screen-quick-logging-1080.avif 1080w, assets/responsive/seo-en-screen-quick-logging-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-en-screen-quick-logging-360.webp 360w, assets/responsive/seo-en-screen-quick-logging-720.webp 720w, assets/responsive/seo-en-screen-quick-logging-1080.webp 1080w, assets/responsive/seo-en-screen-quick-logging-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/en-screen-quick-logging.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy symptom and appetite log screen.">
-            </picture>
-            <figcaption>Symptom notes are for personal records and do not diagnose symptoms.</figcaption>
-          </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="symptom-timeline" data-target-webp="assets/responsive/seo-screen-history-720.webp" data-target-avif="assets/responsive/seo-screen-history-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-screen-history-360.avif 360w, assets/responsive/seo-screen-history-720.avif 720w, assets/responsive/seo-screen-history-1080.avif 1080w, assets/responsive/seo-screen-history-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-screen-history-360.webp 360w, assets/responsive/seo-screen-history-720.webp 720w, assets/responsive/seo-screen-history-1080.webp 1080w, assets/responsive/seo-screen-history-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/screen-history.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy timeline showing symptom notes beside dose and weight records.">
-            </picture>
-            <figcaption>Timeline review helps with appointment preparation but is not medical advice.</figcaption>
-          </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="clinician-summary-pdf-preview" data-target-webp="assets/responsive/seo-screen-recap-720.webp" data-target-avif="assets/responsive/seo-screen-recap-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-screen-recap-360.avif 360w, assets/responsive/seo-screen-recap-720.avif 720w, assets/responsive/seo-screen-recap-1080.avif 1080w, assets/responsive/seo-screen-recap-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-screen-recap-360.webp 360w, assets/responsive/seo-screen-recap-720.webp 720w, assets/responsive/seo-screen-recap-1080.webp 1080w, assets/responsive/seo-screen-recap-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/screen-recap.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy clinician summary PDF preview for appointments.">
-            </picture>
-            <figcaption>PDF summaries are records for appointments and do not replace clinician advice.</figcaption>
-          </figure>
+        <div class="website-shot-grid" data-seo-screenshots>
+<figure class="website-shot" data-screenshot-slot="log" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="log"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-log-360.avif 360w, assets/responsive/seo-oneglp-v5-log-720.avif 720w, assets/responsive/seo-oneglp-v5-log-1080.avif 1080w, assets/responsive/seo-oneglp-v5-log-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-log-360.webp 360w, assets/responsive/seo-oneglp-v5-log-720.webp 720w, assets/responsive/seo-oneglp-v5-log-1080.webp 1080w, assets/responsive/seo-oneglp-v5-log-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-log-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.log.alt" alt="OneGLP: Choose what to record: a dose, weight, symptoms, nutrition, a photo or measurements."></picture><figcaption data-i18n="screens.log.caption">Choose what to record: a dose, weight, symptoms, nutrition, a photo or measurements.</figcaption><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-log-1320.webp" aria-label="Enlarge image: Choose what to record: a dose, weight, symptoms, nutrition, a photo or measurements." data-i18n="screens.enlarge">Enlarge image</a></figure>
+<figure class="website-shot" data-screenshot-slot="clinician-summary" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="clinician-summary"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-clinician-summary-360.avif 360w, assets/responsive/seo-oneglp-v5-clinician-summary-720.avif 720w, assets/responsive/seo-oneglp-v5-clinician-summary-1080.avif 1080w, assets/responsive/seo-oneglp-v5-clinician-summary-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-clinician-summary-360.webp 360w, assets/responsive/seo-oneglp-v5-clinician-summary-720.webp 720w, assets/responsive/seo-oneglp-v5-clinician-summary-1080.webp 1080w, assets/responsive/seo-oneglp-v5-clinician-summary-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-clinician-summary-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.clinician-summary.alt" alt="OneGLP: Review a PDF summary of doses, weight, symptoms and body measurements."></picture><figcaption data-i18n="screens.clinician-summary.caption">Review a PDF summary of doses, weight, symptoms and body measurements.</figcaption><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-clinician-summary-1320.webp" aria-label="Enlarge image: Review a PDF summary of doses, weight, symptoms and body measurements." data-i18n="screens.enlarge">Enlarge image</a></figure>
         </div>
         <div class="section-head section-head-center">
           <div class="kicker">FAQ</div>

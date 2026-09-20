@@ -245,13 +245,13 @@ def check_priority_pages(results):
         html = read(rel)
         if noindex(html):
             failures.append(f"{rel}: priority page is noindex")
-        if 'styles.css?v=20260918-oneglp-draft' not in html:
+        if 'styles.css?v=20260920-screens-v5' not in html:
             failures.append(f"{rel}: missing current CSS cache key")
-        if 'site-config.js?v=20260918-oneglp-draft' not in html:
+        if 'site-config.js?v=20260920-oneglp-conversion' not in html:
             failures.append(f"{rel}: missing current offer configuration cache key")
-        if 'site-preflight.js?v=20260918-oneglp-draft' not in html:
+        if 'site-preflight.js?v=20260920-oneglp-conversion' not in html:
             failures.append(f"{rel}: missing offer layout preflight")
-        if 'site-cta.js?v=20260918-oneglp-draft' not in html:
+        if 'site-cta.js?v=20260920-oneglp-conversion' not in html:
             failures.append(f"{rel}: missing current CTA cache key")
         if not re.search(r"<title>[^<]+</title>", html, re.I):
             failures.append(f"{rel}: missing title")
@@ -284,7 +284,7 @@ def check_priority_pages(results):
                 "related links": "data-seo-related" in html and len(re.findall(r'data-seo-related>.*?<a ', html, re.S)) >= 0,
                 "medical safety link": 'href="medical-safety.html"' in html,
                 "methodology link": 'href="methodology.html"' in html,
-                "at least 2 screenshot slots": len(re.findall(r'data-screenshot-slot="', html)) >= 2,
+                "approved screenshot slots": re.findall(r'data-screenshot-slot="([^"]+)"', html) == SCREENSHOTS['page_slots'][rel],
             }
             for label, ok in required.items():
                 if not ok:
@@ -299,16 +299,19 @@ def check_priority_pages(results):
                 failures.append(f"{rel}: expected one visible FAQ block")
             if len(re.findall(r'<div class="meta-links(?:\s|\")', html, re.I)) != 1:
                 failures.append(f"{rel}: expected one related-links block")
-            if 'class="responsive-picture seo-hero-picture"' not in html:
+            expected_hero = SCREENSHOTS['page_hero_slots'][rel]
+            if expected_hero and 'class="responsive-picture seo-hero-picture"' not in html:
                 failures.append(f"{rel}: hero is missing responsive picture markup")
             hero_picture = re.search(
-                r'<picture class="responsive-picture seo-hero-picture">.*?<img\b[^>]*>',
+                r'<picture class="responsive-picture seo-hero-picture"[^>]*>.*?<img\b[^>]*>',
                 html,
                 re.S | re.I,
             )
-            if not hero_picture or 'loading="eager"' not in hero_picture.group(0) or 'fetchpriority="high"' not in hero_picture.group(0):
+            if expected_hero and (not hero_picture or 'loading="eager"' not in hero_picture.group(0) or 'fetchpriority="high"' not in hero_picture.group(0)):
                 failures.append(f"{rel}: hero image is not eager/high priority")
-            for figure in re.findall(r'<figure class="feature-card seo-screenshot".*?</figure>', html, re.S | re.I):
+            if not expected_hero and hero_picture:
+                failures.append(f"{rel}: unrelated hero screenshot on a text-only page")
+            for figure in re.findall(r'<figure class="website-shot".*?</figure>', html, re.S | re.I):
                 if '<source type="image/avif"' not in figure or '<source type="image/webp"' not in figure:
                     failures.append(f"{rel}: SEO screenshot is missing AVIF/WebP sources")
                 image = re.search(r'<img\b[^>]*>', figure, re.I)
@@ -331,7 +334,7 @@ def check_responsive_assets(results):
             failures.append(f"missing hero source mapping: {rel}")
     source_names = (
         set(SCREENSHOTS.get("source_assets", {}).values())
-        | set(hero_assets.values())
+        | {source for source in hero_assets.values() if source}
     )
     for source_name in sorted(source_names):
         stem = Path(source_name).stem

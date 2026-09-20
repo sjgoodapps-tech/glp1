@@ -17,9 +17,12 @@
   <meta name="twitter:description" content="Track GLP-1 progress photos, weight, doses, symptoms and milestones privately on iPhone with OneGLP photo comparison tools.">
   <meta name="twitter:image" content="https://www.glpzy.app/assets/oneglp/social-icon.png">
   <script src="site-preflight.js?v=20260920-oneglp-conversion"></script>
-  <link rel="stylesheet" href="styles.css?v=20260920-oneglp-conversion">
+  <link rel="stylesheet" href="styles.css?v=20260920-screens-v5">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/oneglp/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/oneglp/apple-touch-icon.png">
+  <script defer src="site-config.js?v=20260920-oneglp-conversion"></script>
+  <script defer src="site-cta.js?v=20260920-oneglp-conversion"></script>
+  <script defer src="site-i18n.js"></script>
   <script type="application/ld+json" data-seo-schema="true">
 {
   "@context": "https://schema.org",
@@ -40,6 +43,10 @@
       "@type": "SoftwareApplication",
       "@id": "https://www.glpzy.app/#software",
       "name": "OneGLP",
+      "alternateName": "GLPzy",
+      "subjectOf": {
+        "@id": "https://www.glpzy.app/glpzy-is-now-oneglp/#webpage"
+      },
       "applicationCategory": "HealthApplication",
       "operatingSystem": "iOS",
       "url": "https://www.glpzy.app/",
@@ -52,10 +59,6 @@
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
-      },
-      "alternateName": "GLPzy",
-      "subjectOf": {
-        "@id": "https://www.glpzy.app/glpzy-is-now-oneglp/#webpage"
       }
     },
     {
@@ -158,34 +161,31 @@
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/en-screen-photos-export.png",
-      "caption": "Progress photos are private records unless the user chooses to export or share.",
-      "description": "OneGLP progress photo library for private photo review.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-photo-compare-1320.webp",
+      "caption": "Choose two photos to compare, save or share.",
+      "description": "OneGLP: Choose two photos to compare, save or share.",
       "width": 1320,
       "height": 2868
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/en-screen-photos-export.png",
-      "caption": "Photo export is user-directed. Face covering and sharing choices stay with the user.",
-      "description": "OneGLP before and after photo comparison export screen.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-before-after-1320.webp",
+      "caption": "Make a before-and-after image. Cover faces and choose what to share.",
+      "description": "OneGLP: Make a before-and-after image. Cover faces and choose what to share.",
       "width": 1320,
       "height": 2868
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/en-screen-dashboard.png",
-      "caption": "Today dashboard for private dose, weight and symptom review.",
-      "description": "OneGLP Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-photo-slider-1320.webp",
+      "caption": "Compare two photos with a slider.",
+      "description": "OneGLP: Compare two photos with a slider.",
       "width": 1320,
       "height": 2868
     }
   ]
 }
 </script>
-  <script defer src="site-config.js?v=20260920-oneglp-conversion"></script>
-  <script defer src="site-cta.js?v=20260920-oneglp-conversion"></script>
-  <script defer src="site-i18n.js"></script>
   <link rel="alternate" hreflang="en" href="https://www.glpzy.app/glp1-progress-photo-tracker.html">
   <link rel="alternate" hreflang="x-default" href="https://www.glpzy.app/glp1-progress-photo-tracker.html">
 </head>
@@ -210,7 +210,7 @@
           <a href="medical-safety.html">Medical safety</a>
         </nav>
       </div><p class="rebrand-notice" data-i18n="site.rebrand.notice"><a href="glpzy-is-now-oneglp/index.html" data-rebrand-link><bdi>GLPzy</bdi> is now <bdi>OneGLP</bdi>.</a></p>
-      <section class="hero marketing-hero">
+      <section class="hero marketing-hero image-refresh-hero">
         <div class="hero-grid marketing-hero-grid">
           <div class="hero-copy">
             <div class="eyebrow">Progress photo tracker</div>
@@ -224,16 +224,8 @@
             </div>
             <div class="site-cta-note" data-cta-note></div>
           </div>
-          <div class="hero-visual">
-            <div class="screen-panel screen-panel-hero">
-              <div class="screen-panel-head"><span>Photo review</span><span>User-directed export</span></div>
-              <picture class="responsive-picture seo-hero-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-screen-history-360.avif 360w, assets/responsive/seo-screen-history-720.avif 720w, assets/responsive/seo-screen-history-1080.avif 1080w, assets/responsive/seo-screen-history-1320.avif 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
-              <source type="image/webp" srcset="assets/responsive/seo-screen-history-360.webp 360w, assets/responsive/seo-screen-history-720.webp 720w, assets/responsive/seo-screen-history-1080.webp 1080w, assets/responsive/seo-screen-history-1320.webp 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
-              <img src="assets/screen-history.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy screen for reviewing photo and tracking history.">
-            </picture>
-            </div>
-          </div>
+          <div class="hero-visual" data-image-refresh="v5"><figure class="hero-single-shot"><picture class="responsive-picture seo-hero-picture" data-image-slot="before-after"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-before-after-360.avif 360w, assets/responsive/seo-oneglp-v5-before-after-720.avif 720w, assets/responsive/seo-oneglp-v5-before-after-1080.avif 1080w, assets/responsive/seo-oneglp-v5-before-after-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 280px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-before-after-360.webp 360w, assets/responsive/seo-oneglp-v5-before-after-720.webp 720w, assets/responsive/seo-oneglp-v5-before-after-1080.webp 1080w, assets/responsive/seo-oneglp-v5-before-after-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 280px"><img src="assets/responsive/seo-oneglp-v5-before-after-720.webp" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" data-i18n-alt="screens.before-after.alt" alt="OneGLP: Make a before-and-after image. Cover faces and choose what to share."></picture><figcaption data-i18n="screens.before-after.caption">Make a before-and-after image. Cover faces and choose what to share.</figcaption></figure><p class="shot-language-note" data-i18n="screens.note">App screens shown in English.</p></div>
         </div>
       </section>
     </div>
@@ -325,31 +317,13 @@
           </ul>
           <p class="small">Official medicine information is linked for reference. OneGLP does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
         </div>
-        <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="progress-photo-library" data-target-webp="assets/responsive/seo-en-screen-photos-export-720.webp" data-target-avif="assets/responsive/seo-en-screen-photos-export-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-en-screen-photos-export-360.avif 360w, assets/responsive/seo-en-screen-photos-export-720.avif 720w, assets/responsive/seo-en-screen-photos-export-1080.avif 1080w, assets/responsive/seo-en-screen-photos-export-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-en-screen-photos-export-360.webp 360w, assets/responsive/seo-en-screen-photos-export-720.webp 720w, assets/responsive/seo-en-screen-photos-export-1080.webp 1080w, assets/responsive/seo-en-screen-photos-export-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy progress photo library for private photo review.">
-            </picture>
-            <figcaption>Progress photos are private records unless the user chooses to export or share.</figcaption>
-          </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="before-after-export" data-target-webp="assets/responsive/seo-en-screen-photos-export-720.webp" data-target-avif="assets/responsive/seo-en-screen-photos-export-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-en-screen-photos-export-360.avif 360w, assets/responsive/seo-en-screen-photos-export-720.avif 720w, assets/responsive/seo-en-screen-photos-export-1080.avif 1080w, assets/responsive/seo-en-screen-photos-export-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-en-screen-photos-export-360.webp 360w, assets/responsive/seo-en-screen-photos-export-720.webp 720w, assets/responsive/seo-en-screen-photos-export-1080.webp 1080w, assets/responsive/seo-en-screen-photos-export-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/en-screen-photos-export.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy before and after photo comparison export screen.">
-            </picture>
-            <figcaption>Photo export is user-directed. Face covering and sharing choices stay with the user.</figcaption>
-          </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="today-dashboard" data-target-webp="assets/responsive/seo-en-screen-dashboard-720.webp" data-target-avif="assets/responsive/seo-en-screen-dashboard-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-en-screen-dashboard-360.avif 360w, assets/responsive/seo-en-screen-dashboard-720.avif 720w, assets/responsive/seo-en-screen-dashboard-1080.avif 1080w, assets/responsive/seo-en-screen-dashboard-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-en-screen-dashboard-360.webp 360w, assets/responsive/seo-en-screen-dashboard-720.webp 720w, assets/responsive/seo-en-screen-dashboard-1080.webp 1080w, assets/responsive/seo-en-screen-dashboard-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/en-screen-dashboard.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Today dashboard showing next dose, weight, symptoms, nutrition and quick log actions.">
-            </picture>
-            <figcaption>Today dashboard for private dose, weight and symptom review.</figcaption>
-          </figure>
+        <div class="website-shot-grid" data-seo-screenshots>
+<figure class="website-shot" data-screenshot-slot="photo-compare" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="photo-compare"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-photo-compare-360.avif 360w, assets/responsive/seo-oneglp-v5-photo-compare-720.avif 720w, assets/responsive/seo-oneglp-v5-photo-compare-1080.avif 1080w, assets/responsive/seo-oneglp-v5-photo-compare-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-photo-compare-360.webp 360w, assets/responsive/seo-oneglp-v5-photo-compare-720.webp 720w, assets/responsive/seo-oneglp-v5-photo-compare-1080.webp 1080w, assets/responsive/seo-oneglp-v5-photo-compare-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-photo-compare-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.photo-compare.alt" alt="OneGLP: Choose two photos to compare, save or share."></picture><figcaption data-i18n="screens.photo-compare.caption">Choose two photos to compare, save or share.</figcaption><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-photo-compare-1320.webp" aria-label="Enlarge image: Choose two photos to compare, save or share." data-i18n="screens.enlarge">Enlarge image</a></figure>
+<figure class="website-shot" data-screenshot-slot="before-after" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="before-after"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-before-after-360.avif 360w, assets/responsive/seo-oneglp-v5-before-after-720.avif 720w, assets/responsive/seo-oneglp-v5-before-after-1080.avif 1080w, assets/responsive/seo-oneglp-v5-before-after-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-before-after-360.webp 360w, assets/responsive/seo-oneglp-v5-before-after-720.webp 720w, assets/responsive/seo-oneglp-v5-before-after-1080.webp 1080w, assets/responsive/seo-oneglp-v5-before-after-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-before-after-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.before-after.alt" alt="OneGLP: Make a before-and-after image. Cover faces and choose what to share."></picture><figcaption data-i18n="screens.before-after.caption">Make a before-and-after image. Cover faces and choose what to share.</figcaption><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-before-after-1320.webp" aria-label="Enlarge image: Make a before-and-after image. Cover faces and choose what to share." data-i18n="screens.enlarge">Enlarge image</a></figure>
+<figure class="website-shot" data-screenshot-slot="photo-slider" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="photo-slider"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-photo-slider-360.avif 360w, assets/responsive/seo-oneglp-v5-photo-slider-720.avif 720w, assets/responsive/seo-oneglp-v5-photo-slider-1080.avif 1080w, assets/responsive/seo-oneglp-v5-photo-slider-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-photo-slider-360.webp 360w, assets/responsive/seo-oneglp-v5-photo-slider-720.webp 720w, assets/responsive/seo-oneglp-v5-photo-slider-1080.webp 1080w, assets/responsive/seo-oneglp-v5-photo-slider-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-photo-slider-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.photo-slider.alt" alt="OneGLP: Compare two photos with a slider."></picture><figcaption data-i18n="screens.photo-slider.caption">Compare two photos with a slider.</figcaption><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-photo-slider-1320.webp" aria-label="Enlarge image: Compare two photos with a slider." data-i18n="screens.enlarge">Enlarge image</a></figure>
         </div>
         <div class="section-head section-head-center">
           <div class="kicker">FAQ</div>

@@ -17,9 +17,12 @@
   <meta name="twitter:description" content="Track GLP-1 weight history, dose records, symptoms, photos and optional read-only Apple Health context privately on iPhone.">
   <meta name="twitter:image" content="https://www.glpzy.app/assets/oneglp/social-icon.png">
   <script src="site-preflight.js?v=20260920-oneglp-conversion"></script>
-  <link rel="stylesheet" href="styles.css?v=20260920-oneglp-conversion">
+  <link rel="stylesheet" href="styles.css?v=20260920-screens-v5">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/oneglp/favicon-32x32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="assets/oneglp/apple-touch-icon.png">
+  <script defer src="site-config.js?v=20260920-oneglp-conversion"></script>
+  <script defer src="site-cta.js?v=20260920-oneglp-conversion"></script>
+  <script defer src="site-i18n.js"></script>
   <script type="application/ld+json" data-seo-schema="true">
 {
   "@context": "https://schema.org",
@@ -40,6 +43,10 @@
       "@type": "SoftwareApplication",
       "@id": "https://www.glpzy.app/#software",
       "name": "OneGLP",
+      "alternateName": "GLPzy",
+      "subjectOf": {
+        "@id": "https://www.glpzy.app/glpzy-is-now-oneglp/#webpage"
+      },
       "applicationCategory": "HealthApplication",
       "operatingSystem": "iOS",
       "url": "https://www.glpzy.app/",
@@ -52,10 +59,6 @@
         "@type": "Offer",
         "price": "0",
         "priceCurrency": "USD"
-      },
-      "alternateName": "GLPzy",
-      "subjectOf": {
-        "@id": "https://www.glpzy.app/glpzy-is-now-oneglp/#webpage"
       }
     },
     {
@@ -150,34 +153,31 @@
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/en-screen-advanced-graphs.png",
-      "caption": "Weight charts are for personal review and do not set clinical goals.",
-      "description": "OneGLP weight chart showing weight history beside tracking context.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-weight-1320.webp",
+      "caption": "Review weight records and recorded dose stages on one chart.",
+      "description": "OneGLP: Review weight records and recorded dose stages on one chart.",
       "width": 1320,
       "height": 2868
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/screen-settings.png",
-      "caption": "Apple Health is optional and read-only in OneGLP.",
-      "description": "OneGLP Apple Health connection screen showing optional read-only health context.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-dual-graph-1320.webp",
+      "caption": "View weight records with an Estimated Exposure overlay.",
+      "description": "OneGLP: View weight records with an Estimated Exposure overlay.",
       "width": 1320,
       "height": 2868
     },
     {
       "@type": "ImageObject",
-      "url": "https://www.glpzy.app/assets/en-screen-advanced-graphs.png",
-      "caption": "Advanced graphs are personal records, not medical interpretation.",
-      "description": "OneGLP advanced graph screen showing dose stage and weight trend review.",
+      "url": "https://www.glpzy.app/assets/responsive/seo-oneglp-v5-measurements-1320.webp",
+      "caption": "Review recorded body measurements and changes over time.",
+      "description": "OneGLP: Review recorded body measurements and changes over time.",
       "width": 1320,
       "height": 2868
     }
   ]
 }
 </script>
-  <script defer src="site-config.js?v=20260920-oneglp-conversion"></script>
-  <script defer src="site-cta.js?v=20260920-oneglp-conversion"></script>
-  <script defer src="site-i18n.js"></script>
   <link rel="alternate" hreflang="en" href="https://www.glpzy.app/glp1-weight-tracker.html">
   <link rel="alternate" hreflang="x-default" href="https://www.glpzy.app/glp1-weight-tracker.html">
 </head>
@@ -202,7 +202,7 @@
           <a href="medical-safety.html">Medical safety</a>
         </nav>
       </div><p class="rebrand-notice" data-i18n="site.rebrand.notice"><a href="glpzy-is-now-oneglp/index.html" data-rebrand-link><bdi>GLPzy</bdi> is now <bdi>OneGLP</bdi>.</a></p>
-      <section class="hero marketing-hero">
+      <section class="hero marketing-hero image-refresh-hero">
         <div class="hero-grid marketing-hero-grid">
           <div class="hero-copy">
             <div class="eyebrow">GLP-1 weight tracker</div>
@@ -216,16 +216,8 @@
             </div>
             <div class="site-cta-note" data-cta-note></div>
           </div>
-          <div class="hero-visual">
-            <div class="screen-panel screen-panel-hero">
-              <div class="screen-panel-head"><span>Weight review</span><span>Private charts</span></div>
-              <picture class="responsive-picture seo-hero-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-screen-graphs-360.avif 360w, assets/responsive/seo-screen-graphs-720.avif 720w, assets/responsive/seo-screen-graphs-1080.avif 1080w, assets/responsive/seo-screen-graphs-1320.avif 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
-              <source type="image/webp" srcset="assets/responsive/seo-screen-graphs-360.webp 360w, assets/responsive/seo-screen-graphs-720.webp 720w, assets/responsive/seo-screen-graphs-1080.webp 1080w, assets/responsive/seo-screen-graphs-1320.webp 1320w" sizes="(max-width: 640px) calc(100vw - 48px), 330px">
-              <img src="assets/screen-graphs.png" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" alt="GLPzy graph screen for reviewing weight and tracking history.">
-            </picture>
-            </div>
-          </div>
+          <div class="hero-visual" data-image-refresh="v5"><figure class="hero-single-shot"><picture class="responsive-picture seo-hero-picture" data-image-slot="weight"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-weight-360.avif 360w, assets/responsive/seo-oneglp-v5-weight-720.avif 720w, assets/responsive/seo-oneglp-v5-weight-1080.avif 1080w, assets/responsive/seo-oneglp-v5-weight-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 280px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-weight-360.webp 360w, assets/responsive/seo-oneglp-v5-weight-720.webp 720w, assets/responsive/seo-oneglp-v5-weight-1080.webp 1080w, assets/responsive/seo-oneglp-v5-weight-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 280px"><img src="assets/responsive/seo-oneglp-v5-weight-720.webp" width="1320" height="2868" loading="eager" decoding="async" fetchpriority="high" data-i18n-alt="screens.weight.alt" alt="OneGLP: Review weight records and recorded dose stages on one chart."></picture><figcaption data-i18n="screens.weight.caption">Review weight records and recorded dose stages on one chart.</figcaption></figure><p class="shot-language-note" data-i18n="screens.note">App screens shown in English.</p></div>
         </div>
       </section>
     </div>
@@ -318,31 +310,13 @@
           </ul>
           <p class="small">Official medicine information is linked for reference. OneGLP does not replace product information, prescribing instructions or advice from a qualified clinician.</p>
         </div>
-        <div class="landing-grid seo-screenshot-grid" data-seo-screenshots>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="weight-chart" data-target-webp="assets/responsive/seo-en-screen-advanced-graphs-720.webp" data-target-avif="assets/responsive/seo-en-screen-advanced-graphs-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.avif 360w, assets/responsive/seo-en-screen-advanced-graphs-720.avif 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.avif 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.webp 360w, assets/responsive/seo-en-screen-advanced-graphs-720.webp 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.webp 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy weight chart showing weight history beside tracking context.">
-            </picture>
-            <figcaption>Weight charts are for personal review and do not set clinical goals.</figcaption>
-          </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="apple-health-connection" data-target-webp="assets/responsive/seo-screen-settings-720.webp" data-target-avif="assets/responsive/seo-screen-settings-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-screen-settings-360.avif 360w, assets/responsive/seo-screen-settings-720.avif 720w, assets/responsive/seo-screen-settings-1080.avif 1080w, assets/responsive/seo-screen-settings-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-screen-settings-360.webp 360w, assets/responsive/seo-screen-settings-720.webp 720w, assets/responsive/seo-screen-settings-1080.webp 1080w, assets/responsive/seo-screen-settings-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/screen-settings.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy Apple Health connection screen showing optional read-only health context.">
-            </picture>
-            <figcaption>Apple Health is optional and read-only in OneGLP.</figcaption>
-          </figure>
-          <figure class="feature-card seo-screenshot" data-screenshot-slot="advanced-graph" data-target-webp="assets/responsive/seo-en-screen-advanced-graphs-720.webp" data-target-avif="assets/responsive/seo-en-screen-advanced-graphs-720.avif">
-            <picture class="responsive-picture">
-              <source type="image/avif" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.avif 360w, assets/responsive/seo-en-screen-advanced-graphs-720.avif 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.avif 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.avif 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <source type="image/webp" srcset="assets/responsive/seo-en-screen-advanced-graphs-360.webp 360w, assets/responsive/seo-en-screen-advanced-graphs-720.webp 720w, assets/responsive/seo-en-screen-advanced-graphs-1080.webp 1080w, assets/responsive/seo-en-screen-advanced-graphs-1320.webp 1320w" sizes="(max-width: 860px) calc(100vw - 64px), 270px">
-              <img src="assets/en-screen-advanced-graphs.png" width="1320" height="2868" loading="lazy" decoding="async" alt="GLPzy advanced graph screen showing dose stage and weight trend review.">
-            </picture>
-            <figcaption>Advanced graphs are personal records, not medical interpretation.</figcaption>
-          </figure>
+        <div class="website-shot-grid" data-seo-screenshots>
+<figure class="website-shot" data-screenshot-slot="weight" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="weight"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-weight-360.avif 360w, assets/responsive/seo-oneglp-v5-weight-720.avif 720w, assets/responsive/seo-oneglp-v5-weight-1080.avif 1080w, assets/responsive/seo-oneglp-v5-weight-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-weight-360.webp 360w, assets/responsive/seo-oneglp-v5-weight-720.webp 720w, assets/responsive/seo-oneglp-v5-weight-1080.webp 1080w, assets/responsive/seo-oneglp-v5-weight-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-weight-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.weight.alt" alt="OneGLP: Review weight records and recorded dose stages on one chart."></picture><figcaption data-i18n="screens.weight.caption">Review weight records and recorded dose stages on one chart.</figcaption><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-weight-1320.webp" aria-label="Enlarge image: Review weight records and recorded dose stages on one chart." data-i18n="screens.enlarge">Enlarge image</a></figure>
+<figure class="website-shot" data-screenshot-slot="dual-graph" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="dual-graph"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-dual-graph-360.avif 360w, assets/responsive/seo-oneglp-v5-dual-graph-720.avif 720w, assets/responsive/seo-oneglp-v5-dual-graph-1080.avif 1080w, assets/responsive/seo-oneglp-v5-dual-graph-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-dual-graph-360.webp 360w, assets/responsive/seo-oneglp-v5-dual-graph-720.webp 720w, assets/responsive/seo-oneglp-v5-dual-graph-1080.webp 1080w, assets/responsive/seo-oneglp-v5-dual-graph-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-dual-graph-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.dual-graph.alt" alt="OneGLP: View weight records with an Estimated Exposure overlay."></picture><figcaption data-i18n="screens.dual-graph.caption">View weight records with an Estimated Exposure overlay.</figcaption><p class="shot-safety">Estimated Exposure is a personal tracking estimate, not measured blood concentration. Do not use it to guide dosing.</p><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-dual-graph-1320.webp" aria-label="Enlarge image: View weight records with an Estimated Exposure overlay." data-i18n="screens.enlarge">Enlarge image</a></figure>
+<figure class="website-shot" data-screenshot-slot="measurements" data-image-refresh="v5"><picture class="responsive-picture" data-image-slot="measurements"><source type="image/avif" srcset="assets/responsive/seo-oneglp-v5-measurements-360.avif 360w, assets/responsive/seo-oneglp-v5-measurements-720.avif 720w, assets/responsive/seo-oneglp-v5-measurements-1080.avif 1080w, assets/responsive/seo-oneglp-v5-measurements-1320.avif 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px">
+<source type="image/webp" srcset="assets/responsive/seo-oneglp-v5-measurements-360.webp 360w, assets/responsive/seo-oneglp-v5-measurements-720.webp 720w, assets/responsive/seo-oneglp-v5-measurements-1080.webp 1080w, assets/responsive/seo-oneglp-v5-measurements-1320.webp 1320w" sizes="(max-width: 720px) min(78vw, 280px), 270px"><img src="assets/responsive/seo-oneglp-v5-measurements-720.webp" width="1320" height="2868" loading="lazy" decoding="async" data-i18n-alt="screens.measurements.alt" alt="OneGLP: Review recorded body measurements and changes over time."></picture><figcaption data-i18n="screens.measurements.caption">Review recorded body measurements and changes over time.</figcaption><a class="shot-enlarge" href="assets/responsive/seo-oneglp-v5-measurements-1320.webp" aria-label="Enlarge image: Review recorded body measurements and changes over time." data-i18n="screens.enlarge">Enlarge image</a></figure>
         </div>
         <div class="section-head section-head-center">
           <div class="kicker">FAQ</div>

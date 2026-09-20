@@ -9,6 +9,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from sync_rebrand import DATA, ROOT, SCHEMA_BLOCK, transform
 from localisation_qa import LOCALE_DIRS
+from refresh_screenshots import LEGACY, MOBILE_CHART_PLACEHOLDER
 
 
 class Page(HTMLParser):
@@ -101,16 +102,21 @@ def main():
         old, text = before.decode(), path.read_text()
         assert transform(path, text) == text, f'Rebrand drift: {entry.name}'
         a, b = Page(old), Page(text)
-        for select in (
-            lambda t, x: t == 'a' and 'apps.apple.com' in x.get('href', ''),
-            lambda t, x: t in ('img', 'source'),
-        ):
+        for select in (lambda t, x: t == 'a' and 'apps.apple.com' in x.get('href', ''),):
             old_tags, new_tags = a.selected(select), b.selected(select)
             if entry.name.startswith('th/'):
                 old_tags = [dict(attrs, **{'aria-label': 'ดูราคาบน App Store'})
                             if attrs.get('aria-label') == 'See แอป Store pricing' else attrs
                             for attrs in old_tags]
             assert old_tags == new_tags, f'Protected markup changed: {entry.name}'
+        def unrelated_image(tag, attrs):
+            if tag not in {'img', 'source'}:
+                return False
+            if tag == 'source' and attrs.get('srcset') == MOBILE_CHART_PLACEHOLDER and attrs.get('media') == '(max-width: 720px)':
+                return False
+            urls = attrs.get('src', '') + ' ' + attrs.get('srcset', '')
+            return not any(Path(name).stem in urls for name in LEGACY) and 'oneglp-v5-' not in urls and 'homepage-' not in urls
+        assert a.selected(unrelated_image) == b.selected(unrelated_image), f'Unrelated image changed: {entry.name}'
         legal = r'<p\b[^>]*>(?:(?!</p>).)*Steven Good(?:(?!</p>).)*</p>'
         expected_legal = [p.replace('GLPzy is made available', 'OneGLP is made available')
                           .replace('Steven Good, trading as GLPzy,', 'Steven Good')
@@ -133,7 +139,9 @@ def main():
         assert (ROOT / name).read_bytes() == archive.extractfile(name).read(), name
     from locale_indexing_qa import audit
     assert not audit(), 'Indexability or language-link regression'
-    print(f'PASS: {count} pages, all 53 locale notices, corrected terms product names, preserved legal identity/canonicals/App Store links/screenshots/storage files; valid JSON-LD; all translations indexable.')
+    from screenshot_qa import audit
+    assert not audit(), 'Approved screenshot/caption regression'
+    print(f'PASS: {count} pages, all 53 locale notices, corrected terms product names, preserved legal identity/canonicals/App Store links/original assets/storage files; approved v5 screenshots; valid JSON-LD; all translations indexable.')
     assert all(schema_counts.values()), schema_counts
     print(f'PASS: publisher/app identity separation, reference preservation and idempotence; schema entries: {schema_counts}')
 
