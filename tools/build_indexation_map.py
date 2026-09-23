@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+SITE = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))["site_url"].rstrip("/")
 INVENTORY = ROOT / "reports" / "seo-url-inventory.csv"
 MAP_CSV = ROOT / "reports" / "indexation-consolidation-map.csv"
 MAP_MD = ROOT / "reports" / "indexation-consolidation-summary.md"
@@ -72,7 +73,7 @@ def decision(row):
         if target:
             return (
                 "monitor_then_consolidate",
-                f"https://www.glpzy.app/{target}",
+                f"{SITE}/{target}",
                 "P1",
                 "The page overlaps a broader ingredient or tracker intent.",
                 "Keep for 28 days, then merge only if Search Console shows no distinct query demand.",

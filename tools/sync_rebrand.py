@@ -133,7 +133,8 @@ def transform(path, text):
     prefix = '../' * (len(rel.parts) - 1)
     text = re.sub(r'(?:\.\./)*assets/(favicon-(?:16x16|32x32)\.png|apple-touch-icon\.png)', lambda m: prefix + 'assets/oneglp/' + m[1], text)
     # Schema uses absolute logo URLs, unlike link elements.
-    text = text.replace('https://www.glpzy.app/' + prefix + 'assets/oneglp/', 'https://www.glpzy.app/assets/oneglp/')
+    site = FACTS['site_url'].rstrip('/')
+    text = text.replace(site + '/' + prefix + 'assets/oneglp/', site + '/assets/oneglp/')
     text = re.sub(r'(site-(?:config|cta|preflight)\.js)(?:\?v=[^"\s<>]+)?', r'\1?v=20260920-oneglp-conversion', text)
     text = re.sub(r'styles\.css(?:\?v=[^"\s<>]+)?', 'styles.css?v=20260920-screens-v5', text)
     end = HeaderEnd(text).end

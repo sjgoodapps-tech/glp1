@@ -11,6 +11,7 @@ from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))["site_url"].rstrip("/")
+LEGACY_SITE = "https://www.glpzy.app"
 REPORT = ROOT / "reports" / "localisation-noindex-report.md"
 LOCALE_INDEXING_PATH = ROOT / "data" / "locale-indexing.json"
 LOCALE_INDEXING = json.loads(LOCALE_INDEXING_PATH.read_text(encoding="utf-8"))
@@ -172,6 +173,50 @@ def set_canonical(text, url):
     return re.sub(r'[ \t]+$', '', text, flags=re.M)
 
 
+SCHEMA_BLOCK_RE = re.compile(
+    r'(?P<open><script\b(?=[^>]*\btype\s*=\s*["\']application/ld\+json["\'])[^>]*>)'
+    r'(?P<body>.*?)(?P<close></script>)',
+    re.S | re.I,
+)
+META_TAG_RE = re.compile(r'<meta\b[^>]*>', re.I)
+SOCIAL_IMAGE_KEY_RE = re.compile(r'\b(?:property|name)\s*=\s*["\'](?:og:image|twitter:image)["\']', re.I)
+
+
+def migrate_schema_hosts(text):
+    def count_legacy_urls(value):
+        if isinstance(value, dict):
+            if any(LEGACY_SITE in key for key in value):
+                raise ValueError("Legacy site URL used as a JSON-LD key")
+            return sum(count_legacy_urls(child) for child in value.values())
+        if isinstance(value, list):
+            return sum(count_legacy_urls(child) for child in value)
+        if isinstance(value, str) and LEGACY_SITE in value:
+            if not (value.startswith(LEGACY_SITE) and value.count(LEGACY_SITE) == 1
+                    and (len(value) == len(LEGACY_SITE) or value[len(LEGACY_SITE)] in "/?#")):
+                raise ValueError("Legacy site URL occurs outside a JSON-LD URL value")
+            return 1
+        return 0
+
+    def replace_block(match):
+        body = match.group("body")
+        if LEGACY_SITE not in body:
+            return match.group(0)
+        document = json.loads(body)
+        if count_legacy_urls(document) != body.count(LEGACY_SITE):
+            raise ValueError("Unrecognised legacy site URL in JSON-LD")
+        return match.group("open") + body.replace(LEGACY_SITE, SITE) + match.group("close")
+
+    return SCHEMA_BLOCK_RE.sub(replace_block, text)
+
+
+def migrate_social_image_hosts(text):
+    def replace_tag(match):
+        tag = match.group(0)
+        return tag.replace(LEGACY_SITE, SITE) if SOCIAL_IMAGE_KEY_RE.search(tag) else tag
+
+    return META_TAG_RE.sub(replace_tag, text)
+
+
 def text_without_code(html):
     html = re.sub(r"<script\b.*?</script>", " ", html, flags=re.S | re.I)
     html = re.sub(r"<style\b.*?</style>", " ", html, flags=re.S | re.I)
@@ -286,6 +331,8 @@ def index_and_canonicalise():
         # Copy issues remain QA findings, never an automatic indexing restriction.
         html = set_robots(html, "index,follow")
         html = set_canonical(html, canonical)
+        html = migrate_schema_hosts(html)
+        html = migrate_social_image_hosts(html)
         if path.read_text(encoding="utf-8") != html:
             path.write_text(html, encoding="utf-8")
         if reasons:
@@ -339,15 +386,16 @@ def has_significant_dirty_diff(relative):
         )
     except (FileNotFoundError, subprocess.CalledProcessError):
         return True
-    changed_lines = []
+    added_lines, removed_lines = [], []
     for line in result.stdout.splitlines():
         if not line.startswith(("+", "-")) or line.startswith(("+++", "---")):
             continue
         content = line[1:].strip()
         if not content or any(marker in content for marker in MECHANICAL_HTML_DIFF_MARKERS):
             continue
-        changed_lines.append(content)
-    return bool(changed_lines)
+        normalized = content.replace(LEGACY_SITE, SITE)
+        (added_lines if line.startswith("+") else removed_lines).append(normalized)
+    return added_lines != removed_lines
 
 
 def existing_sitemap_lastmods():
@@ -374,6 +422,10 @@ def significant_lastmod(path, dirty_paths, canonical, existing_lastmods):
         return datetime.now(timezone.utc).date().isoformat()
     if canonical in existing_lastmods:
         return existing_lastmods[canonical]
+    if canonical.startswith(SITE + "/"):
+        legacy_canonical = LEGACY_SITE + canonical[len(SITE):]
+        if legacy_canonical in existing_lastmods:
+            return existing_lastmods[legacy_canonical]
     try:
         result = subprocess.run(
             ["git", "log", "-1", "--format=%cs", "--", relative],
@@ -421,6 +473,21 @@ def build_sitemap():
     return urls
 
 
+def sync_robots_sitemap():
+    path = ROOT / "robots.txt"
+    text = path.read_text(encoding="utf-8")
+    updated, count = re.subn(
+        r'^Sitemap:[ \t]*https?://[^\s]+/sitemap\.xml[ \t]*$',
+        f"Sitemap: {SITE}/sitemap.xml",
+        text,
+        flags=re.M,
+    )
+    if count != 1:
+        raise ValueError("Expected one sitemap declaration in robots.txt")
+    if updated != text:
+        path.write_text(updated, encoding="utf-8")
+
+
 def write_report(records, urls):
     REPORT.parent.mkdir(exist_ok=True)
     lines = [
@@ -462,6 +529,7 @@ def parse_args():
 
 def main():
     args = parse_args()
+    sync_robots_sitemap()
     if args.sitemap_only:
         urls = build_sitemap()
         print(f"wrote sitemap.xml with {len(urls)} URLs")

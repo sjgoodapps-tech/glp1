@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://www.glpzy.app"
+SITE = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))["site_url"].rstrip("/")
 CSV_OUT = ROOT / "reports" / "seo-url-inventory.csv"
 MD_OUT = ROOT / "reports" / "seo-url-inventory-summary.md"
 

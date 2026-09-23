@@ -223,7 +223,7 @@ LOCALE_DIRS = {
     "th", "tr", "uk", "ur", "vi", "zh-hans", "zh-hant",
 }
 
-LIVE_SITE = "https://www.glpzy.app"
+LIVE_SITE = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))["site_url"].rstrip("/")
 
 
 def locale_for(rel):

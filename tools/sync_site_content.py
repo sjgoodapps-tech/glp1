@@ -130,6 +130,14 @@ def desired_files(now):
         config,
         count=1,
     )
+    config, site_url_count = re.subn(
+        r'(?P<prefix>\bsiteUrl:\s*)"[^"]*"',
+        lambda match: match.group("prefix") + json.dumps(facts["site_url"].rstrip("/")),
+        config,
+        count=1,
+    )
+    if site_url_count != 1:
+        raise RuntimeError("Expected one siteUrl in site-config.js")
     desired[CONFIG_PATH] = config
 
     preflight = PREFLIGHT_PATH.read_text(encoding="utf-8")

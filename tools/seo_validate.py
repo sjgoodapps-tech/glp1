@@ -5,13 +5,14 @@ import subprocess
 import sys
 from datetime import date
 from html import unescape
+from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
-SITE = "https://www.glpzy.app"
 FACTS = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))
+SITE = FACTS["site_url"].rstrip("/")
 SCREENSHOTS = json.loads((ROOT / "data" / "screenshot-manifest.json").read_text(encoding="utf-8"))
 LOCALE_POLICY = json.loads((ROOT / "data" / "locale-indexing.json").read_text(encoding="utf-8"))
 REVIEWED_DATE = date.fromisoformat(FACTS["content_reviewed"])
@@ -197,9 +198,74 @@ def check_robots(results):
     text = path.read_text(encoding="utf-8") if path.exists() else ""
     report(results, "robots.txt exists", path.exists())
     report(results, "robots allow-all policy", "User-agent: *" in text and "Allow: /" in text and "Disallow:" not in text)
-    report(results, "robots declares sitemap", "Sitemap: https://www.glpzy.app/sitemap.xml" in text)
+    report(results, "robots declares sitemap", f"Sitemap: {SITE}/sitemap.xml" in text)
     blocked = [bot for bot in AI_BOTS if re.search(rf"User-agent:\s*{re.escape(bot)}.*?Disallow:\s*/", text, re.I | re.S)]
     report(results, "known AI/search bots not blocked in robots", not blocked, ", ".join(blocked))
+
+
+def check_site_host_signals(results):
+    failures = []
+    expected_host = urlparse(SITE).hostname
+    if (ROOT / "CNAME").read_text(encoding="utf-8").strip() != expected_host:
+        failures.append("CNAME differs from the configured site host")
+    config = (ROOT / "site-config.js").read_text(encoding="utf-8")
+    if not re.search(r'\bsiteUrl:\s*"' + re.escape(SITE) + r'"', config):
+        failures.append("site-config.js differs from the configured site host")
+
+    class HostParser(HTMLParser):
+        def __init__(self, relative):
+            super().__init__()
+            self.relative = relative
+            self.schema = None
+
+        def check_url(self, label, value, exact_host=False):
+            hostname = urlparse(value).hostname
+            if (exact_host and hostname != expected_host) or hostname in {
+                "glpzy.app", "www.glpzy.app", "www.oneglp.app"
+            }:
+                failures.append(f"{self.relative}: {label} uses {hostname or 'no host'}")
+
+        def handle_starttag(self, tag, attrs):
+            values = dict(attrs)
+            if tag == "link" and values.get("rel") == "canonical":
+                self.check_url("canonical", values.get("href", ""), exact_host=True)
+            if tag == "link" and values.get("rel") == "alternate" and values.get("hreflang"):
+                self.check_url("hreflang", values.get("href", ""), exact_host=True)
+            if tag == "meta":
+                key = values.get("property") or values.get("name")
+                if key in {"og:url", "og:image", "twitter:image"}:
+                    self.check_url(key, values.get("content", ""), exact_host=key == "og:url")
+            if tag == "script" and values.get("type") == "application/ld+json":
+                self.schema = ""
+
+        def handle_data(self, data):
+            if self.schema is not None:
+                self.schema += data
+
+        def handle_endtag(self, tag):
+            if tag != "script" or self.schema is None:
+                return
+            try:
+                document = json.loads(self.schema)
+            except json.JSONDecodeError:
+                failures.append(f"{self.relative}: invalid JSON-LD")
+            else:
+                def walk(value):
+                    if isinstance(value, dict):
+                        for child in value.values():
+                            walk(child)
+                    elif isinstance(value, list):
+                        for child in value:
+                            walk(child)
+                    elif isinstance(value, str) and value.startswith(("http://", "https://")):
+                        self.check_url("JSON-LD", value)
+                walk(document)
+            self.schema = None
+
+    for path in html_files():
+        relative = path.relative_to(ROOT).as_posix()
+        HostParser(relative).feed(path.read_text(encoding="utf-8"))
+    report(results, "canonical host is consistent across HTML, schema and CNAME", not failures, "; ".join(failures[:20]))
 
 
 def check_sitemap(results):
@@ -492,6 +558,7 @@ def check_release_contracts(results):
 def main():
     results = []
     check_robots(results)
+    check_site_host_signals(results)
     check_sitemap(results)
     check_priority_pages(results)
     check_responsive_assets(results)

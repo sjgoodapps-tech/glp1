@@ -143,7 +143,7 @@
   // generated:founding-offer-copy:end
 
   window.GLPZY_SITE_CONFIG = {
-    siteUrl: "https://www.glpzy.app",
+    siteUrl: "https://oneglp.app",
     appStoreUrl: appStoreBaseUrl,
     appStoreCampaigns: {
       siteDefault: campaignUrl("founding_site_default"),

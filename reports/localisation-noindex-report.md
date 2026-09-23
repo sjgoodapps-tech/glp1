@@ -1,6 +1,6 @@
 # Localisation Indexability and Copy Report
 
-Generated: 2026-09-20T19:00:47+00:00
+Generated: 2026-09-23T13:27:19+00:00
 
 Indexable sitemap URLs: 1333
 Translation-based noindex restrictions: none
@@ -14,688 +14,688 @@ All other published translations have self-canonicals, sitemap entries and recip
 
 ## Copy Warnings and Canonical Notes
 
-- `ar/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ar/apple-health-glp-tracker.html`
+- `ar/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ar/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ar/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/mounjaro-tracker-iphone.html`
+- `ar/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ar/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ar/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/semaglutide-tracker-iphone.html`
+- `ar/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ar/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ar/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/tirzepatide-tracker-iphone.html`
+- `ar/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ar/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ar/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/wegovy-tracker-iphone.html`
+- `ar/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ar/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ar/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ar/zepbound-tracker-iphone.html`
+- `ar/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ar/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bg/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/bg/apple-health-glp-tracker.html`
+- `bg/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/bg/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bg/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/mounjaro-tracker-iphone.html`
+- `bg/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/bg/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bg/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/semaglutide-tracker-iphone.html`
+- `bg/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/bg/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bg/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/tirzepatide-tracker-iphone.html`
+- `bg/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/bg/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bg/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/wegovy-tracker-iphone.html`
+- `bg/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/bg/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bg/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/bg/zepbound-tracker-iphone.html`
+- `bg/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/bg/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bn/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/bn/apple-health-glp-tracker.html`
+- `bn/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/bn/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bn/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/mounjaro-tracker-iphone.html`
+- `bn/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/bn/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bn/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/semaglutide-tracker-iphone.html`
+- `bn/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/bn/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bn/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/tirzepatide-tracker-iphone.html`
+- `bn/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/bn/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bn/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/wegovy-tracker-iphone.html`
+- `bn/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/bn/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `bn/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/bn/zepbound-tracker-iphone.html`
+- `bn/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/bn/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `cs/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/cs/apple-health-glp-tracker.html`
+- `cs/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/cs/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `cs/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/mounjaro-tracker-iphone.html`
+- `cs/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/cs/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `cs/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/semaglutide-tracker-iphone.html`
+- `cs/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/cs/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `cs/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/tirzepatide-tracker-iphone.html`
+- `cs/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/cs/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `cs/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/wegovy-tracker-iphone.html`
+- `cs/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/cs/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `cs/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/cs/zepbound-tracker-iphone.html`
+- `cs/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/cs/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `da/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/da/apple-health-glp-tracker.html`
+- `da/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/da/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `da/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/mounjaro-tracker-iphone.html`
+- `da/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/da/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `da/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/semaglutide-tracker-iphone.html`
+- `da/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/da/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `da/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/tirzepatide-tracker-iphone.html`
+- `da/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/da/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `da/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/wegovy-tracker-iphone.html`
+- `da/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/da/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `da/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/da/zepbound-tracker-iphone.html`
+- `da/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/da/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `de/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/de/apple-health-glp-tracker.html`
+- `de/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/de/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `de/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/mounjaro-tracker-iphone.html`
+- `de/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/de/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `de/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/semaglutide-tracker-iphone.html`
+- `de/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/de/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `de/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/tirzepatide-tracker-iphone.html`
+- `de/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/de/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `de/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/wegovy-tracker-iphone.html`
+- `de/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/de/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `de/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/de/zepbound-tracker-iphone.html`
+- `de/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/de/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `el/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/el/apple-health-glp-tracker.html`
+- `el/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/el/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `el/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/mounjaro-tracker-iphone.html`
+- `el/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/el/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `el/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/semaglutide-tracker-iphone.html`
+- `el/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/el/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `el/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/tirzepatide-tracker-iphone.html`
+- `el/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/el/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `el/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/wegovy-tracker-iphone.html`
+- `el/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/el/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `el/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/el/zepbound-tracker-iphone.html`
+- `el/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/el/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `en/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/apple-health-glp-tracker.html`
+- `en/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/apple-health-glp-tracker.html`
   - English duplicate canonicalised to root English URL
-- `en/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/compounded-glp-tracker-iphone.html`
+- `en/compounded-glp-tracker-iphone.html` -> canonical `https://oneglp.app/compounded-glp-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/custom-medication-tracker-iphone.html`
+- `en/custom-medication-tracker-iphone.html` -> canonical `https://oneglp.app/custom-medication-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/data-rights.html` -> canonical `https://www.glpzy.app/data-rights.html`
+- `en/data-rights.html` -> canonical `https://oneglp.app/data-rights.html`
   - English duplicate canonicalised to root English URL
-- `en/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/foundayo-tracker-iphone.html`
+- `en/foundayo-tracker-iphone.html` -> canonical `https://oneglp.app/foundayo-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/glp1-weight-dose-symptom-tracker.html` -> canonical `https://www.glpzy.app/glp1-weight-dose-symptom-tracker.html`
+- `en/glp1-weight-dose-symptom-tracker.html` -> canonical `https://oneglp.app/glp1-weight-dose-symptom-tracker.html`
   - English duplicate canonicalised to root English URL
-- `en/index.html` -> canonical `https://www.glpzy.app/`
+- `en/index.html` -> canonical `https://oneglp.app/`
   - English duplicate canonicalised to root English URL
-- `en/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/local-first-private-glp-tracker.html`
+- `en/local-first-private-glp-tracker.html` -> canonical `https://oneglp.app/local-first-private-glp-tracker.html`
   - English duplicate canonicalised to root English URL
-- `en/medical-safety.html` -> canonical `https://www.glpzy.app/medical-safety.html`
+- `en/medical-safety.html` -> canonical `https://oneglp.app/medical-safety.html`
   - English duplicate canonicalised to root English URL
-- `en/methodology.html` -> canonical `https://www.glpzy.app/methodology.html`
+- `en/methodology.html` -> canonical `https://oneglp.app/methodology.html`
   - English duplicate canonicalised to root English URL
-- `en/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/mounjaro-tracker-iphone.html`
+- `en/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/mounjaro-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/overview.html` -> canonical `https://www.glpzy.app/overview.html`
+- `en/overview.html` -> canonical `https://oneglp.app/overview.html`
   - English duplicate canonicalised to root English URL
-- `en/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/ozempic-tracker-iphone.html`
+- `en/ozempic-tracker-iphone.html` -> canonical `https://oneglp.app/ozempic-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/privacy.html` -> canonical `https://www.glpzy.app/privacy.html`
+- `en/privacy.html` -> canonical `https://oneglp.app/privacy.html`
   - English duplicate canonicalised to root English URL
-- `en/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/rybelsus-tracker-iphone.html`
+- `en/rybelsus-tracker-iphone.html` -> canonical `https://oneglp.app/rybelsus-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/saxenda-tracker-iphone.html`
+- `en/saxenda-tracker-iphone.html` -> canonical `https://oneglp.app/saxenda-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/semaglutide-tracker-iphone.html`
+- `en/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/semaglutide-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/support.html` -> canonical `https://www.glpzy.app/support.html`
+- `en/support.html` -> canonical `https://oneglp.app/support.html`
   - English duplicate canonicalised to root English URL
-- `en/terms.html` -> canonical `https://www.glpzy.app/terms.html`
+- `en/terms.html` -> canonical `https://oneglp.app/terms.html`
   - English duplicate canonicalised to root English URL
-- `en/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/tirzepatide-tracker-iphone.html`
+- `en/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/tirzepatide-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/trulicity-tracker-iphone.html`
+- `en/trulicity-tracker-iphone.html` -> canonical `https://oneglp.app/trulicity-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/victoza-tracker-iphone.html`
+- `en/victoza-tracker-iphone.html` -> canonical `https://oneglp.app/victoza-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/wegovy-tracker-iphone.html`
+- `en/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/wegovy-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `en/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/zepbound-tracker-iphone.html`
+- `en/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/zepbound-tracker-iphone.html`
   - English duplicate canonicalised to root English URL
-- `es-es/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/es-es/apple-health-glp-tracker.html`
+- `es-es/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/es-es/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-es/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/mounjaro-tracker-iphone.html`
+- `es-es/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/es-es/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-es/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/semaglutide-tracker-iphone.html`
+- `es-es/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/es-es/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-es/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/tirzepatide-tracker-iphone.html`
+- `es-es/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/es-es/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-es/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/wegovy-tracker-iphone.html`
+- `es-es/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/es-es/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-es/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-es/zepbound-tracker-iphone.html`
+- `es-es/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/es-es/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-mx/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/es-mx/apple-health-glp-tracker.html`
+- `es-mx/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/es-mx/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-mx/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/mounjaro-tracker-iphone.html`
+- `es-mx/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/es-mx/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-mx/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/semaglutide-tracker-iphone.html`
+- `es-mx/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/es-mx/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-mx/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/tirzepatide-tracker-iphone.html`
+- `es-mx/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/es-mx/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-mx/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/wegovy-tracker-iphone.html`
+- `es-mx/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/es-mx/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `es-mx/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/es-mx/zepbound-tracker-iphone.html`
+- `es-mx/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/es-mx/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `et/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/et/apple-health-glp-tracker.html`
+- `et/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/et/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `et/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/mounjaro-tracker-iphone.html`
+- `et/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/et/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `et/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/semaglutide-tracker-iphone.html`
+- `et/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/et/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `et/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/tirzepatide-tracker-iphone.html`
+- `et/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/et/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `et/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/wegovy-tracker-iphone.html`
+- `et/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/et/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `et/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/et/zepbound-tracker-iphone.html`
+- `et/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/et/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fi/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fi/apple-health-glp-tracker.html`
+- `fi/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/fi/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fi/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/mounjaro-tracker-iphone.html`
+- `fi/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/fi/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fi/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/semaglutide-tracker-iphone.html`
+- `fi/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/fi/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fi/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/tirzepatide-tracker-iphone.html`
+- `fi/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/fi/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fi/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/wegovy-tracker-iphone.html`
+- `fi/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/fi/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fi/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fi/zepbound-tracker-iphone.html`
+- `fi/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/fi/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fil/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fil/apple-health-glp-tracker.html`
+- `fil/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/fil/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fil/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/mounjaro-tracker-iphone.html`
+- `fil/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/fil/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fil/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/semaglutide-tracker-iphone.html`
+- `fil/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/fil/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fil/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/tirzepatide-tracker-iphone.html`
+- `fil/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/fil/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fil/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/wegovy-tracker-iphone.html`
+- `fil/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/fil/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fil/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fil/zepbound-tracker-iphone.html`
+- `fil/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/fil/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fr/apple-health-glp-tracker.html`
+- `fr/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/fr/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/mounjaro-tracker-iphone.html`
+- `fr/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/fr/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/semaglutide-tracker-iphone.html`
+- `fr/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/fr/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/tirzepatide-tracker-iphone.html`
+- `fr/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/fr/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/wegovy-tracker-iphone.html`
+- `fr/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/fr/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr/zepbound-tracker-iphone.html`
+- `fr/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/fr/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr-ca/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/fr-ca/apple-health-glp-tracker.html`
+- `fr-ca/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/fr-ca/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr-ca/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/mounjaro-tracker-iphone.html`
+- `fr-ca/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/fr-ca/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr-ca/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/semaglutide-tracker-iphone.html`
+- `fr-ca/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/fr-ca/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr-ca/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/tirzepatide-tracker-iphone.html`
+- `fr-ca/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/fr-ca/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr-ca/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/wegovy-tracker-iphone.html`
+- `fr-ca/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/fr-ca/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `fr-ca/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/fr-ca/zepbound-tracker-iphone.html`
+- `fr-ca/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/fr-ca/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `gu/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/gu/apple-health-glp-tracker.html`
+- `gu/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/gu/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `gu/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/mounjaro-tracker-iphone.html`
+- `gu/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/gu/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `gu/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/semaglutide-tracker-iphone.html`
+- `gu/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/gu/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `gu/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/tirzepatide-tracker-iphone.html`
+- `gu/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/gu/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `gu/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/wegovy-tracker-iphone.html`
+- `gu/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/gu/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `gu/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/gu/zepbound-tracker-iphone.html`
+- `gu/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/gu/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `he/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/he/apple-health-glp-tracker.html`
+- `he/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/he/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `he/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/mounjaro-tracker-iphone.html`
+- `he/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/he/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `he/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/semaglutide-tracker-iphone.html`
+- `he/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/he/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `he/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/tirzepatide-tracker-iphone.html`
+- `he/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/he/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `he/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/wegovy-tracker-iphone.html`
+- `he/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/he/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `he/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/he/zepbound-tracker-iphone.html`
+- `he/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/he/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hi/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/hi/apple-health-glp-tracker.html`
+- `hi/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/hi/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hi/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/mounjaro-tracker-iphone.html`
+- `hi/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/hi/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hi/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/semaglutide-tracker-iphone.html`
+- `hi/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/hi/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hi/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/tirzepatide-tracker-iphone.html`
+- `hi/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/hi/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hi/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/wegovy-tracker-iphone.html`
+- `hi/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/hi/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hi/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/hi/zepbound-tracker-iphone.html`
+- `hi/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/hi/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/hr/apple-health-glp-tracker.html`
+- `hr/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/hr/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/mounjaro-tracker-iphone.html`
+- `hr/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/hr/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/semaglutide-tracker-iphone.html`
+- `hr/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/hr/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/tirzepatide-tracker-iphone.html`
+- `hr/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/hr/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/wegovy-tracker-iphone.html`
+- `hr/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/hr/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/hr/zepbound-tracker-iphone.html`
+- `hr/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/hr/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hu/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/hu/apple-health-glp-tracker.html`
+- `hu/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/hu/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hu/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/mounjaro-tracker-iphone.html`
+- `hu/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/hu/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hu/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/semaglutide-tracker-iphone.html`
+- `hu/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/hu/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hu/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/tirzepatide-tracker-iphone.html`
+- `hu/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/hu/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hu/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/wegovy-tracker-iphone.html`
+- `hu/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/hu/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `hu/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/hu/zepbound-tracker-iphone.html`
+- `hu/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/hu/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `id/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/id/apple-health-glp-tracker.html`
+- `id/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/id/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `id/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/mounjaro-tracker-iphone.html`
+- `id/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/id/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `id/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/semaglutide-tracker-iphone.html`
+- `id/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/id/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `id/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/tirzepatide-tracker-iphone.html`
+- `id/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/id/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `id/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/wegovy-tracker-iphone.html`
+- `id/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/id/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `id/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/id/zepbound-tracker-iphone.html`
+- `id/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/id/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `it/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/it/apple-health-glp-tracker.html`
+- `it/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/it/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `it/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/mounjaro-tracker-iphone.html`
+- `it/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/it/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `it/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/semaglutide-tracker-iphone.html`
+- `it/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/it/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `it/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/tirzepatide-tracker-iphone.html`
+- `it/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/it/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `it/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/wegovy-tracker-iphone.html`
+- `it/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/it/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `it/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/it/zepbound-tracker-iphone.html`
+- `it/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/it/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ja/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ja/apple-health-glp-tracker.html`
+- `ja/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ja/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ja/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/mounjaro-tracker-iphone.html`
+- `ja/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ja/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ja/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/semaglutide-tracker-iphone.html`
+- `ja/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ja/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ja/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/tirzepatide-tracker-iphone.html`
+- `ja/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ja/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ja/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/wegovy-tracker-iphone.html`
+- `ja/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ja/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ja/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ja/zepbound-tracker-iphone.html`
+- `ja/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ja/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `kn/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/kn/apple-health-glp-tracker.html`
+- `kn/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/kn/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `kn/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/mounjaro-tracker-iphone.html`
+- `kn/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/kn/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `kn/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/semaglutide-tracker-iphone.html`
+- `kn/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/kn/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `kn/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/tirzepatide-tracker-iphone.html`
+- `kn/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/kn/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `kn/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/wegovy-tracker-iphone.html`
+- `kn/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/kn/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `kn/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/kn/zepbound-tracker-iphone.html`
+- `kn/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/kn/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ko/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ko/apple-health-glp-tracker.html`
+- `ko/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ko/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ko/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/mounjaro-tracker-iphone.html`
+- `ko/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ko/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ko/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/semaglutide-tracker-iphone.html`
+- `ko/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ko/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ko/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/tirzepatide-tracker-iphone.html`
+- `ko/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ko/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ko/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/wegovy-tracker-iphone.html`
+- `ko/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ko/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ko/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ko/zepbound-tracker-iphone.html`
+- `ko/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ko/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lt/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/lt/apple-health-glp-tracker.html`
+- `lt/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/lt/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lt/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/mounjaro-tracker-iphone.html`
+- `lt/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/lt/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lt/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/semaglutide-tracker-iphone.html`
+- `lt/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/lt/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lt/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/tirzepatide-tracker-iphone.html`
+- `lt/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/lt/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lt/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/wegovy-tracker-iphone.html`
+- `lt/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/lt/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lt/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/lt/zepbound-tracker-iphone.html`
+- `lt/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/lt/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lv/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/lv/apple-health-glp-tracker.html`
+- `lv/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/lv/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lv/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/mounjaro-tracker-iphone.html`
+- `lv/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/lv/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lv/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/semaglutide-tracker-iphone.html`
+- `lv/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/lv/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lv/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/tirzepatide-tracker-iphone.html`
+- `lv/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/lv/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lv/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/wegovy-tracker-iphone.html`
+- `lv/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/lv/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `lv/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/lv/zepbound-tracker-iphone.html`
+- `lv/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/lv/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ml/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ml/apple-health-glp-tracker.html`
+- `ml/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ml/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ml/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/mounjaro-tracker-iphone.html`
+- `ml/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ml/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ml/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/semaglutide-tracker-iphone.html`
+- `ml/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ml/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ml/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/tirzepatide-tracker-iphone.html`
+- `ml/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ml/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ml/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/wegovy-tracker-iphone.html`
+- `ml/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ml/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ml/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ml/zepbound-tracker-iphone.html`
+- `ml/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ml/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `mr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/mr/apple-health-glp-tracker.html`
+- `mr/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/mr/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `mr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/mounjaro-tracker-iphone.html`
+- `mr/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/mr/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `mr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/semaglutide-tracker-iphone.html`
+- `mr/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/mr/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `mr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/tirzepatide-tracker-iphone.html`
+- `mr/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/mr/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `mr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/wegovy-tracker-iphone.html`
+- `mr/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/mr/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `mr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/mr/zepbound-tracker-iphone.html`
+- `mr/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/mr/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ms/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ms/apple-health-glp-tracker.html`
+- `ms/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ms/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ms/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/mounjaro-tracker-iphone.html`
+- `ms/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ms/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ms/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/semaglutide-tracker-iphone.html`
+- `ms/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ms/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ms/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/tirzepatide-tracker-iphone.html`
+- `ms/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ms/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ms/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/wegovy-tracker-iphone.html`
+- `ms/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ms/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ms/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ms/zepbound-tracker-iphone.html`
+- `ms/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ms/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nb/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/nb/apple-health-glp-tracker.html`
+- `nb/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/nb/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nb/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/mounjaro-tracker-iphone.html`
+- `nb/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/nb/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nb/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/semaglutide-tracker-iphone.html`
+- `nb/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/nb/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nb/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/tirzepatide-tracker-iphone.html`
+- `nb/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/nb/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nb/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/wegovy-tracker-iphone.html`
+- `nb/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/nb/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nb/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/nb/zepbound-tracker-iphone.html`
+- `nb/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/nb/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nl/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/nl/apple-health-glp-tracker.html`
+- `nl/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/nl/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nl/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/mounjaro-tracker-iphone.html`
+- `nl/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/nl/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nl/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/semaglutide-tracker-iphone.html`
+- `nl/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/nl/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nl/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/tirzepatide-tracker-iphone.html`
+- `nl/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/nl/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nl/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/wegovy-tracker-iphone.html`
+- `nl/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/nl/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `nl/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/nl/zepbound-tracker-iphone.html`
+- `nl/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/nl/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `or/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/or/apple-health-glp-tracker.html`
+- `or/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/or/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `or/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/mounjaro-tracker-iphone.html`
+- `or/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/or/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `or/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/semaglutide-tracker-iphone.html`
+- `or/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/or/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `or/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/tirzepatide-tracker-iphone.html`
+- `or/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/or/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `or/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/wegovy-tracker-iphone.html`
+- `or/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/or/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `or/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/or/zepbound-tracker-iphone.html`
+- `or/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/or/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pa/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pa/apple-health-glp-tracker.html`
+- `pa/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/pa/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pa/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/mounjaro-tracker-iphone.html`
+- `pa/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/pa/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pa/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/semaglutide-tracker-iphone.html`
+- `pa/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/pa/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pa/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/tirzepatide-tracker-iphone.html`
+- `pa/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/pa/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pa/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/wegovy-tracker-iphone.html`
+- `pa/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/pa/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pa/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pa/zepbound-tracker-iphone.html`
+- `pa/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/pa/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pl/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pl/apple-health-glp-tracker.html`
+- `pl/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/pl/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pl/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/mounjaro-tracker-iphone.html`
+- `pl/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/pl/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pl/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/semaglutide-tracker-iphone.html`
+- `pl/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/pl/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pl/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/tirzepatide-tracker-iphone.html`
+- `pl/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/pl/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pl/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/wegovy-tracker-iphone.html`
+- `pl/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/pl/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pl/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pl/zepbound-tracker-iphone.html`
+- `pl/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/pl/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-br/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pt-br/apple-health-glp-tracker.html`
+- `pt-br/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/pt-br/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-br/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/mounjaro-tracker-iphone.html`
+- `pt-br/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/pt-br/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-br/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/semaglutide-tracker-iphone.html`
+- `pt-br/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/pt-br/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-br/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/tirzepatide-tracker-iphone.html`
+- `pt-br/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/pt-br/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-br/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/wegovy-tracker-iphone.html`
+- `pt-br/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/pt-br/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-br/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-br/zepbound-tracker-iphone.html`
+- `pt-br/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/pt-br/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-pt/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/pt-pt/apple-health-glp-tracker.html`
+- `pt-pt/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/pt-pt/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-pt/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/mounjaro-tracker-iphone.html`
+- `pt-pt/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/pt-pt/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-pt/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/semaglutide-tracker-iphone.html`
+- `pt-pt/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/pt-pt/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-pt/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/tirzepatide-tracker-iphone.html`
+- `pt-pt/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/pt-pt/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-pt/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/wegovy-tracker-iphone.html`
+- `pt-pt/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/pt-pt/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `pt-pt/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/pt-pt/zepbound-tracker-iphone.html`
+- `pt-pt/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/pt-pt/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ro/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ro/apple-health-glp-tracker.html`
+- `ro/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ro/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ro/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/mounjaro-tracker-iphone.html`
+- `ro/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ro/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ro/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/semaglutide-tracker-iphone.html`
+- `ro/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ro/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ro/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/tirzepatide-tracker-iphone.html`
+- `ro/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ro/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ro/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/wegovy-tracker-iphone.html`
+- `ro/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ro/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ro/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ro/zepbound-tracker-iphone.html`
+- `ro/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ro/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ru/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ru/apple-health-glp-tracker.html`
+- `ru/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ru/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ru/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/mounjaro-tracker-iphone.html`
+- `ru/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ru/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ru/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/semaglutide-tracker-iphone.html`
+- `ru/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ru/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ru/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/tirzepatide-tracker-iphone.html`
+- `ru/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ru/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ru/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/wegovy-tracker-iphone.html`
+- `ru/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ru/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ru/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ru/zepbound-tracker-iphone.html`
+- `ru/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ru/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sk/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sk/apple-health-glp-tracker.html`
+- `sk/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/sk/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sk/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/mounjaro-tracker-iphone.html`
+- `sk/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/sk/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sk/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/semaglutide-tracker-iphone.html`
+- `sk/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/sk/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sk/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/tirzepatide-tracker-iphone.html`
+- `sk/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/sk/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sk/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/wegovy-tracker-iphone.html`
+- `sk/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/sk/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sk/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sk/zepbound-tracker-iphone.html`
+- `sk/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/sk/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sl/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sl/apple-health-glp-tracker.html`
+- `sl/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/sl/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sl/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/mounjaro-tracker-iphone.html`
+- `sl/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/sl/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sl/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/semaglutide-tracker-iphone.html`
+- `sl/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/sl/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sl/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/tirzepatide-tracker-iphone.html`
+- `sl/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/sl/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sl/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/wegovy-tracker-iphone.html`
+- `sl/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/sl/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sl/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sl/zepbound-tracker-iphone.html`
+- `sl/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/sl/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sr/apple-health-glp-tracker.html`
+- `sr/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/sr/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/mounjaro-tracker-iphone.html`
+- `sr/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/sr/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/semaglutide-tracker-iphone.html`
+- `sr/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/sr/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/tirzepatide-tracker-iphone.html`
+- `sr/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/sr/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/wegovy-tracker-iphone.html`
+- `sr/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/sr/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sr/zepbound-tracker-iphone.html`
+- `sr/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/sr/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sv/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/sv/apple-health-glp-tracker.html`
+- `sv/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/sv/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `sv/compounded-glp-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/compounded-glp-tracker-iphone.html`
+- `sv/compounded-glp-tracker-iphone.html` -> canonical `https://oneglp.app/sv/compounded-glp-tracker-iphone.html`
   - mixed or untranslated English: Medicine form
-- `sv/custom-medication-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/custom-medication-tracker-iphone.html`
+- `sv/custom-medication-tracker-iphone.html` -> canonical `https://oneglp.app/sv/custom-medication-tracker-iphone.html`
   - mixed or untranslated English: Medicine form
-- `sv/foundayo-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/foundayo-tracker-iphone.html`
+- `sv/foundayo-tracker-iphone.html` -> canonical `https://oneglp.app/sv/foundayo-tracker-iphone.html`
   - mixed or untranslated English: Medicine form
-- `sv/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/mounjaro-tracker-iphone.html`
-  - mixed or untranslated English: Medicine form
-  - locale commercial page lacks upgraded answer/facts module
-- `sv/ozempic-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/ozempic-tracker-iphone.html`
-  - mixed or untranslated English: Medicine form
-- `sv/rybelsus-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/rybelsus-tracker-iphone.html`
-  - mixed or untranslated English: Medicine form
-- `sv/saxenda-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/saxenda-tracker-iphone.html`
-  - mixed or untranslated English: Medicine form
-- `sv/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/semaglutide-tracker-iphone.html`
+- `sv/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/sv/mounjaro-tracker-iphone.html`
   - mixed or untranslated English: Medicine form
   - locale commercial page lacks upgraded answer/facts module
-- `sv/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/tirzepatide-tracker-iphone.html`
+- `sv/ozempic-tracker-iphone.html` -> canonical `https://oneglp.app/sv/ozempic-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
+- `sv/rybelsus-tracker-iphone.html` -> canonical `https://oneglp.app/sv/rybelsus-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
+- `sv/saxenda-tracker-iphone.html` -> canonical `https://oneglp.app/sv/saxenda-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
+- `sv/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/sv/semaglutide-tracker-iphone.html`
   - mixed or untranslated English: Medicine form
   - locale commercial page lacks upgraded answer/facts module
-- `sv/trulicity-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/trulicity-tracker-iphone.html`
-  - mixed or untranslated English: Medicine form
-- `sv/victoza-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/victoza-tracker-iphone.html`
-  - mixed or untranslated English: Medicine form
-- `sv/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/wegovy-tracker-iphone.html`
+- `sv/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/sv/tirzepatide-tracker-iphone.html`
   - mixed or untranslated English: Medicine form
   - locale commercial page lacks upgraded answer/facts module
-- `sv/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/sv/zepbound-tracker-iphone.html`
+- `sv/trulicity-tracker-iphone.html` -> canonical `https://oneglp.app/sv/trulicity-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
+- `sv/victoza-tracker-iphone.html` -> canonical `https://oneglp.app/sv/victoza-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
+- `sv/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/sv/wegovy-tracker-iphone.html`
   - mixed or untranslated English: Medicine form
   - locale commercial page lacks upgraded answer/facts module
-- `ta/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ta/apple-health-glp-tracker.html`
+- `sv/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/sv/zepbound-tracker-iphone.html`
+  - mixed or untranslated English: Medicine form
   - locale commercial page lacks upgraded answer/facts module
-- `ta/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/mounjaro-tracker-iphone.html`
+- `ta/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ta/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ta/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/semaglutide-tracker-iphone.html`
+- `ta/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ta/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ta/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/tirzepatide-tracker-iphone.html`
+- `ta/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ta/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ta/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/wegovy-tracker-iphone.html`
+- `ta/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ta/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ta/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ta/zepbound-tracker-iphone.html`
+- `ta/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ta/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `te/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/te/apple-health-glp-tracker.html`
+- `ta/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ta/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `te/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/mounjaro-tracker-iphone.html`
+- `te/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/te/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `te/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/semaglutide-tracker-iphone.html`
+- `te/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/te/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `te/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/tirzepatide-tracker-iphone.html`
+- `te/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/te/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `te/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/wegovy-tracker-iphone.html`
+- `te/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/te/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `te/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/te/zepbound-tracker-iphone.html`
+- `te/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/te/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `th/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/th/apple-health-glp-tracker.html`
+- `te/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/te/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `th/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/mounjaro-tracker-iphone.html`
+- `th/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/th/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `th/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/semaglutide-tracker-iphone.html`
+- `th/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/th/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `th/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/tirzepatide-tracker-iphone.html`
+- `th/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/th/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `th/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/wegovy-tracker-iphone.html`
+- `th/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/th/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `th/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/th/zepbound-tracker-iphone.html`
+- `th/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/th/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `tr/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/tr/apple-health-glp-tracker.html`
+- `th/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/th/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `tr/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/mounjaro-tracker-iphone.html`
+- `tr/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/tr/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `tr/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/semaglutide-tracker-iphone.html`
+- `tr/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/tr/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `tr/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/tirzepatide-tracker-iphone.html`
+- `tr/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/tr/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `tr/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/wegovy-tracker-iphone.html`
+- `tr/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/tr/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `tr/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/tr/zepbound-tracker-iphone.html`
+- `tr/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/tr/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `uk/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/uk/apple-health-glp-tracker.html`
+- `tr/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/tr/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `uk/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/mounjaro-tracker-iphone.html`
+- `uk/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/uk/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `uk/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/semaglutide-tracker-iphone.html`
+- `uk/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/uk/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `uk/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/tirzepatide-tracker-iphone.html`
+- `uk/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/uk/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `uk/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/wegovy-tracker-iphone.html`
+- `uk/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/uk/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `uk/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/uk/zepbound-tracker-iphone.html`
+- `uk/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/uk/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ur/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/ur/apple-health-glp-tracker.html`
+- `uk/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/uk/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ur/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/mounjaro-tracker-iphone.html`
+- `ur/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/ur/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ur/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/semaglutide-tracker-iphone.html`
+- `ur/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/ur/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ur/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/tirzepatide-tracker-iphone.html`
+- `ur/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/ur/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ur/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/wegovy-tracker-iphone.html`
+- `ur/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/ur/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `ur/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/ur/zepbound-tracker-iphone.html`
+- `ur/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/ur/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/vi/apple-health-glp-tracker.html`
+- `ur/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/ur/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/local-first-private-glp-tracker.html` -> canonical `https://www.glpzy.app/vi/local-first-private-glp-tracker.html`
+- `vi/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/vi/apple-health-glp-tracker.html`
+  - locale commercial page lacks upgraded answer/facts module
+- `vi/local-first-private-glp-tracker.html` -> canonical `https://oneglp.app/vi/local-first-private-glp-tracker.html`
   - wrong order wording: đơn hàng
-- `vi/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/mounjaro-tracker-iphone.html`
+- `vi/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/vi/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/privacy.html` -> canonical `https://www.glpzy.app/vi/privacy.html`
+- `vi/privacy.html` -> canonical `https://oneglp.app/vi/privacy.html`
   - wrong order wording: đơn hàng
-- `vi/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/semaglutide-tracker-iphone.html`
+- `vi/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/vi/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/tirzepatide-tracker-iphone.html`
+- `vi/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/vi/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/wegovy-tracker-iphone.html`
+- `vi/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/vi/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/vi/zepbound-tracker-iphone.html`
+- `vi/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/vi/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hans/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/zh-hans/apple-health-glp-tracker.html`
+- `zh-hans/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/zh-hans/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hans/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/mounjaro-tracker-iphone.html`
+- `zh-hans/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hans/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hans/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/semaglutide-tracker-iphone.html`
+- `zh-hans/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hans/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hans/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/tirzepatide-tracker-iphone.html`
+- `zh-hans/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hans/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hans/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/wegovy-tracker-iphone.html`
+- `zh-hans/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hans/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hans/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hans/zepbound-tracker-iphone.html`
+- `zh-hans/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hans/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hant/apple-health-glp-tracker.html` -> canonical `https://www.glpzy.app/zh-hant/apple-health-glp-tracker.html`
+- `zh-hant/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/zh-hant/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hant/mounjaro-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/mounjaro-tracker-iphone.html`
+- `zh-hant/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hant/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hant/semaglutide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/semaglutide-tracker-iphone.html`
+- `zh-hant/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hant/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hant/tirzepatide-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/tirzepatide-tracker-iphone.html`
+- `zh-hant/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hant/tirzepatide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hant/wegovy-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/wegovy-tracker-iphone.html`
+- `zh-hant/wegovy-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hant/wegovy-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `zh-hant/zepbound-tracker-iphone.html` -> canonical `https://www.glpzy.app/zh-hant/zepbound-tracker-iphone.html`
+- `zh-hant/zepbound-tracker-iphone.html` -> canonical `https://oneglp.app/zh-hant/zepbound-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
