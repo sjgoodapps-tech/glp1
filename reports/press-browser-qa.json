@@ -1,0 +1,5268 @@
+{
+  "checked": "2026-10-02",
+  "dataset": "three owner-supplied verified records",
+  "records": 3,
+  "locales": 53,
+  "widths": [
+    320,
+    390,
+    1280
+  ],
+  "layouts": 159,
+  "cardsValidated": 477,
+  "failures": [],
+  "dateFallbackLocales": [
+    "or",
+    "pa"
+  ],
+  "nativeTranslationReview": "pending",
+  "results": [
+    {
+      "cards": [
+        {
+          "displayDate": "২৩ সেপ্টেম্বর, ২০২৬",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "১৪ সেপ্টেম্বর, ২০২৬",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "৮ জুলাই, ২০২৬",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "bn",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 સપ્ટેમ્બર, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 સપ્ટેમ્બર, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 જુલાઈ, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "gu",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "ಸೆಪ್ಟೆಂಬರ್ 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "ಸೆಪ್ಟೆಂಬರ್ 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "ಜುಲೈ 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "kn",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026 സെപ്റ്റംബർ 23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026 സെപ്റ്റംബർ 14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026 ജൂലൈ 8",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ml",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "२३ सप्टेंबर, २०२६",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "१४ सप्टेंबर, २०२६",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "८ जुलै, २०२६",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "mr",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026-09-23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026-09-14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026-07-08",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "or",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026-09-23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026-09-14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026-07-08",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pa",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 செப்டம்பர், 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 செப்டம்பர், 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 ஜூலை, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ta",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 సెప్టెంబర్, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 సెప్టెంబర్, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 జులై, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "te",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 July 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "en-gb",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de septiembre de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de septiembre de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julio de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "es-mx",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juillet 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fr-ca",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de setembro de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de setembro de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julho de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pt-br",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "Setyembre 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "Setyembre 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "Hulyo 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fil",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "id",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Julai 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ms",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 กันยายน 2569",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 กันยายน 2569",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 กรกฎาคม 2569",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "th",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 tháng 9, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 tháng 9, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 tháng 7, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "vi",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 בספטמבר 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 בספטמבר 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 ביולי 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "he",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 ستمبر، 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 ستمبر، 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 جولائی، 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ur",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 септември 2026 г.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 септември 2026 г.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 юли 2026 г.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "bg",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. září 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. září 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. července 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "cs",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "da",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 Σεπτεμβρίου 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 Σεπτεμβρίου 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Ιουλίου 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "el",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juuli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "et",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. syyskuuta 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. syyskuuta 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. heinäkuuta 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fi",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. rujna 2026.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. rujna 2026.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. srpnja 2026.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hr",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026. szeptember 23.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026. szeptember 14.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026. július 8.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hu",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026 m. rugsėjo 23 d.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026 m. rugsėjo 14 d.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026 m. liepos 8 d.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "lt",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026. gada 23. septembris",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026. gada 14. septembris",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026. gada 8. jūlijs",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "lv",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "nb",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 września 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 września 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 lipca 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pl",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembrie 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembrie 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 iulie 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ro",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 сентября 2026 г.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 сентября 2026 г.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 июля 2026 г.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ru",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. septembra 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. septembra 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. júla 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sk",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. julij 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sl",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. септембар 2026.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. септембар 2026.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. јул 2026.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sr",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sv",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 Eylül 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 Eylül 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Temmuz 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "tr",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 вересня 2026 р.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 вересня 2026 р.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 липня 2026 р.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "uk",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "September 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "September 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "July 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "en",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 سبتمبر 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 سبتمبر 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 يوليو 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ar",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "zh-hans",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "zh-hant",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de septiembre de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de septiembre de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julio de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "es-es",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. Juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "de",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juillet 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fr",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de setembro de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de setembro de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julho de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pt-pt",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ja",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026년 9월 23일",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026년 9월 14일",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026년 7월 8일",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ko",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 सितंबर 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 सितंबर 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 जुलाई 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hi",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 settembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 settembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 luglio 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "it",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "nl",
+      "overflow": 0,
+      "width": 320,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "২৩ সেপ্টেম্বর, ২০২৬",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "১৪ সেপ্টেম্বর, ২০২৬",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "৮ জুলাই, ২০২৬",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "bn",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 સપ્ટેમ્બર, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 સપ્ટેમ્બર, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 જુલાઈ, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "gu",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "ಸೆಪ್ಟೆಂಬರ್ 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "ಸೆಪ್ಟೆಂಬರ್ 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "ಜುಲೈ 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "kn",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026 സെപ്റ്റംബർ 23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026 സെപ്റ്റംബർ 14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026 ജൂലൈ 8",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ml",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "२३ सप्टेंबर, २०२६",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "१४ सप्टेंबर, २०२६",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "८ जुलै, २०२६",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "mr",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026-09-23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026-09-14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026-07-08",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "or",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026-09-23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026-09-14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026-07-08",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pa",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 செப்டம்பர், 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 செப்டம்பர், 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 ஜூலை, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ta",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 సెప్టెంబర్, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 సెప్టెంబర్, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 జులై, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "te",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 July 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "en-gb",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de septiembre de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de septiembre de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julio de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "es-mx",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juillet 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fr-ca",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de setembro de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de setembro de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julho de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pt-br",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "Setyembre 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "Setyembre 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "Hulyo 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fil",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "id",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Julai 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ms",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 กันยายน 2569",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 กันยายน 2569",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 กรกฎาคม 2569",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "th",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 tháng 9, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 tháng 9, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 tháng 7, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "vi",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 בספטמבר 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 בספטמבר 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 ביולי 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "he",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 ستمبر، 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 ستمبر، 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 جولائی، 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ur",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 септември 2026 г.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 септември 2026 г.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 юли 2026 г.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "bg",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. září 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. září 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. července 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "cs",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "da",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 Σεπτεμβρίου 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 Σεπτεμβρίου 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Ιουλίου 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "el",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juuli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "et",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. syyskuuta 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. syyskuuta 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. heinäkuuta 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fi",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. rujna 2026.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. rujna 2026.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. srpnja 2026.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hr",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026. szeptember 23.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026. szeptember 14.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026. július 8.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hu",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026 m. rugsėjo 23 d.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026 m. rugsėjo 14 d.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026 m. liepos 8 d.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "lt",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026. gada 23. septembris",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026. gada 14. septembris",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026. gada 8. jūlijs",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "lv",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "nb",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 września 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 września 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 lipca 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pl",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembrie 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembrie 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 iulie 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ro",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 сентября 2026 г.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 сентября 2026 г.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 июля 2026 г.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ru",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. septembra 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. septembra 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. júla 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sk",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. julij 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sl",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. септембар 2026.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. септембар 2026.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. јул 2026.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sr",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sv",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 Eylül 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 Eylül 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Temmuz 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "tr",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 вересня 2026 р.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 вересня 2026 р.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 липня 2026 р.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "uk",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "September 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "September 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "July 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "en",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 سبتمبر 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 سبتمبر 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 يوليو 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ar",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "zh-hans",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "zh-hant",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de septiembre de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de septiembre de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julio de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "es-es",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. Juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "de",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juillet 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fr",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de setembro de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de setembro de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julho de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pt-pt",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ja",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026년 9월 23일",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026년 9월 14일",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026년 7월 8일",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ko",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 सितंबर 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 सितंबर 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 जुलाई 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hi",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 settembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 settembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 luglio 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "it",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "nl",
+      "overflow": 0,
+      "width": 390,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "২৩ সেপ্টেম্বর, ২০২৬",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "১৪ সেপ্টেম্বর, ২০২৬",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "৮ জুলাই, ২০২৬",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "bn",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 સપ્ટેમ્બર, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 સપ્ટેમ્બર, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 જુલાઈ, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "gu",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "ಸೆಪ್ಟೆಂಬರ್ 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "ಸೆಪ್ಟೆಂಬರ್ 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "ಜುಲೈ 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "kn",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026 സെപ്റ്റംബർ 23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026 സെപ്റ്റംബർ 14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026 ജൂലൈ 8",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ml",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "२३ सप्टेंबर, २०२६",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "१४ सप्टेंबर, २०२६",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "८ जुलै, २०२६",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "mr",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026-09-23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026-09-14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026-07-08",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "or",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026-09-23",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026-09-14",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026-07-08",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pa",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 செப்டம்பர், 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 செப்டம்பர், 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 ஜூலை, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ta",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 సెప్టెంబర్, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 సెప్టెంబర్, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 జులై, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "te",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 July 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "en-gb",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de septiembre de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de septiembre de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julio de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "es-mx",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juillet 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fr-ca",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de setembro de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de setembro de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julho de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pt-br",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "Setyembre 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "Setyembre 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "Hulyo 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fil",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "id",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Julai 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ms",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 กันยายน 2569",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 กันยายน 2569",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 กรกฎาคม 2569",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "th",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 tháng 9, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 tháng 9, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 tháng 7, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "vi",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 בספטמבר 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 בספטמבר 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 ביולי 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "he",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 ستمبر، 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 ستمبر، 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 جولائی، 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ur",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 септември 2026 г.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 септември 2026 г.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 юли 2026 г.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "bg",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. září 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. září 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. července 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "cs",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "da",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 Σεπτεμβρίου 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 Σεπτεμβρίου 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Ιουλίου 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "el",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juuli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "et",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. syyskuuta 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. syyskuuta 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. heinäkuuta 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fi",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. rujna 2026.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. rujna 2026.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. srpnja 2026.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hr",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026. szeptember 23.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026. szeptember 14.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026. július 8.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hu",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026 m. rugsėjo 23 d.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026 m. rugsėjo 14 d.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026 m. liepos 8 d.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "lt",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026. gada 23. septembris",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026. gada 14. septembris",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026. gada 8. jūlijs",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "lv",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "nb",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 września 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 września 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 lipca 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pl",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembrie 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembrie 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 iulie 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ro",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 сентября 2026 г.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 сентября 2026 г.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 июля 2026 г.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ru",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. septembra 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. septembra 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. júla 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sk",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. julij 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sl",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. септембар 2026.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. септембар 2026.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. јул 2026.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sr",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "sv",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 Eylül 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 Eylül 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 Temmuz 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "tr",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 вересня 2026 р.",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 вересня 2026 р.",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 липня 2026 р.",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "uk",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "September 23, 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "September 14, 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "July 8, 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "en",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 سبتمبر 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 سبتمبر 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 يوليو 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ar",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "zh-hans",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "zh-hant",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de septiembre de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de septiembre de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julio de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "es-es",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23. September 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14. September 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8. Juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "de",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 septembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 septembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juillet 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "fr",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 de setembro de 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 de setembro de 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 de julho de 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "pt-pt",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026年9月23日",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026年9月14日",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026年7月8日",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ja",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "2026년 9월 23일",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "2026년 9월 14일",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "2026년 7월 8일",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "ko",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 सितंबर 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 सितंबर 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 जुलाई 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "hi",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 settembre 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 settembre 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 luglio 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "it",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    },
+    {
+      "cards": [
+        {
+          "displayDate": "23 september 2026",
+          "id": "monj",
+          "iso": "2026-09-23",
+          "publisher": "Monj",
+          "title": "OneGLP: a private GLP-1 tracker for iPhone",
+          "url": "https://monj.co.uk/oneglp/"
+        },
+        {
+          "displayDate": "14 september 2026",
+          "id": "startup",
+          "iso": "2026-09-14",
+          "publisher": "start-up.ro",
+          "title": "GLPzy, aplicația pentru monitorizarea tratamentelor folosite în diabetul de tip 2 și controlul greutății",
+          "url": "https://start-up.ro/glpzy-aplicatia-pentru-monitorizarea-tratamentelor-folosite-in-diabetul-de-tip-2-si-controlul-greutatii/"
+        },
+        {
+          "displayDate": "8 juli 2026",
+          "id": "newmobilelife",
+          "iso": "2026-07-08",
+          "publisher": "NewMobileLife / 流動日報",
+          "title": "GLP-1用藥記錄工具　原價 US $79.99《GLPzy》終生版限時免費",
+          "url": "https://www.newmobilelife.com/2026/07/08/glpzyglp-1%E8%A8%98%E9%8C%84-%E9%99%90%E6%99%82%E5%85%8D%E8%B2%BB-2/"
+        }
+      ],
+      "clipped": [],
+      "locale": "nl",
+      "overflow": 0,
+      "width": 1280,
+      "identityPreserved": true
+    }
+  ]
+}

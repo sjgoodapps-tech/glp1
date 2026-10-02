@@ -8,6 +8,7 @@ from pathlib import Path
 
 from localisation_qa import LOCALE_DIRS, locale_for
 from sync_site_content import replace_data_copy
+from press_content import sync_links as sync_press_links
 
 ROOT = Path(__file__).resolve().parents[1]
 COPY = json.loads((ROOT / "data/website-copy.json").read_text(encoding="utf-8"))
@@ -97,7 +98,7 @@ def corrected_html(rel, text):
     for key in current_keys:
         text = re.sub(r'<a\b(?=[^>]*data-i18n="' + re.escape(key) + r'")[^>]*>',
                       lambda m: re.sub(r'href="[^"]*"', f'href="{page}"', m[0]), text)
-    return text
+    return sync_press_links(rel, text)
 
 
 def nest_key(key, value):

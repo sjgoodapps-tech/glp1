@@ -1,0 +1,16 @@
+/* Restrained information-page layout; existing homepage and footer styles stay intact. */
+.press-main { padding-block: 44px 36px; }
+.press-intro { margin-block: 24px 20px; }
+.press-continuity { padding-block: 20px; border-block: 1px solid #c9d8db; color: #455d63; }
+.press-articles { padding-block: 12px; }
+.press-article { padding-block: 24px; border-bottom: 1px solid #c9d8db; overflow-wrap: anywhere; }
+.press-publisher { margin-block: 0 8px; font-weight: 600; }
+.press-original-title { margin-block: 0 12px; }
+.press-meta, .press-author { color: #455d63; font-size: 15px; }
+.press-read { display: inline-block; min-height: 44px; padding-block: 10px; }
+.press-page .name-footer, .press-page .footer { margin-top: 0; }
+.press-page .name-languages { color: #eff9f7; }
+.press-page .name-languages ul { color: #142f32; }
+.press-context { padding-block: 12px; }
+.press-page bdi { unicode-bidi: isolate; }
+@media (max-width: 600px) { .press-main { padding-block: 28px; } }

@@ -1,10 +1,10 @@
 # Localisation Indexability and Copy Report
 
-Generated: 2026-09-23T13:27:19+00:00
+Generated: 2026-10-02T22:06:29+00:00
 
-Indexable sitemap URLs: 1333
+Indexable sitemap URLs: 1386
 Translation-based noindex restrictions: none
-Pages with copy warnings or canonical notes: 340
+Pages with copy warnings or canonical notes: 341
 Documented native reviews (not an indexing gate): none
 
 ## Canonical Decision
@@ -123,6 +123,8 @@ All other published translations have self-canonicals, sitemap entries and recip
 - `en/overview.html` -> canonical `https://oneglp.app/overview.html`
   - English duplicate canonicalised to root English URL
 - `en/ozempic-tracker-iphone.html` -> canonical `https://oneglp.app/ozempic-tracker-iphone.html`
+  - English duplicate canonicalised to root English URL
+- `en/press/index.html` -> canonical `https://oneglp.app/press/`
   - English duplicate canonicalised to root English URL
 - `en/privacy.html` -> canonical `https://oneglp.app/privacy.html`
   - English duplicate canonicalised to root English URL

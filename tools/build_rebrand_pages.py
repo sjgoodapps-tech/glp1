@@ -6,6 +6,7 @@ import os
 from html import escape
 from pathlib import Path
 from urllib.parse import urlencode, urlsplit, urlunsplit
+from press_content import sync_links as sync_press_links
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/rebrand-page.json').read_text())
@@ -73,7 +74,7 @@ def render(locale):
          'isPartOf': {'@id': SITE + '/#website'}, 'publisher': {'@id': SITE + '/#publisher'}},
     ]}
     schema = json.dumps(graph, ensure_ascii=False, indent=2).replace('<', '\\u003c')
-    return f'''<!doctype html>
+    html = f'''<!doctype html>
 <html lang="{locale}" dir="{'rtl' if locale in {'ar', 'he', 'ur'} else 'ltr'}">
 <head>
   <meta charset="utf-8">
@@ -144,6 +145,7 @@ def render(locale):
 </body>
 </html>
 '''
+    return sync_press_links(path.as_posix(), html)
 
 
 def main():
