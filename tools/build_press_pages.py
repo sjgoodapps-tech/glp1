@@ -61,7 +61,7 @@ def render(locale, duplicate=False, articles=None):
   <meta property="og:url" content="{page_url(locale)}">
   <meta property="og:image" content="{SITE}/assets/oneglp/social-icon.png">
   <link rel="icon" href="{link('assets/oneglp/favicon.svg')}" type="image/svg+xml">
-  <link rel="stylesheet" href="{link('styles.css')}?v=20260920-screens-v5">
+  <link rel="stylesheet" href="{link('styles.css')}?v=20260920-screens-v5-header-20261002">
   <link rel="stylesheet" href="{link('rebrand-page.css')}?v=20260920">
   <link rel="stylesheet" href="{link('press.css')}">
   <script defer src="{link('site-press.js')}"></script>

@@ -311,7 +311,7 @@ def check_priority_pages(results):
         html = read(rel)
         if noindex(html):
             failures.append(f"{rel}: priority page is noindex")
-        if 'styles.css?v=20260920-screens-v5' not in html:
+        if 'styles.css?v=20260920-screens-v5-header-20261002' not in html:
             failures.append(f"{rel}: missing current CSS cache key")
         if 'site-config.js?v=20260920-oneglp-conversion' not in html:
             failures.append(f"{rel}: missing current offer configuration cache key")

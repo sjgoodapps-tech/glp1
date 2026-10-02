@@ -12,7 +12,7 @@ MANIFEST = json.loads((ROOT / 'data/screenshot-manifest.json').read_text())
 COPY = json.loads((ROOT / 'data/screenshot-copy.json').read_text())
 TRANSLATIONS = {locale: dict(zip(COPY['keys'], values)) for locale, values in COPY['translations'].items()}
 SLOTS = {slot['slot']: slot for slot in MANIFEST['slots']}
-VERSION = '20260920-screens-v5'
+VERSION = '20260920-screens-v5-header-20261002'
 MOBILE_CHART_PLACEHOLDER = 'data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs='
 LEGACY = {'en-hero-sales-wow.png', 'en-screen-advanced-graphs.png', 'en-screen-dashboard.png',
           'en-screen-global-coverage.png', 'en-screen-medication-coverage.png', 'en-screen-photos-export.png',

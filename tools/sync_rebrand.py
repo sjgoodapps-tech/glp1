@@ -136,7 +136,7 @@ def transform(path, text):
     site = FACTS['site_url'].rstrip('/')
     text = text.replace(site + '/' + prefix + 'assets/oneglp/', site + '/assets/oneglp/')
     text = re.sub(r'(site-(?:config|cta|preflight)\.js)(?:\?v=[^"\s<>]+)?', r'\1?v=20260920-oneglp-conversion', text)
-    text = re.sub(r'styles\.css(?:\?v=[^"\s<>]+)?', 'styles.css?v=20260920-screens-v5', text)
+    text = re.sub(r'styles\.css(?:\?v=[^"\s<>]+)?', 'styles.css?v=20260920-screens-v5-header-20261002', text)
     end = HeaderEnd(text).end
     if end is None:
         raise ValueError(f'No topbar in {rel}')
