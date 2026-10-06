@@ -313,7 +313,9 @@ def check_priority_pages(results):
             failures.append(f"{rel}: priority page is noindex")
         if 'styles.css?v=20260920-screens-v5-header-20261002' not in html:
             failures.append(f"{rel}: missing current CSS cache key")
-        if 'site-config.js?v=20260920-oneglp-conversion' not in html:
+        config_version = ('20261006-social-proof' if 'data-claim-copy="proofDownloads"' in html
+                          else '20260920-oneglp-conversion')
+        if f'site-config.js?v={config_version}' not in html:
             failures.append(f"{rel}: missing current offer configuration cache key")
         if 'site-preflight.js?v=20260920-oneglp-conversion' not in html:
             failures.append(f"{rel}: missing offer layout preflight")

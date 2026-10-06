@@ -1,0 +1,191 @@
+.app-reviews {
+  padding-block: 32px;
+}
+
+.app-reviews-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 24px;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.app-reviews .section-head {
+  margin: 0;
+}
+
+.app-reviews .section-head h2 {
+  max-width: 21ch;
+  font-size: clamp(1.85rem, 3.4vw, 2.5rem);
+  line-height: 1.1;
+  letter-spacing: -0.015em;
+}
+
+.app-reviews .section-head p {
+  margin: 0;
+  max-width: 52ch;
+}
+
+.press-feature {
+  display: grid;
+  gap: 6px;
+  padding: 18px 20px;
+  border: 1px solid #97bcb2;
+  border-radius: 20px;
+  background: #dff0ea;
+  color: var(--accent-deep);
+  transition: background 150ms ease, border-color 150ms ease;
+}
+
+.press-feature:hover {
+  background: #d0e9df;
+  border-color: var(--accent);
+}
+
+.press-feature-eyebrow,
+.app-reviews-label {
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.press-feature-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.45rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.press-feature-copy {
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.press-feature-publishers {
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.app-reviews-label {
+  margin: 0 0 12px;
+  color: var(--accent);
+}
+
+.app-review-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  align-items: start;
+}
+
+.app-review-column {
+  display: grid;
+  align-content: start;
+  gap: 16px;
+}
+
+.app-review {
+  min-width: 0;
+  overflow-wrap: break-word;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.app-review h3 {
+  font-size: 1.3rem;
+  line-height: 1.2;
+  margin-bottom: 6px;
+}
+
+.app-review .app-review-date {
+  margin: 0 0 12px;
+  color: var(--accent-deep);
+  font-size: 0.85rem;
+}
+
+.app-review blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.app-review blockquote p {
+  margin: 0;
+  color: var(--ink);
+  line-height: 1.55;
+}
+
+/* Three compact, equally weighted facts without an empty fourth grid cell. */
+.image-refresh-hero .hero-proof {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 12px;
+  max-width: none;
+}
+
+.image-refresh-hero .hero-proof-item strong {
+  font-size: clamp(1.125rem, 4.8vw, 1.45rem);
+  white-space: nowrap;
+}
+
+.rating-scale {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
+.image-refresh-hero .hero-proof small {
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.hero-press-link {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 44px;
+  margin-top: 4px;
+  padding: 8px 12px;
+  border: 1px solid #67988c;
+  border-radius: 12px;
+  background: rgba(223, 240, 234, 0.08);
+  color: #eff8f6;
+  font-weight: 750;
+}
+
+.hero-press-link:hover {
+  background: rgba(223, 240, 234, 0.16);
+}
+
+.press-feature:focus-visible,
+.hero-press-link:focus-visible {
+  outline: 3px solid var(--accent-2);
+  outline-offset: 3px;
+}
+
+@media (max-width: 720px) {
+  .app-reviews {
+    padding-block: 24px;
+  }
+
+  .app-reviews-intro {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .app-reviews .section-head h2 {
+    max-width: none;
+  }
+
+  .press-feature,
+  .app-review {
+    padding: 16px;
+    border-radius: 18px;
+  }
+
+  .app-review-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

@@ -136,6 +136,9 @@ def transform(path, text):
     site = FACTS['site_url'].rstrip('/')
     text = text.replace(site + '/' + prefix + 'assets/oneglp/', site + '/assets/oneglp/')
     text = re.sub(r'(site-(?:config|cta|preflight)\.js)(?:\?v=[^"\s<>]+)?', r'\1?v=20260920-oneglp-conversion', text)
+    if 'data-claim-copy="proofDownloads"' in text:
+        text = text.replace('site-config.js?v=20260920-oneglp-conversion',
+                            'site-config.js?v=20261006-social-proof')
     text = re.sub(r'styles\.css(?:\?v=[^"\s<>]+)?', 'styles.css?v=20260920-screens-v5-header-20261002', text)
     end = HeaderEnd(text).end
     if end is None:

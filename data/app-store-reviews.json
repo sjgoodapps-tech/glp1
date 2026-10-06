@@ -1,0 +1,38 @@
+{
+  "source": "Owner-supplied App Store review export.",
+  "selection": "Four newest reviews by publication date from the supplied export.",
+  "heading": "Read what others say about OneGLP",
+  "description": "App Store reviews and independent coverage of the private GLP-1 tracker for iPhone.",
+  "reviews_label": "Recent App Store reviews",
+  "press": {
+    "eyebrow": "Independent coverage",
+    "label": "OneGLP in the press",
+    "description": "Read profiles and interviews about OneGLP’s privacy-first GLP-1 tracking."
+  },
+  "reviews": [
+    {
+      "title": "Wonderful tracker",
+      "date": "2026-10-04",
+      "body": "This tracker is amazing for the price. You get to log your dose and it gives you reminders on where your last injection site was so that you don’t stick yourself in the same shop multiple weeks in a row. There’s a place for nutrition, weight loss graphs that show weight loss versus medication. It’s got everything you need and is the lowest price app on the market, including a free version.",
+      "language": "en"
+    },
+    {
+      "title": "Super!",
+      "date": "2026-09-26",
+      "body": "App chiara e semplice per tenere traccia del percorso con GLP-1! In più c’è anche la premium lifetime attualmente in offerta… IMPERDIBILE!!",
+      "language": "it"
+    },
+    {
+      "title": "Muy buena para el seguimiento GLP-1",
+      "date": "2026-09-25",
+      "body": "Una app muy completa y fácil de usar. Permite registrar las dosis, el peso, la evolución y los síntomas de forma sencilla y privada. Me está resultando muy útil para llevar un mejor control del tratamiento. Muy recomendable.",
+      "language": "es"
+    },
+    {
+      "title": "Perfect.",
+      "date": "2026-09-24",
+      "body": "This gives you precisely the information you need, without anything extraneous and unimportant. Seamless integration with Apple Health so all round excellent !",
+      "language": "en"
+    }
+  ]
+}

@@ -12,6 +12,9 @@ ROOT = Path(__file__).resolve().parents[1]
 FACTS_PATH = ROOT / "data" / "product-facts.json"
 CONFIG_PATH = ROOT / "site-config.js"
 PREFLIGHT_PATH = ROOT / "site-preflight.js"
+REVIEWS_PATH = ROOT / "data" / "app-store-reviews.json"
+PRESS_PATH = ROOT / "data" / "press.json"
+REVIEW_PAGES = {"index.html", "free-lifetime/index.html"}
 
 
 def parse_args():
@@ -103,6 +106,77 @@ def remove_inactive_offer_variants(text):
     return re.sub(r'\s+class=""', "", text)
 
 
+def review_card(review):
+    published = datetime.fromisoformat(review["date"])
+    visible_date = f'{published.day} {published.strftime("%B")} {published.year}'
+    language = escape(review["language"], quote=True)
+    return [
+        '            <article class="feature-card app-review">',
+        f'              <h3 lang="{language}">{escape(review["title"])}</h3>',
+        f'              <p class="app-review-date"><time datetime="{review["date"]}">{visible_date}</time></p>',
+        f'              <blockquote lang="{language}"><p>{escape(review["body"])}</p></blockquote>',
+        '            </article>',
+    ]
+
+
+def review_section(data, prefix):
+    if len(data["reviews"]) != 4:
+        raise ValueError("The balanced review layout requires four selected reviews")
+    publishers = ' · '.join(article['publisher'] for article in json.loads(PRESS_PATH.read_text())["articles"])
+    lines = [
+        '    <!-- generated:app-store-reviews:start -->',
+        '    <section class="section-strip app-reviews" aria-labelledby="app-reviews-heading" data-app-store-reviews>',
+        '      <div class="shell">',
+        '        <div class="app-reviews-intro">',
+        '          <div class="section-head">',
+        f'            <h2 id="app-reviews-heading">{escape(data["heading"])}</h2>',
+        f'            <p>{escape(data["description"])}</p>',
+        '          </div>',
+        f'          <a class="press-feature" href="{prefix}press/" aria-labelledby="press-feature-title">',
+        f'            <span class="press-feature-eyebrow">{escape(data["press"]["eyebrow"])}</span>',
+        f'            <span class="press-feature-title" id="press-feature-title">{escape(data["press"]["label"])} <span aria-hidden="true">→</span></span>',
+        f'            <span class="press-feature-copy">{escape(data["press"]["description"])}</span>',
+        f'            <span class="press-feature-publishers">{escape(publishers)}</span>',
+        '          </a>',
+        '        </div>',
+        f'        <h3 class="app-reviews-label">{escape(data["reviews_label"])}</h3>',
+        '        <div class="app-review-grid">',
+    ]
+    # Pair the longest and shortest reviews in the first column; the other
+    # two balance the second. Each column flows without empty grid-row space.
+    # For these four records this also preserves newest-first mobile order.
+    ordered = sorted(data["reviews"], key=lambda review: len(review["body"]), reverse=True)
+    columns = ((ordered[0], ordered[-1]), (ordered[1], ordered[-2]))
+    for column in columns:
+        lines.append('          <div class="app-review-column">')
+        for review in column:
+            lines.extend(review_card(review))
+        lines.append('          </div>')
+    lines.extend([
+        '        </div>',
+        '      </div>',
+        '    </section>',
+        '    <!-- generated:app-store-reviews:end -->',
+    ])
+    return "\n".join(lines)
+
+
+def sync_reviews(text, section, prefix):
+    pattern = r'    <!-- generated:app-store-reviews:start -->.*?    <!-- generated:app-store-reviews:end -->'
+    if re.search(pattern, text, re.S):
+        text = re.sub(pattern, lambda match: section, text, flags=re.S)
+    else:
+        if text.count('  <main>') != 1:
+            raise ValueError("Expected one main element for App Store reviews")
+        text = text.replace('  <main>', '  <main>\n' + section, 1)
+    stylesheet = f'  <link rel="stylesheet" href="{prefix}reviews.css?v=20261006-cohesive">'
+    if re.search(r'<link\b[^>]*href="[^"]*reviews\.css[^>]*>', text):
+        text = re.sub(r'  <link\b[^>]*href="[^"]*reviews\.css[^>]*>', stylesheet, text)
+    else:
+        text = text.replace('</head>', stylesheet + '\n</head>', 1)
+    return text
+
+
 def desired_files(now):
     facts = json.loads(FACTS_PATH.read_text(encoding="utf-8"))
     product_claims = facts["product_claims"]
@@ -111,6 +185,7 @@ def desired_files(now):
     state = "active" if now.astimezone(timezone.utc) < expires_at.astimezone(timezone.utc) else "expired"
 
     desired = {}
+    reviews = json.loads(REVIEWS_PATH.read_text(encoding="utf-8"))
     config = CONFIG_PATH.read_text(encoding="utf-8")
     config = generated_block(config, "product-claims", js_declaration("productClaims", product_claims))
     campaign = facts["app_store_campaign"]
@@ -155,6 +230,10 @@ def desired_files(now):
             continue
         html = path.read_text(encoding="utf-8")
         updated = replace_data_copy(html, "data-claim-copy", product_claims)
+        relative = path.relative_to(ROOT)
+        if relative.as_posix() in REVIEW_PAGES:
+            prefix = '../' * (len(relative.parts) - 1)
+            updated = sync_reviews(updated, review_section(reviews, prefix), prefix)
         def update_campaign(match):
             anchor = match.group(0)
             href = re.search(r'\bhref="([^"]+)"', anchor)
