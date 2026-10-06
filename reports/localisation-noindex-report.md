@@ -1,6 +1,6 @@
 # Localisation Indexability and Copy Report
 
-Generated: 2026-10-06T01:26:12+00:00
+Generated: 2026-10-06T01:45:31+00:00
 
 Indexable sitemap URLs: 1386
 Translation-based noindex restrictions: none
