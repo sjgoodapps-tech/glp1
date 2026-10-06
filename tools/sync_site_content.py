@@ -169,7 +169,7 @@ def sync_reviews(text, section, prefix):
         if text.count('  <main>') != 1:
             raise ValueError("Expected one main element for App Store reviews")
         text = text.replace('  <main>', '  <main>\n' + section, 1)
-    stylesheet = f'  <link rel="stylesheet" href="{prefix}reviews.css?v=20261006-cohesive">'
+    stylesheet = f'  <link rel="stylesheet" href="{prefix}reviews.css?v=20261006-cohesive-r2">'
     if re.search(r'<link\b[^>]*href="[^"]*reviews\.css[^>]*>', text):
         text = re.sub(r'  <link\b[^>]*href="[^"]*reviews\.css[^>]*>', stylesheet, text)
     else:

@@ -138,7 +138,7 @@ def transform(path, text):
     text = re.sub(r'(site-(?:config|cta|preflight)\.js)(?:\?v=[^"\s<>]+)?', r'\1?v=20260920-oneglp-conversion', text)
     if 'data-claim-copy="proofDownloads"' in text:
         text = text.replace('site-config.js?v=20260920-oneglp-conversion',
-                            'site-config.js?v=20261006-social-proof')
+                            'site-config.js?v=20261006-social-proof-r2')
     text = re.sub(r'styles\.css(?:\?v=[^"\s<>]+)?', 'styles.css?v=20260920-screens-v5-header-20261002', text)
     end = HeaderEnd(text).end
     if end is None:
