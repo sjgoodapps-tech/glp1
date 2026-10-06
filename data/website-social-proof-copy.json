@@ -1,5 +1,5 @@
 {
-  "review_status": "Context-checked translations; native-language review pending. All locales remain indexable.",
+  "review_status": "Agent-reviewed for meaning, grammar, regional terminology and UI context on 6 October 2026; native-speaker review not performed. All locales remain indexable.",
   "translator_context": {
     "scope": "Same owner-supplied worldwide downloads, explicitly labelled US and UK storefront ratings, and four original reviews on every locale homepage. Do not imply a local storefront rating or local origin of reviews.",
     "external_reviews": "Preserve original titles, bodies, language tags and ISO dates. No reviewer names, developer replies or invented star ratings.",
@@ -29,7 +29,7 @@
       "تم التحقق من التقييم في {date}.",
       "من 5",
       "اقرأ ما يقوله الآخرون عن OneGLP",
-      "مراجعات App Store وتغطية مستقلة لتطبيق OneGLP الخاص لتتبع GLP-1 على iPhone.",
+      "مراجعات App Store وتغطية مستقلة لتطبيق OneGLP لتتبع GLP-1 على iPhone مع التركيز على الخصوصية.",
       "أحدث مراجعات App Store",
       "تغطية مستقلة",
       "اقرأ تقارير ومقابلات عن تتبع GLP-1 في OneGLP مع إعطاء الأولوية للخصوصية.",
@@ -43,7 +43,7 @@
       "Оценката е проверена на {date}.",
       "от 5",
       "Прочетете какво казват другите за OneGLP",
-      "Отзиви в App Store и независими публикации за частния GLP-1 тракер за iPhone.",
+      "Отзиви в App Store и независими публикации за OneGLP — приложение за проследяване на GLP-1 за iPhone с фокус върху поверителността.",
       "Последни отзиви в App Store",
       "Независими публикации",
       "Прочетете статии и интервюта за GLP-1 проследяването в OneGLP с фокус върху поверителността.",
@@ -54,10 +54,10 @@
       "US App Store রেটিং",
       "UK App Store রেটিং",
       "বিশ্বজুড়ে একশোর বেশি 5-তারকা রেটিং",
-      "রেটিং যাচাই করা হয়েছে {date}।",
+      "{date} তারিখে রেটিং যাচাই করা হয়েছে।",
       "5-এর মধ্যে",
       "OneGLP সম্পর্কে অন্যদের মতামত পড়ুন",
-      "iPhone-এর ব্যক্তিগত GLP-1 ট্র্যাকার নিয়ে App Store পর্যালোচনা ও স্বাধীন প্রতিবেদন।",
+      "গোপনীয়তাকে অগ্রাধিকার দেওয়া iPhone-এর GLP-1 ট্র্যাকার OneGLP নিয়ে App Store পর্যালোচনা ও স্বাধীন প্রতিবেদন।",
       "সাম্প্রতিক App Store পর্যালোচনা",
       "স্বাধীন প্রতিবেদন",
       "OneGLP-এর গোপনীয়তাকে অগ্রাধিকার দেওয়া GLP-1 ট্র্যাকিং নিয়ে প্রতিবেদন ও সাক্ষাৎকার পড়ুন।",
@@ -71,7 +71,7 @@
       "Hodnocení ověřeno {date}.",
       "z 5",
       "Přečtěte si, co o OneGLP říkají ostatní",
-      "Recenze v App Store a nezávislé články o soukromém GLP-1 trackeru pro iPhone.",
+      "Recenze v App Store a nezávislé články o OneGLP, aplikaci pro sledování GLP-1 na iPhonu s důrazem na soukromí.",
       "Nejnovější recenze v App Store",
       "Nezávislé články",
       "Přečtěte si články a rozhovory o sledování GLP-1 v OneGLP s důrazem na soukromí.",
@@ -85,7 +85,7 @@
       "Bedømmelsen blev tjekket {date}.",
       "ud af 5",
       "Læs, hvad andre siger om OneGLP",
-      "App Store-anmeldelser og uafhængig omtale af den private GLP-1-tracker til iPhone.",
+      "App Store-anmeldelser og uafhængig omtale af OneGLP, GLP-1-trackeren til iPhone med privatliv i fokus.",
       "Seneste App Store-anmeldelser",
       "Uafhængig omtale",
       "Læs artikler og interviews om OneGLP og GLP-1-tracking med privatliv i fokus.",
@@ -99,10 +99,10 @@
       "Bewertung geprüft am {date}.",
       "von 5",
       "Lesen Sie, was andere über OneGLP sagen",
-      "App Store-Rezensionen und unabhängige Berichte über den privaten GLP-1-Tracker für iPhone.",
+      "App Store-Rezensionen und unabhängige Berichte über OneGLP, den GLP-1-Tracker für das iPhone mit Fokus auf Datenschutz.",
       "Aktuelle App Store-Rezensionen",
       "Unabhängige Berichte",
-      "Lesen Sie Berichte und Interviews über das GLP-1-Tracking mit OneGLP und seinen Fokus auf Datenschutz.",
+      "Lesen Sie Berichte und Interviews über OneGLP und das GLP-1-Tracking mit Fokus auf Datenschutz.",
       "Downloads und App Store-Bewertungen"
     ],
     "el": [
@@ -113,7 +113,7 @@
       "Η βαθμολογία ελέγχθηκε στις {date}.",
       "στα 5",
       "Διαβάστε τι λένε οι άλλοι για το OneGLP",
-      "Κριτικές στο App Store και ανεξάρτητα δημοσιεύματα για την ιδιωτική εφαρμογή παρακολούθησης GLP-1 για iPhone.",
+      "Κριτικές στο App Store και ανεξάρτητα δημοσιεύματα για το OneGLP, την εφαρμογή παρακολούθησης GLP-1 για iPhone με έμφαση στην ιδιωτικότητα.",
       "Πρόσφατες κριτικές στο App Store",
       "Ανεξάρτητα δημοσιεύματα",
       "Διαβάστε άρθρα και συνεντεύξεις για την παρακολούθηση GLP-1 στο OneGLP με έμφαση στην ιδιωτικότητα.",
@@ -155,7 +155,7 @@
       "Valoración comprobada el {date}.",
       "de 5",
       "Lee lo que otros dicen sobre OneGLP",
-      "Reseñas del App Store y artículos independientes sobre el registro privado de GLP-1 para iPhone.",
+      "Reseñas del App Store y artículos independientes sobre OneGLP, la app de seguimiento de GLP-1 para iPhone centrada en la privacidad.",
       "Reseñas recientes del App Store",
       "Cobertura independiente",
       "Lee artículos y entrevistas sobre el seguimiento de GLP-1 con OneGLP y su enfoque en la privacidad.",
@@ -169,7 +169,7 @@
       "Calificación verificada el {date}.",
       "de 5",
       "Lee lo que otros dicen sobre OneGLP",
-      "Reseñas del App Store y artículos independientes sobre el registro privado de GLP-1 para iPhone.",
+      "Reseñas del App Store y artículos independientes sobre OneGLP, la app de seguimiento de GLP-1 para iPhone centrada en la privacidad.",
       "Reseñas recientes del App Store",
       "Cobertura independiente",
       "Lee artículos y entrevistas sobre el seguimiento de GLP-1 con OneGLP y su enfoque en la privacidad.",
@@ -183,7 +183,7 @@
       "Hinnangut kontrolliti {date}.",
       "5-st",
       "Loe, mida teised OneGLP kohta ütlevad",
-      "App Store’i arvustused ja sõltumatud artiklid iPhone’i privaatsest GLP-1 jälgimisrakendusest.",
+      "App Store’i arvustused ja sõltumatud artiklid OneGLP kohta — privaatsusele keskenduv GLP-1 jälgimisrakendus iPhone’ile.",
       "Värsked App Store’i arvustused",
       "Sõltumatu kajastus",
       "Loe artikleid ja intervjuusid OneGLP privaatsusele keskenduva GLP-1 jälgimise kohta.",
@@ -197,7 +197,7 @@
       "Arvosana tarkistettu {date}.",
       "5:stä",
       "Lue, mitä muut sanovat OneGLP:stä",
-      "App Store -arvosteluja ja riippumattomia artikkeleita yksityisestä GLP-1-seurantasovelluksesta iPhonelle.",
+      "App Store -arvosteluja ja riippumattomia artikkeleita OneGLP:stä, yksityisyyttä painottavasta GLP-1-seurantasovelluksesta iPhonelle.",
       "Viimeisimmät App Store -arvostelut",
       "Riippumattomat julkaisut",
       "Lue artikkeleita ja haastatteluja OneGLP:n yksityisyyttä painottavasta GLP-1-seurannasta.",
@@ -211,7 +211,7 @@
       "Sinuri ang rating noong {date}.",
       "sa 5",
       "Basahin ang sinasabi ng iba tungkol sa OneGLP",
-      "Mga review sa App Store at independiyenteng artikulo tungkol sa pribadong GLP-1 tracker para sa iPhone.",
+      "Mga review sa App Store at independiyenteng artikulo tungkol sa OneGLP, ang GLP-1 tracker para sa iPhone na inuuna ang privacy.",
       "Mga pinakabagong review sa App Store",
       "Independiyenteng mga artikulo",
       "Basahin ang mga artikulo at panayam tungkol sa GLP-1 tracking ng OneGLP na inuuna ang privacy.",
@@ -225,7 +225,7 @@
       "Note vérifiée le {date}.",
       "sur 5",
       "Découvrez ce que les autres disent de OneGLP",
-      "Avis sur l’App Store et articles indépendants sur le suivi privé du GLP-1 pour iPhone.",
+      "Avis sur l’App Store et articles indépendants sur OneGLP, l’app de suivi GLP-1 pour iPhone axée sur la confidentialité.",
       "Avis récents sur l’App Store",
       "Articles indépendants",
       "Lisez des articles et des interviews sur le suivi du GLP-1 avec OneGLP et son approche axée sur la confidentialité.",
@@ -239,7 +239,7 @@
       "Note vérifiée le {date}.",
       "sur 5",
       "Découvrez ce que les autres disent de OneGLP",
-      "Avis sur l’App Store et articles indépendants sur le suivi privé du GLP-1 pour iPhone.",
+      "Avis sur l’App Store et articles indépendants sur OneGLP, l’app de suivi GLP-1 pour iPhone axée sur la confidentialité.",
       "Avis récents sur l’App Store",
       "Articles indépendants",
       "Lisez des articles et des interviews sur le suivi du GLP-1 avec OneGLP et son approche axée sur la confidentialité.",
@@ -253,10 +253,10 @@
       "રેટિંગની ચકાસણી {date}ના રોજ થઈ.",
       "5 માંથી",
       "OneGLP વિશે અન્ય લોકો શું કહે છે તે વાંચો",
-      "iPhone માટેના ખાનગી GLP-1 ટ્રૅકર વિશે App Store સમીક્ષાઓ અને સ્વતંત્ર લેખો.",
+      "ગોપનીયતાને પ્રાથમિકતા આપતા iPhone માટેના GLP-1 ટ્રૅકર OneGLP વિશે App Store સમીક્ષાઓ અને સ્વતંત્ર લેખો.",
       "તાજેતરની App Store સમીક્ષાઓ",
       "સ્વતંત્ર લેખો",
-      "OneGLPના ગોપનીયતાને પ્રાથમિકતા આપતા GLP-1 ટ્રૅકિંગ વિશે લેખો અને મુલાકાતો વાંચો.",
+      "OneGLPના ગોપનીયતાને પ્રાથમિકતા આપતા GLP-1 ટ્રૅકિંગ વિશે લેખો અને સાક્ષાત્કારો વાંચો.",
       "ડાઉનલોડ અને App Store રેટિંગ"
     ],
     "he": [
@@ -267,7 +267,7 @@
       "הדירוג נבדק בתאריך {date}.",
       "מתוך 5",
       "קראו מה אחרים אומרים על OneGLP",
-      "ביקורות ב-App Store וכתבות עצמאיות על מעקב GLP-1 פרטי ב-iPhone.",
+      "ביקורות ב-App Store וכתבות עצמאיות על OneGLP, אפליקציית מעקב GLP-1 ל-iPhone שמעמידה את הפרטיות במרכז.",
       "ביקורות אחרונות ב-App Store",
       "סיקור עצמאי",
       "קראו כתבות וראיונות על מעקב GLP-1 ב-OneGLP ועל הגישה שמציבה את הפרטיות במרכז.",
@@ -281,7 +281,7 @@
       "रेटिंग की जाँच {date} को की गई।",
       "5 में से",
       "पढ़ें कि लोग OneGLP के बारे में क्या कहते हैं",
-      "iPhone के निजी GLP-1 ट्रैकर के बारे में App Store समीक्षाएँ और स्वतंत्र लेख।",
+      "गोपनीयता को प्राथमिकता देने वाले iPhone के GLP-1 ट्रैकर OneGLP के बारे में App Store समीक्षाएँ और स्वतंत्र लेख।",
       "हाल की App Store समीक्षाएँ",
       "स्वतंत्र लेख",
       "OneGLP की गोपनीयता को प्राथमिकता देने वाली GLP-1 ट्रैकिंग पर लेख और साक्षात्कार पढ़ें।",
@@ -295,7 +295,7 @@
       "Ocjena provjerena {date}.",
       "od 5",
       "Pročitajte što drugi kažu o OneGLP-u",
-      "Recenzije u App Storeu i neovisni članci o privatnom GLP-1 trackeru za iPhone.",
+      "Recenzije u App Storeu i neovisni članci o OneGLP-u, aplikaciji za praćenje GLP-1 za iPhone s naglaskom na privatnost.",
       "Najnovije recenzije u App Storeu",
       "Neovisni članci",
       "Pročitajte članke i intervjue o GLP-1 praćenju u OneGLP-u s naglaskom na privatnost.",
@@ -323,7 +323,7 @@
       "Rating diperiksa pada {date}.",
       "dari 5",
       "Baca pendapat orang lain tentang OneGLP",
-      "Ulasan App Store dan artikel independen tentang pelacak GLP-1 pribadi untuk iPhone.",
+      "Ulasan App Store dan artikel independen tentang OneGLP, aplikasi pelacak GLP-1 untuk iPhone yang mengutamakan privasi.",
       "Ulasan App Store terbaru",
       "Liputan independen",
       "Baca artikel dan wawancara tentang pelacakan GLP-1 OneGLP yang mengutamakan privasi.",
@@ -337,10 +337,10 @@
       "Valutazione verificata il {date}.",
       "su 5",
       "Leggi cosa dicono gli altri di OneGLP",
-      "Recensioni sull’App Store e articoli indipendenti sul tracker GLP-1 privato per iPhone.",
+      "Recensioni sull’App Store e articoli indipendenti su OneGLP, il tracker GLP-1 per iPhone che mette la privacy al primo posto.",
       "Recensioni recenti sull’App Store",
       "Articoli indipendenti",
-      "Leggi articoli e interviste sul monitoraggio GLP-1 di OneGLP e il suo approccio alla privacy.",
+      "Leggi articoli e interviste sul monitoraggio GLP-1 di OneGLP e sul suo approccio alla privacy.",
       "Download e valutazioni sull’App Store"
     ],
     "ja": [
@@ -365,7 +365,7 @@
       "ರೇಟಿಂಗ್ ಪರಿಶೀಲಿಸಿದ ದಿನಾಂಕ: {date}.",
       "5 ರಲ್ಲಿ",
       "OneGLP ಬಗ್ಗೆ ಇತರರು ಏನು ಹೇಳುತ್ತಾರೆ ಎಂದು ಓದಿ",
-      "iPhoneಗಾಗಿ ಖಾಸಗಿ GLP-1 ಟ್ರ್ಯಾಕರ್ ಕುರಿತು App Store ವಿಮರ್ಶೆಗಳು ಮತ್ತು ಸ್ವತಂತ್ರ ಲೇಖನಗಳು.",
+      "ಗೌಪ್ಯತೆಗೆ ಆದ್ಯತೆ ನೀಡುವ iPhoneಗಾಗಿ GLP-1 ಟ್ರ್ಯಾಕರ್ OneGLP ಕುರಿತು App Store ವಿಮರ್ಶೆಗಳು ಮತ್ತು ಸ್ವತಂತ್ರ ಲೇಖನಗಳು.",
       "ಇತ್ತೀಚಿನ App Store ವಿಮರ್ಶೆಗಳು",
       "ಸ್ವತಂತ್ರ ಲೇಖನಗಳು",
       "OneGLPಯ ಗೌಪ್ಯತೆಗೆ ಆದ್ಯತೆ ನೀಡುವ GLP-1 ಟ್ರ್ಯಾಕಿಂಗ್ ಕುರಿತು ಲೇಖನಗಳು ಮತ್ತು ಸಂದರ್ಶನಗಳನ್ನು ಓದಿ.",
@@ -393,10 +393,10 @@
       "Įvertinimas patikrintas {date}.",
       "iš 5",
       "Skaitykite, ką kiti sako apie OneGLP",
-      "App Store atsiliepimai ir nepriklausomi straipsniai apie privatų GLP-1 sekimo įrankį iPhone.",
+      "App Store atsiliepimai ir nepriklausomi straipsniai apie OneGLP — iPhone skirtą GLP-1 stebėjimo programėlę, kurioje pirmenybė teikiama privatumui.",
       "Naujausi App Store atsiliepimai",
       "Nepriklausomi straipsniai",
-      "Skaitykite straipsnius ir interviu apie privatumą pabrėžiantį GLP-1 sekimą su OneGLP.",
+      "Skaitykite straipsnius ir interviu apie GLP-1 stebėjimą su OneGLP, kuriame pirmenybė teikiama privatumui.",
       "Atsisiuntimai ir App Store įvertinimai"
     ],
     "lv": [
@@ -407,7 +407,7 @@
       "Vērtējums pārbaudīts {date}.",
       "no 5",
       "Lasiet, ko citi saka par OneGLP",
-      "App Store atsauksmes un neatkarīgi raksti par privātu GLP-1 uzskaites lietotni iPhone.",
+      "App Store atsauksmes un neatkarīgi raksti par OneGLP — GLP-1 uzskaites lietotni iPhone, kurā prioritāte ir privātums.",
       "Jaunākās App Store atsauksmes",
       "Neatkarīgi raksti",
       "Lasiet rakstus un intervijas par OneGLP GLP-1 uzskaiti, kurā prioritāte ir privātums.",
@@ -421,7 +421,7 @@
       "റേറ്റിംഗ് പരിശോധിച്ച തീയതി: {date}.",
       "5-ൽ",
       "OneGLPയെക്കുറിച്ച് മറ്റുള്ളവർ പറയുന്നത് വായിക്കുക",
-      "iPhone-നുള്ള സ്വകാര്യ GLP-1 ട്രാക്കറിനെക്കുറിച്ചുള്ള App Store അവലോകനങ്ങളും സ്വതന്ത്ര ലേഖനങ്ങളും.",
+      "സ്വകാര്യതയ്ക്ക് മുൻഗണന നൽകുന്ന iPhone-നുള്ള GLP-1 ട്രാക്കറായ OneGLPയെക്കുറിച്ചുള്ള App Store അവലോകനങ്ങളും സ്വതന്ത്ര ലേഖനങ്ങളും.",
       "ഏറ്റവും പുതിയ App Store അവലോകനങ്ങൾ",
       "സ്വതന്ത്ര ലേഖനങ്ങൾ",
       "സ്വകാര്യതയ്ക്ക് മുൻഗണന നൽകുന്ന OneGLPയുടെ GLP-1 ട്രാക്കിംഗിനെക്കുറിച്ചുള്ള ലേഖനങ്ങളും അഭിമുഖങ്ങളും വായിക്കുക.",
@@ -435,8 +435,8 @@
       "रेटिंग तपासल्याची तारीख: {date}.",
       "5 पैकी",
       "OneGLP बद्दल इतर काय म्हणतात ते वाचा",
-      "iPhone साठीच्या खाजगी GLP-1 ट्रॅकरबद्दल App Store पुनरावलोकने आणि स्वतंत्र लेख.",
-      "अलीकडील App Store पुनरावलोकने",
+      "गोपनीयतेला प्राधान्य देणाऱ्या iPhone साठीच्या GLP-1 ट्रॅकर OneGLPबद्दल App Store समीक्षणे आणि स्वतंत्र लेख.",
+      "अलीकडील App Store समीक्षणे",
       "स्वतंत्र लेख",
       "OneGLPच्या गोपनीयतेला प्राधान्य देणाऱ्या GLP-1 ट्रॅकिंगबद्दल लेख आणि मुलाखती वाचा.",
       "डाउनलोड आणि App Store रेटिंग"
@@ -449,7 +449,7 @@
       "Penilaian disemak pada {date}.",
       "daripada 5",
       "Baca pendapat orang lain tentang OneGLP",
-      "Ulasan App Store dan artikel bebas tentang penjejak GLP-1 peribadi untuk iPhone.",
+      "Ulasan App Store dan artikel bebas tentang OneGLP, penjejak GLP-1 untuk iPhone yang mengutamakan privasi.",
       "Ulasan App Store terkini",
       "Liputan bebas",
       "Baca artikel dan temu bual tentang penjejakan GLP-1 OneGLP yang mengutamakan privasi.",
@@ -463,7 +463,7 @@
       "Vurderingen ble kontrollert {date}.",
       "av 5",
       "Les hva andre sier om OneGLP",
-      "App Store-anmeldelser og uavhengige artikler om den private GLP-1-sporingsappen for iPhone.",
+      "App Store-anmeldelser og uavhengige artikler om OneGLP, GLP-1-sporingsappen for iPhone med personvern i fokus.",
       "Nyeste App Store-anmeldelser",
       "Uavhengig omtale",
       "Les artikler og intervjuer om OneGLPs GLP-1-sporing med personvern i fokus.",
@@ -477,7 +477,7 @@
       "Beoordeling gecontroleerd op {date}.",
       "van 5",
       "Lees wat anderen over OneGLP zeggen",
-      "App Store-reviews en onafhankelijke artikelen over de privé GLP-1-tracker voor iPhone.",
+      "App Store-reviews en onafhankelijke artikelen over OneGLP, de GLP-1-tracker voor iPhone met privacy als uitgangspunt.",
       "Recente App Store-reviews",
       "Onafhankelijke berichtgeving",
       "Lees artikelen en interviews over OneGLP en GLP-1-tracking met privacy als uitgangspunt.",
@@ -491,7 +491,7 @@
       "ରେଟିଂ ଯାଞ୍ଚ ତାରିଖ: {date}।",
       "5ରୁ",
       "OneGLP ବିଷୟରେ ଅନ୍ୟମାନେ କ’ଣ କହୁଛନ୍ତି ପଢ଼ନ୍ତୁ",
-      "iPhone ପାଇଁ ବ୍ୟକ୍ତିଗତ GLP-1 ଟ୍ରାକର୍ ବିଷୟରେ App Store ସମୀକ୍ଷା ଓ ସ୍ୱାଧୀନ ଲେଖା।",
+      "ଗୋପନୀୟତାକୁ ପ୍ରାଥମିକତା ଦେଉଥିବା iPhone ପାଇଁ GLP-1 ଟ୍ରାକର୍ OneGLP ବିଷୟରେ App Store ସମୀକ୍ଷା ଓ ସ୍ୱାଧୀନ ଲେଖା।",
       "ସାମ୍ପ୍ରତିକ App Store ସମୀକ୍ଷା",
       "ସ୍ୱାଧୀନ ଲେଖା",
       "ଗୋପନୀୟତାକୁ ପ୍ରାଥମିକତା ଦେଉଥିବା OneGLPର GLP-1 ଟ୍ରାକିଂ ବିଷୟରେ ଲେଖା ଓ ସାକ୍ଷାତକାର ପଢ଼ନ୍ତୁ।",
@@ -505,7 +505,7 @@
       "ਰੇਟਿੰਗ ਦੀ ਜਾਂਚ ਦੀ ਤਾਰੀਖ: {date}।",
       "5 ਵਿੱਚੋਂ",
       "OneGLP ਬਾਰੇ ਹੋਰਾਂ ਦੇ ਵਿਚਾਰ ਪੜ੍ਹੋ",
-      "iPhone ਲਈ ਨਿੱਜੀ GLP-1 ਟ੍ਰੈਕਰ ਬਾਰੇ App Store ਸਮੀਖਿਆਵਾਂ ਅਤੇ ਸੁਤੰਤਰ ਲੇਖ।",
+      "ਗੋਪਨੀਯਤਾ ਨੂੰ ਪਹਿਲ ਦੇਣ ਵਾਲੇ iPhone ਲਈ GLP-1 ਟ੍ਰੈਕਰ OneGLP ਬਾਰੇ App Store ਸਮੀਖਿਆਵਾਂ ਅਤੇ ਸੁਤੰਤਰ ਲੇਖ।",
       "ਹਾਲੀਆ App Store ਸਮੀਖਿਆਵਾਂ",
       "ਸੁਤੰਤਰ ਲੇਖ",
       "OneGLP ਦੀ ਗੋਪਨੀਯਤਾ ਨੂੰ ਪਹਿਲ ਦੇਣ ਵਾਲੀ GLP-1 ਟ੍ਰੈਕਿੰਗ ਬਾਰੇ ਲੇਖ ਅਤੇ ਇੰਟਰਵਿਊ ਪੜ੍ਹੋ।",
@@ -519,7 +519,7 @@
       "Ocena sprawdzona {date}.",
       "na 5",
       "Przeczytaj, co inni mówią o OneGLP",
-      "Opinie w App Store i niezależne artykuły o prywatnym trackerze GLP-1 na iPhone’a.",
+      "Opinie w App Store i niezależne artykuły o OneGLP, aplikacji do śledzenia GLP-1 na iPhone’a z naciskiem na prywatność.",
       "Najnowsze opinie w App Store",
       "Niezależne publikacje",
       "Przeczytaj artykuły i wywiady o śledzeniu GLP-1 w OneGLP z naciskiem na prywatność.",
@@ -533,25 +533,25 @@
       "Nota verificada em {date}.",
       "de 5",
       "Leia o que outras pessoas dizem sobre o OneGLP",
-      "Avaliações na App Store e artigos independentes sobre o rastreador privado de GLP-1 para iPhone.",
+      "Avaliações na App Store e artigos independentes sobre o OneGLP, o app de acompanhamento de GLP-1 para iPhone que prioriza a privacidade.",
       "Avaliações recentes na App Store",
       "Cobertura independente",
-      "Leia artigos e entrevistas sobre o acompanhamento de GLP-1 no OneGLP e sua prioridade à privacidade.",
+      "Leia artigos e entrevistas sobre o acompanhamento de GLP-1 no OneGLP, que prioriza a privacidade.",
       "Downloads e notas na App Store"
     ],
     "pt-pt": [
-      "descargas",
+      "transferências",
       "Classificação na App Store dos EUA",
       "Classificação na App Store do Reino Unido",
       "Mais de cem avaliações de 5 estrelas em todo o mundo",
       "Classificação verificada em {date}.",
       "em 5",
       "Leia o que outras pessoas dizem sobre o OneGLP",
-      "Avaliações na App Store e artigos independentes sobre o registo privado de GLP-1 para iPhone.",
+      "Avaliações na App Store e artigos independentes sobre o OneGLP, a app de acompanhamento de GLP-1 para iPhone que dá prioridade à privacidade.",
       "Avaliações recentes na App Store",
       "Cobertura independente",
-      "Leia artigos e entrevistas sobre o acompanhamento de GLP-1 no OneGLP e a sua prioridade à privacidade.",
-      "Descargas e classificações na App Store"
+      "Leia artigos e entrevistas sobre o acompanhamento de GLP-1 no OneGLP, que dá prioridade à privacidade.",
+      "Transferências e classificações na App Store"
     ],
     "ro": [
       "descărcări",
@@ -561,7 +561,7 @@
       "Evaluare verificată la {date}.",
       "din 5",
       "Citește ce spun alții despre OneGLP",
-      "Recenzii din App Store și articole independente despre aplicația privată de urmărire GLP-1 pentru iPhone.",
+      "Recenzii din App Store și articole independente despre OneGLP, aplicația de urmărire GLP-1 pentru iPhone care pune confidențialitatea pe primul loc.",
       "Recenzii recente din App Store",
       "Articole independente",
       "Citește articole și interviuri despre urmărirea GLP-1 în OneGLP și accentul pus pe confidențialitate.",
@@ -575,7 +575,7 @@
       "Оценка проверена {date}.",
       "из 5",
       "Прочитайте, что другие говорят об OneGLP",
-      "Отзывы в App Store и независимые статьи о приватном GLP-1-трекере для iPhone.",
+      "Отзывы в App Store и независимые статьи об OneGLP — GLP-1-трекере для iPhone с акцентом на конфиденциальность.",
       "Последние отзывы в App Store",
       "Независимые публикации",
       "Прочитайте статьи и интервью о GLP-1-трекинге в OneGLP с акцентом на конфиденциальность.",
@@ -589,7 +589,7 @@
       "Hodnotenie overené {date}.",
       "z 5",
       "Prečítajte si, čo o OneGLP hovoria ostatní",
-      "Recenzie v App Store a nezávislé články o súkromnom GLP-1 trackeri pre iPhone.",
+      "Recenzie v App Store a nezávislé články o OneGLP, aplikácii na sledovanie GLP-1 pre iPhone s dôrazom na súkromie.",
       "Najnovšie recenzie v App Store",
       "Nezávislé články",
       "Prečítajte si články a rozhovory o sledovaní GLP-1 v OneGLP s dôrazom na súkromie.",
@@ -603,8 +603,8 @@
       "Ocena preverjena {date}.",
       "od 5",
       "Preberite, kaj drugi pravijo o OneGLP",
-      "Ocene v App Store in neodvisni članki o zasebnem GLP-1 sledilniku za iPhone.",
-      "Najnovejše ocene v App Store",
+      "Mnenja v App Store in neodvisni članki o OneGLP, aplikaciji za sledenje GLP-1 za iPhone s poudarkom na zasebnosti.",
+      "Najnovejša mnenja v App Store",
       "Neodvisni članki",
       "Preberite članke in intervjuje o sledenju GLP-1 v OneGLP s poudarkom na zasebnosti.",
       "Prenosi in ocene v App Store"
@@ -617,7 +617,7 @@
       "Оцена проверена {date}.",
       "од 5",
       "Прочитајте шта други кажу о OneGLP-у",
-      "Рецензије у App Store-у и независни чланци о приватном GLP-1 праћењу за iPhone.",
+      "Рецензије у App Store-у и независни чланци о OneGLP-у, апликацији за GLP-1 праћење за iPhone са нагласком на приватност.",
       "Најновије рецензије у App Store-у",
       "Независни чланци",
       "Прочитајте чланке и интервјуе о GLP-1 праћењу у OneGLP-у са нагласком на приватност.",
@@ -631,7 +631,7 @@
       "Betyget kontrollerades {date}.",
       "av 5",
       "Läs vad andra säger om OneGLP",
-      "App Store-recensioner och oberoende artiklar om den privata GLP-1-spårningsappen för iPhone.",
+      "App Store-recensioner och oberoende artiklar om OneGLP, GLP-1-spårningsappen för iPhone med integritet i fokus.",
       "Senaste App Store-recensionerna",
       "Oberoende artiklar",
       "Läs artiklar och intervjuer om OneGLP och GLP-1-spårning med integritet i fokus.",
@@ -645,7 +645,7 @@
       "மதிப்பீடு சரிபார்க்கப்பட்ட தேதி: {date}.",
       "5-இல்",
       "OneGLP பற்றி மற்றவர்கள் சொல்வதைப் படியுங்கள்",
-      "iPhone-க்கான தனிப்பட்ட GLP-1 பதிவுச் செயலி பற்றிய App Store விமர்சனங்களும் சுயாதீனக் கட்டுரைகளும்.",
+      "தனியுரிமைக்கு முன்னுரிமை அளிக்கும் iPhone-க்கான GLP-1 பதிவுச் செயலியான OneGLP பற்றிய App Store விமர்சனங்களும் சுயாதீனக் கட்டுரைகளும்.",
       "சமீபத்திய App Store விமர்சனங்கள்",
       "சுயாதீனக் கட்டுரைகள்",
       "தனியுரிமைக்கு முன்னுரிமை அளிக்கும் OneGLP-யின் GLP-1 பதிவுகள் பற்றிய கட்டுரைகளையும் நேர்காணல்களையும் படியுங்கள்.",
@@ -659,7 +659,7 @@
       "రేటింగ్ తనిఖీ చేసిన తేదీ: {date}.",
       "5లో",
       "OneGLP గురించి ఇతరుల అభిప్రాయాలను చదవండి",
-      "iPhone కోసం వ్యక్తిగత GLP-1 ట్రాకర్ గురించి App Store సమీక్షలు మరియు స్వతంత్ర కథనాలు.",
+      "గోప్యతకు ప్రాధాన్యత ఇచ్చే iPhone కోసం GLP-1 ట్రాకర్ OneGLP గురించి App Store సమీక్షలు మరియు స్వతంత్ర కథనాలు.",
       "ఇటీవలి App Store సమీక్షలు",
       "స్వతంత్ర కథనాలు",
       "గోప్యతకు ప్రాధాన్యత ఇచ్చే OneGLP యొక్క GLP-1 ట్రాకింగ్ గురించి కథనాలు మరియు ఇంటర్వ్యూలు చదవండి.",
@@ -701,7 +701,7 @@
       "Оцінку перевірено {date}.",
       "із 5",
       "Прочитайте, що інші кажуть про OneGLP",
-      "Відгуки в App Store та незалежні статті про приватний GLP-1 трекер для iPhone.",
+      "Відгуки в App Store та незалежні статті про OneGLP — GLP-1-трекер для iPhone з акцентом на конфіденційність.",
       "Останні відгуки в App Store",
       "Незалежні публікації",
       "Прочитайте статті й інтерв’ю про відстеження GLP-1 у OneGLP з акцентом на конфіденційність.",
@@ -715,7 +715,7 @@
       "درجہ بندی کی جانچ {date} کو کی گئی۔",
       "5 میں سے",
       "پڑھیں کہ دوسرے OneGLP کے بارے میں کیا کہتے ہیں",
-      "iPhone کے نجی GLP-1 ٹریکر کے بارے میں App Store کے جائزے اور آزاد مضامین۔",
+      "رازداری کو ترجیح دینے والے iPhone کے GLP-1 ٹریکر OneGLP کے بارے میں App Store کے جائزے اور آزاد مضامین۔",
       "App Store کے تازہ ترین جائزے",
       "آزاد مضامین",
       "OneGLP کی رازداری کو ترجیح دینے والی GLP-1 ٹریکنگ کے بارے میں مضامین اور انٹرویوز پڑھیں۔",
@@ -729,10 +729,10 @@
       "Đánh giá được kiểm tra ngày {date}.",
       "trên 5",
       "Đọc những gì người khác nói về OneGLP",
-      "Đánh giá trên App Store và các bài viết độc lập về ứng dụng theo dõi GLP-1 riêng tư cho iPhone.",
+      "Đánh giá trên App Store và các bài viết độc lập về OneGLP, ứng dụng theo dõi GLP-1 cho iPhone chú trọng quyền riêng tư.",
       "Đánh giá gần đây trên App Store",
       "Bài viết độc lập",
-      "Đọc các bài viết và phỏng vấn về việc theo dõi GLP-1 với OneGLP và ưu tiên quyền riêng tư.",
+      "Đọc các bài viết và phỏng vấn về OneGLP và việc theo dõi GLP-1 với quyền riêng tư được đặt lên hàng đầu.",
       "Lượt tải và đánh giá trên App Store"
     ],
     "zh-hans": [
@@ -792,6 +792,221 @@
       "ਅਕਤੂਬਰ",
       "ਨਵੰਬਰ",
       "ਦਸੰਬਰ"
+    ]
+  },
+  "copy_review": {
+    "reviewed_on": "2026-10-06",
+    "reviewer_type": "AI coding agent",
+    "native_speaker_review": false,
+    "scope": "The 12 social-proof and review-section UI strings in each of the 53 published locales; not a native-language audit of the entire website.",
+    "locales_reviewed": [
+      "ar",
+      "bg",
+      "bn",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "en",
+      "en-gb",
+      "es-es",
+      "es-mx",
+      "et",
+      "fi",
+      "fil",
+      "fr",
+      "fr-ca",
+      "gu",
+      "he",
+      "hi",
+      "hr",
+      "hu",
+      "id",
+      "it",
+      "ja",
+      "kn",
+      "ko",
+      "lt",
+      "lv",
+      "ml",
+      "mr",
+      "ms",
+      "nb",
+      "nl",
+      "or",
+      "pa",
+      "pl",
+      "pt-br",
+      "pt-pt",
+      "ro",
+      "ru",
+      "sk",
+      "sl",
+      "sr",
+      "sv",
+      "ta",
+      "te",
+      "th",
+      "tr",
+      "uk",
+      "ur",
+      "vi",
+      "zh-hans",
+      "zh-hant"
+    ],
+    "corrected_fields": {
+      "ar": [
+        "description"
+      ],
+      "bg": [
+        "description"
+      ],
+      "bn": [
+        "description",
+        "checked"
+      ],
+      "cs": [
+        "description"
+      ],
+      "da": [
+        "description"
+      ],
+      "de": [
+        "description",
+        "pressDescription"
+      ],
+      "el": [
+        "description"
+      ],
+      "es-es": [
+        "description"
+      ],
+      "es-mx": [
+        "description"
+      ],
+      "et": [
+        "description"
+      ],
+      "fi": [
+        "description"
+      ],
+      "fil": [
+        "description"
+      ],
+      "fr": [
+        "description"
+      ],
+      "fr-ca": [
+        "description"
+      ],
+      "gu": [
+        "description",
+        "pressDescription"
+      ],
+      "he": [
+        "description"
+      ],
+      "hi": [
+        "description"
+      ],
+      "hr": [
+        "description"
+      ],
+      "id": [
+        "description"
+      ],
+      "it": [
+        "description",
+        "pressDescription"
+      ],
+      "kn": [
+        "description"
+      ],
+      "lt": [
+        "description",
+        "pressDescription"
+      ],
+      "lv": [
+        "description"
+      ],
+      "ml": [
+        "description"
+      ],
+      "mr": [
+        "description",
+        "reviewsLabel"
+      ],
+      "ms": [
+        "description"
+      ],
+      "nb": [
+        "description"
+      ],
+      "nl": [
+        "description"
+      ],
+      "or": [
+        "description"
+      ],
+      "pa": [
+        "description"
+      ],
+      "pl": [
+        "description"
+      ],
+      "pt-br": [
+        "description",
+        "pressDescription"
+      ],
+      "pt-pt": [
+        "description",
+        "downloads",
+        "proofLabel",
+        "pressDescription"
+      ],
+      "ro": [
+        "description"
+      ],
+      "ru": [
+        "description"
+      ],
+      "sk": [
+        "description"
+      ],
+      "sl": [
+        "description",
+        "reviewsLabel"
+      ],
+      "sr": [
+        "description"
+      ],
+      "sv": [
+        "description"
+      ],
+      "ta": [
+        "description"
+      ],
+      "te": [
+        "description"
+      ],
+      "uk": [
+        "description"
+      ],
+      "ur": [
+        "description"
+      ],
+      "vi": [
+        "description",
+        "pressDescription"
+      ]
+    },
+    "criteria": [
+      "Distinguish US and UK storefront ratings from worldwide download and five-star rating totals.",
+      "Keep more than one hundred five-star ratings distinct from written reviews or local-store ratings.",
+      "Describe privacy as a design priority, not private ownership of the tracker.",
+      "Use regional rating terminology and natural grammar in owned copy.",
+      "Preserve review quotations, source languages, dates, publisher names and article titles unchanged.",
+      "Keep rating-check dates separate from review publication dates."
     ]
   }
 }
