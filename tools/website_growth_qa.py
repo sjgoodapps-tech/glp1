@@ -83,7 +83,7 @@ class WebsiteGrowthQA(unittest.TestCase):
             self.assertIn(f'{locale}/medical-safety.html', paths)
 
     def test_english_link_preserves_page(self):
-        for rel, target in [('ar/privacy.html', '../privacy.html'), ('index.html', 'index.html'), ('free-lifetime/index.html', '../free-lifetime/index.html')]:
+        for rel, target in [('ar/privacy.html', '../privacy.html'), ('index.html', './'), ('free-lifetime/index.html', './')]:
             result = corrected_html(rel, '<a href="../en/index.html" data-language-option="en">English</a>')
             self.assertIn(f'href="{target}"', result)
 

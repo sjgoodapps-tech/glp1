@@ -9,6 +9,8 @@ from pathlib import Path
 from localisation_qa import LOCALE_DIRS, locale_for
 from sync_site_content import replace_data_copy
 from press_content import sync_links as sync_press_links
+from canonical_links import canonicalize_links
+from search_content import sync_search_content
 
 ROOT = Path(__file__).resolve().parents[1]
 COPY = json.loads((ROOT / "data/website-copy.json").read_text(encoding="utf-8"))
@@ -98,7 +100,12 @@ def corrected_html(rel, text):
     for key in current_keys:
         text = re.sub(r'<a\b(?=[^>]*data-i18n="' + re.escape(key) + r'")[^>]*>',
                       lambda m: re.sub(r'href="[^"]*"', f'href="{page}"', m[0]), text)
-    return sync_press_links(rel, text)
+    if rel == 'index.html' and 'data-language-directory' not in text:
+        # The complete language directory must be reachable from a crawlable page.
+        text = re.sub(r'(<p\b[^>]*class="[^"]*footer-links[^>]*>.*?)(</p>)',
+                      lambda m: m[1] + ' · <a href="languages.html" data-language-directory>Languages</a>' + m[2],
+                      text, count=1, flags=re.S)
+    return canonicalize_links(rel, sync_search_content(rel, sync_press_links(rel, text)))
 
 
 def nest_key(key, value):

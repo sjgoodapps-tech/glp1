@@ -7,6 +7,7 @@ import json
 import os
 from pathlib import Path
 import re
+from press_content import sync_links as sync_press_links
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = json.loads((ROOT / 'data/rebrand.json').read_text())
@@ -109,8 +110,8 @@ class HeaderEnd(HTMLParser):
 
 def transform(path, text):
     rel = path.relative_to(ROOT)
-    if rel.name == 'index.html' and rel.parent.name == REBRAND_PAGE['slug']:
-        # Historical names on these pages are maintained by build_rebrand_pages.py.
+    if rel.name == 'index.html' and rel.parent.name in {REBRAND_PAGE['slug'], 'press'}:
+        # History and original editorial titles are maintained by their builders.
         return text
     locale = rel.parts[0] if rel.parts[0] in DATA['notices'] else 'en'
     # The owner confirmed an individual publisher, not a GLPzy trading entity.
@@ -140,6 +141,9 @@ def transform(path, text):
         text = text.replace('site-config.js?v=20260920-oneglp-conversion',
                             'site-config.js?v=20261006-social-proof-r2')
     text = re.sub(r'styles\.css(?:\?v=[^"\s<>]+)?', 'styles.css?v=20260920-screens-v5-header-20261002', text)
+    if 'data-private-workflow-cards' in text:
+        text = text.replace('styles.css?v=20260920-screens-v5-header-20261002',
+                            'styles.css?v=20261007-search-discovery')
     end = HeaderEnd(text).end
     if end is None:
         raise ValueError(f'No topbar in {rel}')
@@ -154,7 +158,9 @@ def transform(path, text):
     notice = f'<p class="rebrand-notice" data-i18n="site.rebrand.notice">{message}</p>'
     if rel.as_posix() in ('support.html', 'en/support.html', 'en-gb/support.html'):
         notice += '<p class="rebrand-continuity" data-i18n="site.rebrand.continuity">' + html.escape(DATA['continuity']) + '</p>'
-    return text[:end] + notice + text[end:]
+    # Restore the intentional former-name reference in the Press context after
+    # updating display branding elsewhere.
+    return sync_press_links(rel.as_posix(), text[:end] + notice + text[end:])
 
 
 def main():

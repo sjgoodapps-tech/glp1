@@ -70,7 +70,11 @@ def main():
             assert robots.can_fetch(bot, page_url(locale)), (bot, locale)
         home = ROOT / ('' if locale == 'en' else locale) / 'index.html'
         links = [a for t, a in Page(home.read_text()).tags if t == 'a' and 'data-rebrand-link' in a]
-        assert len(links) == 1 and (home.parent / links[0]['href']).resolve() == path.resolve(), locale
+        assert len(links) == 1, locale
+        target = (home.parent / links[0]['href']).resolve()
+        if target.is_dir():
+            target /= 'index.html'
+        assert target == path.resolve(), locale
     print(f'PASS: {len(DATA["translations"])} static translated rebrand pages; matching copy/schema, same app ID, crawl permission, campaign CTAs, homepage links and no runtime dependency.')
 
 

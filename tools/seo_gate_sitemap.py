@@ -8,6 +8,7 @@ from html import escape
 from pathlib import Path
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
+from canonical_links import canonicalize_links
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = json.loads((ROOT / "data" / "product-facts.json").read_text(encoding="utf-8"))["site_url"].rstrip("/")
@@ -333,6 +334,7 @@ def index_and_canonicalise():
         html = set_canonical(html, canonical)
         html = migrate_schema_hosts(html)
         html = migrate_social_image_hosts(html)
+        html = canonicalize_links(rp, html)
         if path.read_text(encoding="utf-8") != html:
             path.write_text(html, encoding="utf-8")
         if reasons:

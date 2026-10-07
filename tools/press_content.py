@@ -6,6 +6,7 @@ from datetime import date
 from html import escape
 from pathlib import Path
 from urllib.parse import urlsplit
+from canonical_links import canonicalize_links
 
 from seo_gate_sitemap import LOCALE_DIRS, ROOT, SITE, locale_for, url_for_path
 
@@ -113,7 +114,7 @@ def sync_links(relative, html):
             html = html.replace('<p class="name-safety">', markup + '\n      <p class="name-safety">', 1)
         else:
             html = html.replace('</main>', '<div class="shell">' + markup + '</div></main>', 1)
-    return html
+    return canonicalize_links(relative, html)
 
 
 def article_markup(locale, article):

@@ -1,10 +1,10 @@
 # Localisation Indexability and Copy Report
 
-Generated: 2026-10-06T01:55:03+00:00
+Generated: 2026-10-07T20:09:39+00:00
 
 Indexable sitemap URLs: 1386
 Translation-based noindex restrictions: none
-Pages with copy warnings or canonical notes: 341
+Pages with copy warnings or canonical notes: 339
 Documented native reviews (not an indexing gate): none
 
 ## Canonical Decision
@@ -663,12 +663,8 @@ All other published translations have self-canonicals, sitemap entries and recip
   - locale commercial page lacks upgraded answer/facts module
 - `vi/apple-health-glp-tracker.html` -> canonical `https://oneglp.app/vi/apple-health-glp-tracker.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/local-first-private-glp-tracker.html` -> canonical `https://oneglp.app/vi/local-first-private-glp-tracker.html`
-  - wrong order wording: đơn hàng
 - `vi/mounjaro-tracker-iphone.html` -> canonical `https://oneglp.app/vi/mounjaro-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
-- `vi/privacy.html` -> canonical `https://oneglp.app/vi/privacy.html`
-  - wrong order wording: đơn hàng
 - `vi/semaglutide-tracker-iphone.html` -> canonical `https://oneglp.app/vi/semaglutide-tracker-iphone.html`
   - locale commercial page lacks upgraded answer/facts module
 - `vi/tirzepatide-tracker-iphone.html` -> canonical `https://oneglp.app/vi/tirzepatide-tracker-iphone.html`

@@ -11,6 +11,7 @@ from build_rebrand_pages import render as render_history
 from press_content import (COPY, DATA, ROOT, SITE, RTL, article_markup, locale_of,
                            page_path, page_url, relative_link, sync_links, ui_text, validate_data)
 from seo_gate_sitemap import hreflang_clusters, set_hreflang
+from canonical_links import canonicalize_links
 
 
 def render(locale, duplicate=False, articles=None):
@@ -84,7 +85,7 @@ def render(locale, duplicate=False, articles=None):
     paths = [ROOT / page_path(key) for key in COPY]
     # Match the central SEO pass's whitespace normalisation for optional fields.
     html = '\n'.join(line.rstrip() for line in html.splitlines()) + '\n'
-    return set_hreflang(html, hreflang_clusters(paths)[DATA['slug'] + '/index.html'])
+    return canonicalize_links(path.as_posix(), set_hreflang(html, hreflang_clusters(paths)[DATA['slug'] + '/index.html']))
 
 
 def main():
