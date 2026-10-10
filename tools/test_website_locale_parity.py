@@ -98,6 +98,30 @@ class LocaleParityTests(unittest.TestCase):
         )
         self.assertEqual(html, sync_search_content("es-es/privacy.html", html))
 
+    def test_spanish_critical_meaning_invariants(self):
+        root = Path(__file__).resolve().parents[1]
+        for locale in ("es-es", "es-mx"):
+            with self.subTest(locale=locale):
+                policy = (root / locale / "privacy.html").read_text(encoding="utf-8")
+                rights = (root / locale / "data-rights.html").read_text(encoding="utf-8")
+                safety = (root / locale / "medical-safety.html").read_text(encoding="utf-8")
+                terms = (root / locale / "terms.html").read_text(encoding="utf-8")
+                self.assertIn("24 meses", policy)
+                self.assertIn("12 meses", policy)
+                self.assertIn("artículo 9", policy)
+                self.assertIn("artículo 6", policy)
+                self.assertIn("Apple Health", rights)
+                self.assertIn("identidad", rights.lower())
+                self.assertIn("Trulicity se administra semanalmente", safety)
+                self.assertIn("concentración sanguínea", safety)
+                self.assertIn("no es una suscripción de renovación automática", terms)
+                self.assertIn("oneglp.app", terms)
+                self.assertNotIn("glpzy.app", terms)
+                for name in ("privacy.html", "data-rights.html", "terms.html",
+                             "medical-safety.html", "methodology.html", "support.html"):
+                    value = (root / locale / name).read_text(encoding="utf-8")
+                    self.assertIn(f'https://oneglp.app/{locale}/{name}', value)
+
     def test_fact_counts_not_declared_semantic_approval(self):
         v = facts('<main><section><h2>1. Example</h2><p>text</p></section></main>')
         self.assertEqual([1], v["numbered_headings"])
