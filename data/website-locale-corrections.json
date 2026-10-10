@@ -44,6 +44,17 @@
     "de": {
       "settings.tile.subscription.title": "Premium",
       "paywall.legal": "Lifetime Premium ist ein dauerhaft freigeschalteter Zugang ohne Abonnement oder Verlängerung. Das aktuelle Angebot und gegebenenfalls den Preis finden Sie im App Store."
+    },
+    "fr": {
+      "settings.tile.subscription.title": "Premium",
+      "history.export.title": "Droits sur vos données",
+      "paywall.legal": "Offre fondatrice : obtenez Lifetime Premium gratuitement jusqu’au 31 décembre 2026. Une fois activé, cet accès reste acquis, sans abonnement ni renouvellement. Consultez les conditions en vigueur dans l’App Store."
+    },
+    "fr-ca": {
+      "settings.tile.subscription.title": "Premium",
+      "history.export.title": "Droits sur vos renseignements personnels",
+      "site.card.control.title": "Exporter vos données",
+      "paywall.legal": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuitement d’ici le 31 décembre 2026. L’accès demeure permanent après activation, sans abonnement ni renouvellement. Vérifiez les modalités en vigueur dans l’App Store."
     }
   }
 }
