@@ -55,6 +55,16 @@
       "history.export.title": "Droits sur vos renseignements personnels",
       "site.card.control.title": "Exporter vos données",
       "paywall.legal": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuitement d’ici le 31 décembre 2026. L’accès demeure permanent après activation, sans abonnement ni renouvellement. Vérifiez les modalités en vigueur dans l’App Store."
+    },
+    "pt-pt": {
+      "settings.tile.subscription.title": "Premium",
+      "paywall.legal": "Oferta inicial: obtenha Lifetime Premium gratuitamente até 31 de dezembro de 2026 e mantenha o acesso para sempre. Sem subscrição nem renovação. Consulte a App Store para conhecer as condições aplicáveis.",
+      "site.nav.data-rights": "Direitos sobre os dados"
+    },
+    "pt-br": {
+      "settings.tile.subscription.title": "Premium",
+      "paywall.legal": "Oferta inicial: resgate o Lifetime Premium grátis até 31 de dezembro de 2026 e mantenha o acesso para sempre. Sem assinatura nem renovação. Consulte a App Store para ver as condições.",
+      "site.nav.data-rights": "Direitos sobre seus dados"
     }
   }
 }
