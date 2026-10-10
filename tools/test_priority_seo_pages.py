@@ -28,16 +28,16 @@ ROOT_SITE = "https://oneglp.app/"
 
 
 def head(html):
-    match = re.search(r"<head\\b[\\s\\S]*?</head>", html, re.I)
+    match = re.search(r"<head\b[\s\S]*?</head>", html, re.I)
     return match.group() if match else ""
 
 
 def attr_tags(text, tag):
-    return re.findall(r"<" + tag + r"\\b[^>]*>", text, re.I)
+    return re.findall(r"<" + tag + r"\b[^>]*>", text, re.I)
 
 
 def attr(tag, name):
-    match = re.search(r"\\b" + re.escape(name) + r"=[\\\"']([^\\\"']+)", tag, re.I)
+    match = re.search(r'\\b' + re.escape(name) + r'=\"([^\"]+)\"', tag, re.I)
     return match.group(1) if match else None
 
 
@@ -74,10 +74,10 @@ class PrioritySEORegression(unittest.TestCase):
                     self.assertEqual(expected, alts)
                     self.assertIn("<main", html)
                     self.assertIn("OneGLP", markup)
-                    self.assertEqual(FAQ_COUNTS[index], len(re.findall(r"<details\\b", html)))
-                    self.assertEqual(IMAGE_COUNTS[index], len(re.findall(r"<figure\\b", html)))
+                    self.assertEqual(FAQ_COUNTS[index], len(re.findall(r"<details\b", html)))
+                    self.assertEqual(IMAGE_COUNTS[index], len(re.findall(r"<figure\b", html)))
                     for script in re.findall(
-                        r'<script\\b[^>]*type="application/ld\\+json"[^>]*>([\\s\\S]*?)</script>',
+                        r'<script\b[^>]*type="application/ld\+json"[^>]*>([\s\S]*?)</script>',
                         html, re.I):
                         json.loads(script)
                     if locale != "en":
