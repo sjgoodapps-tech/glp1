@@ -77,7 +77,7 @@ def corrected_html(rel, text):
         pattern = r'<[a-z][^>]*\bdata-i18n-aria-label="' + re.escape(key) + r'"[^>]*>'
         text = re.sub(pattern, lambda m: re.sub(r'(?<![\w-])aria-label="[^"]*"',
                       'aria-label="' + escape(value, quote=True) + '"', m[0]), text)
-    if corrections and rel.endswith('/data-rights.html'):
+    if 'site.data.detail.body' in corrections and rel.endswith('/data-rights.html'):
         value = escape(corrections['site.data.detail.body'], quote=True)
         text = re.sub(r'<meta\b(?=[^>]*(?:name|property)="(?:description|og:description|twitter:description)")[^>]*>',
                       lambda m: re.sub(r'\bcontent="[^"]*"', 'content="' + value + '"', m[0]), text)
