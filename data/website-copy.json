@@ -1,6 +1,13 @@
 {
   "review_status": "Context-checked website copy. Native-language approval is still required before locale indexation.",
-  "keys": ["site.card.control.title", "site.card.control.body", "site.premium.body", "site.card.premium.calendar.body", "site.card.premium.exports.body", "paywall.legal"],
+  "keys": [
+    "site.card.control.title",
+    "site.card.control.body",
+    "site.premium.body",
+    "site.card.premium.calendar.body",
+    "site.card.premium.exports.body",
+    "paywall.legal"
+  ],
   "translations": {
     "en": [
       "Export your records",
@@ -40,7 +47,7 @@
       "La versión gratuita incluye la exportación de registros básicos en CSV y JSON y el widget pequeño de próxima dosis. Premium añade resúmenes PDF para tu profesional sanitario, widgets más grandes y más herramientas de planificación.",
       "La versión gratuita incluye el mes actual y el anterior, además de los meses necesarios para un recordatorio activo de reposición, cuando corresponda. Premium permite consultar meses anteriores y futuros.",
       "La exportación de registros básicos en CSV y JSON es gratuita. Premium añade resúmenes PDF para tu profesional sanitario y más herramientas de informes.",
-      "Consulta el precio actual en el App Store. Lifetime Premium es una compra única, sin suscripción ni renovación."
+      "Lifetime Premium es un acceso permanente que se activa una vez, sin suscripción ni renovación. Consulta las condiciones vigentes y el precio, si procede, en el App Store."
     ],
     "de": [
       "Aufzeichnungen exportieren",
