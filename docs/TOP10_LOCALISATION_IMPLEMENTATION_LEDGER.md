@@ -1,6 +1,6 @@
 # OneGLP top 10 localisation implementation ledger
 
-Updated: 10 October 2026.
+Updated: 10 October 2026; resumed after cross-turn branch verification.
 Status: **INCOMPLETE: not a release approval**.
 Feature branch: codex/website-top10-localisation-parity.
 Baseline main SHA: 12c90f3738213acd383b9d25c3c76f0560a83314.
@@ -41,6 +41,16 @@ Verified structural baseline counts per variant: privacy 17 sections / 19 list i
 * Added nonmutating tools/website_locale_parity.py audit, eight unit tests, and read-only feature-branch workflow .github/workflows/priority-localisation-review.yml.
 * Fixed tools/search_content.py to preserve full Spanish privacy-policy metadata during site regeneration.
 * Passing CI run: https://github.com/sjgoodapps-tech/glp1/actions/runs/38078899083 (eight tests; Spanish P0 gate, SEO/canonical/hreflang QA, existing localisation QA). The later Spanish-offer update passed https://github.com/sjgoodapps-tech/glp1/actions/runs/38079104213.
+
+## Progress on resumption
+
+- Verified main remains at SHA 12c90f3738213acd383b9d25c3c76f0560a83314 and the feature branch advanced independently; no main changes.
+- Spanish (Spain) static pages and Spanish (Mexico) pages were synchronised to the corrected Premium navigation and non-renewing entitlement wording in separate commits ffe17e685cbf2108e808e1d5af15bb45edbcd631 and b984c4e5e3f251b35dfdda66a7657e0d3459f180.
+- Fixed localisation correction processing in 1c517ef2a10d4029431ebdbc542f1ab8f8a7ea63. Extended the founding-offer year to all 14 target locales in de3c8a7f6f99d2bbe85b56b8b1e587174381c301. The latter is a narrow correction, not full parity for those languages.
+- CI was successful at https://github.com/sjgoodapps-tech/glp1/actions/runs/38079984786 .
+- Checked both batches of all 26 Spanish (Spain) static HTML pages for unintended visible Subscription wording, obsolete glpzy.app references and the inaccurate daily Trulicity grouping. Expected safety-negation and non-subscription statements are preserved.
+- Added targeted Spanish P0 semantic invariants to the regression suite at 194c45258f42d2bedbf0389e588dac99c7983af5: 24/12-month data retention, GDPR articles 6/9, weekly Trulicity, non-renewing Premium, and canonical URLs.
+- CI for that last change: https://github.com/sjgoodapps-tech/glp1/actions/runs/38080359825 . **Do not call the latest change validated until this run has concluded successfully.**
 
 ## Important outstanding work
 
