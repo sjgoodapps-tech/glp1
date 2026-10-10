@@ -74,10 +74,9 @@ def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
     native_approved = set(review.get("native_reviewed_locales", []))
     result = {"baseline": "root English", "priority_locales": list(targets),
               "native_approved": sorted(native_approved & set(targets)),
-              "known_source_conflicts": [
-                  "terms.html describes an optional auto-renewable subscription while other pages describe Lifetime Premium as a one-time purchase",
-                  "terms.html refers to glpzy.app instead of the canonical oneglp.app",
-                  "support.html describes subscription renewal and cancellation; check against current entitlements before translating"
+              "source_review_history": [
+                  "2026-10-10: English terms/support reconciled with non-renewing founding Lifetime Premium entitlement and oneglp.app canonical host.",
+                  "2026-10-10: medical-safety Trulicity daily/weekly grouping corrected against labelled weekly administration."
               ], "locales": {}}
     for locale in targets:
         records, missing, errors = [], [], []
@@ -121,6 +120,10 @@ def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
             "english_pages": len(english_pages),
             "missing_pages": missing,
             "essential": records,
+            "essential_errors": [x for x in errors if x["page"] in ESSENTIAL] + [
+                {"page": x, "issues": ["essential page missing"]}
+                for x in ESSENTIAL if x in missing
+            ],
             "structural_errors": errors,
             "structural_gate": "PASS" if not errors and not missing else "FAIL",
             "native_review": "approved" if locale in native_approved else "pending",
@@ -136,6 +139,8 @@ def main() -> int:
                         help="Repeat to check selected locales (default: all 14)")
     parser.add_argument("--gate", action="store_true",
                         help="Exit nonzero if any locale is structurally incomplete")
+    parser.add_argument("--gate-essential", action="store_true",
+                        help="Exit nonzero only for essential-document coverage errors")
     parser.add_argument("--output", type=Path, help="Optional output JSON report")
     args = parser.parse_args()
     report = audits(ROOT, tuple(args.locale) if args.locale else PRIORITY)
@@ -148,10 +153,14 @@ def main() -> int:
     print("OneGLP priority locale structural audit (not translation approval)")
     for loc, missing, errors in totals:
         print(f"  {loc:8} missing pages={missing:2} pages with issues={errors:2}")
-    print("Known English-source discrepancies:", len(report["known_source_conflicts"]))
+    print("Source reconciliation notes:", len(report["source_review_history"]))
     if args.output:
         print("JSON report:", args.output)
-    return int(args.gate and any(missing or errors for _, missing, errors in totals))
+    structural_fail = args.gate and any(missing or errors for _, missing, errors in totals)
+    essential_fail = args.gate_essential and any(
+        record["essential_errors"] for record in report["locales"].values()
+    )
+    return int(structural_fail or essential_fail)
 
 
 if __name__ == "__main__":
