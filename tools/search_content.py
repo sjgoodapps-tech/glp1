@@ -100,6 +100,11 @@ def sync_search_content(relative, html):
         title = copy['trackerTitle']
         description = keyed_text(html, 'site.privacy.body') + ' ' + keyed_text(html, 'site.product.card.summary.body', 'site.card.provider.body')
     elif family == 'privacy.html':
+        # Full policy localisations use the English policy's numbered sections and
+        # have their own reviewed privacy metadata. Do not replace that text with
+        # short marketing-card metadata or require cards removed by full parity.
+        if 'data-english-section="1"' in html:
+            return html
         title = keyed_text(html, 'settings.detail.privacy.policy')
         description = keyed_text(html, 'site.card.local.body')
     else:
