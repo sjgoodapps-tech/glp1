@@ -1,0 +1,38 @@
+name: Priority website localisation checks
+
+on:
+  push:
+    branches:
+      - codex/website-top10-localisation-parity
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Structural and indexing checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Regression tests for structural audit
+        run: python3 -m unittest discover -s tools -p 'test_website_locale_parity.py' -v
+      - name: Full 14-locale baseline report (gaps are not hidden)
+        run: python3 tools/website_locale_parity.py --output /tmp/website-top10-parity.json
+      - name: Spanish policy coverage gate (does not assert native approval)
+        run: python3 tools/website_locale_parity.py --locale es-es --locale es-mx --gate-essential
+      - name: All-page sitemap, canonical and hreflang
+        run: python3 tools/locale_indexing_qa.py
+      - name: Existing localisation checks
+        run: python3 tools/localisation_qa.py --all
+      - name: Save the read-only parity baseline
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority-localisation-parity
+          path: /tmp/website-top10-parity.json
+          if-no-files-found: warn
