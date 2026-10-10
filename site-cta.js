@@ -11,12 +11,12 @@
   var footerBadgeSrc = asset('assets/app-store-badge-black.svg');
 
   var offerMessages = {
-    "ar": "عرض للمستخدمين الأوائل: احصل على Lifetime Premium مجانًا حتى 31 ديسمبر. فعّل مرة واحدة واحتفظ بـ Premium للأبد. بلا اشتراك أو تجديد.",
+    "ar": "عرض للمستخدمين الأوائل: احصل على Lifetime Premium مجانًا حتى 31 ديسمبر 2026. فعّل مرة واحدة واحتفظ بـ Premium للأبد. بلا اشتراك أو تجديد.",
     "bg": "Оферта за първи потребители: Вземете Lifetime Premium безплатно до 31 декември. Отключете веднъж и запазете Premium завинаги. Без абонамент или подновяване.",
     "bn": "প্রাথমিক ব্যবহারকারীদের অফার: ৩১ ডিসেম্বরের মধ্যে Lifetime Premium বিনামূল্যে নিন। একবার আনলক করুন, Premium চিরকাল রাখুন। সাবস্ক্রিপশন বা নবায়ন নেই।",
     "cs": "Nabídka pro první uživatele: Získejte Lifetime Premium zdarma do 31. prosince. Odemkněte jednou a Premium vám zůstane navždy. Bez předplatného a prodlužování.",
     "da": "Tilbud til tidlige brugere: Få Lifetime Premium gratis senest 31. december. Lås op én gang, og behold Premium for altid. Intet abonnement, ingen fornyelse.",
-    "de": "Angebot für frühe Nutzer: Lifetime Premium bis 31. Dezember kostenlos sichern. Einmal freischalten und Premium dauerhaft behalten. Kein Abo, keine Verlängerung.",
+    "de": "Angebot für frühe Nutzer: Lifetime Premium bis 31. Dezember 2026 kostenlos sichern. Einmal freischalten und Premium dauerhaft behalten. Kein Abo, keine Verlängerung.",
     "el": "Προσφορά για πρώτους χρήστες: Αποκτήστε δωρεάν Lifetime Premium έως 31 Δεκεμβρίου. Ξεκλειδώστε μία φορά και κρατήστε το Premium για πάντα. Χωρίς συνδρομή ή ανανέωση.",
     "en": "Founding offer: Lifetime Premium free until 31 December 2026. No subscription or renewal.",
     "en-gb": "Founding User Offer: Claim Lifetime Premium free by 31 December 2026. Unlock once and keep Premium forever. No subscription or renewal.",
@@ -25,18 +25,18 @@
     "et": "Varajase kasutaja pakkumine: hankige Lifetime Premium tasuta 31. detsembrini. Avage üks kord ja säilitage Premium alatiseks. Tellimust ega uuendamist ei ole.",
     "fi": "Tarjous varhaisille käyttäjille: lunasta Lifetime Premium maksutta 31.12. mennessä. Avaa kerran ja pidä Premium ikuisesti. Ei tilausta eikä uusimista.",
     "fil": "Alokasyon para sa mga unang user: Kunin ang Lifetime Premium nang libre hanggang 31 Disyembre. I-unlock nang isang beses at panatilihin ang Premium. Walang subscription o renewal.",
-    "fr": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuit jusqu’au 31 décembre inclus. Déverrouillez une fois et gardez Premium à vie. Sans abonnement ni renouvellement.",
-    "fr-ca": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuit d’ici le 31 décembre. Déverrouillez une fois et gardez Premium à vie. Aucun abonnement ni renouvellement.",
+    "fr": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuit jusqu’au 31 décembre 2026 inclus. Déverrouillez une fois et gardez Premium à vie. Sans abonnement ni renouvellement.",
+    "fr-ca": "Offre aux premiers utilisateurs : obtenez Lifetime Premium gratuit d’ici le 31 décembre 2026. Déverrouillez une fois et gardez Premium à vie. Aucun abonnement ni renouvellement.",
     "gu": "પ્રારંભિક વપરાશકર્તા ઓફર: 31 ડિસેમ્બર સુધી Lifetime Premium મફત મેળવો. એક વાર અનલૉક કરો અને Premium હંમેશા રાખો. કોઈ સબ્સ્ક્રિપ્શન કે રિન્યુઅલ નહીં.",
     "he": "הצעה למשתמשים ראשונים: קבלו Lifetime Premium בחינם עד 31 בדצמבר. פתחו פעם אחת ושמרו על Premium לתמיד. ללא מנוי או חידוש.",
-    "hi": "शुरुआती उपयोगकर्ता ऑफ़र: 31 दिसंबर तक Lifetime Premium मुफ़्त पाएं। एक बार अनलॉक करें और Premium हमेशा रखें। कोई सदस्यता या नवीनीकरण नहीं।",
+    "hi": "शुरुआती उपयोगकर्ता ऑफ़र: 31 दिसंबर 2026 तक Lifetime Premium मुफ़्त पाएं। एक बार अनलॉक करें और Premium हमेशा रखें। कोई सदस्यता या नवीनीकरण नहीं।",
     "hr": "Ponuda za prve korisnike: preuzmite Lifetime Premium besplatno do 31. prosinca. Otključajte jednom i zadržite Premium zauvijek. Bez pretplate i obnove.",
     "hu": "Ajánlat korai felhasználóknak: igényeld ingyen a Lifetime Premiumot december 31-ig. Oldd fel egyszer, és tartsd meg a Premiumot örökre. Nincs előfizetés vagy megújítás.",
     "id": "Penawaran pengguna awal: klaim Lifetime Premium gratis hingga 31 Desember. Buka sekali dan simpan Premium selamanya. Tanpa langganan atau perpanjangan.",
-    "it": "Offerta per i primi utenti: richiedi Lifetime Premium gratis entro il 31 dicembre. Sblocca una volta e tieni Premium per sempre. Nessun abbonamento o rinnovo.",
-    "ja": "初期ユーザー限定オファー：12月31日までにLifetime Premiumを無料で入手。一度アンロックすればPremiumをずっと利用できます。サブスクリプションも自動更新もありません。",
+    "it": "Offerta per i primi utenti: richiedi Lifetime Premium gratis entro il 31 dicembre 2026. Sblocca una volta e tieni Premium per sempre. Nessun abbonamento o rinnovo.",
+    "ja": "初期ユーザー限定オファー：2026年12月31日までにLifetime Premiumを無料で入手。一度アンロックすればPremiumをずっと利用できます。サブスクリプションも自動更新もありません。",
     "kn": "ಆರಂಭಿಕ ಬಳಕೆದಾರರ ಆಫರ್: ಡಿಸೆಂಬರ್ 31ರೊಳಗೆ Lifetime Premium ಅನ್ನು ಉಚಿತವಾಗಿ ಪಡೆಯಿರಿ. ಒಮ್ಮೆ ಅನ್ಲಾಕ್ ಮಾಡಿ, Premium ಅನ್ನು ಸದಾಕಾಲ ಇಟ್ಟುಕೊಳ್ಳಿ. ಚಂದಾದಾರಿಕೆ ಅಥವಾ ನವೀಕರಣ ಇಲ್ಲ.",
-    "ko": "초기 사용자 혜택: 12월 31일까지 Lifetime Premium을 무료로 받으세요. 한 번 잠금 해제하면 Premium을 영구적으로 이용할 수 있습니다. 구독이나 자동 갱신 없음.",
+    "ko": "초기 사용자 혜택: 2026년 12월 31일까지 Lifetime Premium을 무료로 받으세요. 한 번 잠금 해제하면 Premium을 영구적으로 이용할 수 있습니다. 구독이나 자동 갱신 없음.",
     "lt": "Pasiūlymas pirmiesiems naudotojams: gaukite Lifetime Premium nemokamai iki gruodžio 31 d. Atrakinkite vieną kartą ir išsaugokite Premium visam laikui. Be prenumeratos ir atnaujinimo.",
     "lv": "Piedāvājums pirmajiem lietotājiem: iegūstiet Lifetime Premium bez maksas līdz 31. decembrim. Atbloķējiet vienu reizi un saglabājiet Premium uz visiem laikiem. Bez abonementa un atjaunošanas.",
     "ml": "ആദ്യകാല ഉപയോക്തൃ ഓഫർ: ഡിസംബർ 31-നകം Lifetime Premium സൗജന്യമായി നേടൂ. ഒരിക്കൽ അൺലോക്ക് ചെയ്ത് Premium എന്നേക്കും നിലനിർത്തൂ. സബ്സ്ക്രിപ്ഷൻ അല്ലെങ്കിൽ പുതുക്കൽ ഇല്ല.",
@@ -47,8 +47,8 @@
     "or": "ଆରମ୍ଭିକ ବ୍ୟବହାରକାରୀ ଅଫର: 31 ଡିସେମ୍ବର ମଧ୍ୟରେ Lifetime Premium ମାଗଣାରେ ପାଆନ୍ତୁ। ଥରେ ଅନଲକ୍ କରନ୍ତୁ ଏବଂ Premium ସଦାକାଳ ପାଇଁ ରଖନ୍ତୁ। କୌଣସି ସବ୍ସକ୍ରିପ୍ସନ୍ କିମ୍ବା ନବୀକରଣ ନାହିଁ।",
     "pa": "ਸ਼ੁਰੂਆਤੀ ਯੂਜ਼ਰ ਆਫ਼ਰ: 31 ਦਸੰਬਰ ਤੱਕ Lifetime Premium ਮੁਫ਼ਤ ਪ੍ਰਾਪਤ ਕਰੋ। ਇੱਕ ਵਾਰ ਅਨਲੌਕ ਕਰੋ ਅਤੇ Premium ਹਮੇਸ਼ਾਂ ਲਈ ਰੱਖੋ। ਕੋਈ ਸਬਸਕ੍ਰਿਪਸ਼ਨ ਜਾਂ ਨਵੀਨੀਕਰਨ ਨਹੀਂ।",
     "pl": "Oferta dla pierwszych użytkowników: odbierz Lifetime Premium za darmo do 31 grudnia. Odblokuj raz i zachowaj Premium na zawsze. Bez subskrypcji i odnowienia.",
-    "pt-br": "Oferta para primeiros usuários: resgate o Lifetime Premium grátis até 31 de dezembro. Desbloqueie uma vez e mantenha o Premium para sempre. Sem assinatura ou renovação.",
-    "pt-pt": "Oferta primeiros utilizadores: obtenha Lifetime Premium grátis até 31 de dezembro. Desbloqueie uma vez e mantenha Premium para sempre. Sem subscrição nem renovação.",
+    "pt-br": "Oferta para primeiros usuários: resgate o Lifetime Premium grátis até 31 de dezembro de 2026. Desbloqueie uma vez e mantenha o Premium para sempre. Sem assinatura ou renovação.",
+    "pt-pt": "Oferta primeiros utilizadores: obtenha Lifetime Premium grátis até 31 de dezembro de 2026. Desbloqueie uma vez e mantenha Premium para sempre. Sem subscrição nem renovação.",
     "ro": "Ofertă pentru primii utilizatori: obține Lifetime Premium gratuit până pe 31 decembrie. Deblochează o dată și păstrează Premium pe viață. Fără abonament sau reînnoire.",
     "ru": "Предложение для первых пользователей: получите Lifetime Premium бесплатно до 31 декабря. Разблокируйте один раз и сохраните Premium навсегда. Без подписки и продления.",
     "sr": "Ponuda za prve korisnike: preuzmite Lifetime Premium besplatno do 31. decembra. Otključajte jednom i zadržite Premium zauvek. Bez pretplate ili obnavljanja.",
@@ -62,8 +62,8 @@
     "uk": "Пропозиція для перших користувачів: отримайте Lifetime Premium безкоштовно до 31 грудня. Розблокуйте один раз і збережіть Premium назавжди. Без підписки чи поновлення.",
     "ur": "ابتدائی صارفین کی پیشکش: 31 دسمبر تک Lifetime Premium مفت حاصل کریں۔ ایک بار اَن لاک کریں اور Premium ہمیشہ کے لیے رکھیں۔ کوئی سبسکرپشن یا تجدید نہیں۔",
     "vi": "Ưu đãi cho người dùng đầu tiên: nhận Lifetime Premium miễn phí đến hết ngày 31 tháng 12. Mở khóa một lần và giữ Premium mãi mãi. Không đăng ký hay gia hạn.",
-    "zh-hans": "早期用户优惠：截至12月31日免费领取 Lifetime Premium。解锁一次，永久保留 Premium。无需订阅或续费。",
-    "zh-hant": "早期用戶優惠：截至12月31日免費領取 Lifetime Premium。解鎖一次，永久保留 Premium。無需訂閱或續費。"
+    "zh-hans": "早期用户优惠：截至2026年12月31日免费领取 Lifetime Premium。解锁一次，永久保留 Premium。无需订阅或续费。",
+    "zh-hant": "早期用戶優惠：截至2026年12月31日免費領取 Lifetime Premium。解鎖一次，永久保留 Premium。無需訂閱或續費。"
   };
 
   function isLiveUrl(value){
