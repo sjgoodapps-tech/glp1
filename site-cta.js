@@ -222,7 +222,9 @@
     anchor.href = appStoreUrlFor(anchor);
     anchor.setAttribute('aria-label', anchor.getAttribute('aria-label') || badgeAriaLabel());
 
-    if(anchor.getAttribute('data-app-store-style') === 'text'){
+    // A button-styled link is a text CTA even if an older template omits the
+    // explicit data-app-store-style attribute. Do not replace translated CTA text.
+    if(anchor.getAttribute('data-app-store-style') === 'text' || anchor.classList.contains('button')){
       anchor.hidden = false;
       return;
     }
