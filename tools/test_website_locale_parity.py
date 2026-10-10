@@ -8,6 +8,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from website_locale_parity import ESSENTIAL, audits, facts
+from search_content import sync_search_content
 
 
 def fixture(locale: str = "es-es"):
@@ -87,6 +88,15 @@ class LocaleParityTests(unittest.TestCase):
             self.assertTrue(any("noindex" in str(x["issues"]) for x in status["essential_errors"]))
         finally:
             h.cleanup()
+
+    def test_full_privacy_translation_preserves_own_metadata(self):
+        html = (
+            '<html lang="es-ES"><head><title>Política de privacidad | OneGLP</title>'
+            '<meta name="description" content="Información legal completa."></head>'
+            '<body><main><section data-english-section="1"><h2>1. Derechos</h2>'
+            '<p>Explicación detallada.</p></section></main></body></html>'
+        )
+        self.assertEqual(html, sync_search_content("es-es/privacy.html", html))
 
     def test_fact_counts_not_declared_semantic_approval(self):
         v = facts('<main><section><h2>1. Example</h2><p>text</p></section></main>')
