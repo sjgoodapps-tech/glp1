@@ -40,6 +40,10 @@
     "es-mx": {
       "settings.tile.subscription.title": "Premium",
       "paywall.legal": "Lifetime Premium es un acceso de por vida que se activa una sola vez, sin suscripción ni renovación. Consulta las condiciones vigentes y el precio, si corresponde, en App Store."
+    },
+    "de": {
+      "settings.tile.subscription.title": "Premium",
+      "paywall.legal": "Lifetime Premium ist ein dauerhaft freigeschalteter Zugang ohne Abonnement oder Verlängerung. Das aktuelle Angebot und gegebenenfalls den Preis finden Sie im App Store."
     }
   }
 }
