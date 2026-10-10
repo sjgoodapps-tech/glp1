@@ -37,7 +37,7 @@ def attr_tags(text, tag):
 
 
 def attr(tag, name):
-    match = re.search(r'\\b' + re.escape(name) + r'=\"([^\"]+)\"', tag, re.I)
+    match = re.search(r'\b' + re.escape(name) + r'="([^"]+)"', tag, re.I)
     return match.group(1) if match else None
 
 
