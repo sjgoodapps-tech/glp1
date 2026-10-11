@@ -1,5 +1,18 @@
 # OneGLP priority website localisation: implementation and test ledger
 
+## 11 October 2026: read-only coverage gate checkpoint
+
+Commit `8426351d419bd8dfa52cfde88a506d1a5a60dde3` adds `tools/priority_locale_progress_gate.py` and `tools/test_priority_locale_progress_gate.py`. Local isolated fixture tests: **7/7 PASS** (no GitHub Actions run).
+
+Usage from full checkout: `python3 tools/priority_locale_progress_gate.py --root . --output priority-locales-report.json --gate`. This returns nonzero when any of the 14 priority locales is missing a policy or one of six SEO families, or when structural, reference-link, locale, canonical, description, indexability, or Arabic RTL checks fail. It **never** certifies native translation, medical, legal, browser, accessibility or performance acceptance.
+
+Latest independently enumerated SEO inventory before this entry: seven of 14 locales have the six SEO family files; seven have none. **42 missing SEO pages**. Full-site sitemap/hreflang, browser/screen-reader QA, and independent review were not performed in this isolated connector environment.
+
+The feature branch is being updated by another writer concurrently. Re-read HEAD before any additional work; do not force-update refs or overwrite changes. Main was `12c90f3738213acd383b9d25c3c76f0560a83314` at this checkpoint and remains excluded from modifications. GitHub Actions workflows were neither invoked nor edited.
+
+---
+
+
 Updated 11 October 2026. **NOT A PRODUCTION RELEASE APPROVAL.** 
 Working branch: `codex/website-top10-localisation-parity`. Verified unchanged main: `12c90f3738213acd383b9d25c3c76f0560a83314`.
 GitHub Actions remain owner-disabled; no Actions workflow was started or modified.
