@@ -19,16 +19,17 @@ REVIEWS_PATH = ROOT / "data" / "app-store-reviews.json"
 
 
 def normalise_premium_navigation(html: str) -> str:
-    """OneGLP founding Lifetime Premium is not an auto-renewing subscription.
+    """Keep the Lifetime Premium navigation distinct from subscriptions.
 
-    Replace only the legacy nav anchor, retaining its existing destination and
-    other attributes. "Premium" is the product tier's untranslated proper name.
+    Replace only the legacy subscription navigation key while preserving the
+    destination and any other attributes.
     """
     pattern = re.compile(
-        r'(<a\\b[^>]*?)\\sdata-i18n=["\\\']settings\\.tile\\.subscription\\.title["\\\']'
-        r'([^>]*>)[\\s\\S]*?(</a>)', re.I
+        r'(<a\b[^>]*?)\sdata-i18n=["\']settings\.tile\.subscription\.title["\']'
+        r'([^>]*>)[\s\S]*?(</a>)', re.I
     )
-    return pattern.sub(r'\\1 data-site-nav="premium"\\2Premium\\3', html)
+    return pattern.sub(r'\1 data-site-nav="premium"\2Premium\3', html)
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Sync crawler-visible product and offer copy.")
