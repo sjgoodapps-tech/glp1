@@ -17,6 +17,19 @@ PREFLIGHT_PATH = ROOT / "site-preflight.js"
 REVIEWS_PATH = ROOT / "data" / "app-store-reviews.json"
 
 
+
+def normalise_premium_navigation(html: str) -> str:
+    """OneGLP founding Lifetime Premium is not an auto-renewing subscription.
+
+    Replace only the legacy nav anchor, retaining its existing destination and
+    other attributes. "Premium" is the product tier's untranslated proper name.
+    """
+    pattern = re.compile(
+        r'(<a\\b[^>]*?)\\sdata-i18n=["\\\']settings\\.tile\\.subscription\\.title["\\\']'
+        r'([^>]*>)[\\s\\S]*?(</a>)', re.I
+    )
+    return pattern.sub(r'\\1 data-site-nav="premium"\\2Premium\\3', html)
+
 def parse_args():
     parser = argparse.ArgumentParser(description="Sync crawler-visible product and offer copy.")
     parser.add_argument("--check", action="store_true", help="Report drift without writing files.")
@@ -186,6 +199,7 @@ def desired_files(now):
         if "data-offer-copy" in updated or "offer-expired-only" in updated or "offer-active-only" in updated:
             updated = remove_inactive_offer_variants(updated)
             updated = replace_data_copy(updated, "data-offer-copy", offer_copy, state=state)
+        updated = normalise_premium_navigation(updated)
         if updated != html:
             desired[path] = updated
     return state, desired
