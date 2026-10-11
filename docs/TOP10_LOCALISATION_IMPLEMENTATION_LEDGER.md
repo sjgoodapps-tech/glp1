@@ -1,3 +1,60 @@
+# OneGLP priority website localisation: implementation and test ledger
+
+Updated 11 October 2026. **NOT A PRODUCTION RELEASE APPROVAL.** 
+Working branch: `codex/website-top10-localisation-parity`. Verified unchanged main: `12c90f3738213acd383b9d25c3c76f0560a83314`.
+GitHub Actions remain owner-disabled; no Actions workflow was started or modified.
+
+## Reconciled scope and baseline
+
+Target: 14 locales (es-es, es-mx, de, fr, fr-ca, pt-br, pt-pt, ar, zh-hans, zh-hant, ja, ko, hi, it). Six critical policy documents and six incremental SEO landing families per locale.
+
+Previous source-status summary: seven locales (Spanish ES/MX, German, French FR/CA, Portuguese BR/PT) had policy reconstructions and all six SEO families added. Their full translation quality has NOT been independently accepted. Earlier rows listing all their policy pages as abbreviated and all 84 SEO pages absent are no longer current. These seven statuses are historical-source reported, not new native-review approvals.
+
+As of the six Arabic commits below, eight locales have source-structure coverage on all six priority policies; seven locales have six additional SEO families. Six locales (Chinese Hans/Hant, Japanese, Korean, Hindi, Italian) still require their six policy restorations. Seven locales (those six plus Arabic) still lack all six additional SEO families.
+
+Remaining based on the verified/reported inventory: **36 priority policy restorations + 42 SEO page expansions**. These counts do not include any additional semantic, marketing, medicine, navigation, metadata or accessibility defects revealed by the full audit.
+
+## 11 October 2026 Arabic P0 commit ledger
+
+| Page | Commit SHA | Source sections | Scope | Native/legal approval |
+|---|---|---:|---|---|
+| ar/privacy.html | `c1a65e7ae620a6ba3e89303959ce8dc2672ca52e` | 17 | Arabic policy MAIN, metadata | Pending |
+| ar/data-rights.html | `629b7fe338d1b73c385825a4f8d760c114da7083` | 12 | Arabic data-rights MAIN, metadata | Pending |
+| ar/terms.html | `c9e80ac5d12848a6bb21d8fa7ca70ec2a600aab7` | 6 | Arabic legal/trader MAIN, metadata | Pending |
+| ar/medical-safety.html | `2b55596e286656a3ae7c311fb939bf81f5ea4174` | 11 | Arabic safety MAIN, 15 external references | Pending |
+| ar/methodology.html | `7999a156d802a7c75e5db5cae1228e31f0ad821f` | 14 | Arabic methodology MAIN, 17 references, formulae | Pending |
+| ar/support.html | `9d90ad4cd1be07832dbac70138d9bd0b4c425d97` | 12 | Arabic support MAIN, metadata | Pending |
+
+At each commit: branch HEAD lease, main SHA, source English blob, previous Arabic blob, unique MAIN block, section/paragraph/list/table counts, external references, key safety phrases and Arabic title/description were checked before writing. Each commit fast-forwarded only `codex/website-top10-localisation-parity`. Full native fluency, safety meaning, browser or regulatory correctness was not thereby proved.
+
+## Tests and open quality gates
+
+| Gate | Result as of 11 October 2026 |
+|---|---|
+| Saved Arabic fragment and installer regression suite | PASS 63/63 (fixture tests, Linux, Python 3.13.5) |
+| Six Arabic against pinned English source | PASS structural tag counts, links and required literals; GitHub source blobs matched |
+| Feature-only GitHub commit/ref safety | PASS six sequential fast-forward commits |
+| Existing repository unit/integration tests against complete checkout | NOT RUN (Git clone blocked by DNS in this environment) |
+| Full 14-locale content and semantic parity | NOT PASSED |
+| Sitemap rebuild, canonical, reciprocal hreflang site-wide QA | NOT RUN after Arabic policy edits |
+| Live browser widths 320 px and 390 px | NOT RUN |
+| RTL layout and runtime retranslation | NOT PASSED |
+| Accessibility and screen-reader interaction | NOT RUN |
+| Independent native-speaker review | 0/14 approved |
+| Independent legal/medical review | 0/14 approved |
+| Deployment/main merge | NOT AUTHORISED and NOT PERFORMED |
+
+## Source issues requiring resolution
+
+See `docs/TOP10_LOCALISATION_SOURCE_REVIEW_FINDINGS_2026-10-11.md`. In particular, the English medical-safety page embeds editorial indexing text; English Apple Health scope descriptions conflict; Arabic shell and language-picker copy still contains English and subscription terminology. Copy was not silently corrected without verifying shipping app behaviour. Regeneration protection remains incomplete.
+
+## Remaining actions
+
+Complete each of Arabic's six SEO page families, then Chinese Hans/Hant, Japanese, Korean, Hindi and Italian with six policy restorations plus six SEO families each. Add source/provenance data and automated source consistency gates. Finish all 14 locale marketing, medicine, SEO, metadata, links, accessibility and language QA. Run all project tests in an authenticated local complete checkout with GitHub Actions disabled, record failures and correct them. Keep every translation page indexable; preserve `main`, `.github` configuration, current hero and image assets, and do not deploy without explicit release sign-off.
+
+---
+## Historical ledger (superseded where contradictory above)
+
 # OneGLP top 10 localisation implementation ledger
 
 Updated: 10 October 2026; resumed after cross-turn branch verification.
@@ -76,3 +133,4 @@ Commands when running in a worktree:
 The full --gate should remain red until missing English-only pages are translated or documented as justified exceptions; do not disable requirements to manufacture green results.
 
 Before final release, verify every applicable page and claim, mobile layout, accurate translations, source links, safety and legal notices, then obtain independent native/legal review and explicit owner approval. Green structural CI alone is not acceptance. Live website and main must remain unchanged.
+
