@@ -10,6 +10,8 @@ import argparse
 import json
 import re
 from html import unescape
+from html.parser import HTMLParser
+from urllib.parse import urlsplit
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -56,6 +58,32 @@ def facts(html: str) -> dict:
     }
 
 
+class _ReferenceLinks(HTMLParser):
+    """Collect outbound source references, not translated navigation or mail links."""
+    def __init__(self) -> None:
+        super().__init__(convert_charrefs=True)
+        self.links: set[str] = set()
+
+    def handle_starttag(self, tag: str, attrs: list) -> None:
+        if tag.lower() != "a":
+            return
+        href = dict(attrs).get("href")
+        if not href:
+            return
+        parsed = urlsplit(href)
+        if parsed.scheme.lower() in {"http", "https"} and parsed.hostname not in {
+            "oneglp.app", "www.oneglp.app"
+        }:
+            self.links.add(href)
+
+
+def reference_links(markup: str) -> set[str]:
+    parser = _ReferenceLinks()
+    parser.feed(main_markup(markup))
+    parser.close()
+    return parser.links
+
+
 def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
     if any("/" in l or ".." in l for l in targets):
         raise ValueError("Invalid locale path")
@@ -68,11 +96,20 @@ def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
     # Root equivalents, including subdirectories, are the English reference.
     english_pages = {p: path for p, path in english_pages.items()
                      if not p.startswith("en/")}
-    reference = {p: facts(path.read_text(encoding="utf-8"))
-                 for p, path in english_pages.items()}
+    english_html = {p: path.read_text(encoding="utf-8")
+                    for p, path in english_pages.items()}
+    reference = {p: facts(html) for p, html in english_html.items()}
+    source_errors = [
+        {"page": p, "issues": ["English essential source page missing"]}
+        for p in ESSENTIAL if p not in english_pages
+    ] + [
+        {"page": p, "issues": ["English source missing <main> element"]}
+        for p, values in reference.items() if not values["has_main"]
+    ]
     review = json.loads((root / "data" / "locale-indexing.json").read_text(encoding="utf-8"))
     native_approved = set(review.get("native_reviewed_locales", []))
     result = {"baseline": "root English", "priority_locales": list(targets),
+              "source_errors": source_errors,
               "native_approved": sorted(native_approved & set(targets)),
               "source_review_history": [
                   "2026-10-10: English terms/support reconciled with non-renewing founding Lifetime Premium entitlement and oneglp.app canonical host.",
@@ -80,12 +117,16 @@ def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
               ], "locales": {}}
     for locale in targets:
         records, missing, errors = [], [], []
+        present_count, exception_absences = 0, []
         for page in sorted(english_pages):
             p = root / locale / page
             if not p.is_file():
                 if page not in EXPECTED_EXCEPTIONS:
                     missing.append(page)
+                else:
+                    exception_absences.append(page)
                 continue
+            present_count += 1
             local = p.read_text(encoding="utf-8")
             baseline = reference[page]
             current = facts(local)
@@ -95,10 +136,13 @@ def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
                 for field in ("sections", "paragraphs", "list_items", "table_rows"):
                     if current[field] < baseline[field]:
                         defects.append(f"{field}: {current[field]} vs English {baseline[field]}")
-                req = set(baseline["numbered_headings"])
-                got = set(current["numbered_headings"])
+                req = baseline["numbered_headings"]
+                got = current["numbered_headings"]
                 if req and got != req:
-                    defects.append(f"numbered policy sections: {len(got)} vs English {len(req)}")
+                    defects.append(f"numbered policy sections: {got} vs English {req}")
+                absent_refs = reference_links(english_html[page]) - reference_links(local)
+                if absent_refs:
+                    defects.append("reference links missing: " + ", ".join(sorted(absent_refs)))
             if not current["has_main"]:
                 defects.append("missing <main> element")
             lang = HTML_LANG.search(local)
@@ -116,7 +160,8 @@ def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
                 records.append({"page": page, "english": baseline,
                                 "localised": current, "issues": defects})
         result["locales"][locale] = {
-            "pages_present": len(english_pages) - len(missing),
+            "pages_present": present_count,
+            "exception_pages_not_present": exception_absences,
             "english_pages": len(english_pages),
             "missing_pages": missing,
             "essential": records,
@@ -125,7 +170,7 @@ def audits(root: Path, targets: tuple[str, ...] = PRIORITY) -> dict:
                 for x in ESSENTIAL if x in missing
             ],
             "structural_errors": errors,
-            "structural_gate": "PASS" if not errors and not missing else "FAIL",
+            "structural_gate": "PASS" if not errors and not missing and not source_errors else "FAIL",
             "native_review": "approved" if locale in native_approved else "pending",
             "semantic_translation_review": "not certified by this script",
             "mobile_visual_review": "not certified by this script",
@@ -154,12 +199,16 @@ def main() -> int:
     for loc, missing, errors in totals:
         print(f"  {loc:8} missing pages={missing:2} pages with issues={errors:2}")
     print("Source reconciliation notes:", len(report["source_review_history"]))
+    print("English source errors:", len(report["source_errors"]))
+    for error in report["source_errors"]:
+        print("  ", error["page"], "; ".join(error["issues"]))
     if args.output:
         print("JSON report:", args.output)
-    structural_fail = args.gate and any(missing or errors for _, missing, errors in totals)
-    essential_fail = args.gate_essential and any(
+    structural_fail = args.gate and (bool(report["source_errors"]) or
+                                    any(missing or errors for _, missing, errors in totals))
+    essential_fail = args.gate_essential and (bool(report["source_errors"]) or any(
         record["essential_errors"] for record in report["locales"].values()
-    )
+    ))
     return int(structural_fail or essential_fail)
 
 
