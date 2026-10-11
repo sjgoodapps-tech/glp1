@@ -71,10 +71,18 @@ class _ReferenceLinks(HTMLParser):
         if not href:
             return
         parsed = urlsplit(href)
-        if parsed.scheme.lower() in {"http", "https"} and parsed.hostname not in {
+        if parsed.scheme.lower() not in {"http", "https"} or parsed.hostname in {
             "oneglp.app", "www.oneglp.app"
         }:
-            self.links.add(href)
+            return
+        # Regional storefront and campaign URLs legitimately differ between locales.
+        # Compare the stable Apple app identity, not the URL's country or campaign.
+        if parsed.hostname == "apps.apple.com":
+            match = re.search(r"/id([0-9]+)(?:/|$)", parsed.path)
+            if match:
+                self.links.add("app-store-app:" + match.group(1))
+                return
+        self.links.add(href)
 
 
 def reference_links(markup: str) -> set[str]:

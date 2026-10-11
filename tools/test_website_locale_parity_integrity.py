@@ -121,6 +121,22 @@ class AuditIntegrityTests(unittest.TestCase):
         self.write('terms.html', self.html('en', reference=ref))
         self.assertEqual([], self.status()['essential_errors'])
 
+
+    def test_regional_app_store_url_preserves_app_identity(self):
+        source = '<a href="https://apps.apple.com/us/app/glpzy/id6761775005?ct=one">App Store</a>'
+        translated = '<a href="https://apps.apple.com/ar/app/id6761775005?ct=two">متجر</a>'
+        self.write('methodology.html', self.html('en', reference=source))
+        self.write('ar/methodology.html', self.html('ar', reference=translated))
+        self.assertEqual([], self.status()['essential_errors'])
+
+    def test_different_app_store_id_fails(self):
+        source = '<a href="https://apps.apple.com/us/app/id6761775005">App Store</a>'
+        translated = '<a href="https://apps.apple.com/ar/app/id99999999">متجر</a>'
+        self.write('methodology.html', self.html('en', reference=source))
+        self.write('ar/methodology.html', self.html('ar', reference=translated))
+        self.assertTrue(any('reference links missing' in str(x['issues'])
+                            for x in self.status()['essential_errors']))
+
     def test_source_failure_makes_both_cli_gates_nonzero(self):
         (self.root / 'privacy.html').unlink()
         for gate in ('--gate', '--gate-essential'):

@@ -62,8 +62,10 @@ class Tags(HTMLParser):
             self.links.append(href)
             if self.inside_main:
                 u=urlparse(href)
-                if u.scheme in ('http','https') and u.netloc not in ('oneglp.app','www.oneglp.app'):
-                    self.reference_urls.add(href)
+                if u.scheme in ('http','https') and u.hostname not in ('oneglp.app','www.oneglp.app'):
+                    # Keep exact citations, but compare regional App Store links by app ID.
+                    match = re.search(r'/id([0-9]+)(?:/|$)', u.path) if u.hostname == 'apps.apple.com' else None
+                    self.reference_urls.add('app-store-app:' + match.group(1) if match else href)
     def handle_endtag(self, tag):
         if tag == 'main' and self.inside_main:
             self.inside_main -= 1

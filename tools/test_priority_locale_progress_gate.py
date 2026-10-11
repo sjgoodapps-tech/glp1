@@ -34,6 +34,26 @@ class GateTests(unittest.TestCase):
         self.assertFalse(audit(self.root)['structural_pass'])
     def test_missing_english_source_red(self):
         (self.root/SEO[0]).unlink();self.assertIn(SEO[0],audit(self.root)['source_errors'])
+
+    def test_regional_app_store_identity_passes(self):
+        en=self.root/ESSENTIAL[4]
+        local=self.root/'it'/ESSENTIAL[4]
+        en.write_text(en.read_text().replace('<p>Text</p>',
+            '<p><a href="https://apps.apple.com/us/app/id6761775005?ct=a">App Store</a></p>'))
+        local.write_text(local.read_text().replace('<p>Text</p>',
+            '<p><a href="https://apps.apple.com/it/app/id6761775005?ct=b">App Store</a></p>'))
+        self.assertEqual('present', audit(self.root)['locales']['it']['pages'][ESSENTIAL[4]]['status'])
+
+    def test_changed_app_store_identity_fails(self):
+        en=self.root/ESSENTIAL[4]
+        local=self.root/'it'/ESSENTIAL[4]
+        en.write_text(en.read_text().replace('<p>Text</p>',
+            '<p><a href="https://apps.apple.com/us/app/id6761775005">App Store</a></p>'))
+        local.write_text(local.read_text().replace('<p>Text</p>',
+            '<p><a href="https://apps.apple.com/it/app/id99999999">App Store</a></p>'))
+        self.assertIn('missing_references',
+                      audit(self.root)['locales']['it']['pages'][ESSENTIAL[4]]['issues'])
+
     def test_not_native_certified(self):
         r=audit(self.root);self.assertFalse(r['accepted']);self.assertEqual('not certified',r['meaning_and_legal_review'])
 if __name__=='__main__':unittest.main()
