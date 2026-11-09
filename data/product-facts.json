@@ -85,7 +85,7 @@
     }
   },
   "founding_offer": {
-    "expires_at": "2027-01-01T00:00:00+00:00",
+    "expires_at": "2026-11-09T00:00:00+00:00",
     "active": {
       "banner": "Founding offer: Lifetime Premium free until 31 December 2026. No subscription or renewal.",
       "bannerCta": "Get OneGLP",
@@ -114,7 +114,7 @@
       "keepExplanation": "The founding offer has ended. OneGLP remains available on the App Store.",
       "faqTitle": "Premium offer status",
       "faqKeepQuestion": "Has the founding offer ended?",
-      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer ended after 31 December 2026. If you claimed it by that date, you keep Premium with no subscription or renewal. You can still download OneGLP from the App Store."
+      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer has ended. If you already claimed it, you keep Premium with no subscription or renewal. You can still download OneGLP from the App Store."
     }
   },
   "trust_page_urls": {

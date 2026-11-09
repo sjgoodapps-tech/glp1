@@ -140,7 +140,7 @@
       "keepExplanation": "The founding offer has ended. OneGLP remains available on the App Store.",
       "faqTitle": "Premium offer status",
       "faqKeepQuestion": "Has the founding offer ended?",
-      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer ended after 31 December 2026. If you claimed it by that date, you keep Premium with no subscription or renewal. You can still download OneGLP from the App Store."
+      "faqKeepAnswer": "Yes. The Lifetime Premium founding offer has ended. If you already claimed it, you keep Premium with no subscription or renewal. You can still download OneGLP from the App Store."
     }
   };
   // generated:founding-offer-copy:end
@@ -173,7 +173,7 @@
     appStoreCurrency: storefront.currency,
     locale: locale,
     foundingOffer: {
-      expiresAt: "2027-01-01T00:00:00+00:00",
+      expiresAt: "2026-11-09T00:00:00+00:00",
       copy: foundingOfferCopy,
       bannerDismissStorageKey: "glpzy-founding-offer-dismissed-until-v2",
       bannerDismissSessionKey: "glpzy-founding-offer-dismissed-session-v2",
