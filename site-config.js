@@ -99,7 +99,7 @@
     "safetyPrimary": "Estimated Exposure is a personal tracking estimate, not measured blood concentration and not medical advice.",
     "safetyClinician": "Do not use Estimated Exposure to guide dosing. Always check with your clinician before making medical decisions.",
     "lifetimeUnlock": "Lifetime Premium is a one-time unlock tied to your Apple ID. It does not renew.",
-    "proofDownloads": "14,000+",
+    "proofDownloads": "15,000+",
     "proofDownloadsLabel": "downloads",
     "proofRating": "4.8",
     "proofRatingLabel": "US App Store rating",
